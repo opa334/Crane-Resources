@@ -1,0 +1,121 @@
+"APPLICATIONS" = "應用程式";
+"ACTIVE_CONTAINER" = "預設啟動容器";
+"CONTAINERS" = "容器(分身)";
+"CONTAINER" = "容器(分身)";
+"DEFAULT" = "預設";
+"ADD" = "新增";
+"ADD_CONTAINER" = "新增容器";
+"NAME" = "名稱";
+"CANCEL" = "取消";
+"CONTAINER_NAME" = "容器名稱";
+"SAVE" = "保存";
+"DELETE_CONFIRMATION_TITLE" = "確認刪除?";
+"DELETE_CONFIRMATION_MESSAGE" = "您將刪除所有和'%@'有關的數據，數據將無法復原，要繼續嗎?";
+"DELETE" = "刪除";
+"NONE" = "無";
+"MAKE_DEFAULT_CONTAINER" = "設為預設容器";
+"DEFAULT_CONTAINER" = "預設容器";
+"DEFAULT_CONTAINER_DESCRIPTION" = "當您的設備沒有越獄或未加載Crane時，將會使用預設容器。";
+"CONTAINER_IDENTIFIER" = "容器ID";
+"UNNAMED" = "未命名";
+"APPLICATION_SHORTCUT_ENABLED" = "應用程式快捷啟用";
+"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "選擇快捷選單的容器後直接開啟APP";
+"EXPAND_CONTAINERS_SHORTCUT" = "擴展容器快捷";
+/*ONLY_SHOW_IF_CONTAINERS_EXIST*/
+"APPLICATION_SHORTCUT_DESCRIPTION" = "通過應用程式的Haptic touch(3D touch)快捷選單，管理啟動分身(容器)的快捷，以及通過開啟/關閉「選擇快捷選單的容器後直接開啟APP」來決定是否在點擊快捷選單中的容器後直接開啟應用程式。";
+"BACKUP_DATA_TO_FILE" = "備份數據到檔案";
+"RESTORE_DATA_FROM_BACKUP_FILE" = "從備份檔案恢復數據";
+/*DEVICE_IDENTIFIER_FOR_VENDOR*/
+/*USE_CONTAINER_IDENTIFIER*/
+/*GENERATE_NEW*/
+/*SET_CUSTOM*/
+/*IDENTIFIER*/
+/*DEVICE_IDENTIFIER_DESCRIPTION*/
+/*DEVICE_IDENTIFIER_CHANGE_WARNING*/
+/*SET_CUSTOM_IDENTIFIER*/
+/*SET_CUSTOM_IDENTIFIER_MESSAGE*/
+/*SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE*/
+/*SET*/
+/*BROWSE_DATA*/
+/*APPLICATION*/
+/*GROUPS*/
+/*PLUGINS*/
+"DELETE_DATA" = "刪除數據";
+/*SIZE_OF_CONTAINER*/
+"COPYING" = "複製中";
+"ARCHIVING" = "壓縮中";
+"UNARCHIVING" = "解壓中";
+"RESTORING" = "回復中";
+"BACKING_UP" = "備份中";
+"ERROR" = "錯誤";
+"WARNING" = "警告";
+"APP_ID_MISMATCH_ERROR" = "(%@)這個應用程式所創建的備份，與您嘗試還原的應用程式不相同(%@)";
+"GROUP_ID_MISMATCH_WARNING" = "(%@)此備份的group identifiers與當前應用程式(%@)的identifiers不匹配，可能導致數據無法還原成功。要繼續嗎?";
+"CONTINUE" = "繼續";
+"CLOSE" = "關閉";
+"SETTINGS" = "設定";
+"INJECT_IN_SAFE_MODE" = "在安全模式下依舊加載";
+"INJECT_IN_SAFE_MODE_DESCRIPTION" = "在預設情況下，當APP使用安全模式開啟時，Crane將不會運行(例如:使用 Choicy 的'Disable Tweak Injection'或'Launch without Tweaks'應用快捷時)。\n而當此選項啟用時，Crane將會永遠加載並保持啟用。在jailbreak的safe mode下則不會作用。";
+"RESTORE_WARNING_MESSAGE" = "從備份檔回復將會覆蓋掉當前的容器，確定要繼續嗎？";
+"NOT_A_BACKUP_ERROR_MESSAGE" = "您所選擇的文件似乎不是容器備份";
+"COMMUNICATION_ERROR_MESSAGE" = "確定與Crane helper service(cranehelperd)溝通失敗。此問題可能與rocketbootstrap無法正常運行有關";
+/*DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
+/*TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
+"INJECTION_ERROR_MESSAGE" = "非常肯定CraneSupport.dylib 沒有被加載到 %@ 中";
+"CRANE_DISABLED_MESSAGE" = "為避免數據不同步，Crane已禁用.";
+/*DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE*/
+/*CRANE_DYLIB_NOT_LOADED_ERROR*/
+"AND" = "和";
+"CRANE_ERROR" = "Crane 錯誤";
+"FOLLOW_ME_ON_TWITTER" = "在Twitter上追蹤我";
+/*CREDITS*/
+"CREDITS_AND_LICENSES" = "Credits & Licenses";
+"LICENSE" = "License";
+"SELECT_APPLICATION" = "選擇應用程式";
+"CONFIGURE_APPLICATION" = "設定應用程式";
+"SWITCH_WARNING_MESSAGE" = "您將會更改當前選定的應用程式，這樣做將刪除先前選定應用程式的所有非默認數據。您想要繼續嗎？";
+"BUY_CRANE" = "購買Crane";
+"RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "重啟daemons and SpringBoard";
+"LITE_IMPORT_TITLE" = "Crane Lite 導入";
+"LITE_IMPORT_MESSAGE" = "找到Crane Lite 中應用程式'%@'的容器。您想要怎麼處理?";
+"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "導入Crane Lite的容器到Crane";
+"DELETE_CRANE_LITE_CONTAINERS" = "刪除Crane Lite的容器";
+"REMIND_ME_LATER" = "稍後提醒我";
+"BUY_CRANE_FOOTER" = "購買Crane後，您將可以導入Crane Lite的容器，並會在您進入Crane的設定頁面時，通過警告彈跳視窗告訴您。";
+"UNKNOWN_CONTAINERS_FOUND" = "找到未知的容器";
+"UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "找到%u個未知容器，這些容器具有存儲在應用程序中的數據，但當前在Crane的設定中沒有任何項目。如果先前設定中的plist被刪除，則會發生這種情況。您想怎麼處理這些未知容器?";
+"DELETE_CONTAINERS" = "刪除容器";
+"IMPORT_CONTAINERS" = "導入容器";
+"UNKOWN_CONTAINER" = "未知的容器";
+"KEYCHAIN_MIGRATION" = "Keychain Migration";
+"KEYCHAIN_MIGRATION_MESSAGE" = "檢測到舊版 Crane 中鑰匙圈的數據，此數據需要被遷移到新的格式，但此過程只能通過'偏好設定'程序來完成。請打開Crane的設定頁面來啟動遷移程序。Crane將會暫時禁用直到程序完成。";
+"OPEN_SETTINGS" = "開啟設定";
+"MIGRATION_SUCCEEDED" = "遷移成功";
+"MIGRATION_SUCCEEDED_MESSAGE" = "舊的鑰匙串數據已成功遷移到新的格式。 現在Crane可再次使用。";
+/*FILENAME*/
+/*OPTIONAL*/
+/*ENCRYPT_BACKUP*/
+/*PASSWORD*/
+/*ENCRYPT_BACKUP_FOOTER*/
+/*INCLUDE_KEYCHAIN*/
+/*INCLUDE_KEYCHAIN_FOOTER*/
+/*ENTER_PASSWORD*/
+/*ENTER_PASSWORD_DESCRIPTION*/
+/*RESTORE*/
+/*INCLUDE_KEYCHAIN_UNSAFE_WARNING*/
+/*ENABLE_ENCRYPTION*/
+/*IGNORE*/
+/*NO_PASSWORD_ERROR*/
+/*ACTIVE*/
+/*SLICES_FOUND*/
+/*SLICES_FOUND_MESSAGE*/
+/*IMPORT_SLICES*/
+/*DELETE_SLICES*/
+/*CREATE*/
+/*CONFIRM_PASSWORD*/
+/*SEP_ITEMS_OMMITED_WARNING_MESSAGE*/
+/*NEW_BACKUP*/
+/*CONTAINER_PROTECTION*/
+/*CONTAINER_PROTECTION_FOOTER*/
+/*PREVIOUS_PASSWORD_WRONG_MESSAGE*/
+/*CRANESB_COMMUNICATION_NOT_WORKING*/

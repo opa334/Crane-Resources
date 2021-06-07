@@ -1,0 +1,121 @@
+"APPLICATIONS" = "אפליקציות";
+"ACTIVE_CONTAINER" = "שכפול אפליקציה פעיל";
+"CONTAINERS" = "שכפולי אפליקציות";
+"CONTAINER" = "שכפול אפליקציה";
+"DEFAULT" = "ברירת מחדל";
+"ADD" = "הוסף";
+"ADD_CONTAINER" = "הוסף שכפול אפליקציה";
+"NAME" = "שם";
+"CANCEL" = "ביטול";
+"CONTAINER_NAME" = "שם שכפול";
+"SAVE" = "שמירה";
+"DELETE_CONFIRMATION_TITLE" = "מאשר מחיקה?";
+"DELETE_CONFIRMATION_MESSAGE" = "אתה עומד למחוק את כל הנתונים המשויכים אל השכפול '%@', לא ניתן לשחזר נתונים אלה. האם אתה מעוניין להמשיך?";
+"DELETE" = "מחיקה";
+"NONE" = "אף אחד";
+"MAKE_DEFAULT_CONTAINER" = "הגדר ברירת מחדל שכפול";
+"DEFAULT_CONTAINER" = "שכפול ברירת מחדל ";
+"DEFAULT_CONTAINER_DESCRIPTION" = "הברירת המחדל היא שכפול שישמש כאשר המכשיר שלך לא פרוץ או כאשר Crane לא עמוסה.";
+"CONTAINER_IDENTIFIER" = "מזהה שכפול";
+"UNNAMED" = "ללא שם";
+"APPLICATION_SHORTCUT_ENABLED" = "אפליקציית ׳קיצורים׳ מופעלת";
+"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "הפעל את האפליקציה כברירת מחדל";
+"EXPAND_CONTAINERS_SHORTCUT" = "ייצא קיצורי שכפולים";
+/*ONLY_SHOW_IF_CONTAINERS_EXIST*/
+"APPLICATION_SHORTCUT_DESCRIPTION" = "קיצור דרך לניהול של ״שכפול אפליקציה״ על ידי טביעת אצבע / זיהוי פנים ומאפשר הפעלת האפליקציה בעת בחירת שכפול מקיצורים.";
+"BACKUP_DATA_TO_FILE" = "גיבוי נתונים לקובץ";
+"RESTORE_DATA_FROM_BACKUP_FILE" = "שחזר נתונים מקובץ הגיבוי";
+/*DEVICE_IDENTIFIER_FOR_VENDOR*/
+/*USE_CONTAINER_IDENTIFIER*/
+/*GENERATE_NEW*/
+/*SET_CUSTOM*/
+/*IDENTIFIER*/
+/*DEVICE_IDENTIFIER_DESCRIPTION*/
+/*DEVICE_IDENTIFIER_CHANGE_WARNING*/
+/*SET_CUSTOM_IDENTIFIER*/
+/*SET_CUSTOM_IDENTIFIER_MESSAGE*/
+/*SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE*/
+/*SET*/
+/*BROWSE_DATA*/
+/*APPLICATION*/
+/*GROUPS*/
+/*PLUGINS*/
+"DELETE_DATA" = "מחק נתונים";
+/*SIZE_OF_CONTAINER*/
+"COPYING" = "מעתיק";
+"ARCHIVING" = "ארכיון";
+"UNARCHIVING" = "ביטול הארכיון";
+"RESTORING" = "משחזר";
+"BACKING_UP" = "גיבוי";
+"ERROR" = "שגיאה";
+"WARNING" = "אזהרה";
+"APP_ID_MISMATCH_ERROR" = "האפליקציה ממנה נוצר גיבוי זה\n(%@) אינה זהה לאפליקציה שאתה מנסה להחזיר אל (%@)";
+"GROUP_ID_MISMATCH_WARNING" = " מזהה הקבוצה של הגיבוי\n (%@) אי התאמה בין המזהים הנוכחיים של האפליקציה (%@), זה יכול לגרום לשחזור נתונים מסוימים. האם אתה עדיין רוצה להמשיך?";
+"CONTINUE" = "המשך";
+"CLOSE" = "סגור";
+"SETTINGS" = "הגדרות";
+"INJECT_IN_SAFE_MODE" = "מצב בטוח";
+"INJECT_IN_SAFE_MODE_DESCRIPTION" = "\nכברירת מחדל של Crane אינו פועל כאשר אפליקציה מופעלת במצב בטוח (למשל באמצעות מתג 'השבת הזרקת טוויק' של Choicy או קיצור הדרך לאפליקציה 'הפעל ללא טוויק'), כאשר אפשרות זו מופעלת, היא תמיד תזריק. אין לכך כל השפעה על המצב הבטוח מפגיעת הפריצה.";
+"RESTORE_WARNING_MESSAGE" = "שחזור גיבוי יחליף את הנתונים הנוכחיים של השכפולים, להמשיך?";
+"NOT_A_BACKUP_ERROR_MESSAGE" = "נראה שהקובץ שבחרת אינו שכפול גיבוי";
+"COMMUNICATION_ERROR_MESSAGE" = "התקשורת למערכת\n crane שירות ההעזרה של (cranehelperd) לא עובדת. נושא זה קשור ככל הנראה ל rocketbootstrap שאינו עובד";
+/*DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
+/*TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
+"INJECTION_ERROR_MESSAGE" = "נקבע כי CraneSupport.dylib אינו טעון\n %@.";
+"CRANE_DISABLED_MESSAGE" = "טוויק Crane הושבת כדי למנוע נתוני desyncs.";
+"DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE" = "שירות העוזרים של טוויק Crane (cranehelperd)\nינסה לעזור לך במידה ויש לך בעיות כלשהן. אם יש יומני קריסה במכשיר, אתה יכול להשתמש ב-Cr4shed או ב-CrashReporter, אנא שלח אותם באמצעות דוא\"ל(opa334@protonmail.com).";
+"CRANE_DYLIB_NOT_LOADED_ERROR" = "האפליקציה %@ מחוברת אל ״שכפול אפליקציה״ ברירת המחדל מכיוון שהטוויק Crane לא הוגדר בתוכו. נא וודא שהוא לא הושבת באמצעות Choicy, TweakRestrict או דומה ונסה שוב.";
+"AND" = "ו";
+"CRANE_ERROR" = "Crane שגיאה";
+"FOLLOW_ME_ON_TWITTER" = "עקוב אחריי בטוויטר";
+"CREDITS" = "קרדיטים";
+"CREDITS_AND_LICENSES" = "רשיון וקרדיטים";
+"LICENSE" = "רשיון";
+"SELECT_APPLICATION" = "בחר אפליקציות";
+"CONFIGURE_APPLICATION" = "הגדר אפליקציה";
+"SWITCH_WARNING_MESSAGE" = "אתה עומד לשנות את האפליקציה שנבחרה, פעולה זו תמחק את נתוני השכפולים שאינן ברירת המחדל של האפליקציה שנבחרה בעבר. האם אתה רוצה להמשיך?";
+"BUY_CRANE" = "רכוש את Crane";
+"RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "הפעל מחדש את daemons ואת SpringBoard";
+"LITE_IMPORT_TITLE" = "Crane Lite ייבא";
+"LITE_IMPORT_MESSAGE" = "Crane Lite שכפול לאפליקציה '%@' נמצא. מה אתה רוצה לעשות איתם?";
+"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "ייבא Crane Lite שכלולי אפליקציות אל Crane";
+"DELETE_CRANE_LITE_CONTAINERS" = "מחק שכפולים מתוך Crane Lite";
+"REMIND_ME_LATER" = "הזכר לי מאוחר יותר";
+"BUY_CRANE_FOOTER" = "לאחר רכישת טוויק Crane, תוכל לייבא את כל השכפולים מתוך Crane Lite והם יהיו זמינים באמצעות התראה שמופיעה כשאתה ניגש לדף ההעדפות של Crane.";
+"UNKNOWN_CONTAINERS_FOUND" = "נמצא שכפול לא ידוע";
+"UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "נמצאו % לא ידועים שכפולים המאוחסנים נתונים בתוך האפליקציה, אך כרגע אין להם ערך בהעדפות Crane. זה יכול לקרות אם נמחקה רשימת העדפות קודמת. מה אתה רוצה לעשות עם הלא נודע של השכפולים?";
+"DELETE_CONTAINERS" = "מחק שכפול";
+"IMPORT_CONTAINERS" = "ייבוא שכפולי אפליקציות ";
+"UNKOWN_CONTAINER" = "שכפול לא ידוע";
+"KEYCHAIN_MIGRATION" = "מחזיק מפתחות";
+"KEYCHAIN_MIGRATION_MESSAGE" = "נתוני מחזיק מפתחות Crane גרסה זוהה, יש להעביר נתונים אלה לפורמט חדש אך ניתן לעשות זאת רק מתהליך ההעדפות. אנא פתח את דף ההגדרות של Crane הגדר כדי להמשיך, Crane הושבת עד שהדבר יעשה.";
+"OPEN_SETTINGS" = "פתח הגדרות";
+"MIGRATION_SUCCEEDED" = "מחזיק מפתחות הצליח";
+"MIGRATION_SUCCEEDED_MESSAGE" = "נתוני מחזיק המפתחות הישנים הועברו בהצלחה לפורמט החדש\n. Crane יכול לשמש כעת שוב.";
+/*FILENAME*/
+/*OPTIONAL*/
+/*ENCRYPT_BACKUP*/
+/*PASSWORD*/
+/*ENCRYPT_BACKUP_FOOTER*/
+/*INCLUDE_KEYCHAIN*/
+/*INCLUDE_KEYCHAIN_FOOTER*/
+/*ENTER_PASSWORD*/
+/*ENTER_PASSWORD_DESCRIPTION*/
+/*RESTORE*/
+/*INCLUDE_KEYCHAIN_UNSAFE_WARNING*/
+/*ENABLE_ENCRYPTION*/
+/*IGNORE*/
+/*NO_PASSWORD_ERROR*/
+/*ACTIVE*/
+/*SLICES_FOUND*/
+/*SLICES_FOUND_MESSAGE*/
+/*IMPORT_SLICES*/
+/*DELETE_SLICES*/
+/*CREATE*/
+/*CONFIRM_PASSWORD*/
+/*SEP_ITEMS_OMMITED_WARNING_MESSAGE*/
+/*NEW_BACKUP*/
+/*CONTAINER_PROTECTION*/
+/*CONTAINER_PROTECTION_FOOTER*/
+/*PREVIOUS_PASSWORD_WRONG_MESSAGE*/
+/*CRANESB_COMMUNICATION_NOT_WORKING*/

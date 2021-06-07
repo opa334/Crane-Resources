@@ -1,0 +1,121 @@
+"APPLICATIONS" = "Ứng dụng";
+"ACTIVE_CONTAINER" = "Vùng chứa đang hoạt động";
+"CONTAINERS" = "Nhiều vùng chứa";
+"CONTAINER" = "Vùng chứa";
+"DEFAULT" = "Mặc định";
+"ADD" = "Thêm vào";
+"ADD_CONTAINER" = "Thêm vào vùng hoạt động";
+"NAME" = "Tên";
+"CANCEL" = "Huỷ bỏ";
+"CONTAINER_NAME" = "Tên vùng chứa";
+"SAVE" = "Lưu";
+"DELETE_CONFIRMATION_TITLE" = "Xác nhận xóa?";
+"DELETE_CONFIRMATION_MESSAGE" = "Bạn sắp xóa tất cả dữ liệu được liên kết với vùng chứa '% @', không thể khôi phục dữ liệu này.  Bạn có muốn tiếp tục?";
+"DELETE" = "Xoá";
+"NONE" = "Trống rỗng";
+"MAKE_DEFAULT_CONTAINER" = "Tạo vùng chứa mặc định";
+"DEFAULT_CONTAINER" = "Vùng chứa mặc định";
+"DEFAULT_CONTAINER_DESCRIPTION" = "Vùng chứa mặc định sẽ được sử dụng khi thiết bị của bạn chưa được bẻ khóa hoặc khi chưa tải Crane.";
+/*CONTAINER_IDENTIFIER*/
+"UNNAMED" = "Vô danh";
+"APPLICATION_SHORTCUT_ENABLED" = "Đã bật phím tắt cho ứng dụng";
+"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Khởi chạy ứng dụng trên lựa chọn vùng chứa";
+"EXPAND_CONTAINERS_SHORTCUT" = "Phím tắt Mở rộng Vùng chứa";
+/*ONLY_SHOW_IF_CONTAINERS_EXIST*/
+"APPLICATION_SHORTCUT_DESCRIPTION" = "Phím tắt để quản lý vùng chứa đang hoạt động từ menu cảm ứng xúc giác của ứng dụng và có khởi chạy ứng dụng hay không khi chọn vùng chứa đang hoạt động thông qua phím tắt.";
+"BACKUP_DATA_TO_FILE" = "Sao lưu dữ liệu vào tệp";
+"RESTORE_DATA_FROM_BACKUP_FILE" = "Khôi phục dữ liệu từ tệp sao lưu";
+/*DEVICE_IDENTIFIER_FOR_VENDOR*/
+/*USE_CONTAINER_IDENTIFIER*/
+/*GENERATE_NEW*/
+/*SET_CUSTOM*/
+/*IDENTIFIER*/
+/*DEVICE_IDENTIFIER_DESCRIPTION*/
+/*DEVICE_IDENTIFIER_CHANGE_WARNING*/
+/*SET_CUSTOM_IDENTIFIER*/
+/*SET_CUSTOM_IDENTIFIER_MESSAGE*/
+/*SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE*/
+/*SET*/
+/*BROWSE_DATA*/
+/*APPLICATION*/
+/*GROUPS*/
+/*PLUGINS*/
+"DELETE_DATA" = "Xoá dữ liệu ";
+/*SIZE_OF_CONTAINER*/
+"COPYING" = "Đang sao chép";
+"ARCHIVING" = "Lưu trữ";
+"UNARCHIVING" = "Đang hủy lưu trữ";
+"RESTORING" = "Đang khôi phục";
+"BACKING_UP" = "Sao lưu";
+"ERROR" = "Lỗi";
+"WARNING" = "Cẩn thận ăn Táo";
+"APP_ID_MISMATCH_ERROR" = "Ứng dụng mà từ đó bản sao lưu này được tạo (% @) không giống với ứng dụng bạn đang cố gắng khôi phục nó (%@)";
+"GROUP_ID_MISMATCH_WARNING" = "Số nhận dạng nhóm của bản sao lưu (% @) không khớp với số nhận dạng hiện tại của ứng dụng (% @), điều này có thể khiến một số dữ liệu không được khôi phục.  Bạn có còn muốn tiếp tục không?";
+"CONTINUE" = "Tiếp tục";
+"CLOSE" = "Đóng";
+"SETTINGS" = "Cài đặt";
+"INJECT_IN_SAFE_MODE" = "Tiêm trong Chế độ An toàn";
+"INJECT_IN_SAFE_MODE_DESCRIPTION" = "Theo mặc định, Crane không hoạt động khi một ứng dụng được khởi chạy ở chế độ an toàn (ví dụ: bằng cách sử dụng nút chuyển đổi 'Tắt tính năng tiêm tinh chỉnh' của Choicy hoặc phím tắt ứng dụng 'Khởi chạy không chỉnh sửa'), với tùy chọn này được bật, nó sẽ luôn đưa vào.  Điều này không ảnh hưởng đến chế độ an toàn từ bản bẻ khóa.";
+"RESTORE_WARNING_MESSAGE" = "Khôi phục bản sao lưu sẽ ghi đè dữ liệu hiện tại của vùng chứa, tiếp tục?";
+"NOT_A_BACKUP_ERROR_MESSAGE" = "Tệp bạn đã chọn dường như không phải là bản sao lưu vùng chứa";
+/*COMMUNICATION_ERROR_MESSAGE*/
+/*DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
+/*TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
+"INJECTION_ERROR_MESSAGE" = "Nó được xác định rằng CraneSupport.dylib không được tải vào%@";
+"CRANE_DISABLED_MESSAGE" = "Cần trục đã bị vô hiệu hóa để tránh giải mã dữ liệu.";
+/*DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE*/
+/*CRANE_DYLIB_NOT_LOADED_ERROR*/
+"AND" = "Và";
+"CRANE_ERROR" = "Crane bị lỗi";
+"FOLLOW_ME_ON_TWITTER" = "Theo dõi tôi trên Twitter";
+/*CREDITS*/
+"CREDITS_AND_LICENSES" = "Tín dụng & Giấy phép";
+"LICENSE" = "Giấy phép";
+"SELECT_APPLICATION" = "Chọn ứng dụng";
+"CONFIGURE_APPLICATION" = "Định cấu hình ứng dụng";
+"SWITCH_WARNING_MESSAGE" = "Bạn sắp thay đổi ứng dụng đã chọn, làm như vậy sẽ xóa dữ liệu của tất cả các vùng chứa không phải mặc định của ứng dụng đã chọn trước đó.  Bạn có muốn tiếp tục?";
+"BUY_CRANE" = "Mua Crane";
+"RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "Khởi động lại daemon và SpringBoard bị ảnh hưởng";
+"LITE_IMPORT_TITLE" = "Nhập vào Crane";
+"LITE_IMPORT_MESSAGE" = "Đã tìm thấy các vùng chứa Crane cho ứng dụng '% @'.  Bạn muốn làm gì với chúng?";
+"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "Nhập vào thùng chứa";
+"DELETE_CRANE_LITE_CONTAINERS" = "Xóa thùng chứa";
+"REMIND_ME_LATER" = "Nhắc nhở tôi sau";
+"BUY_CRANE_FOOTER" = "Sau khi mua Crane, bạn sẽ có thể nhập các thùng chứa của Crane Lite vào đó.  Điều này sẽ khả dụng thông qua một cảnh báo xuất hiện khi bạn truy cập trang tùy chọn của Crane.";
+"UNKNOWN_CONTAINERS_FOUND" = "Đã tìm thấy vùng chứa không xác định";
+"UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "Đã tìm thấy%u vùng chứa không xác định có dữ liệu được lưu trữ bên trong ứng dụng nhưng hiện không có mục nhập bên trong tùy chọn của Crane.  Điều này có thể xảy ra nếu danh sách ưu tiên trước đó bị xóa.  Bạn muốn làm gì với các vùng chứa không xác định?";
+"DELETE_CONTAINERS" = "Xóa vùng chứa";
+"IMPORT_CONTAINERS" = "Nhập các thùng chứa";
+"UNKOWN_CONTAINER" = "Vùng chứa không xác định";
+/*KEYCHAIN_MIGRATION*/
+/*KEYCHAIN_MIGRATION_MESSAGE*/
+/*OPEN_SETTINGS*/
+/*MIGRATION_SUCCEEDED*/
+/*MIGRATION_SUCCEEDED_MESSAGE*/
+/*FILENAME*/
+/*OPTIONAL*/
+/*ENCRYPT_BACKUP*/
+/*PASSWORD*/
+/*ENCRYPT_BACKUP_FOOTER*/
+/*INCLUDE_KEYCHAIN*/
+/*INCLUDE_KEYCHAIN_FOOTER*/
+/*ENTER_PASSWORD*/
+/*ENTER_PASSWORD_DESCRIPTION*/
+/*RESTORE*/
+/*INCLUDE_KEYCHAIN_UNSAFE_WARNING*/
+/*ENABLE_ENCRYPTION*/
+/*IGNORE*/
+/*NO_PASSWORD_ERROR*/
+/*ACTIVE*/
+/*SLICES_FOUND*/
+/*SLICES_FOUND_MESSAGE*/
+/*IMPORT_SLICES*/
+/*DELETE_SLICES*/
+/*CREATE*/
+/*CONFIRM_PASSWORD*/
+/*SEP_ITEMS_OMMITED_WARNING_MESSAGE*/
+/*NEW_BACKUP*/
+/*CONTAINER_PROTECTION*/
+/*CONTAINER_PROTECTION_FOOTER*/
+/*PREVIOUS_PASSWORD_WRONG_MESSAGE*/
+/*CRANESB_COMMUNICATION_NOT_WORKING*/

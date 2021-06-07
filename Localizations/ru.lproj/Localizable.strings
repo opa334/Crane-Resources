@@ -1,0 +1,121 @@
+"APPLICATIONS" = "Приложения";
+"ACTIVE_CONTAINER" = "Активированный контейнер";
+"CONTAINERS" = "Контейнеры";
+"CONTAINER" = "Контейнер";
+"DEFAULT" = "Умолчание";
+"ADD" = "Добавить";
+"ADD_CONTAINER" = "Добавить контейнер";
+"NAME" = "Имя";
+"CANCEL" = "Отменить";
+"CONTAINER_NAME" = "Имя контейнера";
+"SAVE" = "Cохранить";
+"DELETE_CONFIRMATION_TITLE" = "Подтвердить удаление?";
+"DELETE_CONFIRMATION_MESSAGE" = "Вы сейчас Удалите все данные связанные с контейнером '%@', эти данные нельзя будет вернуть. вы хотите продолжить?";
+"DELETE" = "Удалить";
+"NONE" = "Ничего";
+"MAKE_DEFAULT_CONTAINER" = "Сделать контейнер по умолчанию";
+"DEFAULT_CONTAINER" = "Умолчание контейнер";
+"DEFAULT_CONTAINER_DESCRIPTION" = "Умолчание контейнер будет использоваться когда ваш прибор вне взломанное состояние или когда Crane не загружон.";
+"CONTAINER_IDENTIFIER" = "Контейнера идентификатор";
+"UNNAMED" = "Безымянный";
+"APPLICATION_SHORTCUT_ENABLED" = "Приложение сокращение Включено";
+"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Запустить приложение при выборе контейнера";
+"EXPAND_CONTAINERS_SHORTCUT" = "Расширять контейнеры сокращение";
+/*ONLY_SHOW_IF_CONTAINERS_EXIST*/
+"APPLICATION_SHORTCUT_DESCRIPTION" = "Сокращение для управлять активированный контейнеров из меню тактильное прикосновение от приложения и стоит ли запустить приложение когда выбирать активированный контейнер через shortcut.";
+"BACKUP_DATA_TO_FILE" = "Резервное копирование данных в файл";
+"RESTORE_DATA_FROM_BACKUP_FILE" = "Восстановление данные из резервного файла";
+/*DEVICE_IDENTIFIER_FOR_VENDOR*/
+/*USE_CONTAINER_IDENTIFIER*/
+/*GENERATE_NEW*/
+/*SET_CUSTOM*/
+/*IDENTIFIER*/
+/*DEVICE_IDENTIFIER_DESCRIPTION*/
+/*DEVICE_IDENTIFIER_CHANGE_WARNING*/
+/*SET_CUSTOM_IDENTIFIER*/
+/*SET_CUSTOM_IDENTIFIER_MESSAGE*/
+/*SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE*/
+/*SET*/
+/*BROWSE_DATA*/
+/*APPLICATION*/
+/*GROUPS*/
+/*PLUGINS*/
+"DELETE_DATA" = "Удалить данные";
+/*SIZE_OF_CONTAINER*/
+"COPYING" = "Копирование";
+"ARCHIVING" = "Архировка";
+"UNARCHIVING" = "Разархивирование";
+"RESTORING" = "Восстановление";
+"BACKING_UP" = "Резервное копирование";
+"ERROR" = "Ошибка";
+"WARNING" = "Предупреждение";
+"APP_ID_MISMATCH_ERROR" = "Приложение из которой этот резервный файл был сделан (%@) это не то же самое приложение который Вы пытаетесь восстановить его к (%@)";
+"GROUP_ID_MISMATCH_WARNING" = "Идентификаторы группы резервной копии (%@) не соответствуют текущим идентификаторам приложения (%@), это может привести к тому, что некоторые данные не будут восстановлены.  Вы все еще хотите продолжить?";
+"CONTINUE" = "Продолжать";
+"CLOSE" = "Закрыть";
+"SETTINGS" = "Настройки";
+"INJECT_IN_SAFE_MODE" = "Ввести в безопасном режиме";
+"INJECT_IN_SAFE_MODE_DESCRIPTION" = "По умолчанию Crane не работает когда приложение запускается в безопасном режиме (например, с помощью переключателя `Отключить внедрение твика` в Choicy или сокращение приложения `Запуск без настроек`), если этот параметр включен, он всегда будет внедряться.  Это никак не повлияет на безопасный режим после взлома.";
+"RESTORE_WARNING_MESSAGE" = "При восстановлении резервной копии ходячий данные контейнера будут перезаписаны, продолжить?";
+"NOT_A_BACKUP_ERROR_MESSAGE" = "Выбранный файл не является резервной копией контейнера.";
+/*COMMUNICATION_ERROR_MESSAGE*/
+/*DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
+/*TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
+/*INJECTION_ERROR_MESSAGE*/
+"CRANE_DISABLED_MESSAGE" = "Crane был отключен чтобы избежать рассинхронизация данных.";
+/*DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE*/
+/*CRANE_DYLIB_NOT_LOADED_ERROR*/
+"AND" = "И";
+"CRANE_ERROR" = "Ошибка Crane ";
+"FOLLOW_ME_ON_TWITTER" = "Подпишись ко мне на Твиттере";
+/*CREDITS*/
+"CREDITS_AND_LICENSES" = "Похвалы и лицензии";
+"LICENSE" = "Лицензия";
+"SELECT_APPLICATION" = "Выбрать Приложениe";
+"CONFIGURE_APPLICATION" = "Настроить приложение";
+"SWITCH_WARNING_MESSAGE" = "Вы собираетесь изменить выбранное приложение, это приведет к удалению данных всех нестандартных контейнеров ранее выбранного приложения. Вы хотите продолжить?";
+"BUY_CRANE" = "Купить Crane";
+"RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "Перезапустите затронутые демоны и SpringBoard";
+"LITE_IMPORT_TITLE" = "Импортатсое Crane Lite";
+"LITE_IMPORT_MESSAGE" = "Обнаружены контейнеры Crane Lite для приложения '%@' .Что ты хочешь с ними делать?";
+"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "Импортировать Crane Lite контейнеры к Crane";
+"DELETE_CRANE_LITE_CONTAINERS" = "Удалить контейнеры Crane Lite";
+"REMIND_ME_LATER" = "Напомни мне позже";
+"BUY_CRANE_FOOTER" = "После покупки Crane, Вы будете в состоянии импортировать контейнеры Crane Lite в неё. Это будет доступно через предупреждение который появляется при доступе на страница предпочтений от Crane.";
+"UNKNOWN_CONTAINERS_FOUND" = "Неизвестный контейнеры найдены";
+"UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "Нашёл %u неизвестные контейнеры который дата сохранено внутри приложения Ну сейчас у неё нету запись внутри преференции Crane. Это может случиться если прошлые преференс plist был удалён. Что вы хотите сделать с неизвестными контейнерами?";
+"DELETE_CONTAINERS" = "Удалить контейнеры";
+"IMPORT_CONTAINERS" = "Импортировать контейнеры";
+"UNKOWN_CONTAINER" = "Неизвестный контейнер";
+"KEYCHAIN_MIGRATION" = "Перенос ключей";
+"KEYCHAIN_MIGRATION_MESSAGE" = "Обнаружены данные связки ключей из более старой версии Crane, эти данные необходимо перенести в новый формат, но это можно сделать только в процессе настроек.  Откройте страницу настроек Crane один раз, чтобы начать миграцию. Crane был отключен, пока это не будет сделано.";
+"OPEN_SETTINGS" = "Открыть настройки";
+"MIGRATION_SUCCEEDED" = "Миграция успешно";
+"MIGRATION_SUCCEEDED_MESSAGE" = "Старые данные связки ключей были успешно перенесены в новый формат. Теперь Crane снова можно использовать.";
+/*FILENAME*/
+/*OPTIONAL*/
+/*ENCRYPT_BACKUP*/
+/*PASSWORD*/
+/*ENCRYPT_BACKUP_FOOTER*/
+/*INCLUDE_KEYCHAIN*/
+/*INCLUDE_KEYCHAIN_FOOTER*/
+/*ENTER_PASSWORD*/
+/*ENTER_PASSWORD_DESCRIPTION*/
+/*RESTORE*/
+/*INCLUDE_KEYCHAIN_UNSAFE_WARNING*/
+/*ENABLE_ENCRYPTION*/
+/*IGNORE*/
+/*NO_PASSWORD_ERROR*/
+/*ACTIVE*/
+/*SLICES_FOUND*/
+/*SLICES_FOUND_MESSAGE*/
+/*IMPORT_SLICES*/
+/*DELETE_SLICES*/
+/*CREATE*/
+/*CONFIRM_PASSWORD*/
+/*SEP_ITEMS_OMMITED_WARNING_MESSAGE*/
+/*NEW_BACKUP*/
+/*CONTAINER_PROTECTION*/
+/*CONTAINER_PROTECTION_FOOTER*/
+/*PREVIOUS_PASSWORD_WRONG_MESSAGE*/
+/*CRANESB_COMMUNICATION_NOT_WORKING*/

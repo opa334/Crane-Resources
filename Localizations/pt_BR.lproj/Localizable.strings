@@ -1,0 +1,121 @@
+"APPLICATIONS" = "Aplicativos";
+"ACTIVE_CONTAINER" = "Container Ativo";
+"CONTAINERS" = "Containers";
+"CONTAINER" = "Container";
+"DEFAULT" = "Padrão";
+"ADD" = "Adicionar";
+"ADD_CONTAINER" = "Adicionar Container";
+"NAME" = "Nome";
+"CANCEL" = "Cancelar";
+"CONTAINER_NAME" = "Nome do Container";
+"SAVE" = "Salvar";
+"DELETE_CONFIRMATION_TITLE" = "Confirmar exclusão?";
+"DELETE_CONFIRMATION_MESSAGE" = "Você está prestes a excluir todos os dados associados ao contêiner '%@', esses dados não podem ser recuperados. Você deseja continuar?";
+"DELETE" = "Apagar";
+"NONE" = "Nenhum";
+"MAKE_DEFAULT_CONTAINER" = "Tornar o Container Padrão";
+"DEFAULT_CONTAINER" = "Container Padrão";
+"DEFAULT_CONTAINER_DESCRIPTION" = "O container padrão será usado quando o dispositivo não for jailbroken ou quando o Crane não for carregado.";
+"CONTAINER_IDENTIFIER" = "Identificador de container";
+"UNNAMED" = "Sem nome";
+"APPLICATION_SHORTCUT_ENABLED" = "Atalhos de aplicativos habilitados";
+"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Lançamento do aplicativo na seleção de contêineres";
+"EXPAND_CONTAINERS_SHORTCUT" = "Expandir atalhos";
+"ONLY_SHOW_IF_CONTAINERS_EXIST" = "Mostrar apenas se existirem contêineres";
+"APPLICATION_SHORTCUT_DESCRIPTION" = "Atalho para alternar entre os containers do menu de toque tátil/toque 3D dos aplicativos.";
+"BACKUP_DATA_TO_FILE" = "Dados de backup para arquivar";
+"RESTORE_DATA_FROM_BACKUP_FILE" = "Restaurar dados do arquivo de backup";
+/*DEVICE_IDENTIFIER_FOR_VENDOR*/
+/*USE_CONTAINER_IDENTIFIER*/
+/*GENERATE_NEW*/
+/*SET_CUSTOM*/
+/*IDENTIFIER*/
+/*DEVICE_IDENTIFIER_DESCRIPTION*/
+/*DEVICE_IDENTIFIER_CHANGE_WARNING*/
+/*SET_CUSTOM_IDENTIFIER*/
+/*SET_CUSTOM_IDENTIFIER_MESSAGE*/
+/*SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE*/
+/*SET*/
+/*BROWSE_DATA*/
+/*APPLICATION*/
+/*GROUPS*/
+/*PLUGINS*/
+"DELETE_DATA" = "Apagar dados";
+/*SIZE_OF_CONTAINER*/
+"COPYING" = "Copiando";
+"ARCHIVING" = "Arquivando";
+"UNARCHIVING" = "Desarquivando";
+"RESTORING" = "Restaurando";
+"BACKING_UP" = "Fazendo backup";
+"ERROR" = "Erro";
+"WARNING" = "Aviso";
+"APP_ID_MISMATCH_ERROR" = "O aplicativo do qual este backup foi criado (%@) não é o mesmo que o aplicativo que você está tentando restaurá-lo (%@)";
+"GROUP_ID_MISMATCH_WARNING" = "Os identificadores de grupo do backup (%@) incompatem os identificadores atuais do aplicativo (%@), isso pode fazer com que alguns dados não sejam restaurados. Você ainda quer continuar?";
+"CONTINUE" = "Continuar";
+"CLOSE" = "Fechar";
+"SETTINGS" = "Configurações";
+"INJECT_IN_SAFE_MODE" = "Injetar no modo de segurança";
+"INJECT_IN_SAFE_MODE_DESCRIPTION" = "Por padrão, o Crane não funciona quando um aplicativo é iniciado no modo de segurança (por exemplo, usando a alternância de cicatrizes \"Desativar a injeção de tweak\" ou o \"lançamento sem ajuste\", com essa opção ativada, ela sempre será injetada. Isso não tem nenhum efeito no modo de segurança do jailbreak.";
+"RESTORE_WARNING_MESSAGE" = "Restaurar um backup vai sobrescrever os dados atuais do contêiner, continuar?";
+"NOT_A_BACKUP_ERROR_MESSAGE" = "O arquivo que você selecionou não parece ser um backup do contêiner";
+"COMMUNICATION_ERROR_MESSAGE" = "Foi determinado que a comunicação ao serviço auxiliar do Crane (Cranehelperd) não está funcionando. Esse problema é provavelmente relacionado ao Rocketbootstrap não funcionando.";
+/*DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
+/*TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
+"INJECTION_ERROR_MESSAGE" = "Foi determinado que cranesupport.dylib não é carregado em %@.";
+"CRANE_DISABLED_MESSAGE" = "O Crane foi desativado para evitar a dessincronização dos dados.";
+"DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE" = "O serviço auxiliar do Crane (cranehelperd) não parece responder, apesar do funcionamento do rocketbootstrap. Se houver algum registro de travamento para ele no Cr4shed ou CrashReporter, envie-o por e-mail (opa334@protonmail.com).";
+"CRANE_DYLIB_NOT_LOADED_ERROR" = "O aplicativo %@ foi iniciado no contêiner padrão porque o Crane dylib não foi carregado nele. Certifique-se de que não foi desativado com Choicy, TweakRestrict ou similar e tente novamente.";
+"AND" = "e";
+"CRANE_ERROR" = "Erro do Crane";
+"FOLLOW_ME_ON_TWITTER" = "Me sigam no Twitter";
+"CREDITS" = "Créditos";
+"CREDITS_AND_LICENSES" = "Créditos & Licenças";
+"LICENSE" = "Licença";
+"SELECT_APPLICATION" = "Selecionar aplicativo";
+"CONFIGURE_APPLICATION" = "Configurar aplicativo";
+"SWITCH_WARNING_MESSAGE" = "Você está prestes a alterar o aplicativo selecionado, isso irá excluir os dados de todos os contêineres não padrão do aplicativo previamente selecionado. Você quer continuar?";
+"BUY_CRANE" = "Comprar o Crane";
+"RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "Reinicie daemons afetados e SpringBoard";
+"LITE_IMPORT_TITLE" = "Importar do Crane Lite";
+"LITE_IMPORT_MESSAGE" = "Os contêineres Crane Lite para o aplicativo '%@' foram encontrados. O que você quer fazer com eles?";
+"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "Importar containers do Crane Lite para o Crane.";
+"DELETE_CRANE_LITE_CONTAINERS" = "Apagar containers do Crane Lite";
+"REMIND_ME_LATER" = "Lembre-me mais tarde.";
+"BUY_CRANE_FOOTER" = "Depois de comprar o Crane, você poderá importar os contêineres do Crane Lite para ele. Isso estará disponível através de um alerta que aparece quando você acessa a página de preferências do Crane.";
+"UNKNOWN_CONTAINERS_FOUND" = "Containers desconhecidos encontrados";
+"UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "Encontrados %u containers desconhecidos que possuem dados armazenados dentro do aplicativo, mas atualmente não possuem uma entrada nas preferências do Crane. Isso pode acontecer se uma lista de preferência anterior foi excluída. O que você quer fazer com os recipientes desconhecidos?";
+"DELETE_CONTAINERS" = "Apagar Containers";
+"IMPORT_CONTAINERS" = "Importar Containers";
+"UNKOWN_CONTAINER" = "Container desconhecido";
+"KEYCHAIN_MIGRATION" = "Keychain Migration";
+"KEYCHAIN_MIGRATION_MESSAGE" = "Dados de chaveiro de uma versão mais antiga do Crane foram detectados. Esses dados precisam ser migrados para um novo formato, mas isso só pode ser feito a partir do processo de Preferências. Abra a página de configurações do Crane uma vez para iniciar a migração. O Crane foi desativado até que isso seja feito. ";
+"OPEN_SETTINGS" = "Abrir configurações";
+"MIGRATION_SUCCEEDED" = "Migração foi bem sucedida";
+"MIGRATION_SUCCEEDED_MESSAGE" = "Os dados antigos do Slices foram migrados com sucesso para o novo formato. Crane agora pode ser usado novamente.";
+"FILENAME" = "Nome do arquivo";
+"OPTIONAL" = "Opcional";
+"ENCRYPT_BACKUP" = "Criptografar backup";
+"PASSWORD" = "Senha";
+"ENCRYPT_BACKUP_FOOTER" = "Criptografe o backup com uma senha.Restaurando o backup depois sem que a senha não seja possível. Se você perder a senha, perderá os dados.";
+"INCLUDE_KEYCHAIN" = "Incluir chaveiro";
+"INCLUDE_KEYCHAIN_FOOTER" = "Inclua os dados do keychain armazenados pelo aplicativo/recipiente no backup. Contém credenciais de conta, chaves e muito mais. Inseguro quando não estiver usando a criptografia. ";
+"ENTER_PASSWORD" = "Digite uma senha";
+"ENTER_PASSWORD_DESCRIPTION" = "O backup %@ é criptografado com uma senha, por favor, insira-o para iniciar a restauração.";
+"RESTORE" = "Redefinir";
+"INCLUDE_KEYCHAIN_UNSAFE_WARNING" = "Ao incluir dados de chaves, é recomendável que \"criptografe o backup\" ativado, caso contrário, qualquer um que tenha acesso ao arquivo de backup possa comprometer as contas que o aplicativo/contêiner está logado.";
+"ENABLE_ENCRYPTION" = "Ativar criptografia";
+"IGNORE" = "Ignorar";
+"NO_PASSWORD_ERROR" = "A criptografia está ativada, mas o campo de senha está vazio, insira uma senha ou desative a criptografia e tente novamente.";
+"ACTIVE" = "Ativo";
+"SLICES_FOUND" = "Slices encontrado";
+"SLICES_FOUND_MESSAGE" = "Os seguintes slices foram encontrados para o aplicativo atualmente selecionado:\n%@ Você quer importá-los como recipientes do Crane? Não é possível reverter-los de volta os slices no futuro.";
+"IMPORT_SLICES" = "Importar Slices";
+"DELETE_SLICES" = "Apagar Slices";
+"CREATE" = "Criar";
+"CONFIRM_PASSWORD" = "Confirmar Senha";
+"SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "Um ou mais itens de chaveiro deste aplicativo são armazenados no enclave seguro e foram omitidos a partir do backup, porque restaurá-los seria impossível. Ao restaurar esse backup, talvez seja necessário reentrar senhas ou outros problemas que possam contratar. Você quer continuar?";
+"NEW_BACKUP" = "Novo Backup";
+"CONTAINER_PROTECTION" = "Proteção de contêineres.";
+"CONTAINER_PROTECTION_FOOTER" = "Impedir que o aplicativo remova dados de outros contêineres quando lançado no contêiner padrão, necessário para alguns aplicativos. Usa ganchos de aplicativos.";
+"PREVIOUS_PASSWORD_WRONG_MESSAGE" = "A senha inserida anteriormente estava errada. Por favor, tente novamente!";
+/*CRANESB_COMMUNICATION_NOT_WORKING*/
