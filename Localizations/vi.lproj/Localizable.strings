@@ -9,20 +9,38 @@
 "CANCEL" = "Huỷ bỏ";
 "CONTAINER_NAME" = "Tên vùng chứa";
 "SAVE" = "Lưu";
-"DELETE_CONFIRMATION_TITLE" = "Xác nhận xóa?";
-"DELETE_CONFIRMATION_MESSAGE" = "Bạn sắp xóa tất cả dữ liệu được liên kết với vùng chứa '% @', không thể khôi phục dữ liệu này.  Bạn có muốn tiếp tục?";
+"CONTAINER_DELETE_CONFIRMATION_TITLE" = "Xác nhận xóa?";
+"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "Bạn sắp xóa tất cả dữ liệu được liên kết với vùng chứa '% @', không thể khôi phục dữ liệu này.  Bạn có muốn tiếp tục?";
 "DELETE" = "Xoá";
 "NONE" = "Trống rỗng";
 "MAKE_DEFAULT_CONTAINER" = "Tạo vùng chứa mặc định";
 "DEFAULT_CONTAINER" = "Vùng chứa mặc định";
 "DEFAULT_CONTAINER_DESCRIPTION" = "Vùng chứa mặc định sẽ được sử dụng khi thiết bị của bạn chưa được bẻ khóa hoặc khi chưa tải Crane.";
 /*CONTAINER_IDENTIFIER*/
+/*PROTECT_USING_BIOMETRICS*/
+/*SET_ACTIVE_CONTAINER_DESCRIPTION*/
+/*DELETE_CONTAINER_DESCRIPTION*/
+/*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
 "UNNAMED" = "Vô danh";
 "APPLICATION_SHORTCUT_ENABLED" = "Đã bật phím tắt cho ứng dụng";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Khởi chạy ứng dụng trên lựa chọn vùng chứa";
 "EXPAND_CONTAINERS_SHORTCUT" = "Phím tắt Mở rộng Vùng chứa";
+/*SHOW_NEW_CONTAINER_OPTION*/
 /*ONLY_SHOW_IF_CONTAINERS_EXIST*/
 "APPLICATION_SHORTCUT_DESCRIPTION" = "Phím tắt để quản lý vùng chứa đang hoạt động từ menu cảm ứng xúc giác của ứng dụng và có khởi chạy ứng dụng hay không khi chọn vùng chứa đang hoạt động thông qua phím tắt.";
+/*GAME_CENTER_SECTION_HEADER*/
+/*GAME_CENTER_SECTION_FOOTER*/
+/*GAME_CENTER_ACCOUNT*/
+/*GAME_CENTER_ACCOUNTS*/
+/*MANAGE_GAME_CENTER_ACCOUNTS*/
+/*GAME_CENTER_MANAGER_FOOTER*/
+/*SYSTEM_DEFAULT*/
+/*GAME_CENTER_ADD_ACCOUNT_TITLE*/
+/*GAME_CENTER_ADD_ACCOUNT_MESSAGE*/
+/*GAME_CENTER_RENAME_ACCOUNT_TITLE*/
+/*RENAME*/
+/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE*/
+/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE*/
 "BACKUP_DATA_TO_FILE" = "Sao lưu dữ liệu vào tệp";
 "RESTORE_DATA_FROM_BACKUP_FILE" = "Khôi phục dữ liệu từ tệp sao lưu";
 /*DEVICE_IDENTIFIER_FOR_VENDOR*/
@@ -54,6 +72,9 @@
 "CONTINUE" = "Tiếp tục";
 "CLOSE" = "Đóng";
 "SETTINGS" = "Cài đặt";
+/*NEW_CONTAINER*/
+/*LAUNCH*/
+/*CREATE*/
 "INJECT_IN_SAFE_MODE" = "Tiêm trong Chế độ An toàn";
 "INJECT_IN_SAFE_MODE_DESCRIPTION" = "Theo mặc định, Crane không hoạt động khi một ứng dụng được khởi chạy ở chế độ an toàn (ví dụ: bằng cách sử dụng nút chuyển đổi 'Tắt tính năng tiêm tinh chỉnh' của Choicy hoặc phím tắt ứng dụng 'Khởi chạy không chỉnh sửa'), với tùy chọn này được bật, nó sẽ luôn đưa vào.  Điều này không ảnh hưởng đến chế độ an toàn từ bản bẻ khóa.";
 "RESTORE_WARNING_MESSAGE" = "Khôi phục bản sao lưu sẽ ghi đè dữ liệu hiện tại của vùng chứa, tiếp tục?";
@@ -115,7 +136,22 @@
 /*CONFIRM_PASSWORD*/
 /*SEP_ITEMS_OMMITED_WARNING_MESSAGE*/
 /*NEW_BACKUP*/
+/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER*/
+/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE*/
+/*SEPARATE_SYSTEM_ACCOUNTS*/
+/*GAME_CENTER_SUPPORT*/
 /*CONTAINER_PROTECTION*/
 /*CONTAINER_PROTECTION_FOOTER*/
 /*PREVIOUS_PASSWORD_WRONG_MESSAGE*/
 /*CRANESB_COMMUNICATION_NOT_WORKING*/
+/*SET_AS_THE_ACTIVE_CRANE_CONTAINER*/
+/*CHANGED_TO_CONTAINER*/
+/*SUGGESTIONS*/
+/*CHOICYLOADER_SUGGESTION_TITLE*/
+/*CHOICYLOADER_SUGGESTION_MESSAGE*/
+/*OPEN_REPO*/
+/*ACTIVATOR_INFO_SUGGESTION_TITLE*/
+/*ACTIVATOR_INFO_SUGGESTION_MESSAGE*/
+/*SHORTCUTS_INFO_SUGGESTION_TITLE*/
+/*SHORTCUTS_INFO_SUGGESTION_MESSAGE*/
+

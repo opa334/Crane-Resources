@@ -9,20 +9,38 @@
 "CANCEL" = "إلغاء";
 "CONTAINER_NAME" = "إسم الحاوية";
 "SAVE" = "حفظ";
-"DELETE_CONFIRMATION_TITLE" = "تاكيد الحذف";
-"DELETE_CONFIRMATION_MESSAGE" = "حذف جميع البيانات المرتبطة بالحاوية '%@', لن تستطيع إرجاع هذه البيانات لاحقا. متابعة؟";
+"CONTAINER_DELETE_CONFIRMATION_TITLE" = "تاكيد الحذف";
+"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "حذف جميع البيانات المرتبطة بالحاوية '%@', لن تستطيع إرجاع هذه البيانات لاحقا. متابعة؟";
 "DELETE" = "حذف";
 "NONE" = "لا يوجد";
 "MAKE_DEFAULT_CONTAINER" = "تعيين كحاوية افتراضية";
 "DEFAULT_CONTAINER" = "الحاوية الافتراضية";
 "DEFAULT_CONTAINER_DESCRIPTION" = "سوف يتم استخدام الحاوية الافتراضية في حال لم تكن في وضع الجيلبريك.";
 "CONTAINER_IDENTIFIER" = "معرف الحاوية";
+/*PROTECT_USING_BIOMETRICS*/
+/*SET_ACTIVE_CONTAINER_DESCRIPTION*/
+/*DELETE_CONTAINER_DESCRIPTION*/
+/*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
 "UNNAMED" = "بدون اسم";
 "APPLICATION_SHORTCUT_ENABLED" = "تفعيل اختصارات التطبيق";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "فتح التطبيق عند اختيار الحاوية";
 "EXPAND_CONTAINERS_SHORTCUT" = "توسيع اسماء الحاويات";
+/*SHOW_NEW_CONTAINER_OPTION*/
 /*ONLY_SHOW_IF_CONTAINERS_EXIST*/
 "APPLICATION_SHORTCUT_DESCRIPTION" = "إدارة اختصارات الحاوية من قائمة اللمس للتطبيق و كيفية تشغيل التطبيق عند تحديد حاوية عبر الاختصار.";
+/*GAME_CENTER_SECTION_HEADER*/
+/*GAME_CENTER_SECTION_FOOTER*/
+/*GAME_CENTER_ACCOUNT*/
+/*GAME_CENTER_ACCOUNTS*/
+/*MANAGE_GAME_CENTER_ACCOUNTS*/
+/*GAME_CENTER_MANAGER_FOOTER*/
+/*SYSTEM_DEFAULT*/
+/*GAME_CENTER_ADD_ACCOUNT_TITLE*/
+/*GAME_CENTER_ADD_ACCOUNT_MESSAGE*/
+/*GAME_CENTER_RENAME_ACCOUNT_TITLE*/
+/*RENAME*/
+/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE*/
+/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE*/
 "BACKUP_DATA_TO_FILE" = "إنشاء نسخة احتياطية للبيانات";
 "RESTORE_DATA_FROM_BACKUP_FILE" = "استعادة البيانات من ملف النسخة الاحتياطية";
 /*DEVICE_IDENTIFIER_FOR_VENDOR*/
@@ -54,6 +72,9 @@
 "CONTINUE" = "متابعة";
 "CLOSE" = "إغلاق";
 "SETTINGS" = "إعدادات";
+/*NEW_CONTAINER*/
+/*LAUNCH*/
+/*CREATE*/
 "INJECT_IN_SAFE_MODE" = "حقن الاداة في وضع الآمن للتطبيق";
 "INJECT_IN_SAFE_MODE_DESCRIPTION" = "افتراضيا Crane لا يعمل عندما تقوم بتشغيل تطبيق في وضع الآمن ( مثلا: عند استخدام خيار ' إلغاء حقن الأدوات ' الخاص ب Choicy أو خيار ' تشغيل بدون أدوات ' في اختصار التطبيقات )، عند تفعيل هذه الخيار سوف تتمكن من استخدام Crane ، ملاحضة: هذا الخيار ليس له تأثير في الوضع الآمن من الجيلبريك.";
 "RESTORE_WARNING_MESSAGE" = "سيؤدي استعادة النسخة الاحتياطية في استبدال البيانات الموجودة في الحاوية، متابعة؟";
@@ -115,7 +136,22 @@
 /*CONFIRM_PASSWORD*/
 /*SEP_ITEMS_OMMITED_WARNING_MESSAGE*/
 /*NEW_BACKUP*/
+/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER*/
+/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE*/
+/*SEPARATE_SYSTEM_ACCOUNTS*/
+/*GAME_CENTER_SUPPORT*/
 /*CONTAINER_PROTECTION*/
 /*CONTAINER_PROTECTION_FOOTER*/
 /*PREVIOUS_PASSWORD_WRONG_MESSAGE*/
 /*CRANESB_COMMUNICATION_NOT_WORKING*/
+/*SET_AS_THE_ACTIVE_CRANE_CONTAINER*/
+/*CHANGED_TO_CONTAINER*/
+/*SUGGESTIONS*/
+/*CHOICYLOADER_SUGGESTION_TITLE*/
+/*CHOICYLOADER_SUGGESTION_MESSAGE*/
+/*OPEN_REPO*/
+/*ACTIVATOR_INFO_SUGGESTION_TITLE*/
+/*ACTIVATOR_INFO_SUGGESTION_MESSAGE*/
+/*SHORTCUTS_INFO_SUGGESTION_TITLE*/
+/*SHORTCUTS_INFO_SUGGESTION_MESSAGE*/
+

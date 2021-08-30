@@ -9,20 +9,38 @@
 "CANCEL" = "Abbrechen";
 "CONTAINER_NAME" = "Name des Containers";
 "SAVE" = "Speichern";
-"DELETE_CONFIRMATION_TITLE" = "Löschen bestätigen?";
-"DELETE_CONFIRMATION_MESSAGE" = "Du bist kurz davor alle Daten vom Container '%@' zu löschen, diese Daten können nicht wiederhergestellt werden. Willst du trotzdem fortfahren?";
+"CONTAINER_DELETE_CONFIRMATION_TITLE" = "Löschen bestätigen?";
+"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "Du bist kurz davor alle Daten vom Container '%@' zu löschen, diese Daten können nicht wiederhergestellt werden. Willst du trotzdem fortfahren?";
 "DELETE" = "Löschen";
 "NONE" = "Keiner";
 "MAKE_DEFAULT_CONTAINER" = "Zum Standardcontainer machen";
 "DEFAULT_CONTAINER" = "Standardcontainer";
 "DEFAULT_CONTAINER_DESCRIPTION" = "Der Standardcontainer wird benutzt, wenn das Gerät nicht gejailbreaked oder Crane nicht geladen ist.";
 "CONTAINER_IDENTIFIER" = "Container-Identifier";
+/*PROTECT_USING_BIOMETRICS*/
+/*SET_ACTIVE_CONTAINER_DESCRIPTION*/
+/*DELETE_CONTAINER_DESCRIPTION*/
+/*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
 "UNNAMED" = "Unbennant";
 "APPLICATION_SHORTCUT_ENABLED" = "App Shortcuts aktiviert";
-"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "App bei Container-Auswahl starten";
+"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "App-Start bei Container-Auswahl";
 "EXPAND_CONTAINERS_SHORTCUT" = "Shortcut expandieren";
+"SHOW_NEW_CONTAINER_OPTION" = "'Neuer Container' Option anzeigen";
 "ONLY_SHOW_IF_CONTAINERS_EXIST" = "Nur anzeigen, wenn Container existieren";
 "APPLICATION_SHORTCUT_DESCRIPTION" = "Shortcut für das Wechseln zwischen Containern über das Haptic Touch / 3D Touch Menü von Applikationen.";
+/*GAME_CENTER_SECTION_HEADER*/
+/*GAME_CENTER_SECTION_FOOTER*/
+/*GAME_CENTER_ACCOUNT*/
+/*GAME_CENTER_ACCOUNTS*/
+/*MANAGE_GAME_CENTER_ACCOUNTS*/
+/*GAME_CENTER_MANAGER_FOOTER*/
+/*SYSTEM_DEFAULT*/
+/*GAME_CENTER_ADD_ACCOUNT_TITLE*/
+/*GAME_CENTER_ADD_ACCOUNT_MESSAGE*/
+/*GAME_CENTER_RENAME_ACCOUNT_TITLE*/
+/*RENAME*/
+/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE*/
+/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE*/
 "BACKUP_DATA_TO_FILE" = "Backup zu Datei";
 "RESTORE_DATA_FROM_BACKUP_FILE" = "Backup-Datei wiederherstellen";
 "DEVICE_IDENTIFIER_FOR_VENDOR" = "Geräte-Identifier für App-Entwickler";
@@ -54,6 +72,9 @@
 "CONTINUE" = "Fortsetzen";
 "CLOSE" = "Schließen";
 "SETTINGS" = "Einstellungen";
+"NEW_CONTAINER" = "Neuer Container";
+"LAUNCH" = "Starten";
+"CREATE" = "Erstellen";
 "INJECT_IN_SAFE_MODE" = "Im Safe Mode laden";
 "INJECT_IN_SAFE_MODE_DESCRIPTION" = "Standardmäßig funktioniert Crane nicht, wenn eine Applikation im Safe Mode gestartet wird (z.B. über die 'Tweaks deaktvieren' Option von Choicy oder über den 'Ohne Tweaks starten' Shortcut). Wenn diese Option aktiviert ist, lädt Crane auch dann. Diese Option hat keine Auswirkung auf den Safe Mode vom Jailbreak.";
 "RESTORE_WARNING_MESSAGE" = "Beim Wiederherstellen eines Backups werden die aktuellen Daten des Containers überschrieben, fortfahren?";
@@ -115,7 +136,22 @@
 "CONFIRM_PASSWORD" = "Passwort bestätigen";
 "SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "Ein oder mehrere Keychain Objekte dieser Applikation werden auf dem Secure Enclave gespeichert und wurden aus diesem Backup ausgelassen, da das Wiederherstellen der Objekte nicht möglich wäre. Beim Wiederherstellen dieses Backups müssen eventuell Passwörter oder andere Dinge erneut eingegeben werden. Fortfahren?";
 "NEW_BACKUP" = "Neues Backup";
+/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER*/
+/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE*/
+/*SEPARATE_SYSTEM_ACCOUNTS*/
+/*GAME_CENTER_SUPPORT*/
 "CONTAINER_PROTECTION" = "Container Absicherung";
 "CONTAINER_PROTECTION_FOOTER" = "Hält die Applikation davon ab die Daten von anderen Containern zu löschen, wenn sie in den Standardcontainer gestartet ist. Diese Option ist für manche Apps erforderlich, sie verwendet allerdings Hooks innerhalb des App-Prozesses.";
 "PREVIOUS_PASSWORD_WRONG_MESSAGE" = "Das zuvor eingegebene Passwort war falsch. Bitte versuche es erneut!";
 "CRANESB_COMMUNICATION_NOT_WORKING" = "Kommunikation mit SpringBoard funktioniert nicht, dies wird entweder dadurch verursacht, dass RocketBootstrap nicht funktioniert oder dadurch dass CraneSB.dylib nicht in SpringBoard geladen ist. Ein Feature, welches Apps automatisch neu lädt, wenn dies aufgrund der Auswahl einer Option in den Crane Einstellungen erforderlich ist, wird nicht funktionieren. Fortfahren auf eigene Gefahr.";
+/*SET_AS_THE_ACTIVE_CRANE_CONTAINER*/
+/*CHANGED_TO_CONTAINER*/
+/*SUGGESTIONS*/
+/*CHOICYLOADER_SUGGESTION_TITLE*/
+/*CHOICYLOADER_SUGGESTION_MESSAGE*/
+/*OPEN_REPO*/
+/*ACTIVATOR_INFO_SUGGESTION_TITLE*/
+/*ACTIVATOR_INFO_SUGGESTION_MESSAGE*/
+/*SHORTCUTS_INFO_SUGGESTION_TITLE*/
+/*SHORTCUTS_INFO_SUGGESTION_MESSAGE*/
+

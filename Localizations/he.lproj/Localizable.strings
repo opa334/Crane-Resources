@@ -9,20 +9,38 @@
 "CANCEL" = "ביטול";
 "CONTAINER_NAME" = "שם שכפול";
 "SAVE" = "שמירה";
-"DELETE_CONFIRMATION_TITLE" = "מאשר מחיקה?";
-"DELETE_CONFIRMATION_MESSAGE" = "אתה עומד למחוק את כל הנתונים המשויכים אל השכפול '%@', לא ניתן לשחזר נתונים אלה. האם אתה מעוניין להמשיך?";
+"CONTAINER_DELETE_CONFIRMATION_TITLE" = "מאשר מחיקה?";
+"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "אתה עומד למחוק את כל הנתונים המשויכים אל השכפול '%@', לא ניתן לשחזר נתונים אלה. האם אתה מעוניין להמשיך?";
 "DELETE" = "מחיקה";
 "NONE" = "אף אחד";
 "MAKE_DEFAULT_CONTAINER" = "הגדר שכפול ברירת מחדל ";
 "DEFAULT_CONTAINER" = "שכפול ברירת מחדל ";
 "DEFAULT_CONTAINER_DESCRIPTION" = "הברירת המחדל היא שכפול שישמש כאשר המכשיר שלך לא פרוץ או כאשר Crane לא עמוסה.";
 "CONTAINER_IDENTIFIER" = "מזהה שכפול";
+/*PROTECT_USING_BIOMETRICS*/
+/*SET_ACTIVE_CONTAINER_DESCRIPTION*/
+/*DELETE_CONTAINER_DESCRIPTION*/
+/*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
 "UNNAMED" = "ללא שם";
 "APPLICATION_SHORTCUT_ENABLED" = "אפליקציית ׳קיצורים׳ מופעלת";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "הפעל את שכפול אפליקציה לפי בחירה";
 "EXPAND_CONTAINERS_SHORTCUT" = "הרחב קיצורי דרך";
+/*SHOW_NEW_CONTAINER_OPTION*/
 "ONLY_SHOW_IF_CONTAINERS_EXIST" = "הראה רק אם קיימים שכפולי אפליקציה";
 "APPLICATION_SHORTCUT_DESCRIPTION" = "קיצור דרך לניהול של ״שכפול אפליקציה״ על ידי טביעת אצבע / זיהוי פנים ומאפשר הפעלת האפליקציה בעת בחירת שכפול מקיצורים.";
+/*GAME_CENTER_SECTION_HEADER*/
+/*GAME_CENTER_SECTION_FOOTER*/
+/*GAME_CENTER_ACCOUNT*/
+/*GAME_CENTER_ACCOUNTS*/
+/*MANAGE_GAME_CENTER_ACCOUNTS*/
+/*GAME_CENTER_MANAGER_FOOTER*/
+/*SYSTEM_DEFAULT*/
+/*GAME_CENTER_ADD_ACCOUNT_TITLE*/
+/*GAME_CENTER_ADD_ACCOUNT_MESSAGE*/
+/*GAME_CENTER_RENAME_ACCOUNT_TITLE*/
+/*RENAME*/
+/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE*/
+/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE*/
 "BACKUP_DATA_TO_FILE" = "גיבוי נתונים לקובץ";
 "RESTORE_DATA_FROM_BACKUP_FILE" = "שחזר נתונים מקובץ הגיבוי";
 "DEVICE_IDENTIFIER_FOR_VENDOR" = "מזהה מכשיר לספק";
@@ -54,6 +72,9 @@
 "CONTINUE" = "המשך";
 "CLOSE" = "סגור";
 "SETTINGS" = "הגדרות";
+/*NEW_CONTAINER*/
+/*LAUNCH*/
+"CREATE" = "צור";
 "INJECT_IN_SAFE_MODE" = "מצב בטוח";
 "INJECT_IN_SAFE_MODE_DESCRIPTION" = "מחדל של Crane אינו פועל כאשר אפליקציה מופעלת במצב בטוח (למשל באמצעות מתג 'השבת הזרקת טוויק' של Choicy או קיצור הדרך לאפליקציה 'הפעל ללא טוויק'), כאשר אפשרות זו מופעלת, היא תמיד תזריק. אין לכך כל השפעה על המצב הבטוח מפגיעת הפריצה.";
 "RESTORE_WARNING_MESSAGE" = "שחזור גיבוי יחליף את הנתונים הנוכחיים של השכפולים, להמשיך?";
@@ -115,7 +136,22 @@
 "CONFIRM_PASSWORD" = "אשר סיסמה ";
 "SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "אזהרה! פריט אחד או יותר של מחזיקי מפתחות של אפליקציה זו נשמרים בסיסמאות המאובטחות וימחקו מהגיבוי מכיוון ששחזורם יהיה בלתי אפשרי. בעת שחזור גיבוי זה, ייתכן שיהיה עליך להזין סיסמאות או בעיות אחרות עלולות להופיע. האם אתה רוצה להמשיך?";
 "NEW_BACKUP" = "גיבוי חדש";
+/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER*/
+/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE*/
+/*SEPARATE_SYSTEM_ACCOUNTS*/
+/*GAME_CENTER_SUPPORT*/
 "CONTAINER_PROTECTION" = "הגנה על שכפול אפליקציה";
 "CONTAINER_PROTECTION_FOOTER" = "מנע מאפליקציה זו להסיר נתונים של אחרים של ״שכפול אפליקציה״ כאשר הושק לשכפול ברירת המחדל, הדרוש לאפליקציות מסוימות. הטוויק משתמש בקרסי אפליקציה.";
 "PREVIOUS_PASSWORD_WRONG_MESSAGE" = "הסיסמה שהוזנה בעבר הייתה שגויה. נסה שוב!";
 "CRANESB_COMMUNICATION_NOT_WORKING" = "החיבור ל-SpringBoard אינו פועל, זה נגרם על ידי \"רצועה-רקטה-בוט\" שאינה פועלת או על ידי CraneSB.dylib שלא הוזרק ל-SpringBoard. לכן תכונה שבה אפליקציות נטענות אוטומטית (כאשר נדרשת על ידי אפשרות שתבחר בהעדפות Crane) לא תפעל, תמשיך על אחריותך בלבד.";
+/*SET_AS_THE_ACTIVE_CRANE_CONTAINER*/
+/*CHANGED_TO_CONTAINER*/
+/*SUGGESTIONS*/
+/*CHOICYLOADER_SUGGESTION_TITLE*/
+/*CHOICYLOADER_SUGGESTION_MESSAGE*/
+/*OPEN_REPO*/
+/*ACTIVATOR_INFO_SUGGESTION_TITLE*/
+/*ACTIVATOR_INFO_SUGGESTION_MESSAGE*/
+/*SHORTCUTS_INFO_SUGGESTION_TITLE*/
+/*SHORTCUTS_INFO_SUGGESTION_MESSAGE*/
+

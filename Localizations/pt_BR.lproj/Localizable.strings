@@ -9,20 +9,38 @@
 "CANCEL" = "Cancelar";
 "CONTAINER_NAME" = "Nome do Container";
 "SAVE" = "Salvar";
-"DELETE_CONFIRMATION_TITLE" = "Confirmar exclusão?";
-"DELETE_CONFIRMATION_MESSAGE" = "Você está prestes a excluir todos os dados associados ao contêiner '%@', esses dados não podem ser recuperados. Você deseja continuar?";
+"CONTAINER_DELETE_CONFIRMATION_TITLE" = "Confirmar exclusão?";
+"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "Você está prestes a excluir todos os dados associados ao contêiner '%@', esses dados não podem ser recuperados. Você deseja continuar?";
 "DELETE" = "Apagar";
 "NONE" = "Nenhum";
 "MAKE_DEFAULT_CONTAINER" = "Tornar o Container Padrão";
 "DEFAULT_CONTAINER" = "Container Padrão";
 "DEFAULT_CONTAINER_DESCRIPTION" = "O container padrão será usado quando o dispositivo não for jailbroken ou quando o Crane não for carregado.";
 "CONTAINER_IDENTIFIER" = "Identificador de container";
+/*PROTECT_USING_BIOMETRICS*/
+/*SET_ACTIVE_CONTAINER_DESCRIPTION*/
+/*DELETE_CONTAINER_DESCRIPTION*/
+/*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
 "UNNAMED" = "Sem nome";
 "APPLICATION_SHORTCUT_ENABLED" = "Atalhos de aplicativos habilitados";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Lançamento do aplicativo na seleção de contêineres";
 "EXPAND_CONTAINERS_SHORTCUT" = "Expandir atalhos";
+/*SHOW_NEW_CONTAINER_OPTION*/
 "ONLY_SHOW_IF_CONTAINERS_EXIST" = "Mostrar apenas se existirem contêineres";
 "APPLICATION_SHORTCUT_DESCRIPTION" = "Atalho para alternar entre os containers do menu de toque tátil/toque 3D dos aplicativos.";
+/*GAME_CENTER_SECTION_HEADER*/
+/*GAME_CENTER_SECTION_FOOTER*/
+/*GAME_CENTER_ACCOUNT*/
+/*GAME_CENTER_ACCOUNTS*/
+/*MANAGE_GAME_CENTER_ACCOUNTS*/
+/*GAME_CENTER_MANAGER_FOOTER*/
+/*SYSTEM_DEFAULT*/
+/*GAME_CENTER_ADD_ACCOUNT_TITLE*/
+/*GAME_CENTER_ADD_ACCOUNT_MESSAGE*/
+/*GAME_CENTER_RENAME_ACCOUNT_TITLE*/
+/*RENAME*/
+/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE*/
+/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE*/
 "BACKUP_DATA_TO_FILE" = "Dados de backup para arquivar";
 "RESTORE_DATA_FROM_BACKUP_FILE" = "Restaurar dados do arquivo de backup";
 /*DEVICE_IDENTIFIER_FOR_VENDOR*/
@@ -54,6 +72,9 @@
 "CONTINUE" = "Continuar";
 "CLOSE" = "Fechar";
 "SETTINGS" = "Configurações";
+/*NEW_CONTAINER*/
+/*LAUNCH*/
+"CREATE" = "Criar";
 "INJECT_IN_SAFE_MODE" = "Injetar no modo de segurança";
 "INJECT_IN_SAFE_MODE_DESCRIPTION" = "Por padrão, o Crane não funciona quando um aplicativo é iniciado no modo de segurança (por exemplo, usando a alternância de cicatrizes \"Desativar a injeção de tweak\" ou o \"lançamento sem ajuste\", com essa opção ativada, ela sempre será injetada. Isso não tem nenhum efeito no modo de segurança do jailbreak.";
 "RESTORE_WARNING_MESSAGE" = "Restaurar um backup vai sobrescrever os dados atuais do contêiner, continuar?";
@@ -115,7 +136,22 @@
 "CONFIRM_PASSWORD" = "Confirmar Senha";
 "SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "Um ou mais itens de chaveiro deste aplicativo são armazenados no enclave seguro e foram omitidos a partir do backup, porque restaurá-los seria impossível. Ao restaurar esse backup, talvez seja necessário reentrar senhas ou outros problemas que possam contratar. Você quer continuar?";
 "NEW_BACKUP" = "Novo Backup";
+/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER*/
+/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE*/
+/*SEPARATE_SYSTEM_ACCOUNTS*/
+/*GAME_CENTER_SUPPORT*/
 "CONTAINER_PROTECTION" = "Proteção de contêineres.";
 "CONTAINER_PROTECTION_FOOTER" = "Impedir que o aplicativo remova dados de outros contêineres quando lançado no contêiner padrão, necessário para alguns aplicativos. Usa ganchos de aplicativos.";
 "PREVIOUS_PASSWORD_WRONG_MESSAGE" = "A senha inserida anteriormente estava errada. Por favor, tente novamente!";
 /*CRANESB_COMMUNICATION_NOT_WORKING*/
+/*SET_AS_THE_ACTIVE_CRANE_CONTAINER*/
+/*CHANGED_TO_CONTAINER*/
+/*SUGGESTIONS*/
+/*CHOICYLOADER_SUGGESTION_TITLE*/
+/*CHOICYLOADER_SUGGESTION_MESSAGE*/
+/*OPEN_REPO*/
+/*ACTIVATOR_INFO_SUGGESTION_TITLE*/
+/*ACTIVATOR_INFO_SUGGESTION_MESSAGE*/
+/*SHORTCUTS_INFO_SUGGESTION_TITLE*/
+/*SHORTCUTS_INFO_SUGGESTION_MESSAGE*/
+
