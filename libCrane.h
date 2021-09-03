@@ -38,10 +38,13 @@ typedef NS_ENUM(NSInteger, ContainerPathType) {
 
 // app settings
 - (NSArray*)identfiersOfApplicationsThatHaveNonDefaultContainers;
+- (NSArray*)identifiersOfAllInstalledApplications;
+- (NSString*)displayNameForApplicationWithIdentifier:(NSString*)applicationID;
 - (NSDictionary*)applicationSettingsForApplicationWithIdentifier:(NSString*)applicationID;
 - (void)setApplicationSettings:(NSDictionary*)appSettings forApplicationWithIdentifier:(NSString*)applicationID;
 - (NSString*)activeContainerIdentifierForApplicationWithIdentifier:(NSString*)applicationID;
-- (void)setActiveContainerIdentifier:(NSString*)containerID forApplicationWithIdentifier:(NSString*)applicationID;
+- (void)setActiveContainerIdentifier:(NSString*)containerID forApplicationWithIdentifier:(NSString*)applicationID; // does not respect biometric protection setting
+- (void)setActiveContainerIdentifier:(NSString*)containerID forApplicationWithIdentifier:(NSString*)applicationID usingBiometricsIfNeededWithSuccessHandler:(void (^)(BOOL))successHandler; //respects biometric protection setting and does authentication if neccessary
 - (NSArray*)containerIdentifiersOfApplicationWithIdentifier:(NSString*)applicationID;
 
 - (void)createNewContainerWithName:(NSString*)containerName andIdentifier:(NSString*)containerID forApplicationWithIdentifier:(NSString*)applicationID;
