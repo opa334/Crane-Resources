@@ -154,3 +154,4 @@
 "ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane permite associar uma ação do Activator a ser executada sempre que um contêiner específico for ativado. Pode ser acessado em Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> Crane. Também tem ações para definir um contêiner específico de um aplicativo como ativo, pode ser acessao em Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> (Any Event) -> Crane.";
 "SHORTCUTS_INFO_SUGGESTION_TITLE" = "Integração com Shortcut";
 "SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "Crane inclui uma Shortcut Action para definir o contêiner ativo de um aplicativo, pode ser acessado ao adicionar uma Action em um Shortcut em Apps -> Crane -> Set Active Crane Container";
+

@@ -17,10 +17,10 @@
 "DEFAULT_CONTAINER" = "Standardcontainer";
 "DEFAULT_CONTAINER_DESCRIPTION" = "Der Standardcontainer wird benutzt, wenn das Gerät nicht gejailbreaked oder Crane nicht geladen ist.";
 "CONTAINER_IDENTIFIER" = "Container-Identifier";
-/*PROTECT_USING_BIOMETRICS*/
-/*SET_ACTIVE_CONTAINER_DESCRIPTION*/
-/*DELETE_CONTAINER_DESCRIPTION*/
-/*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
+"PROTECT_USING_BIOMETRICS" = "Mit Biometrie schützen";
+"SET_ACTIVE_CONTAINER_DESCRIPTION" = "Aktiven Container auf \"%@\" setzen";
+"DELETE_CONTAINER_DESCRIPTION" = "Container \"%@\" löschen";
+"ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "Einstellungen von Container \"%@\" anzeigen";
 "UNNAMED" = "Unbennant";
 "APPLICATION_SHORTCUT_ENABLED" = "App Shortcuts aktiviert";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "App-Start bei Container-Auswahl";
@@ -28,19 +28,19 @@
 "SHOW_NEW_CONTAINER_OPTION" = "'Neuer Container' Option anzeigen";
 "ONLY_SHOW_IF_CONTAINERS_EXIST" = "Nur anzeigen, wenn Container existieren";
 "APPLICATION_SHORTCUT_DESCRIPTION" = "Shortcut für das Wechseln zwischen Containern über das Haptic Touch / 3D Touch Menü von Applikationen.";
-/*GAME_CENTER_SECTION_HEADER*/
-/*GAME_CENTER_SECTION_FOOTER*/
-/*GAME_CENTER_ACCOUNT*/
-/*GAME_CENTER_ACCOUNTS*/
-/*MANAGE_GAME_CENTER_ACCOUNTS*/
-/*GAME_CENTER_MANAGER_FOOTER*/
-/*SYSTEM_DEFAULT*/
-/*GAME_CENTER_ADD_ACCOUNT_TITLE*/
-/*GAME_CENTER_ADD_ACCOUNT_MESSAGE*/
-/*GAME_CENTER_RENAME_ACCOUNT_TITLE*/
-/*RENAME*/
-/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE*/
-/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE*/
+"GAME_CENTER_SECTION_HEADER" = "Game Center";
+"GAME_CENTER_SECTION_FOOTER" = "Wähle den Game Center Account, auf den beim starten der App in den Container gewechselt werden soll.";
+"GAME_CENTER_ACCOUNT" = "Game Center Account";
+"GAME_CENTER_ACCOUNTS" = "Game Center Accounts";
+"MANAGE_GAME_CENTER_ACCOUNTS" = "Game Center Accounts verwalten";
+"GAME_CENTER_MANAGER_FOOTER" = "Aufgrund von technischen Limitationen musst du jeden GameCenter Account in dieser Liste hinzufügen. Der Account kann dann zu einem oder mehreren Container(n) zugewiesen werden und das System wird auf den jeweiligen Account wechseln wenn die App in den Container gestartet wird. Wenn du eine App hast, welche GameCenter verwendet, für die du Crane nicht verwenden willst, musst du dennoch 'System Accounts separieren' und 'Game Center Support' für sie aktivieren, damit beim App-Start wieder auf den Standardaccount des Systems gewechselt wird.";
+"SYSTEM_DEFAULT" = "Standardaccount des Systems";
+"GAME_CENTER_ADD_ACCOUNT_TITLE" = "Account hinzufügen";
+"GAME_CENTER_ADD_ACCOUNT_MESSAGE" = "Gebe den Accountnamen ein. Das Fenster zum einloggen wird erscheinen wenn du zum ersten Mal eine App in einen Container startest, welchem dieser Account zugewiesen ist.";
+"GAME_CENTER_RENAME_ACCOUNT_TITLE" = "Account umbenennen";
+"RENAME" = "Umbenennen";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE" = "Account löschen";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE" = "Bist du sicher, dass der Game Center Account \"%@\" gelöscht werden soll? Jeder Container der diesen Account zugewiesen hat wird auf den Standardaccount des Systems wechseln.";
 "BACKUP_DATA_TO_FILE" = "Backup zu Datei";
 "RESTORE_DATA_FROM_BACKUP_FILE" = "Backup-Datei wiederherstellen";
 "DEVICE_IDENTIFIER_FOR_VENDOR" = "Geräte-Identifier für App-Entwickler";
@@ -136,22 +136,21 @@
 "CONFIRM_PASSWORD" = "Passwort bestätigen";
 "SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "Ein oder mehrere Keychain Objekte dieser Applikation werden auf dem Secure Enclave gespeichert und wurden aus diesem Backup ausgelassen, da das Wiederherstellen der Objekte nicht möglich wäre. Beim Wiederherstellen dieses Backups müssen eventuell Passwörter oder andere Dinge erneut eingegeben werden. Fortfahren?";
 "NEW_BACKUP" = "Neues Backup";
-/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER*/
-/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE*/
-/*SEPARATE_SYSTEM_ACCOUNTS*/
-/*GAME_CENTER_SUPPORT*/
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER" = "Wenn aktiviert kriegt jeder Container, außer dem Standardcontainer, seine eigenen Systemaccounts (z.B. Apple ID) zugewiesen. Am nützlichsten ist dies für System Apps wie z.B. der AppStore. Game Center Unterstützung muss seperat aktiviert werden und für jeden Container muss manuell ein Game Center Account in den Container-Einstellungen ausgewählt werden.";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE" = "Wenn aktiviert kriegt jeder Container, außer dem Standardcontainer, seine eigenen Systemaccounts (z.B. Apple ID) zugewiesen. Am nützlichsten ist dies für System Apps wie z.B. der AppStore. Game Center Unterstützung ist in Crane Lite nicht enthalten und erfordert die Vollversion von Crane.";
+"SEPARATE_SYSTEM_ACCOUNTS" = "System-Accounts separieren";
+"GAME_CENTER_SUPPORT" = "Game Center Unterstützung";
 "CONTAINER_PROTECTION" = "Container Absicherung";
-"CONTAINER_PROTECTION_FOOTER" = "Hält die Applikation davon ab die Daten von anderen Containern zu löschen, wenn sie in den Standardcontainer gestartet ist. Diese Option ist für manche Apps erforderlich, sie verwendet allerdings Hooks innerhalb des App-Prozesses.";
+"CONTAINER_PROTECTION_FOOTER" = "Hält die App davon ab die Daten von anderen Containern zu löschen, wenn sie in den Standardcontainer gestartet ist. Diese Option ist für manche Apps erforderlich, sie verwendet allerdings Hooks innerhalb des App-Prozesses.";
 "PREVIOUS_PASSWORD_WRONG_MESSAGE" = "Das zuvor eingegebene Passwort war falsch. Bitte versuche es erneut!";
 "CRANESB_COMMUNICATION_NOT_WORKING" = "Kommunikation mit SpringBoard funktioniert nicht, dies wird entweder dadurch verursacht, dass RocketBootstrap nicht funktioniert oder dadurch dass CraneSB.dylib nicht in SpringBoard geladen ist. Ein Feature, welches Apps automatisch neu lädt, wenn dies aufgrund der Auswahl einer Option in den Crane Einstellungen erforderlich ist, wird nicht funktionieren. Fortfahren auf eigene Gefahr.";
-/*SET_AS_THE_ACTIVE_CRANE_CONTAINER*/
-/*CHANGED_TO_CONTAINER*/
-/*SUGGESTIONS*/
-/*CHOICYLOADER_SUGGESTION_TITLE*/
-/*CHOICYLOADER_SUGGESTION_MESSAGE*/
-/*OPEN_REPO*/
-/*ACTIVATOR_INFO_SUGGESTION_TITLE*/
-/*ACTIVATOR_INFO_SUGGESTION_MESSAGE*/
-/*SHORTCUTS_INFO_SUGGESTION_TITLE*/
-/*SHORTCUTS_INFO_SUGGESTION_MESSAGE*/
-
+"SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "Setze \"%@\" als aktiven Crane Container";
+"CHANGED_TO_CONTAINER" = "\"%@\" wechselt auf Crane Container \"%@\"";
+"SUGGESTIONS" = "Vorschläge";
+"CHOICYLOADER_SUGGESTION_TITLE" = "Probleme auf Substrate?";
+"CHOICYLOADER_SUGGESTION_MESSAGE" = "Die Hauptbibliothek von Crane (\" Crane.dylib\") muss als erstes in Apps geladen werden, auf Substrate passiert das nicht automatisch und wenn bestimmte Tweaks vor Crane laden kann dies die Funktionalität von Crane beeinträchtigen. Symptome sind unter anderem, dass alle Container in den Standardcontainer starten, dass Container beim App-Launch ihre Daten verlieren oder dass Daten zwischen den Containern desynchronisieren. Wenn eines dieser Probleme auf dich zutrifft, installiere das Paket ChoicyLoader von der Quelle https://opa334.github.io, dies stellt sicher dass Crane früh genug lädt und behebt somit die Probleme.";
+"OPEN_REPO" = "Quelle öffnen";
+"ACTIVATOR_INFO_SUGGESTION_TITLE" = "Activator-Integration";
+"ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane erlaubt das Festlegen einer Activator-Action, welche ausgeführt wird, wenn auf einen bestimmten Container gewechselt wird. Dies befindet sich unter Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> Crane. Ebenfalls gibt es eine Aktion um einen spezifischen Container als aktiv zu setzen, dies befindet sich unter Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> (Irgendein Event) -> Crane.";
+"SHORTCUTS_INFO_SUGGESTION_TITLE" = "Shortcuts-Integration";
+"SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "Crane bringt eine Shortcuts Aktion mit, mit welcher ein bestimmter Container als aktiv gesetzt werden kann, auf diese Funktion kann beim Hinzufügen von einer Aktion zu einem Shortcut über Apps -> Crane -> Setze aktiven Crane Container zugegriffen werden.";
