@@ -138,7 +138,7 @@
 "CONFIRM_PASSWORD" = "Confirm Password";
 "SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "One or more keychain items of this application are stored on the secure enclave and have been omitted from the backup because restoring them would be impossible. When restoring this backup, you may need to reenter passwords or other issues might arrise. Do you want to continue?";
 "NEW_BACKUP" = "New Backup";
-"SEPARATE_SYSTEM_ACCOUNTS_FOOTER" = "Whether to redirect system accounts (e.g. Apple ID) accessed by the application per container. Mostly useful for system applications like AppStore. Game Center support has to be enabled separately and requires you to manually assign a Game Center account to a container in it's settings.";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER" = "Whether to redirect system accounts (e.g. Apple ID) accessed by the application per container. Mostly useful for system applications like AppStore. Game Center support has to be enabled separately and requires you to manually assign a Game Center account to a container in its settings.";
 "SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE" = "Whether to redirect system accounts (e.g. Apple ID) accessed by the application per container. Mostly useful for system applications like AppStore. Game Center support is not included in Crane Lite, only in the full version of Crane.";
 "SEPARATE_SYSTEM_ACCOUNTS" = "Separate System Accounts";
 "GAME_CENTER_SUPPORT" = "Game Center Support";
@@ -150,7 +150,7 @@
 "CHANGED_TO_CONTAINER" = "\"%@\" changed to Crane container \"%@\"";
 "SUGGESTIONS" = "Suggestions";
 "CHOICYLOADER_SUGGESTION_TITLE" = "Issues on Substrate?";
-"CHOICYLOADER_SUGGESTION_MESSAGE" = "The main Crane library (\" Crane.dylib\") needs to inject into applications first, on Substrate this does not happen automatically and some tweaks loading before Crane can partially or fully break it's functionality. Common symptoms include all containers appearing as the default container, containers getting wiped on app relaunch or data desyncs. If any of these problems affect you, install ChoicyLoader from https://opa334.github.io which will fix them by ensuring that Crane always loads first.";
+"CHOICYLOADER_SUGGESTION_MESSAGE" = "The main Crane library (\" Crane.dylib\") needs to inject into applications first, on Substrate this does not happen automatically and some tweaks loading before Crane can partially or fully break its functionality. Common symptoms include all containers appearing as the default container, containers getting wiped on app relaunch or data desyncs. If any of these problems affect you, install ChoicyLoader from https://opa334.github.io which will fix them by ensuring that Crane always loads first.";
 "OPEN_REPO" = "Open Repo";
 "ACTIVATOR_INFO_SUGGESTION_TITLE" = "Activator Integration";
 "ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane allows you to assign an activator action to execute whenever a specific container is set as active. This can be accessed from Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> Crane. It also features actions to set a specific container for an application as active, that can be accessed inside Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> (Any Event) -> Crane.";
