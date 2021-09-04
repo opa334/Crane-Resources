@@ -22,12 +22,13 @@
 /*DELETE_CONTAINER_DESCRIPTION*/
 /*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
 "UNNAMED" = "未命名";
-"APPLICATION_SHORTCUT_ENABLED" = "應用程式快捷啟用";
+/*APP_SHORTCUTS*/
+"APP_SHORTCUT_ENABLED" = "應用程式快捷啟用";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "選擇快捷選單的容器後直接開啟APP";
 "EXPAND_CONTAINERS_SHORTCUT" = "擴展容器快捷";
 /*SHOW_NEW_CONTAINER_OPTION*/
 /*ONLY_SHOW_IF_CONTAINERS_EXIST*/
-"APPLICATION_SHORTCUT_DESCRIPTION" = "通過應用程式的Haptic touch(3D touch)快捷選單，管理啟動分身(容器)的快捷，以及通過開啟/關閉「選擇快捷選單的容器後直接開啟APP」來決定是否在點擊快捷選單中的容器後直接開啟應用程式。";
+"APP_SHORTCUT_DESCRIPTION" = "通過應用程式的Haptic touch(3D touch)快捷選單，管理啟動分身(容器)的快捷，以及通過開啟/關閉「選擇快捷選單的容器後直接開啟APP」來決定是否在點擊快捷選單中的容器後直接開啟應用程式。";
 /*GAME_CENTER_SECTION_HEADER*/
 /*GAME_CENTER_SECTION_FOOTER*/
 /*GAME_CENTER_ACCOUNT*/
@@ -88,6 +89,7 @@
 /*CRANE_DYLIB_NOT_LOADED_ERROR*/
 "AND" = "和";
 "CRANE_ERROR" = "Crane 錯誤";
+/*OTHER*/
 "FOLLOW_ME_ON_TWITTER" = "在Twitter上追蹤我";
 /*CREDITS*/
 "CREDITS_AND_LICENSES" = "Credits & Licenses";

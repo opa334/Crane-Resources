@@ -22,12 +22,13 @@
 /*DELETE_CONTAINER_DESCRIPTION*/
 /*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
 "UNNAMED" = "Безымянный";
-"APPLICATION_SHORTCUT_ENABLED" = "Пункт в меню Haptic touch";
+/*APP_SHORTCUTS*/
+"APP_SHORTCUT_ENABLED" = "Пункт в меню Haptic touch";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Запускать приложение при выборе контейнера";
 "EXPAND_CONTAINERS_SHORTCUT" = "Развернуть меню Haptic touch";
 /*SHOW_NEW_CONTAINER_OPTION*/
 "ONLY_SHOW_IF_CONTAINERS_EXIST" = "Показывать только при наличии контейнеров";
-"APPLICATION_SHORTCUT_DESCRIPTION" = "Пункт в меню 3D touch / Haptic touch для переключения между контейнерами ";
+"APP_SHORTCUT_DESCRIPTION" = "Пункт в меню 3D touch / Haptic touch для переключения между контейнерами ";
 /*GAME_CENTER_SECTION_HEADER*/
 /*GAME_CENTER_SECTION_FOOTER*/
 /*GAME_CENTER_ACCOUNT*/
@@ -88,6 +89,7 @@
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "Для приложения %@ был открыт контейнер по умолчанию, так как мы не смогли загрузить в него библиотеку Crane dylib. Убедитесь, что Crane не был отключен с помощью Choicy, TweakRestrict или им подобными и повторите попытку.";
 "AND" = "и";
 "CRANE_ERROR" = "Ошибка Crane";
+/*OTHER*/
 "FOLLOW_ME_ON_TWITTER" = "Подпишитесь на меня в Twitter";
 "CREDITS" = "Благодарности";
 "CREDITS_AND_LICENSES" = "Благодарности и лицензии";

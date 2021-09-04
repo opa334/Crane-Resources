@@ -22,12 +22,13 @@
 /*DELETE_CONTAINER_DESCRIPTION*/
 /*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
 "UNNAMED" = "ללא שם";
-"APPLICATION_SHORTCUT_ENABLED" = "אפליקציית ׳קיצורים׳ מופעלת";
+/*APP_SHORTCUTS*/
+"APP_SHORTCUT_ENABLED" = "אפליקציית ׳קיצורים׳ מופעלת";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "הפעל את שכפול אפליקציה לפי בחירה";
 "EXPAND_CONTAINERS_SHORTCUT" = "הרחב קיצורי דרך";
 /*SHOW_NEW_CONTAINER_OPTION*/
 "ONLY_SHOW_IF_CONTAINERS_EXIST" = "הראה רק אם קיימים שכפולי אפליקציה";
-"APPLICATION_SHORTCUT_DESCRIPTION" = "קיצור דרך לניהול של ״שכפול אפליקציה״ על ידי טביעת אצבע / זיהוי פנים ומאפשר הפעלת האפליקציה בעת בחירת שכפול מקיצורים.";
+"APP_SHORTCUT_DESCRIPTION" = "קיצור דרך לניהול של ״שכפול אפליקציה״ על ידי טביעת אצבע / זיהוי פנים ומאפשר הפעלת האפליקציה בעת בחירת שכפול מקיצורים.";
 /*GAME_CENTER_SECTION_HEADER*/
 /*GAME_CENTER_SECTION_FOOTER*/
 /*GAME_CENTER_ACCOUNT*/
@@ -88,6 +89,7 @@
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "האפליקציה %@ מחוברת אל ״שכפול אפליקציה״ ברירת המחדל מכיוון שהטוויק Crane לא הוגדר בתוכו. נא וודא שהוא לא הושבת באמצעות Choicy, TweakRestrict או דומה ונסה שוב.";
 "AND" = "ו";
 "CRANE_ERROR" = "Crane שגיאה";
+/*OTHER*/
 "FOLLOW_ME_ON_TWITTER" = "עקוב אחריי בטוויטר";
 "CREDITS" = "קרדיטים";
 "CREDITS_AND_LICENSES" = "רשיון וקרדיטים";

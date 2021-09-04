@@ -22,12 +22,13 @@
 /*DELETE_CONTAINER_DESCRIPTION*/
 /*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
 "UNNAMED" = "بدون اسم";
-"APPLICATION_SHORTCUT_ENABLED" = "تفعيل اختصارات التطبيق";
+/*APP_SHORTCUTS*/
+"APP_SHORTCUT_ENABLED" = "تفعيل اختصارات التطبيق";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "فتح التطبيق عند اختيار الحاوية";
 "EXPAND_CONTAINERS_SHORTCUT" = "توسيع اسماء الحاويات";
 /*SHOW_NEW_CONTAINER_OPTION*/
 /*ONLY_SHOW_IF_CONTAINERS_EXIST*/
-"APPLICATION_SHORTCUT_DESCRIPTION" = "إدارة اختصارات الحاوية من قائمة اللمس للتطبيق و كيفية تشغيل التطبيق عند تحديد حاوية عبر الاختصار.";
+"APP_SHORTCUT_DESCRIPTION" = "إدارة اختصارات الحاوية من قائمة اللمس للتطبيق و كيفية تشغيل التطبيق عند تحديد حاوية عبر الاختصار.";
 /*GAME_CENTER_SECTION_HEADER*/
 /*GAME_CENTER_SECTION_FOOTER*/
 /*GAME_CENTER_ACCOUNT*/
@@ -88,6 +89,7 @@
 /*CRANE_DYLIB_NOT_LOADED_ERROR*/
 "AND" = "أو";
 "CRANE_ERROR" = "خطأ";
+/*OTHER*/
 "FOLLOW_ME_ON_TWITTER" = "متابعتي على تويتر";
 /*CREDITS*/
 "CREDITS_AND_LICENSES" = "الاعتمادات والتراخيص";

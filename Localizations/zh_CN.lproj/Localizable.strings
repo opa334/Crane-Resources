@@ -22,12 +22,13 @@
 /*DELETE_CONTAINER_DESCRIPTION*/
 /*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
 "UNNAMED" = "未命名";
-"APPLICATION_SHORTCUT_ENABLED" = "快捷启动应用程序";
+/*APP_SHORTCUTS*/
+"APP_SHORTCUT_ENABLED" = "快捷启动应用程序";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "直接通过快捷菜单启动容器";
 "EXPAND_CONTAINERS_SHORTCUT" = "容器菜单默认展开";
 /*SHOW_NEW_CONTAINER_OPTION*/
 /*ONLY_SHOW_IF_CONTAINERS_EXIST*/
-"APPLICATION_SHORTCUT_DESCRIPTION" = "通过长按/用力按压应用图标，召出快捷菜单来管理接下来需要使用的分身(容器)，以及使用“直接通过快捷菜单启动容器”选项来决定是否在单击菜单中容器时直接启动。";
+"APP_SHORTCUT_DESCRIPTION" = "通过长按/用力按压应用图标，召出快捷菜单来管理接下来需要使用的分身(容器)，以及使用“直接通过快捷菜单启动容器”选项来决定是否在单击菜单中容器时直接启动。";
 /*GAME_CENTER_SECTION_HEADER*/
 /*GAME_CENTER_SECTION_FOOTER*/
 /*GAME_CENTER_ACCOUNT*/
@@ -88,6 +89,7 @@
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "%@ 启动了默认容器，因为Crane未能成功在该应用程序中加载。请确保其未被Choicy、TweakRestrict或其他类似的插件禁止加载，然后再试一次。";
 "AND" = "和";
 "CRANE_ERROR" = "Crane 错误";
+/*OTHER*/
 "FOLLOW_ME_ON_TWITTER" = "关注我的Twitter";
 "CREDITS" = "Credits";
 "CREDITS_AND_LICENSES" = "Credits & Licenses";

@@ -37,8 +37,9 @@ typedef NS_ENUM(NSInteger, ContainerPathType) {
 - (void)removeObserver:(NSObject<CraneManagerObserver>*)observer;
 
 // app settings
+- (BOOL)isApplicationSupportedByCrane:(NSString*)applicationID;
 - (NSArray*)identfiersOfApplicationsThatHaveNonDefaultContainers;
-- (NSArray*)identifiersOfAllInstalledApplications;
+- (NSArray*)identifiersOfAllSupportedApplications;
 - (NSString*)displayNameForApplicationWithIdentifier:(NSString*)applicationID;
 - (NSDictionary*)applicationSettingsForApplicationWithIdentifier:(NSString*)applicationID;
 - (void)setApplicationSettings:(NSDictionary*)appSettings forApplicationWithIdentifier:(NSString*)applicationID;

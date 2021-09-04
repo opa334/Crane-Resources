@@ -22,12 +22,13 @@
 "DELETE_CONTAINER_DESCRIPTION" = "\"%@\" Konteynerini Sil";
 "ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "\"%@\" Konteyner Ayarlarına Erişim";
 "UNNAMED" = "Adsız";
-"APPLICATION_SHORTCUT_ENABLED" = "Uygulama Kısayollarını Etkinleştir";
+/*APP_SHORTCUTS*/
+"APP_SHORTCUT_ENABLED" = "Uygulama Kısayollarını Etkinleştir";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Konteyner Seçerek Başlat";
 "EXPAND_CONTAINERS_SHORTCUT" = "Kısayolları Genişlet";
 "SHOW_NEW_CONTAINER_OPTION" = "'Yeni Konteyner' Seçeneğini Göster";
 "ONLY_SHOW_IF_CONTAINERS_EXIST" = "Konteynerler Varsa Göster";
-"APPLICATION_SHORTCUT_DESCRIPTION" = "Haptic Touch / 3D Touch menüsünden konteynerler arasında geçiş yapmak için kısayol";
+"APP_SHORTCUT_DESCRIPTION" = "Haptic Touch / 3D Touch menüsünden konteynerler arasında geçiş yapmak için kısayol";
 "GAME_CENTER_SECTION_HEADER" = "Game Center";
 "GAME_CENTER_SECTION_FOOTER" = "Bu konteyner'a giriş yaparken geçiş yapmak için bir Game Center hesabı seçin.";
 "GAME_CENTER_ACCOUNT" = "Game Center Hesabı";
@@ -88,6 +89,7 @@
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "%@ uygulaması, Crane dylib yüklenmediği için varsayılan konteynerde başladı. Choicy, TweakRestrict veya benzeri ile devre dışı bırakılmadığından emin olun ve tekrar deneyin.";
 "AND" = "ve";
 "CRANE_ERROR" = "Crane Hatası";
+/*OTHER*/
 "FOLLOW_ME_ON_TWITTER" = "Twitter'da Beni Takip Et";
 "CREDITS" = "Katkıda Bulunanlar";
 "CREDITS_AND_LICENSES" = "Katkıda Bulunanlar & Lisanslar";

@@ -22,12 +22,13 @@
 "DELETE_CONTAINER_DESCRIPTION" = "Container \"%@\" löschen";
 "ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "Einstellungen von Container \"%@\" anzeigen";
 "UNNAMED" = "Unbennant";
-"APPLICATION_SHORTCUT_ENABLED" = "App Shortcuts aktiviert";
+"APP_SHORTCUTS" = "App Shortcuts";
+"APP_SHORTCUT_ENABLED" = "App Shortcuts aktiviert";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "App-Start bei Container-Auswahl";
 "EXPAND_CONTAINERS_SHORTCUT" = "Shortcut expandieren";
 "SHOW_NEW_CONTAINER_OPTION" = "'Neuer Container' Option anzeigen";
 "ONLY_SHOW_IF_CONTAINERS_EXIST" = "Nur anzeigen, wenn Container existieren";
-"APPLICATION_SHORTCUT_DESCRIPTION" = "Shortcut für das Wechseln zwischen Containern über das Haptic Touch / 3D Touch Menü von Applikationen.";
+"APP_SHORTCUT_DESCRIPTION" = "Shortcut für das Wechseln zwischen Containern über das Haptic Touch / 3D Touch Menü von Applikationen.";
 "GAME_CENTER_SECTION_HEADER" = "Game Center";
 "GAME_CENTER_SECTION_FOOTER" = "Wähle den Game Center Account, auf den beim starten der App in den Container gewechselt werden soll.";
 "GAME_CENTER_ACCOUNT" = "Game Center Account";
@@ -88,6 +89,7 @@
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "Die App %@ wurde in den Standardcontainer gestartet, weil die Crane dylib nicht in die App geladen ist. Stelle sicher, dass sie nicht mit Tweaks wie Choicy oder TweakRestrict deaktiviert wurde und versuche es erneut.";
 "AND" = "und";
 "CRANE_ERROR" = "Crane Fehler";
+"OTHER" = "Anderes";
 "FOLLOW_ME_ON_TWITTER" = "Folge mir auf Twitter";
 "CREDITS" = "Verweise";
 "CREDITS_AND_LICENSES" = "Verweise & Lizenzen";
@@ -154,3 +156,4 @@
 "ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane erlaubt das Festlegen einer Activator-Action, welche ausgeführt wird, wenn auf einen bestimmten Container gewechselt wird. Dies befindet sich unter Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> Crane. Ebenfalls gibt es eine Aktion um einen spezifischen Container als aktiv zu setzen, dies befindet sich unter Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> (Irgendein Event) -> Crane.";
 "SHORTCUTS_INFO_SUGGESTION_TITLE" = "Shortcuts-Integration";
 "SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "Crane bringt eine Shortcuts Aktion mit, mit welcher ein bestimmter Container als aktiv gesetzt werden kann, auf diese Funktion kann beim Hinzufügen von einer Aktion zu einem Shortcut über Apps -> Crane -> Setze aktiven Crane Container zugegriffen werden.";
+

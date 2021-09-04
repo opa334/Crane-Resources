@@ -22,12 +22,13 @@
 "DELETE_CONTAINER_DESCRIPTION" = "Excluir Contêiner \"%@\"";
 "ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "Acessar Configurações do Contêiner \"%@\"";
 "UNNAMED" = "Sem nome";
-"APPLICATION_SHORTCUT_ENABLED" = "Atalhos de aplicativos habilitados";
+/*APP_SHORTCUTS*/
+"APP_SHORTCUT_ENABLED" = "Atalhos de aplicativos habilitados";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Abrir aplicativo ao selecionar containers";
 "EXPAND_CONTAINERS_SHORTCUT" = "Expandir atalhos";
 "SHOW_NEW_CONTAINER_OPTION" = "Exibir opção 'Novo Contêiner'";
 "ONLY_SHOW_IF_CONTAINERS_EXIST" = "Mostrar apenas se existirem containers";
-"APPLICATION_SHORTCUT_DESCRIPTION" = "Atalho para alternar entre os contêineres a partir do menu de Toque Tátil/3D Touch dos aplicativos.";
+"APP_SHORTCUT_DESCRIPTION" = "Atalho para alternar entre os contêineres a partir do menu de Toque Tátil/3D Touch dos aplicativos.";
 "GAME_CENTER_SECTION_HEADER" = "Game Center";
 "GAME_CENTER_SECTION_FOOTER" = "Selecionar conta do Game Center que será usada ao ativar esse container.";
 "GAME_CENTER_ACCOUNT" = "Conta do Game Center";
@@ -88,6 +89,7 @@
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "O aplicativo %@ foi iniciado no container padrão porque a dylib do Crane não foi carregada nele. Certifique-se de que não foi desativado com Choicy, TweakRestrict ou similar e tente novamente.";
 "AND" = "e";
 "CRANE_ERROR" = "Erro do Crane";
+/*OTHER*/
 "FOLLOW_ME_ON_TWITTER" = "Siga-me no Twitter";
 "CREDITS" = "Créditos";
 "CREDITS_AND_LICENSES" = "Créditos & Licenças";

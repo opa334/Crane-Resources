@@ -22,12 +22,13 @@
 /*DELETE_CONTAINER_DESCRIPTION*/
 /*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
 "UNNAMED" = "Vô danh";
-"APPLICATION_SHORTCUT_ENABLED" = "Đã bật phím tắt cho ứng dụng";
+/*APP_SHORTCUTS*/
+"APP_SHORTCUT_ENABLED" = "Đã bật phím tắt cho ứng dụng";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Khởi chạy ứng dụng trên lựa chọn vùng chứa";
 "EXPAND_CONTAINERS_SHORTCUT" = "Phím tắt Mở rộng Vùng chứa";
 /*SHOW_NEW_CONTAINER_OPTION*/
 /*ONLY_SHOW_IF_CONTAINERS_EXIST*/
-"APPLICATION_SHORTCUT_DESCRIPTION" = "Phím tắt để quản lý vùng chứa đang hoạt động từ menu cảm ứng xúc giác của ứng dụng và có khởi chạy ứng dụng hay không khi chọn vùng chứa đang hoạt động thông qua phím tắt.";
+"APP_SHORTCUT_DESCRIPTION" = "Phím tắt để quản lý vùng chứa đang hoạt động từ menu cảm ứng xúc giác của ứng dụng và có khởi chạy ứng dụng hay không khi chọn vùng chứa đang hoạt động thông qua phím tắt.";
 /*GAME_CENTER_SECTION_HEADER*/
 /*GAME_CENTER_SECTION_FOOTER*/
 /*GAME_CENTER_ACCOUNT*/
@@ -88,6 +89,7 @@
 /*CRANE_DYLIB_NOT_LOADED_ERROR*/
 "AND" = "Và";
 "CRANE_ERROR" = "Crane bị lỗi";
+/*OTHER*/
 "FOLLOW_ME_ON_TWITTER" = "Theo dõi tôi trên Twitter";
 /*CREDITS*/
 "CREDITS_AND_LICENSES" = "Tín dụng & Giấy phép";
