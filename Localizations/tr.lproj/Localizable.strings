@@ -15,20 +15,20 @@
 "NONE" = "Hiçbiri";
 "MAKE_DEFAULT_CONTAINER" = "Varsayılan Konteyner Yap";
 "DEFAULT_CONTAINER" = "Varsayılan Konteyner";
-"DEFAULT_CONTAINER_DESCRIPTION" = "Cihazınız jailbreak yapılmadığında veya Crane yüklenmediğinde varsayılan kapsayıcı kullanılacaktır.";
+"DEFAULT_CONTAINER_DESCRIPTION" = "Cihazınız jailbreak yapılmadığında veya Crane yüklenmediğinde varsayılan konteyner kullanılacaktır.";
 "CONTAINER_IDENTIFIER" = "Konteyner Tanımlayıcı";
 "PROTECT_USING_BIOMETRICS" = "Biyometri Kullanarak Koruyun";
 "SET_ACTIVE_CONTAINER_DESCRIPTION" = "Aktif Konteyneri \"%@\" olarak ayarlayın";
 "DELETE_CONTAINER_DESCRIPTION" = "\"%@\" Konteynerini Sil";
 "ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "\"%@\" Konteyner Ayarlarına Erişim";
 "UNNAMED" = "Adsız";
-/*APP_SHORTCUTS*/
+"APP_SHORTCUTS" = "Uygulama Kısayolları";
 "APP_SHORTCUT_ENABLED" = "Uygulama Kısayollarını Etkinleştir";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Konteyner Seçerek Başlat";
 "EXPAND_CONTAINERS_SHORTCUT" = "Kısayolları Genişlet";
 "SHOW_NEW_CONTAINER_OPTION" = "'Yeni Konteyner' Seçeneğini Göster";
-"ONLY_SHOW_IF_CONTAINERS_EXIST" = "Konteynerler Varsa Göster";
-"APP_SHORTCUT_DESCRIPTION" = "Haptic Touch / 3D Touch menüsünden konteynerler arasında geçiş yapmak için kısayol";
+"ONLY_SHOW_IF_CONTAINERS_EXIST" = "Yalnızca Konteynerler Varsa Göster";
+"APP_SHORTCUT_DESCRIPTION" = "Uygulama Haptic Touch / 3D Touch menüsünden konteynerler arasında geçiş yapmak için kısayol";
 "GAME_CENTER_SECTION_HEADER" = "Game Center";
 "GAME_CENTER_SECTION_FOOTER" = "Bu konteyner'a giriş yaparken geçiş yapmak için bir Game Center hesabı seçin.";
 "GAME_CENTER_ACCOUNT" = "Game Center Hesabı";
@@ -42,8 +42,8 @@
 "RENAME" = "Yeniden Adlandır";
 "GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE" = "Hesabı Sil";
 "GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE" = "\"%@\" Game Center Hesabını silmek istediğinizden emin misiniz? Şu anda onunla ilişkili her konteyner, Sistem Varsayılanına geçecektir.";
-"BACKUP_DATA_TO_FILE" = "Verileri Dosyaya Yedekle";
-"RESTORE_DATA_FROM_BACKUP_FILE" = "Yedekleme Dosyasından Verileri Geri Yükle";
+"BACKUP_DATA_TO_FILE" = "Verileri Yedekle";
+"RESTORE_DATA_FROM_BACKUP_FILE" = "Yedeği Geri Yükle";
 "DEVICE_IDENTIFIER_FOR_VENDOR" = "Satıcı için Cihaz Tanımlayıcı";
 "USE_CONTAINER_IDENTIFIER" = "Konteyner Tanımlayıcıyı Kullan";
 "GENERATE_NEW" = "Yeni Oluştur";
@@ -89,7 +89,7 @@
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "%@ uygulaması, Crane dylib yüklenmediği için varsayılan konteynerde başladı. Choicy, TweakRestrict veya benzeri ile devre dışı bırakılmadığından emin olun ve tekrar deneyin.";
 "AND" = "ve";
 "CRANE_ERROR" = "Crane Hatası";
-/*OTHER*/
+"OTHER" = "Diğer";
 "FOLLOW_ME_ON_TWITTER" = "Twitter'da Beni Takip Et";
 "CREDITS" = "Katkıda Bulunanlar";
 "CREDITS_AND_LICENSES" = "Katkıda Bulunanlar & Lisanslar";
@@ -106,7 +106,7 @@
 "REMIND_ME_LATER" = "Daha Sonra Hatırlat";
 "BUY_CRANE_FOOTER" = "Crane'i satın aldıktan sonra, Crane Lite'ın konteynerlerini içine aktarabileceksiniz. Bu, Crane'in tercih sayfasına eriştiğinizde görüntülenen bir uyarı aracılığıyla sunulacaktır.";
 "UNKNOWN_CONTAINERS_FOUND" = "Bilinmeyen Konteyner Bulundu";
-"UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "Uygulama içinde saklanan verileri olan ancak şu anda Crane'in tercihlerinde bir girişi olmayan %u bilinmeyen kapsayıcı bulundu. Bu, önceki bir tercih listesi silindiyse olabilir. Bilinmeyen konteyneri ne yapmak istiyorsunuz?";
+"UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "Uygulama içinde saklanan verileri olan ancak şu anda Crane'in tercihlerinde bir girişi olmayan %u bilinmeyen konteyner bulundu. Bu, önceki bir tercih listesi silindiyse olabilir. Bilinmeyen konteyneri ne yapmak istiyorsunuz?";
 "DELETE_CONTAINERS" = "Konteynerleri Sil";
 "IMPORT_CONTAINERS" = "Konteynerleri İçe Aktar";
 "UNKOWN_CONTAINER" = "Bilinmeyen Konteyner";
@@ -121,7 +121,7 @@
 "PASSWORD" = "Parola";
 "ENCRYPT_BACKUP_FOOTER" = "Yedeklemeyi bir parola ile şifreleyin. Yedeklemeyi daha sonra şifre olmadan geri yüklemek mümkün olmayacaktır. Parolayı kaybederseniz, verileri kaybedersiniz.";
 "INCLUDE_KEYCHAIN" = "Anahtar Zinciri'ni Dahil Et";
-"INCLUDE_KEYCHAIN_FOOTER" = "Uygulama/kapsayıcı tarafından depolanan anahtar zinciri verilerini yedeklemeye dahil edin. Hesap kimlik bilgilerini, anahtarları ve daha fazlasını içerir. Şifreleme kullanılmadığında güvensizdir.";
+"INCLUDE_KEYCHAIN_FOOTER" = "Uygulama / konteyner tarafından depolanan anahtar zinciri verilerini yedeklemeye dahil edin. Hesap kimlik bilgilerini, anahtarları ve daha fazlasını içerir. Şifreleme kullanılmadığında güvensizdir.";
 "ENTER_PASSWORD" = "Parola Gir";
 "ENTER_PASSWORD_DESCRIPTION" = "%@ yedeği bir parola ile şifrelenmiştir, geri yüklemeyi başlatmak için lütfen parolayı girin.";
 "RESTORE" = "Geri Yükle";
@@ -149,8 +149,8 @@
 "SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "\"%@\" öğesini aktif Crane konteyneri olarak ayarlayın";
 "CHANGED_TO_CONTAINER" = "\"%@\" Crane konteyneri \"%@\" olarak değiştirildi";
 "SUGGESTIONS" = "Öneriler";
-"CHOICYLOADER_SUGGESTION_TITLE" = "Substrat ile ilgili sorunlar?";
-"CHOICYLOADER_SUGGESTION_MESSAGE" = "Ana Crane kitaplığının (\" Crane.dylib\") önce uygulamalara enjekte edilmesi gerekir, Substrate'da bu otomatik olarak gerçekleşmez ve Crane'in işlevselliğini kısmen veya tamamen bozmadan önce bazı ince ayarlar yüklenir. Yaygın belirtiler, varsayılan kapsayıcı olarak görünen tüm kapsayıcıları, uygulama yeniden başlatıldığında kapsayıcıların silinmesini veya veri senkronizasyonlarını içerir. Bu sorunlardan herhangi biri sizi etkiliyorsa, https://opa334.github.io adresinden ChoicyLoader'ı yükleyin; bu, Crane'in her zaman önce yüklenmesini sağlayarak bunları düzeltecektir.";
+"CHOICYLOADER_SUGGESTION_TITLE" = "Substrate ile ilgili sorun mu yaşıyorsunuz?";
+"CHOICYLOADER_SUGGESTION_MESSAGE" = "Ana Crane kitaplığının (\" Crane.dylib\") önce uygulamalara enjekte edilmesi gerekir, Substrate'da bu otomatik olarak gerçekleşmez ve Crane'in işlevselliğini kısmen veya tamamen bozmadan önce bazı ince ayarlar yüklenir. Yaygın belirtiler, varsayılan konteyner olarak görünen tüm konteynerleri, uygulama yeniden başlatıldığında konteynerlerin silinmesini veya veri senkronizasyonlarını içerir. Bu sorunlardan herhangi biri sizi etkiliyorsa, https://opa334.github.io adresinden ChoicyLoader'ı yükleyin; bu, Crane'in her zaman önce yüklenmesini sağlayarak bunları düzeltecektir.";
 "OPEN_REPO" = "Repo'yu Aç";
 "ACTIVATOR_INFO_SUGGESTION_TITLE" = "Aktivatör Entegrasyonu";
 "ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane, belirli bir konteyner etkin olarak ayarlandığında yürütülecek bir etkinleştirici eylemi atamanıza olanak tanır. Buna Aktivatör -> (Her Yerde/Ana Ekranda/Uygulamada/Kilit Ekranında) -> Cranden erişilebilirsiniz. Ayrıca, Aktivatör -> (Her Yerde/Ana Ekranda/Uygulamada/Kilit Ekranında) -> (Herhangi Bir Olay) -> Crane içinden erişilebilen bir uygulama için belirli bir konteyner etkin olarak ayarlamak için eylemler içerir. ";
