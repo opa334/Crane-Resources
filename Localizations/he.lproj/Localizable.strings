@@ -17,16 +17,16 @@
 "DEFAULT_CONTAINER" = "שכפול ברירת מחדל ";
 "DEFAULT_CONTAINER_DESCRIPTION" = "הברירת המחדל היא שכפול שישמש כאשר המכשיר שלך לא פרוץ או כאשר Crane לא עמוסה.";
 "CONTAINER_IDENTIFIER" = "מזהה שכפול";
-/*PROTECT_USING_BIOMETRICS*/
+"PROTECT_USING_BIOMETRICS" = "הגנה על השימוש בביומטריה";
 /*SET_ACTIVE_CONTAINER_DESCRIPTION*/
 /*DELETE_CONTAINER_DESCRIPTION*/
 /*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
 "UNNAMED" = "ללא שם";
-/*APP_SHORTCUTS*/
-"APP_SHORTCUT_ENABLED" = "אפליקציית ׳קיצורים׳ מופעלת";
+"APP_SHORTCUTS" = "קיצורים";
+"APP_SHORTCUT_ENABLED" = "אפליקציית 'קיצורים'";
 "LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "הפעל את שכפול אפליקציה לפי בחירה";
 "EXPAND_CONTAINERS_SHORTCUT" = "הרחב קיצורי דרך";
-/*SHOW_NEW_CONTAINER_OPTION*/
+"SHOW_NEW_CONTAINER_OPTION" = "הצג 'שכפול חדש' כאופציה";
 "ONLY_SHOW_IF_CONTAINERS_EXIST" = "הראה רק אם קיימים שכפולי אפליקציה";
 "APP_SHORTCUT_DESCRIPTION" = "קיצור דרך לניהול של ״שכפול אפליקציה״ על ידי טביעת אצבע / זיהוי פנים ומאפשר הפעלת האפליקציה בעת בחירת שכפול מקיצורים.";
 /*GAME_CENTER_SECTION_HEADER*/
@@ -89,7 +89,7 @@
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "האפליקציה %@ מחוברת אל ״שכפול אפליקציה״ ברירת המחדל מכיוון שהטוויק Crane לא הוגדר בתוכו. נא וודא שהוא לא הושבת באמצעות Choicy, TweakRestrict או דומה ונסה שוב.";
 "AND" = "ו";
 "CRANE_ERROR" = "Crane שגיאה";
-/*OTHER*/
+"OTHER" = "אחר";
 "FOLLOW_ME_ON_TWITTER" = "עקוב אחריי בטוויטר";
 "CREDITS" = "קרדיטים";
 "CREDITS_AND_LICENSES" = "רשיון וקרדיטים";
@@ -138,22 +138,22 @@
 "CONFIRM_PASSWORD" = "אשר סיסמה ";
 "SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "אזהרה! פריט אחד או יותר של מחזיקי מפתחות של אפליקציה זו נשמרים בסיסמאות המאובטחות וימחקו מהגיבוי מכיוון ששחזורם יהיה בלתי אפשרי. בעת שחזור גיבוי זה, ייתכן שיהיה עליך להזין סיסמאות או בעיות אחרות עלולות להופיע. האם אתה רוצה להמשיך?";
 "NEW_BACKUP" = "גיבוי חדש";
-/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER*/
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER" = "האם להפנות חשבונות מערכת (למשל מזהה Apple ID) שאליו ניגשת עם האפליקציה לכל שכפול. שימושי בעיקר ליישומי מערכת כמו AppStore. התמיכה ב-Game Center חייבת להיות מופעלת בנפרד ודורשת ממך להקצות באופן ידני חשבון Game Center לשכפול בהגדרות שלו.";
 /*SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE*/
-/*SEPARATE_SYSTEM_ACCOUNTS*/
-/*GAME_CENTER_SUPPORT*/
+"SEPARATE_SYSTEM_ACCOUNTS" = "חשבונות מערכת נפרדים";
+"GAME_CENTER_SUPPORT" = "Game Center תמיכה";
 "CONTAINER_PROTECTION" = "הגנה על שכפול אפליקציה";
 "CONTAINER_PROTECTION_FOOTER" = "מנע מאפליקציה זו להסיר נתונים של אחרים של ״שכפול אפליקציה״ כאשר הושק לשכפול ברירת המחדל, הדרוש לאפליקציות מסוימות. הטוויק משתמש בקרסי אפליקציה.";
 "PREVIOUS_PASSWORD_WRONG_MESSAGE" = "הסיסמה שהוזנה בעבר הייתה שגויה. נסה שוב!";
 "CRANESB_COMMUNICATION_NOT_WORKING" = "החיבור ל-SpringBoard אינו פועל, זה נגרם על ידי \"רצועה-רקטה-בוט\" שאינה פועלת או על ידי CraneSB.dylib שלא הוזרק ל-SpringBoard. לכן תכונה שבה אפליקציות נטענות אוטומטית (כאשר נדרשת על ידי אפשרות שתבחר בהעדפות Crane) לא תפעל, תמשיך על אחריותך בלבד.";
 /*SET_AS_THE_ACTIVE_CRANE_CONTAINER*/
 /*CHANGED_TO_CONTAINER*/
-/*SUGGESTIONS*/
+"SUGGESTIONS" = "הצעות";
 /*CHOICYLOADER_SUGGESTION_TITLE*/
 /*CHOICYLOADER_SUGGESTION_MESSAGE*/
 /*OPEN_REPO*/
 /*ACTIVATOR_INFO_SUGGESTION_TITLE*/
 /*ACTIVATOR_INFO_SUGGESTION_MESSAGE*/
-/*SHORTCUTS_INFO_SUGGESTION_TITLE*/
-/*SHORTCUTS_INFO_SUGGESTION_MESSAGE*/
+"SHORTCUTS_INFO_SUGGESTION_TITLE" = "שילוב קיצורי דרך";
+"SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "טוויק Crane כולל פעולת קיצור דרך להגדרת השכפול הפעילה של אפליקציה, ניתן לגשת אליה בעת הוספת פעולה לקיצור דרך אפליקציות -> Crane -> הגדר שכפול Crane פעיל.";
 
