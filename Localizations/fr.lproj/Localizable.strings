@@ -1,5 +1,7 @@
 "APPLICATIONS" = "Applications";
 "ACTIVE_CONTAINER" = "Conteneur Actif";
+/*ALWAYS_ASK_ON_APP_LAUNCH*/
+/*SELECT_CONTAINER*/
 "CONTAINERS" = "Conteneurs";
 "CONTAINER" = "Conteneur";
 "DEFAULT" = "Par défaut";
@@ -28,6 +30,15 @@
 "EXPAND_CONTAINERS_SHORTCUT" = "Étendre les Raccourcis";
 "SHOW_NEW_CONTAINER_OPTION" = "Afficher l'option 'Nouveau Conteneur'";
 "ONLY_SHOW_IF_CONTAINERS_EXIST" = "Afficher seulement si des conteneurs existent";
+/*SHOW_CONTAINER_NOTIFICATION_BADGES*/
+/*BACKUP_RESTORE*/
+/*CREATE_MULTI_CONTAINER_BACKUP*/
+/*RESTORE_MULTI_CONTAINER_BACKUP*/
+/*INCLUDED_CONTAINERS*/
+/*PRESETS*/
+/*NEW_PRESET*/
+/*SAVE_SELECTION_INTO_PRESET*/
+/*NEW_PRESET_MESSAGE*/
 "APP_SHORTCUT_DESCRIPTION" = "Raccourci pour passer d'un conteneur à l'autre à partir du menu haptic touch / 3D touch des applications.";
 "GAME_CENTER_SECTION_HEADER" = "Game Center";
 "GAME_CENTER_SECTION_FOOTER" = "Sélectionnez un compte Game Center à utiliser lors du lancement de ce conteneur.";
@@ -55,31 +66,53 @@
 "SET_CUSTOM_IDENTIFIER_MESSAGE" = "Saisissez l'identifiant à définir, il doit s'agir d'une chaîne de 32 caractères contenant uniquement des caractères hexadécimaux (0-9, A-F).\nFormat : XXXXXXXX-XXXX-XXXX-XXXXXXXXXX\n(les traits d'union sont ignorés)";
 "SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE" = "L'identifiant que vous avez précédemment saisi avait un format incorrect, veuillez réessayer.";
 "SET" = "Définir";
+/*NOTIFICATIONS*/
+/*NOTIFICATIONS_FOOTER*/
+/*ALLOW_NOTIFICATIONS*/
+/*RESET_NOTIFICATION_REGISTRATION*/
+/*CHOICY_INTEGRATION*/
+/*OVERWRITE_CHOICY_CONFIGURATION*/
+/*CHOICY_CONFIGURATION*/
 "BROWSE_DATA" = "Parcourir les données";
 "APPLICATION" = "Application";
 "GROUPS" = "Groupes";
 "PLUGINS" = "Plugins";
 "DELETE_DATA" = "Supprimer les données";
 "SIZE_OF_CONTAINER" = "Taille du conteneur";
-"COPYING" = "Copie";
-"ARCHIVING" = "Archivage";
 "UNARCHIVING" = "Désarchivage";
 "RESTORING" = "Restauration";
 "BACKING_UP" = "Sauvegarde";
+/*PREPARING*/
+/*CHECKING*/
 "ERROR" = "Erreur";
 "WARNING" = "Avertissement";
+/*BACKUP_INVALID*/
 "APP_ID_MISMATCH_ERROR" = "L'application à partir de laquelle cette sauvegarde a été créée (%@) n'est pas la même que l'application sur laquelle vous essayez de la restaurer (%@)";
 "GROUP_ID_MISMATCH_WARNING" = "Les identifiants de groupe de la sauvegarde (%@) ne correspondent pas aux identifiants actuels de l'application (%@), cela peut empêcher la restauration de certaines données. Voulez-vous quand même continuer ?";
+/*NO_APPS_INSTALLED_ERROR*/
+/*RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR*/
+/*BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR*/
+/*RESTORE_SUCCESS_MESSAGE*/
+/*MULTI_RESTORE_SUCCESS_MESSAGE*/
+/*SUCCESS*/
 "CONTINUE" = "Continuer";
 "CLOSE" = "Fermer";
-"PARAMÈTRES" = "Paramètres";
+/*SETTINGS*/
 "NEW_CONTAINER" = "Nouveau conteneur";
 "LAUNCH" = "Lancer";
 "CREATE" = "Créer";
 "INJECT_IN_SAFE_MODE" = "Injection en mode sans échec";
 "INJECT_IN_SAFE_MODE_DESCRIPTION" = "Par défaut, Crane ne fonctionne pas lorsqu'une application est lancée en mode sans échec (par exemple en utilisant le bouton 'Disable Tweak Injection' de Choicy ou le raccourci d'application 'Launch without Tweaks'). Avec cette option activée, l'injection sera toujours effectuée. Cela n'a aucun effet sur le mode sans échec du jailbreak.";
+/*SELECT_ALL*/
+/*DESELECT_ALL*/
 "RESTORE_WARNING_MESSAGE" = "La restauration d'une sauvegarde écrasera les données actuelles du conteneur, continuer ?";
 "NOT_A_BACKUP_ERROR_MESSAGE" = "Le fichier que vous avez sélectionné ne semble pas être une sauvegarde du conteneur";
+/*NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE*/
+/*CONFIGURE_RESTORE*/
+/*INTO_CONTAINER*/
+/*NEW_CONTAINER_NAME*/
+/*RESTORE_ERROR*/
+/*BACKUP_ERROR*/
 "COMMUNICATION_ERROR_MESSAGE" = "Il a été déterminé que la communication avec le service d'assistance Crane (Cranehelperd) ne fonctionne pas. Cela est probablement dû au fait que rocketbootstrap ne fonctionne pas sur votre appareil";
 "DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "Il a été déterminé que le service Crane helper (Cranehelperd) ne fonctionne pas. Assurez-vous que votre jailbreak est à jour.";
 "TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "Il existe un bug dans Taurine sur les appareils arm64 exécutant iOS 14.0-14.2.1 qui empêche le service Crane helper (Cranehelperd) de démarrer. Il a été déterminé que cet appareil est affecté par le bug, si vous voulez utiliser Crane, passez à checkra1n ou unc0ver.";
@@ -156,4 +189,3 @@
 "ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane vous permet d'assigner une action Activator à exécuter chaque fois qu'un conteneur spécifique est défini comme actif. Vous pouvez y accéder à partir de Activator -> (n'importe où/à l'écran d'accueil/dans l'application/à l'écran de verrouillage) -> Crane. Il propose également des actions permettant de définir comme actif un conteneur spécifique d'une application, accessibles depuis Activator -> (N'importe où/écran d'accueil/application/écran de verrouillage) -> (N'importe quel événement) -> Crane.";
 "SHORTCUTS_INFO_SUGGESTION_TITLE" = "Intégration des Raccourcis";
 "SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "Crane inclut une action de raccourci pour définir le conteneur actif d'une application. Il est accessible en ajoutant une action à un raccourci sous Apps -> Crane -> Set Active Crane Container";
-

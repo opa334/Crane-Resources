@@ -1,5 +1,7 @@
 "APPLICATIONS" = "Aplicativos";
 "ACTIVE_CONTAINER" = "Contêiner Ativo";
+/*ALWAYS_ASK_ON_APP_LAUNCH*/
+/*SELECT_CONTAINER*/
 "CONTAINERS" = "Contêineres";
 "CONTAINER" = "Contêiner";
 "DEFAULT" = "Padrão";
@@ -28,6 +30,15 @@
 "EXPAND_CONTAINERS_SHORTCUT" = "Expandir atalhos";
 "SHOW_NEW_CONTAINER_OPTION" = "Exibir opção 'Novo Contêiner'";
 "ONLY_SHOW_IF_CONTAINERS_EXIST" = "Mostrar apenas se existirem containers";
+/*SHOW_CONTAINER_NOTIFICATION_BADGES*/
+/*BACKUP_RESTORE*/
+/*CREATE_MULTI_CONTAINER_BACKUP*/
+/*RESTORE_MULTI_CONTAINER_BACKUP*/
+/*INCLUDED_CONTAINERS*/
+/*PRESETS*/
+/*NEW_PRESET*/
+/*SAVE_SELECTION_INTO_PRESET*/
+/*NEW_PRESET_MESSAGE*/
 "APP_SHORTCUT_DESCRIPTION" = "Atalho para alternar entre os contêineres a partir do menu de Toque Tátil/3D Touch dos aplicativos.";
 "GAME_CENTER_SECTION_HEADER" = "Game Center";
 "GAME_CENTER_SECTION_FOOTER" = "Selecionar conta do Game Center que será usada ao ativar esse container.";
@@ -55,21 +66,35 @@
 "SET_CUSTOM_IDENTIFIER_MESSAGE" = "Digite o identificador, obrigatório ter 32 caracteres contendo apenas caracteres hexadecimais (0-9, A-F).\nFormato:XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\n(hiféns são ignorados)";
 "SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE" = "O identificador fornecido tem formato inválido, por favor tente novamente.";
 "SET" = "Definir";
+/*NOTIFICATIONS*/
+/*NOTIFICATIONS_FOOTER*/
+/*ALLOW_NOTIFICATIONS*/
+/*RESET_NOTIFICATION_REGISTRATION*/
+/*CHOICY_INTEGRATION*/
+/*OVERWRITE_CHOICY_CONFIGURATION*/
+/*CHOICY_CONFIGURATION*/
 "BROWSE_DATA" = "Navegar pelos Dados";
 "APPLICATION" = "Aplicativo";
 "GROUPS" = "Grupos";
 "PLUGINS" = "Plugins";
 "DELETE_DATA" = "Excluir dados";
 "SIZE_OF_CONTAINER" = "Tamanho do Contêiner";
-"COPYING" = "Copiando";
-"ARCHIVING" = "Arquivando";
 "UNARCHIVING" = "Desarquivando";
 "RESTORING" = "Restaurando";
 "BACKING_UP" = "Fazendo backup";
+/*PREPARING*/
+/*CHECKING*/
 "ERROR" = "Erro";
 "WARNING" = "Aviso";
+/*BACKUP_INVALID*/
 "APP_ID_MISMATCH_ERROR" = "O aplicativo do qual este backup foi criado (%@) não é o mesmo que o aplicativo para o qual você está tentando restaurar o backup (%@)";
 "GROUP_ID_MISMATCH_WARNING" = "Os identificadores de grupo do backup (%@) são diferentes dos identificadores atuais do aplicativo (%@), isso pode fazer com que alguns dados não sejam restaurados. Quer continuar mesmo assim?";
+/*NO_APPS_INSTALLED_ERROR*/
+/*RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR*/
+/*BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR*/
+/*RESTORE_SUCCESS_MESSAGE*/
+/*MULTI_RESTORE_SUCCESS_MESSAGE*/
+/*SUCCESS*/
 "CONTINUE" = "Continuar";
 "CLOSE" = "Fechar";
 "SETTINGS" = "Configurações";
@@ -78,8 +103,16 @@
 "CREATE" = "Criar";
 "INJECT_IN_SAFE_MODE" = "Injetar no modo de segurança";
 "INJECT_IN_SAFE_MODE_DESCRIPTION" = "Por padrão, o Crane não funciona quando um aplicativo é iniciado no modo de segurança (p.ex. ao usar a opção 'Disable Tweak Injection' do Choicy ou pelo atalho 'Launch without Tweaks', com essa opção habilitada, ela sempre será injetada. Isso não tem nenhum efeito no modo de segurança do jailbreak.";
+/*SELECT_ALL*/
+/*DESELECT_ALL*/
 "RESTORE_WARNING_MESSAGE" = "Restaurar um backup vai sobrescrever os dados atuais do container. Continuar?";
 "NOT_A_BACKUP_ERROR_MESSAGE" = "O arquivo que você selecionou não parece ser um backup de container";
+/*NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE*/
+/*CONFIGURE_RESTORE*/
+/*INTO_CONTAINER*/
+/*NEW_CONTAINER_NAME*/
+/*RESTORE_ERROR*/
+/*BACKUP_ERROR*/
 "COMMUNICATION_ERROR_MESSAGE" = "Foi identificado que a comunicação ao serviço auxiliar do Crane (Cranehelperd) não está funcionando. É provavelmente causado pelo rocketbootstrap não estar funcionando.";
 "DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "Foi identificado que o serviço auxiliar do Crane (Cranehelperd) não está funcionando. Verifique se seu jailbreak está atualizado.";
 "TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "Existe um bug no Taurine nos dispositivos arm64 com iOS 14.0-14.2.1 que inibe o serviço auxiliar do Crane (Cranehelperd) de executar. Identificamos que esse dispositivo é afetado por esse bug, se quiser usar o Crane substitua pelo checkra1n ou pelo unc0ver.";
@@ -156,4 +189,3 @@
 "ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane permite associar uma ação do Activator a ser executada sempre que um contêiner específico for ativado. Pode ser acessado em Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> Crane. Também tem ações para definir um contêiner específico de um aplicativo como ativo, pode ser acessao em Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> (Any Event) -> Crane.";
 "SHORTCUTS_INFO_SUGGESTION_TITLE" = "Integração com Shortcut";
 "SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "Crane inclui uma Shortcut Action para definir o contêiner ativo de um aplicativo, pode ser acessado ao adicionar uma Action em um Shortcut em Apps -> Crane -> Set Active Crane Container";
-
