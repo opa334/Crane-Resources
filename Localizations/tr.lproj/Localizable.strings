@@ -1,7 +1,7 @@
 "APPLICATIONS" = "Uygulamalar";
 "ACTIVE_CONTAINER" = "Aktif Konteyner";
-/*ALWAYS_ASK_ON_APP_LAUNCH*/
-/*SELECT_CONTAINER*/
+"ALWAYS_ASK_ON_APP_LAUNCH" = "Uygulama Her Başlatıldığında Sor";
+"SELECT_CONTAINER" = "Konteyner Seç";
 "CONTAINERS" = "Konteynerler";
 "CONTAINER" = "Konteyner";
 "DEFAULT" = "Varsayılan";
@@ -30,15 +30,15 @@
 "EXPAND_CONTAINERS_SHORTCUT" = "Kısayolları Genişlet";
 "SHOW_NEW_CONTAINER_OPTION" = "'Yeni Konteyner' Seçeneğini Göster";
 "ONLY_SHOW_IF_CONTAINERS_EXIST" = "Yalnızca Konteynerler Varsa Göster";
-/*SHOW_CONTAINER_NOTIFICATION_BADGES*/
-/*BACKUP_RESTORE*/
-/*CREATE_MULTI_CONTAINER_BACKUP*/
-/*RESTORE_MULTI_CONTAINER_BACKUP*/
-/*INCLUDED_CONTAINERS*/
-/*PRESETS*/
-/*NEW_PRESET*/
-/*SAVE_SELECTION_INTO_PRESET*/
-/*NEW_PRESET_MESSAGE*/
+"SHOW_CONTAINER_NOTIFICATION_BADGES" = "Konteyner Bildirim Rozetlerini Göster";
+"BACKUP_RESTORE" = "Yedekleme & Geri Yükleme";
+"CREATE_MULTI_CONTAINER_BACKUP" = "Çoklu Konteyner Yedeklemesi Oluştur";
+"RESTORE_MULTI_CONTAINER_BACKUP" = "Çoklu Konteyner Yedeklemelerini Geri Yükle";
+"INCLUDED_CONTAINERS" = "Dahil Edilen Konteynerler";
+"PRESETS" = "Ön Ayarlar";
+"NEW_PRESET" = "Yeni Ön Ayar";
+"SAVE_SELECTION_INTO_PRESET" = "Seçimi Ön Ayara Kaydet";
+"NEW_PRESET_MESSAGE" = "Yeni ön ayar için bir ad girin. Mevcut konteyner seçimi içine kaydedilecektir.";
 "APP_SHORTCUT_DESCRIPTION" = "Uygulama Haptic Touch / 3D Touch menüsünden konteynerler arasında geçiş yapmak için kısayol";
 "GAME_CENTER_SECTION_HEADER" = "Game Center";
 "GAME_CENTER_SECTION_FOOTER" = "Bu konteyner'a giriş yaparken geçiş yapmak için bir Game Center hesabı seçin.";
@@ -66,13 +66,13 @@
 "SET_CUSTOM_IDENTIFIER_MESSAGE" = "Ayarlanacak tanımlayıcıyı girin, yalnızca onaltılı harfler (0-9, A-F) içeren 32 karakterden oluşan bir dize olmalıdır.\nFormat:XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\n(tireler yok sayılır)";
 "SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE" = "Daha önce girdiğiniz tanımlayıcı yanlış biçime sahipti, lütfen tekrar deneyin.";
 "SET" = "Ayarla";
-/*NOTIFICATIONS*/
-/*NOTIFICATIONS_FOOTER*/
-/*ALLOW_NOTIFICATIONS*/
-/*RESET_NOTIFICATION_REGISTRATION*/
-/*CHOICY_INTEGRATION*/
-/*OVERWRITE_CHOICY_CONFIGURATION*/
-/*CHOICY_CONFIGURATION*/
+"NOTIFICATIONS" = "Bildirimler";
+"NOTIFICATIONS_FOOTER" = "Bu konteynerin bildirimleri almasına izin verilip verilmeyeceğini yapılandırın. Kaydı sıfırlamak, bir sonraki uygulama konteynerini başlatılana kadar bildirimlerin gelmesini durdurur.";
+"ALLOW_NOTIFICATIONS" = "Bildirimlere İzin Ver";
+"RESET_NOTIFICATION_REGISTRATION" = "Kaydı Sıfırla";
+"CHOICY_INTEGRATION" = "Choicy Entegrasyonu";
+"OVERWRITE_CHOICY_CONFIGURATION" = "Choicy Yapılandırmasının Üzerine Yaz";
+"CHOICY_CONFIGURATION" = "Choicy Yapılandırması";
 "BROWSE_DATA" = "Verilere Göz At";
 "APPLICATION" = "Uygulama";
 "GROUPS" = "Gruplar";
@@ -82,19 +82,19 @@
 "UNARCHIVING" = "Arşivden Çıkar";
 "RESTORING" = "Geri Yükleniyor";
 "BACKING_UP" = "Yedekleniyor";
-/*PREPARING*/
-/*CHECKING*/
+"PREPARING" = "Hazırlanıyor";
+"CHECKING" = "Kontrol Ediliyor";
 "ERROR" = "Hata";
 "WARNING" = "Uyarı";
-/*BACKUP_INVALID*/
+"BACKUP_INVALID" = "Yedekleme Geçersiz";
 "APP_ID_MISMATCH_ERROR" = "Bu yedeklemenin oluşturulduğu uygulama (%@), geri yüklemeye çalıştığınız uygulamayla aynı değil (%@)";
 "GROUP_ID_MISMATCH_WARNING" = "Yedeklemenin (%@) grup tanımlayıcıları, uygulamanın mevcut tanımlayıcılarıyla (%@) uyuşmuyor, bu, bazı verilerin geri yüklenmemesine neden olabilir. Hala devam etmek istiyor musun?";
-/*NO_APPS_INSTALLED_ERROR*/
-/*RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR*/
-/*BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR*/
-/*RESTORE_SUCCESS_MESSAGE*/
-/*MULTI_RESTORE_SUCCESS_MESSAGE*/
-/*SUCCESS*/
+"NO_APPS_INSTALLED_ERROR" = "Çoklu konteyner yedeklemesinde (%@) bulunan uygulamaların hiçbiri cihazınızda yüklü değil. Uygulamaları yükleyin ve yeniden deneyin.";
+"RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR" = "Geri yüklemeye devam etmek için yeterli boş disk alanı kalmadı, bu geri yükleme için en az %@ boş alan gerekiyor. Biraz yer açın ve yeniden deneyin.";
+"BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR" = "Yedeklemeye devam etmek için yeterli boş disk alanı kalmadı, bu yedekleme en az %@ boş alan gerektiriyor. Biraz yer açın ve yeniden deneyin.";
+"RESTORE_SUCCESS_MESSAGE" = "Yedekleme başarıyla geri yüklendi.";
+"MULTI_RESTORE_SUCCESS_MESSAGE" = "Çoklu konteyner yedeklemesi %zd konteynerlerine başarıyla geri yüklendi.";
+"SUCCESS" = "Başarılı";
 "CONTINUE" = "Devam Et";
 "CLOSE" = "Kapat";
 "SETTINGS" = "Ayarlar";
@@ -103,16 +103,16 @@
 "CREATE" = "Oluştur";
 "INJECT_IN_SAFE_MODE" = "Güvenli Modda Enjekte Et";
 "INJECT_IN_SAFE_MODE_DESCRIPTION" = "Varsayılan olarak Crane, bir uygulama güvenli modda başlatıldığında (örneğin, Choicy'deki 'Tweak Enjeksiyonu Devre Dışı' geçişi veya 'Tweakler Olmadan Başlat' uygulama kısayolu kullanılarak) çalışmaz, bu seçenek etkinleştirildiğinde her zaman enjekte eder. Bunun jailbreak'ten gelen güvenli mod üzerinde herhangi bir etkisi yoktur.";
-/*SELECT_ALL*/
-/*DESELECT_ALL*/
+"SELECT_ALL" = "Hepsini Seç";
+"DESELECT_ALL" = "Hiçbirini Seçme";
 "RESTORE_WARNING_MESSAGE" = "Bir yedeğin geri yüklenmesi, konteynerin mevcut verilerinin üzerine yazılacak, devam edilsin mi?";
 "NOT_A_BACKUP_ERROR_MESSAGE" = "Seçtiğiniz dosya bir konteyner yedeği gibi görünmüyor";
-/*NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE*/
-/*CONFIGURE_RESTORE*/
-/*INTO_CONTAINER*/
-/*NEW_CONTAINER_NAME*/
-/*RESTORE_ERROR*/
-/*BACKUP_ERROR*/
+"NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE" = "Seçili dosya çoklu bir konteyner yedeklemesi gibi görünmüyor";
+"CONFIGURE_RESTORE" = "Geri Yüklemeyi Yapılandır";
+"INTO_CONTAINER" = "Konteynere";
+"NEW_CONTAINER_NAME" = "Yeni Konteyner Adı";
+"RESTORE_ERROR" = "Geri Yükleme Hatası";
+"BACKUP_ERROR" = "Yedekleme Hatası";
 "COMMUNICATION_ERROR_MESSAGE" = "Crane helper servisi (Cranehelperd) ile iletişimin kurulamadığı belirlendi. Bunun nedeni muhtemelen rocketbootstrap'in cihazınızda çalışmamasıdır.";
 "DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "Crane helper arka plan programının (Cranehelperd) çalışmadığı belirlendi. Jailbreak'inizin güncel olduğundan emin olun.";
 "TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "iOS 14.0-14.2.1 çalıştıran arm64 cihazlarında Taurine'de Crane yardımcı arka plan programının (Cranehelperd) başlamasını engelleyen bir hata var. Bu cihazın bugdan etkilendiği belirlendi, eğer Crane kullanmak istiyorsanız checkra1n veya unc0ver'a geçin.";
@@ -185,7 +185,7 @@
 "CHOICYLOADER_SUGGESTION_TITLE" = "Substrate ile ilgili sorun mu yaşıyorsunuz?";
 "CHOICYLOADER_SUGGESTION_MESSAGE" = "Ana Crane kitaplığının (\" Crane.dylib\") önce uygulamalara enjekte edilmesi gerekir, Substrate'da bu otomatik olarak gerçekleşmez ve Crane'in işlevselliğini kısmen veya tamamen bozmadan önce bazı ince ayarlar yüklenir. Yaygın belirtiler, varsayılan konteyner olarak görünen tüm konteynerleri, uygulama yeniden başlatıldığında konteynerlerin silinmesini veya veri senkronizasyonlarını içerir. Bu sorunlardan herhangi biri sizi etkiliyorsa, https://opa334.github.io adresinden ChoicyLoader'ı yükleyin; bu, Crane'in her zaman önce yüklenmesini sağlayarak bunları düzeltecektir.";
 "OPEN_REPO" = "Repo'yu Aç";
-"ACTIVATOR_INFO_SUGGESTION_TITLE" = "Aktivatör Entegrasyonu";
-"ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane, belirli bir konteyner etkin olarak ayarlandığında yürütülecek bir etkinleştirici eylemi atamanıza olanak tanır. Buna Aktivatör -> (Her Yerde/Ana Ekranda/Uygulamada/Kilit Ekranında) -> Cranden erişilebilirsiniz. Ayrıca, Aktivatör -> (Her Yerde/Ana Ekranda/Uygulamada/Kilit Ekranında) -> (Herhangi Bir Olay) -> Crane içinden erişilebilen bir uygulama için belirli bir konteyner etkin olarak ayarlamak için eylemler içerir. ";
-"SHORTCUTS_INFO_SUGGESTION_TITLE" = "Kısayollar Entegrasyonu";
-"SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "Crane, bir uygulamanın aktif konteynerini ayarlamak için bir Kısayol Eylemi içerir, Uygulamalar -> Crane -> Aktif Crane Konteynerini Ayarla altında bir Kısayol'a Eylem eklerken erişilebilir";
+"ACTIVATOR_INFO_SUGGESTION_TITLE" = "Activator Entegrasyonu";
+"ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane, belirli bir konteyner etkin olarak ayarlandığında yürütülecek bir activator eylemi atamanıza olanak tanır. Buna Activator -> (Her Yerde/Ana Ekranda/Uygulamada/Kilit Ekranında) -> Cranden erişilebilirsiniz. Ayrıca, Activator -> (Her Yerde/Ana Ekranda/Uygulamada/Kilit Ekranında) -> (Herhangi Bir Olay) -> Crane içinden erişilebilen bir uygulama için belirli bir konteyner etkin olarak ayarlamak için eylemler içerir.";
+"SHORTCUTS_INFO_SUGGESTION_TITLE" = "Kestirmeler Entegrasyonu";
+"SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "Crane, bir uygulamanın aktif konteynerini ayarlamak için bir Kestirmeler Eylemi içerir, Uygulamalar -> Crane -> Aktif Crane Konteynerini Ayarla altında bir Kestirmeler Eylemi eklerken erişilebilir";
