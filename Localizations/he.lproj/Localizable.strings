@@ -68,6 +68,8 @@
 "SET" = "הגדר";
 /*NOTIFICATIONS*/
 /*NOTIFICATIONS_FOOTER*/
+/*SHOW_CONTAINER_IN_TITLE*/
+/*SHOW_CONTAINER_IN_TITLE_FOOTER*/
 /*ALLOW_NOTIFICATIONS*/
 /*RESET_NOTIFICATION_REGISTRATION*/
 /*CHOICY_INTEGRATION*/
@@ -177,6 +179,8 @@
 "GAME_CENTER_SUPPORT" = "Game Center תמיכה";
 "CONTAINER_PROTECTION" = "הגנה על שכפול אפליקציה";
 "CONTAINER_PROTECTION_FOOTER" = "מנע מאפליקציה זו להסיר נתונים של אחרים של ״שכפול אפליקציה״ כאשר הושק לשכפול ברירת המחדל, הדרוש לאפליקציות מסוימות. הטוויק משתמש בקרסי אפליקציה.";
+/*PREVENT_SANDBOX_LOOKUPS*/
+/*PREVENT_SANDBOX_LOOKUPS_FOOTER*/
 "PREVIOUS_PASSWORD_WRONG_MESSAGE" = "הסיסמה שהוזנה בעבר הייתה שגויה. נסה שוב!";
 "CRANESB_COMMUNICATION_NOT_WORKING" = "החיבור ל-SpringBoard אינו פועל, זה נגרם על ידי \"רצועה-רקטה-בוט\" שאינה פועלת או על ידי CraneSB.dylib שלא הוזרק ל-SpringBoard. לכן תכונה שבה אפליקציות נטענות אוטומטית (כאשר נדרשת על ידי אפשרות שתבחר בהעדפות Crane) לא תפעל, תמשיך על אחריותך בלבד.";
 "SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "הגדר \"%@\" בתור שכפול Crane פעיל";

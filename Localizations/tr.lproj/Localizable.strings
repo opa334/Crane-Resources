@@ -33,7 +33,7 @@
 "SHOW_CONTAINER_NOTIFICATION_BADGES" = "Konteyner Bildirim Rozetlerini Göster";
 "BACKUP_RESTORE" = "Yedekleme & Geri Yükleme";
 "CREATE_MULTI_CONTAINER_BACKUP" = "Çoklu Konteyner Yedeklemesi Oluştur";
-"RESTORE_MULTI_CONTAINER_BACKUP" = "Çoklu Konteyner Yedeklemelerini Geri Yükle";
+"RESTORE_MULTI_CONTAINER_BACKUP" = "Çoklu Konteyner Yedeklemesi Geri Yükle";
 "INCLUDED_CONTAINERS" = "Dahil Edilen Konteynerler";
 "PRESETS" = "Ön Ayarlar";
 "NEW_PRESET" = "Yeni Ön Ayar";
@@ -68,6 +68,8 @@
 "SET" = "Ayarla";
 "NOTIFICATIONS" = "Bildirimler";
 "NOTIFICATIONS_FOOTER" = "Bu konteynerin bildirimleri almasına izin verilip verilmeyeceğini yapılandırın. Kaydı sıfırlamak, bir sonraki uygulama konteynerini başlatılana kadar bildirimlerin gelmesini durdurur.";
+"SHOW_CONTAINER_IN_TITLE" = "Konteyneri Başlıkta Göster";
+"SHOW_CONTAINER_IN_TITLE_FOOTER" = "Gelen bildirimlerin başlığının bildirimin hangi Crane konteynerinden geldiğini gösterip göstermeyeceğini yapılandırın.";
 "ALLOW_NOTIFICATIONS" = "Bildirimlere İzin Ver";
 "RESET_NOTIFICATION_REGISTRATION" = "Kaydı Sıfırla";
 "CHOICY_INTEGRATION" = "Choicy Entegrasyonu";
@@ -177,6 +179,8 @@
 "GAME_CENTER_SUPPORT" = "Game Center Desteği";
 "CONTAINER_PROTECTION" = "Konteyner Koruması";
 "CONTAINER_PROTECTION_FOOTER" = "Bazı uygulamalar için gerekli olan varsayılan konteynerler başlatıldığında uygulamanın diğer konteyner verilerini kaldırmasını önleyin. Uygulama kancalarını kullanır.";
+"PREVENT_SANDBOX_LOOKUPS" = "Korumalı Alan Aramalarını Engelle";
+"PREVENT_SANDBOX_LOOKUPS_FOOTER" = "Uygulamanın, yönlendirilmemiş gerçek yolları almak için kendi üzerinde korumalı alan araması yapmasını engeller.  Web tarayıcılarının tanımlama bilgilerini varsayılan olmayan konteynerlere kaydedememesine ilişkin sorunları düzeltir. Uygulama kancalarını kullanır.";
 "PREVIOUS_PASSWORD_WRONG_MESSAGE" = "Daha önce girilen şifre yanlıştı. Lütfen tekrar deneyin!";
 "CRANESB_COMMUNICATION_NOT_WORKING" = "SpringBoard'a bağlantı çalışmıyor, bu ya roketbootstrap'in çalışmamasından ya da CraneSB.dylib'in SpringBoard'a enjekte edilmemesinden kaynaklanıyor. Uygulamaların otomatik olarak yeniden yüklendiği bir özellik (Crane tercihlerinde seçtiğiniz bir seçenek gerektiğinde) bu nedenle çalışmaz, riski size ait olmak üzere devam eder.";
 "SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "\"%@\" öğesini aktif Crane konteyneri olarak ayarlayın";

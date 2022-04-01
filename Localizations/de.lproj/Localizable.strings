@@ -68,6 +68,8 @@
 "SET" = "Setzen";
 "NOTIFICATIONS" = "Benachrichtigungen";
 "NOTIFICATIONS_FOOTER" = "Konfiguriere, ob dieser Container Benachrichtigungen empfangen kann oder nicht. Das Zurücksetzen der Registration wird Notifications bis zum nächsten App Start in den Container stoppen.";
+"SHOW_CONTAINER_IN_TITLE" = "Container im Titel anzeigen";
+"SHOW_CONTAINER_IN_TITLE_FOOTER" = "Konfiguriere, ob bei eingehenden Benachrichtigungen der Container, von dem die Benachrichtigung gesendet wurde, im Titel anzeigt werden soll.";
 "ALLOW_NOTIFICATIONS" = "Benachrichtigungen erlauben";
 "RESET_NOTIFICATION_REGISTRATION" = "Registration zurücksetzen";
 "CHOICY_INTEGRATION" = "Choicy Integration";
@@ -177,6 +179,8 @@
 "GAME_CENTER_SUPPORT" = "Game Center Unterstützung";
 "CONTAINER_PROTECTION" = "Container Absicherung";
 "CONTAINER_PROTECTION_FOOTER" = "Hält die App davon ab die Daten von anderen Containern zu löschen, wenn sie in den Standardcontainer gestartet ist. Diese Option ist für manche Apps erforderlich, sie verwendet allerdings Hooks innerhalb des App-Prozesses.";
+"PREVENT_SANDBOX_LOOKUPS" = "Sandbox-Lookups verhindern";
+"PREVENT_SANDBOX_LOOKUPS_FOOTER" = "Hält die App davon ab, einen Sandbox-Lookup auf sich selbst auszuführen und damit auf die echten, nicht von Crane umgeleiteten, Pfade zuzugreifen. Behebt Probleme mit Web-Browsern, welche ohne diese Option keine Cookies speichern können, sie verwendet allerdings Hooks innerhalb des App-Prozesses.";
 "PREVIOUS_PASSWORD_WRONG_MESSAGE" = "Das zuvor eingegebene Passwort war falsch. Bitte versuche es erneut!";
 "CRANESB_COMMUNICATION_NOT_WORKING" = "Kommunikation mit SpringBoard funktioniert nicht, dies wird entweder dadurch verursacht, dass RocketBootstrap nicht funktioniert oder dadurch dass CraneSB.dylib nicht in SpringBoard geladen ist. Ein Feature, welches Apps automatisch neu lädt, wenn dies aufgrund der Auswahl einer Option in den Crane Einstellungen erforderlich ist, wird nicht funktionieren. Fortfahren auf eigene Gefahr.";
 "SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "Setze \"%@\" als aktiven Crane Container";

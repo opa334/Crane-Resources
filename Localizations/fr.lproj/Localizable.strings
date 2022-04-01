@@ -68,6 +68,8 @@
 "SET" = "Définir";
 /*NOTIFICATIONS*/
 /*NOTIFICATIONS_FOOTER*/
+/*SHOW_CONTAINER_IN_TITLE*/
+/*SHOW_CONTAINER_IN_TITLE_FOOTER*/
 /*ALLOW_NOTIFICATIONS*/
 /*RESET_NOTIFICATION_REGISTRATION*/
 /*CHOICY_INTEGRATION*/
@@ -177,6 +179,8 @@
 "GAME_CENTER_SUPPORT" = "Support du Game Center";
 "CONTAINER_PROTECTION" = "Protection des conteneurs";
 "CONTAINER_PROTECTION_FOOTER" = "Empêcher l'application de supprimer les données d'autres conteneurs lorsqu'elle est lancée dans le conteneur par défaut, nécessaire pour certaines applications. Utilise des modifications d'application.";
+/*PREVENT_SANDBOX_LOOKUPS*/
+/*PREVENT_SANDBOX_LOOKUPS_FOOTER*/
 "PREVIOUS_PASSWORD_WRONG_MESSAGE" = "Le mot de passe précédemment saisi était erroné. Veuillez réessayer !";
 "CRANESB_COMMUNICATION_NOT_WORKING" = "La connexion au SpringBoard ne fonctionne pas, cela est dû soit au fait que rocketbootstrap ne fonctionne pas, soit que CraneSB.dylib n'est pas injecté dans SpringBoard. Une fonctionnalité où les applications se rechargent automatiquement (lorsque cela est requis par une option que vous sélectionnez dans les préférences de Crane) ne fonctionnera donc pas, continuez à vos risques et périls.";
 "SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "Définir \"%@\" comme le conteneur Crane actif";

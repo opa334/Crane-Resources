@@ -68,6 +68,8 @@
 "SET" = "Definir";
 /*NOTIFICATIONS*/
 /*NOTIFICATIONS_FOOTER*/
+/*SHOW_CONTAINER_IN_TITLE*/
+/*SHOW_CONTAINER_IN_TITLE_FOOTER*/
 /*ALLOW_NOTIFICATIONS*/
 /*RESET_NOTIFICATION_REGISTRATION*/
 /*CHOICY_INTEGRATION*/
@@ -177,6 +179,8 @@
 "GAME_CENTER_SUPPORT" = "Suporte ao Game Center";
 "CONTAINER_PROTECTION" = "Proteção de Contêineres";
 "CONTAINER_PROTECTION_FOOTER" = "Impedir que o aplicativo remova dados de outros contêineres quando lançado no contêiner padrão, necessário para alguns aplicativos. Usa ganchos de aplicativos.";
+/*PREVENT_SANDBOX_LOOKUPS*/
+/*PREVENT_SANDBOX_LOOKUPS_FOOTER*/
 "PREVIOUS_PASSWORD_WRONG_MESSAGE" = "A senha inserida anteriormente está errada. Por favor, tente novamente!";
 "CRANESB_COMMUNICATION_NOT_WORKING" = "Conexão com o SpringBoard não está funcionando, isso é causado ou pelo rocketbootstrap não estar funcionando ou pelo CraneSB.dylib não estar sendo injetado no SpringBoard. Funcionalidades onde os aplicativos recarregam automaticamente (quando necessária por uma opção que você habilita nas preferências do Crane) não irão funcionar, continue por sua conta.";
 "SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "Definir \"%@\" como o contêiner Crane ativo";

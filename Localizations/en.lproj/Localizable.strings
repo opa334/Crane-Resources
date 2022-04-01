@@ -1,6 +1,6 @@
 "APPLICATIONS" = "Applications";
 "ACTIVE_CONTAINER" = "Active Container";
-"ALWAYS_ASK_ON_APP_LAUNCH" = "Always ask on App-Launch";
+"ALWAYS_ASK_ON_APP_LAUNCH" = "Always Ask on App-Launch";
 "SELECT_CONTAINER" = "Select Container";
 "CONTAINERS" = "Containers";
 "CONTAINER" = "Container";
@@ -68,6 +68,8 @@
 "SET" = "Set";
 "NOTIFICATIONS" = "Notifications";
 "NOTIFICATIONS_FOOTER" = "Configure whether this container should be allowed to receive push notifications or not. Resetting the registration will stop notifications from coming in until the next app launch into the container.";
+"SHOW_CONTAINER_IN_TITLE" = "Show Container in Title";
+"SHOW_CONTAINER_IN_TITLE_FOOTER" = "Configure whether or not the title of incoming notifications should show which crane container the notification came from.";
 "ALLOW_NOTIFICATIONS" = "Allow Notifications";
 "RESET_NOTIFICATION_REGISTRATION" = "Reset Registration";
 "CHOICY_INTEGRATION" = "Choicy Integration";
@@ -177,6 +179,8 @@
 "GAME_CENTER_SUPPORT" = "Game Center Support";
 "CONTAINER_PROTECTION" = "Container Protection";
 "CONTAINER_PROTECTION_FOOTER" = "Prevent the application from removing data of other containers when launched into the default container, needed for some applications. Uses application hooks.";
+"PREVENT_SANDBOX_LOOKUPS" = "Prevent Sandbox Lookups";
+"PREVENT_SANDBOX_LOOKUPS_FOOTER" = "Prevents the app from doing a sandbox lookup on itself to receive the real non-redirected paths. Fixes issues with web browsers not being able to save cookies in non default containers. Uses application hooks.";
 "PREVIOUS_PASSWORD_WRONG_MESSAGE" = "The previously entered password was wrong. Please try again!";
 "CRANESB_COMMUNICATION_NOT_WORKING" = "Connection to SpringBoard is not working, this is either caused by rocketbootstrap not working or by CraneSB.dylib not being injected into SpringBoard. A feature where applications automatically reload (when required by an option you select inside Crane preferences) will therefore not work, continue at your own risk.";
 "SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "Set \"%@\" as the active Crane container";

@@ -68,6 +68,8 @@
 "SET" = "Установить";
 /*NOTIFICATIONS*/
 /*NOTIFICATIONS_FOOTER*/
+/*SHOW_CONTAINER_IN_TITLE*/
+/*SHOW_CONTAINER_IN_TITLE_FOOTER*/
 /*ALLOW_NOTIFICATIONS*/
 /*RESET_NOTIFICATION_REGISTRATION*/
 /*CHOICY_INTEGRATION*/
@@ -177,6 +179,8 @@
 /*GAME_CENTER_SUPPORT*/
 "CONTAINER_PROTECTION" = "Защита контейнера";
 "CONTAINER_PROTECTION_FOOTER" = "Предотвратить удаление приложением данных других контейнеров при использовании контейнера по умолчанию. Использует application hooks.";
+/*PREVENT_SANDBOX_LOOKUPS*/
+/*PREVENT_SANDBOX_LOOKUPS_FOOTER*/
 "PREVIOUS_PASSWORD_WRONG_MESSAGE" = "Введенный пароль неверен. Попробуйте еще раз!";
 /*CRANESB_COMMUNICATION_NOT_WORKING*/
 /*SET_AS_THE_ACTIVE_CRANE_CONTAINER*/
