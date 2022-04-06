@@ -60,6 +60,10 @@ typedef NS_ENUM(NSInteger, ContainerPathType) {
 - (NSString*)displayNameForContainerWithName:(NSString*)containerName isDefaultContainer:(BOOL)isDefault shouldUseShortVersion:(BOOL)shortVersion;
 - (NSString*)displayNameForContainerWithIdentifier:(NSString*)containerID ofApplicationWithIdentifier:(NSString*)applicationID shouldUseShortVersion:(BOOL)shortVersion;
 
+// name to display in notifications
+- (NSString*)displayNameForContainerInNotificationWithIdentifier:(NSString*)containerID ofApplicationWithIdentifier:(NSString*)applicationID;
+- (NSString*)containerNameToDisplayInNotificationWithUserInfoOrContext:(NSDictionary*)userInfo ofApplicationWithIdentifier:(NSString*)applicationID;
+
 // SpringBoard
 - (void)flushCFPrefsdCacheForApplicationWithIdentifier:(NSString*)applicationID;
 - (void)reloadApplicationWithIdentifier:(NSString*)applicationID;
