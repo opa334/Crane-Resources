@@ -69,7 +69,11 @@
 "NOTIFICATIONS" = "Bildirimler";
 "NOTIFICATIONS_FOOTER" = "Bu konteynerin bildirimleri almasına izin verilip verilmeyeceğini yapılandırın. Kaydı sıfırlamak, bir sonraki uygulama konteynerini başlatılana kadar bildirimlerin gelmesini durdurur.";
 "SHOW_CONTAINER_IN_TITLE" = "Konteyneri Başlıkta Göster";
-"SHOW_CONTAINER_IN_TITLE_FOOTER" = "Gelen bildirimlerin başlığının bildirimin hangi Crane konteynerinden geldiğini gösterip göstermeyeceğini yapılandırın.";
+/*NOTIFICATIONS_SUPPORT_ENABLED*/
+/*NOTIFICATIONS_SUPPORT_FOOTER*/
+/*NOTIFICATIONS_SUPPORT_FOOTER_LITE*/
+/*SEPARATE_NOTIFICATION_REGISTRATIONS*/
+/*SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER*/
 "ALLOW_NOTIFICATIONS" = "Bildirimlere İzin Ver";
 "RESET_NOTIFICATION_REGISTRATION" = "Kaydı Sıfırla";
 "CHOICY_INTEGRATION" = "Choicy Entegrasyonu";

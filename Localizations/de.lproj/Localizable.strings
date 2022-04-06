@@ -69,7 +69,11 @@
 "NOTIFICATIONS" = "Benachrichtigungen";
 "NOTIFICATIONS_FOOTER" = "Konfiguriere, ob dieser Container Benachrichtigungen empfangen kann oder nicht. Das Zurücksetzen der Registration wird Notifications bis zum nächsten App Start in den Container stoppen.";
 "SHOW_CONTAINER_IN_TITLE" = "Container im Titel anzeigen";
-"SHOW_CONTAINER_IN_TITLE_FOOTER" = "Konfiguriere, ob bei eingehenden Benachrichtigungen der Container, von dem die Benachrichtigung gesendet wurde, im Titel anzeigt werden soll.";
+"NOTIFICATIONS_SUPPORT_ENABLED" = "Benachrichtigungsunterstützung aktivieren";
+"NOTIFICATIONS_SUPPORT_FOOTER" = "Falls die Unterstützung für Push Benachrichtigungen (beeinhaltet eine App spezifische Einstellung namens 'Benachrichtigungsregistrierungen separieren') global deaktiviert werden soll, kann dies hier gemacht werden. Außerdem kann konfiguriert werden, ob bei eingehenden Benachrichtigungen der Container, von dem die Benachrichtigung gesendet wurde, im Titel anzeigt werden soll.";
+"NOTIFICATIONS_SUPPORT_FOOTER_LITE" = "Falls die Unterstützung für Push Benachrichtigungen (beeinhaltet eine App spezifische Einstellung namens 'Benachrichtigungsregistrierungen separieren') global deaktiviert werden soll, kann dies hier gemacht werden.";
+"SEPARATE_NOTIFICATION_REGISTRATIONS" = "Benachrichtigungsregistrierungen separieren";
+"SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER" = "Wenn diese Option aktiviert ist, wird jeder Crane Container seinen eigenen Benachrichtigungetoken benutzen und es sollten alle Container Benachrichtigungen erhalten. Beim Antippen einer Benachrichtigung wird die App in den Container gestartet, von dem die Benachrichtigung kam. Außerdem gibt es die Möglichkeit, Benachrichtigungen für Container in ihren Einstellungen zu deaktivieren (Hinweis: Diese Option funktioniert nicht für alle Apps und einige Apps bekommen auch ohne diese Option Benachrichtigungen für alle Container).";
 "ALLOW_NOTIFICATIONS" = "Benachrichtigungen erlauben";
 "RESET_NOTIFICATION_REGISTRATION" = "Registration zurücksetzen";
 "CHOICY_INTEGRATION" = "Choicy Integration";

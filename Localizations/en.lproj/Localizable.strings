@@ -69,7 +69,11 @@
 "NOTIFICATIONS" = "Notifications";
 "NOTIFICATIONS_FOOTER" = "Configure whether this container should be allowed to receive push notifications or not. Resetting the registration will stop notifications from coming in until the next app launch into the container.";
 "SHOW_CONTAINER_IN_TITLE" = "Show Container in Title";
-"SHOW_CONTAINER_IN_TITLE_FOOTER" = "Configure whether or not the title of incoming notifications should show which crane container the notification came from.";
+"NOTIFICATIONS_SUPPORT_ENABLED" = "Notifications Support Enabled";
+"NOTIFICATIONS_SUPPORT_FOOTER" = "If you want to globally disable the notification support part of Crane (which includes a per app setting called 'Separate Notifiation Registrations'), you can do so here. Additionally you can configure whether or not the title of incoming notifications should show what crane container it came from.";
+"NOTIFICATIONS_SUPPORT_FOOTER_LITE" = "If you want to globally disable the notification support part of Crane (which includes a per app setting called 'Separate Notifiation Registrations'), you can do so here.";
+"SEPARATE_NOTIFICATION_REGISTRATIONS" = "Separate Notification Registrations";
+"SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER" = "When this toggle is enabled, every Crane container for this application will get a separate notification token which should enable incoming notifications from all containers. When tapping a received notification, the app will launch into the container the notification came from. Additionally it adds the possibility to disable notifications on a per container basis from their settings. (Note: This does not work for all apps and some apps even get notifications for all containers without this toggle being enabled).";
 "ALLOW_NOTIFICATIONS" = "Allow Notifications";
 "RESET_NOTIFICATION_REGISTRATION" = "Reset Registration";
 "CHOICY_INTEGRATION" = "Choicy Integration";
