@@ -123,6 +123,9 @@
 "DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "נתקלנו בשגיאה ב-crane\n הכלי של daemon (העוזר של crane) לא רץ. וודא כי הפריצה שלך מעודכנת, (נסה לבצע הפעלה מחדש ופריצה מחודשת).";
 "TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "יש באג ב-Taurine על מכשירי iOS arm64 המריצים את גרסאות 14.0-14.2.1 זה מונע מ-crane ומ-daemon (עוזר crane) לעבוד כראוי. נקבע כי התקן זה מושפע מהבאג, אם ברצונך להשתמש באפשרות נוספת ואז לעבור אל checkra1n או unc0ver.";
 "INJECTION_ERROR_MESSAGE" = "נקבע כי CraneSupport.dylib אינו טעון\n %@.";
+/*INJECTION_ERROR_MESSAGE_CHOICY*/
+/*REGISTRATION_FAILED_MESSAGE*/
+/*PLUGIN_REDIRECTION_FAILED_MESSAGE*/
 "CRANE_DISABLED_MESSAGE" = "טוויק Crane הושבת כדי למנוע נתוני desyncs.";
 "DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE" = "שירות העוזרים של טוויק Crane (cranehelperd)\nינסה לעזור לך במידה ויש לך בעיות כלשהן. אם יש יומני קריסה במכשיר, אתה יכול להשתמש ב-Cr4shed או ב-CrashReporter, אנא שלח אותם באמצעות דוא\"ל(opa334@protonmail.com).";
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "האפליקציה %@ מחוברת אל ״שכפול אפליקציה״ ברירת המחדל מכיוון שהטוויק Crane לא הוגדר בתוכו. נא וודא שהוא לא הושבת באמצעות Choicy, TweakRestrict או דומה ונסה שוב.";

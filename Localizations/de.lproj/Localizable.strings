@@ -123,6 +123,9 @@
 "DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "Der Crane Helferdienst (cranehelperd) scheint nicht am laufen zu sein. Stelle sicher, dass du die neuste Version deines Jailbreaks benutzt.";
 "TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "Es gibt einen Taurine Bug auf arm64 Geräten mit iOS 14.0-14.2.1 welcher verhindert, dass der Crane Helferdienst (cranehelperd) gestartet werden kann. Dein Gerät ist von diesem Problem betroffen. Wenn du Crane benutzen willst, wechsle zu checkra1n oder unc0ver.";
 "INJECTION_ERROR_MESSAGE" = "Es wurde festgestellt, dass CraneSupport.dylib nicht in die Hintergrunddienste %@ geladen ist.";
+"INJECTION_ERROR_MESSAGE_CHOICY" = "Versuche Crane unter Einstellung -> Choicy -> Tweak Fehlerbehebung auszuwählen.";
+"REGISTRATION_FAILED_MESSAGE" = "Die Benachrichtigungsregistrierung konnte nicht umgeleitet werden, da CraneSupport.dylib nicht in den Hintergrunddienst apsd geladen ist.";
+"PLUGIN_REDIRECTION_FAILED_MESSAGE" = "Die Notification Service Erweiterung konnte nicht in den richtigen Crane container umgeleitet werden, da CraneSupport.dylib nicht in den Hintergrunddienst pkd geladen ist.";
 "CRANE_DISABLED_MESSAGE" = "Crane wurde deaktiviert um die Desynchronisierung der Daten zu verhindern.";
 "DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE" = "Der Crane Helferdienst (cranehelperd) ist antwortet nicht, obwohl rocketbootstrap funktioniert. Falls Cr4shed oder CrashReporter einen Crashlog hat, bitte sende ihn per E-Mail (opa334@protonmail.com).";
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "Die App %@ wurde in den Standardcontainer gestartet, weil die Crane dylib nicht in die App geladen ist. Stelle sicher, dass sie nicht mit Tweaks wie Choicy oder TweakRestrict deaktiviert wurde und versuche es erneut.";

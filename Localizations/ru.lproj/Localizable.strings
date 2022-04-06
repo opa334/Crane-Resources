@@ -123,6 +123,9 @@
 /*DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
 "TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "При использовании Taurine на arm64 устройствах присутствует ошибка, предотвращающая запуск crane helper daemon (cranehelperd). Ваше устройство подвержено данной ошибке. Если вы хотите использовать Crane, используйте checkra1n или unc0ver.";
 "INJECTION_ERROR_MESSAGE" = "Обнаружено, что библиотека CraneSupport.dylib не загружена в %@.";
+/*INJECTION_ERROR_MESSAGE_CHOICY*/
+/*REGISTRATION_FAILED_MESSAGE*/
+/*PLUGIN_REDIRECTION_FAILED_MESSAGE*/
 "CRANE_DISABLED_MESSAGE" = "Crane был отключен для предотвращения десинхронизации данных.";
 "DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE" = "Похоже вспомогательная служба Crane (cranehelperd) не отвечает, несмотря на корректную работу rocketbootstrap. Если для нее есть какие-либо логи в Cr4shed или CrashReporter, отправьте их пожалуйста на почту (opa334@protonmail.com).";
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "Для приложения %@ был открыт контейнер по умолчанию, так как мы не смогли загрузить в него библиотеку Crane dylib. Убедитесь, что Crane не был отключен с помощью Choicy, TweakRestrict или им подобными и повторите попытку.";

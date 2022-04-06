@@ -123,6 +123,9 @@
 "DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "Foi identificado que o serviço auxiliar do Crane (Cranehelperd) não está funcionando. Verifique se seu jailbreak está atualizado.";
 "TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "Existe um bug no Taurine nos dispositivos arm64 com iOS 14.0-14.2.1 que inibe o serviço auxiliar do Crane (Cranehelperd) de executar. Identificamos que esse dispositivo é afetado por esse bug, se quiser usar o Crane substitua pelo checkra1n ou pelo unc0ver.";
 "INJECTION_ERROR_MESSAGE" = "Foi identificado que cranesupport.dylib não está carregado em %@.";
+/*INJECTION_ERROR_MESSAGE_CHOICY*/
+/*REGISTRATION_FAILED_MESSAGE*/
+/*PLUGIN_REDIRECTION_FAILED_MESSAGE*/
 "CRANE_DISABLED_MESSAGE" = "O Crane foi desativado para evitar a dessincronização dos dados.";
 "DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE" = "O serviço auxiliar do Crane (cranehelperd) parece não responder, apesar do funcionamento do rocketbootstrap. Se houver algum registro de travamento para ele no Cr4shed ou CrashReporter, envie-o por e-mail (opa334@protonmail.com).";
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "O aplicativo %@ foi iniciado no container padrão porque a dylib do Crane não foi carregada nele. Certifique-se de que não foi desativado com Choicy, TweakRestrict ou similar e tente novamente.";

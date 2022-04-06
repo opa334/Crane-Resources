@@ -123,6 +123,9 @@
 "DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "Crane helper arka plan programının (Cranehelperd) çalışmadığı belirlendi. Jailbreak'inizin güncel olduğundan emin olun.";
 "TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "iOS 14.0-14.2.1 çalıştıran arm64 cihazlarında Taurine'de Crane yardımcı arka plan programının (Cranehelperd) başlamasını engelleyen bir hata var. Bu cihazın bugdan etkilendiği belirlendi, eğer Crane kullanmak istiyorsanız checkra1n veya unc0ver'a geçin.";
 "INJECTION_ERROR_MESSAGE" = "CraneSupport.dylib dosyasının %@ dizinine yüklenmediği belirlendi.";
+/*INJECTION_ERROR_MESSAGE_CHOICY*/
+/*REGISTRATION_FAILED_MESSAGE*/
+/*PLUGIN_REDIRECTION_FAILED_MESSAGE*/
 "CRANE_DISABLED_MESSAGE" = "Veri senkronizasyonlarını önlemek için Crane devre dışı bırakıldı.";
 "DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE" = "Crane'in (Cranehelperd) yardımcı servisi, rocketbootstrap çalışmasına rağmen yanıt vermiyor gibi görünüyor. Cr4shed veya CrashReporter'da bununla ilgili herhangi bir kilitlenme günlüğü varsa, lütfen bunları e-postayla gönderin (opa334@protonmail.com).";
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "%@ uygulaması, Crane dylib yüklenmediği için varsayılan konteynerde başladı. Choicy, TweakRestrict veya benzeri ile devre dışı bırakılmadığından emin olun ve tekrar deneyin.";
