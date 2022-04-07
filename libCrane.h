@@ -62,7 +62,7 @@ typedef NS_ENUM(NSInteger, ContainerPathType) {
 
 // name to display in notifications
 - (NSString*)displayNameForContainerInNotificationWithIdentifier:(NSString*)containerID ofApplicationWithIdentifier:(NSString*)applicationID;
-- (NSString*)containerNameToDisplayInNotificationWithUserInfoOrContext:(NSDictionary*)userInfo ofApplicationWithIdentifier:(NSString*)applicationID;
+- (NSString*)containerNameToDisplayInNotificationWithUserInfoOrContext:(NSDictionary*)userInfoOrContext ofApplicationWithIdentifier:(NSString*)applicationID;
 
 // SpringBoard
 - (void)flushCFPrefsdCacheForApplicationWithIdentifier:(NSString*)applicationID;
