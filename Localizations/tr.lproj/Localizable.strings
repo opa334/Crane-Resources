@@ -108,7 +108,7 @@
 "LAUNCH" = "Başlat";
 "CREATE" = "Oluştur";
 "INJECT_IN_SAFE_MODE" = "Güvenli Modda Enjekte Et";
-"INJECT_IN_SAFE_MODE_DESCRIPTION" = "Varsayılan olarak Crane, bir uygulama güvenli modda başlatıldığında (örneğin, Choicy'deki 'Tweak Enjeksiyonu Devre Dışı' geçişi veya 'Tweakler Olmadan Başlat' uygulama kısayolu kullanılarak) çalışmaz, bu seçenek etkinleştirildiğinde her zaman enjekte eder. Bunun jailbreak'ten gelen güvenli mod üzerinde herhangi bir etkisi yoktur.";
+"INJECT_IN_SAFE_MODE_DESCRIPTION" = "Varsayılan olarak Crane, bir uygulama güvenli modda başlatıldığında (örneğin, Choicy'deki 'Tweak Enjeksiyonu Devre Dışı' düğmesi veya 'Tweakler Olmadan Başlat' uygulama kısayolu kullanılarak) çalışmaz, bu seçenek etkinleştirildiğinde her zaman enjekte eder. Bunun jailbreak'ten gelen güvenli mod üzerinde herhangi bir etkisi yoktur.";
 "SELECT_ALL" = "Hepsini Seç";
 "DESELECT_ALL" = "Hiçbirini Seçme";
 "RESTORE_WARNING_MESSAGE" = "Bir yedeğin geri yüklenmesi, konteynerin mevcut verilerinin üzerine yazılacak, devam edilsin mi?";
