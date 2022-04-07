@@ -67,14 +67,14 @@
 /*SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE*/
 "SET" = "確定設定";
 "NOTIFICATIONS" = "容器通知設定";
-/*NOTIFICATIONS_FOOTER*/
-/*SHOW_CONTAINER_IN_TITLE*/
-/*NOTIFICATIONS_SUPPORT_ENABLED*/
-/*NOTIFICATIONS_SUPPORT_FOOTER*/
+"NOTIFICATIONS_FOOTER" = "啟用此開關將允許此容器傳送通知與跳轉。重置通知註冊將會停止此容器傳送通知直到下次再度開啟此容器";
+"SHOW_CONTAINER_IN_TITLE" = "在通知上顯示來源容器名稱";
+"NOTIFICATIONS_SUPPORT_ENABLED" = "全局允許容器傳送通知與跳轉功能";
+"NOTIFICATIONS_SUPPORT_FOOTER" = "若想全局禁用Crane的容器通知功能（將覆蓋掉每個應用程式內的單獨通知傳送功能），您可以關閉此開關。 此外，您可以選擇是否在通知上顯示其來自的容器名稱。譯者附註：當此開關有所更動時，需要手動啟用各容器一次才能重新產生通知token";
 /*NOTIFICATIONS_SUPPORT_FOOTER_LITE*/
-/*SEPARATE_NOTIFICATION_REGISTRATIONS*/
-/*SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER*/
-"ALLOW_NOTIFICATIONS" = "准許容器傳送通知";
+"SEPARATE_NOTIFICATION_REGISTRATIONS" = "單獨允許此APP容器傳送通知與跳轉功能";
+"SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER" = "啟用此功能後，此應用程式的每個Crane容器都將獲得一個單獨的通知token，並使得來自所有容器的通知都能被接收、呈現。當點擊收到的通知時，應用程式將自動跳轉到通知來源的容器中。此外，您也能在個別容器的設置中單獨禁用其通知功能。（注意：這不適用於所有應用程式，某些應用程式甚至會在未啟用此功能的情況下接收到所有容器的通知）。";
+"ALLOW_NOTIFICATIONS" = "允許容器傳送通知與跳轉功能";
 "RESET_NOTIFICATION_REGISTRATION" = "重置通知註冊";
 "CHOICY_INTEGRATION" = "與Choicy的整合功能";
 "OVERWRITE_CHOICY_CONFIGURATION" = "覆寫原先Choicy的設置";
