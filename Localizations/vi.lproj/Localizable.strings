@@ -1,202 +1,202 @@
-"APPLICATIONS" = "Ứng dụng";
+"APPLICATIONS" = "Các ứng dụng";
 "ACTIVE_CONTAINER" = "Vùng chứa đang hoạt động";
-/*ALWAYS_ASK_ON_APP_LAUNCH*/
-/*SELECT_CONTAINER*/
-"CONTAINERS" = "Nhiều vùng chứa";
+"ALWAYS_ASK_ON_APP_LAUNCH" = "Luôn hỏi vùng chứa mỗi lần mở App";
+"SELECT_CONTAINER" = "Chọn vùng chứa";
+"CONTAINERS" = "Vùng chứa";
 "CONTAINER" = "Vùng chứa";
 "DEFAULT" = "Mặc định";
-"ADD" = "Thêm vào";
-"ADD_CONTAINER" = "Thêm vào vùng hoạt động";
+"ADD" = "Thêm";
+"ADD_CONTAINER" = "Thêm vùng chứa";
 "NAME" = "Tên";
-"CANCEL" = "Huỷ bỏ";
+"CANCEL" = "Huỷ";
 "CONTAINER_NAME" = "Tên vùng chứa";
 "SAVE" = "Lưu";
 "CONTAINER_DELETE_CONFIRMATION_TITLE" = "Xác nhận xóa?";
-"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "Bạn sắp xóa tất cả dữ liệu được liên kết với vùng chứa '% @', không thể khôi phục dữ liệu này.  Bạn có muốn tiếp tục?";
+"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "Bạn sắp xóa tất cả dữ liệu được liên kết với vùng chứa '%@', không thể khôi phục dữ liệu này. Bạn có muốn tiếp tục?";
 "DELETE" = "Xoá";
-"NONE" = "Trống rỗng";
-"MAKE_DEFAULT_CONTAINER" = "Tạo vùng chứa mặc định";
+"NONE" = "Không có";
+"MAKE_DEFAULT_CONTAINER" = "Đặt vùng chứa mặc định";
 "DEFAULT_CONTAINER" = "Vùng chứa mặc định";
 "DEFAULT_CONTAINER_DESCRIPTION" = "Vùng chứa mặc định sẽ được sử dụng khi thiết bị của bạn chưa được bẻ khóa hoặc khi chưa tải Crane.";
-/*CONTAINER_IDENTIFIER*/
-/*PROTECT_USING_BIOMETRICS*/
-/*SET_ACTIVE_CONTAINER_DESCRIPTION*/
-/*DELETE_CONTAINER_DESCRIPTION*/
-/*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
+"CONTAINER_IDENTIFIER" = "Mã định danh vùng chứa";
+"PROTECT_USING_BIOMETRICS" = "Bảo vệ bằng cách sử dụng sinh trắc học";
+"SET_ACTIVE_CONTAINER_DESCRIPTION" = "Đặt Vùng chứa đang hoạt động thành \"%@\"";
+"DELETE_CONTAINER_DESCRIPTION" = "Xóa vùng chứa \"%@\"";
+"ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "Truy cập Cài đặt vùng chứa của \"%@\"";
 "UNNAMED" = "Vô danh";
-/*APP_SHORTCUTS*/
-"APP_SHORTCUT_ENABLED" = "Đã bật phím tắt cho ứng dụng";
-"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Khởi chạy ứng dụng trên lựa chọn vùng chứa";
-"EXPAND_CONTAINERS_SHORTCUT" = "Phím tắt Mở rộng Vùng chứa";
-/*SHOW_NEW_CONTAINER_OPTION*/
-/*ONLY_SHOW_IF_CONTAINERS_EXIST*/
-/*SHOW_CONTAINER_NOTIFICATION_BADGES*/
-/*BACKUP_RESTORE*/
-/*CREATE_MULTI_CONTAINER_BACKUP*/
-/*RESTORE_MULTI_CONTAINER_BACKUP*/
-/*INCLUDED_CONTAINERS*/
-/*PRESETS*/
-/*NEW_PRESET*/
-/*SAVE_SELECTION_INTO_PRESET*/
-/*NEW_PRESET_MESSAGE*/
-"APP_SHORTCUT_DESCRIPTION" = "Phím tắt để quản lý vùng chứa đang hoạt động từ menu cảm ứng xúc giác của ứng dụng và có khởi chạy ứng dụng hay không khi chọn vùng chứa đang hoạt động thông qua phím tắt.";
-/*GAME_CENTER_SECTION_HEADER*/
-/*GAME_CENTER_SECTION_FOOTER*/
-/*GAME_CENTER_ACCOUNT*/
-/*GAME_CENTER_ACCOUNTS*/
-/*MANAGE_GAME_CENTER_ACCOUNTS*/
-/*GAME_CENTER_MANAGER_FOOTER*/
-/*SYSTEM_DEFAULT*/
-/*GAME_CENTER_ADD_ACCOUNT_TITLE*/
-/*GAME_CENTER_ADD_ACCOUNT_MESSAGE*/
-/*GAME_CENTER_RENAME_ACCOUNT_TITLE*/
-/*RENAME*/
-/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE*/
-/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE*/
+"APP_SHORTCUTS" = "Quản lý menu 3DTouch";
+"APP_SHORTCUT_ENABLED" = "Kích hoạt quản lý qua 3DTouch";
+"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Mở vùng chứa sau khi chọn từ 3DTouch";
+"EXPAND_CONTAINERS_SHORTCUT" = "Mở rộng menu ngay";
+"SHOW_NEW_CONTAINER_OPTION" = "Hiển thị tùy chọn 'Vùng chứa mới'";
+"ONLY_SHOW_IF_CONTAINERS_EXIST" = "Chỉ hiện menu nếu đã tạo vùng chứa";
+"SHOW_CONTAINER_NOTIFICATION_BADGES" = "Hiển thị biểu tượng thông báo cho vùng chứa";
+"BACKUP_RESTORE" = "Sao lưu & đặt lại";
+"CREATE_MULTI_CONTAINER_BACKUP" = "Sao lưu cùng lúc nhiều vùng chứa";
+"RESTORE_MULTI_CONTAINER_BACKUP" = "Khôi phục cùng lúc nhiều bản sao lưu";
+"INCLUDED_CONTAINERS" = "Vùng chứa bao gồm";
+"PRESETS" = "Cài đặt trước";
+"NEW_PRESET" = "Cài đặt sẵn mới";
+"SAVE_SELECTION_INTO_PRESET" = "Lưu lựa chọn vào cài đặt sẵn";
+"NEW_PRESET_MESSAGE" = "Nhập tên cho giá trị đặt sẵn mới. Lựa chọn vùng chứa hiện tại sẽ được lưu vào đó.";
+"APP_SHORTCUT_DESCRIPTION" = "Phím tắt để chuyển đổi giữa các vùng chứa từ menu cảm ứng xúc giác / cảm ứng 3D của các ứng dụng.";
+"GAME_CENTER_SECTION_HEADER" = "Game Center";
+"GAME_CENTER_SECTION_FOOTER" = "Chọn tài khoản Game Center để chuyển sang khi khởi chạy vào vùng chứa này.";
+"GAME_CENTER_ACCOUNT" = "Tài khoản Game Center";
+"GAME_CENTER_ACCOUNTS" = "Tài khoản Game Center";
+"MANAGE_GAME_CENTER_ACCOUNTS" = "Quản lý tài khoản Game Center";
+"GAME_CENTER_MANAGER_FOOTER" = "Do các hạn chế về kỹ thuật, bạn cần thêm Trung tâm trò chơi của mình vào danh sách toàn cầu này. Sau đó, bạn có thể chỉ định tài khoản cho một hoặc nhiều vùng chứa và hệ thống sẽ chuyển sang tài khoản đó khi khởi động ứng dụng vào vùng chứa. Nếu bạn đã cài đặt ứng dụng trên thiết bị của mình sử dụng Game Center mà bạn không muốn sử dụng Crane, bạn vẫn muốn bật 'Tài khoản hệ thống riêng biệt' và 'Hỗ trợ Trung tâm trò chơi' để hệ thống chuyển về chế độ mặc định của trò chơi. Tài khoản trung tâm khi mở nó.";
+"SYSTEM_DEFAULT" = "Mặc định hệ thống";
+"GAME_CENTER_ADD_ACCOUNT_TITLE" = "Thêm tài khoản";
+"GAME_CENTER_ADD_ACCOUNT_MESSAGE" = "Nhập tên tài khoản của bạn ở đây. Lời nhắc đăng nhập sẽ xuất hiện khi bạn khởi chạy ứng dụng lần đầu tiên vào vùng chứa đã chỉ định tài khoản.";
+"GAME_CENTER_RENAME_ACCOUNT_TITLE" = "Đổi tên tài khoản";
+"RENAME" = "Đổi tên";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE" = "Xóa tài khoản";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE" = "Bạn có chắc chắn muốn xóa Tài khoản Game Center \"%@\" không? Mọi vùng chứa được liên kết với nó ngay bây giờ sẽ chuyển sang Mặc định hệ thống.";
 "BACKUP_DATA_TO_FILE" = "Sao lưu dữ liệu vào tệp";
 "RESTORE_DATA_FROM_BACKUP_FILE" = "Khôi phục dữ liệu từ tệp sao lưu";
-/*DEVICE_IDENTIFIER_FOR_VENDOR*/
-/*USE_CONTAINER_IDENTIFIER*/
-/*GENERATE_NEW*/
-/*SET_CUSTOM*/
-/*IDENTIFIER*/
-/*DEVICE_IDENTIFIER_DESCRIPTION*/
-/*DEVICE_IDENTIFIER_CHANGE_WARNING*/
-/*SET_CUSTOM_IDENTIFIER*/
-/*SET_CUSTOM_IDENTIFIER_MESSAGE*/
-/*SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE*/
-/*SET*/
-/*NOTIFICATIONS*/
-/*NOTIFICATIONS_FOOTER*/
-/*SHOW_CONTAINER_IN_TITLE*/
-/*NOTIFICATIONS_SUPPORT_ENABLED*/
-/*NOTIFICATIONS_SUPPORT_FOOTER*/
-/*NOTIFICATIONS_SUPPORT_FOOTER_LITE*/
-/*SEPARATE_NOTIFICATION_REGISTRATIONS*/
-/*SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER*/
-/*ALLOW_NOTIFICATIONS*/
-/*RESET_NOTIFICATION_REGISTRATION*/
-/*CHOICY_INTEGRATION*/
-/*OVERWRITE_CHOICY_CONFIGURATION*/
-/*CHOICY_CONFIGURATION*/
-/*BROWSE_DATA*/
-/*APPLICATION*/
-/*GROUPS*/
-/*PLUGINS*/
-"DELETE_DATA" = "Xoá dữ liệu ";
-/*SIZE_OF_CONTAINER*/
-"UNARCHIVING" = "Đang hủy lưu trữ";
+"DEVICE_IDENTIFIER_FOR_VENDOR" = "Mã nhận dạng thiết bị cho nhà cung cấp";
+"USE_CONTAINER_IDENTIFIER" = "Sử dụng mã định danh vùng chứa";
+"GENERATE_NEW" = "Tạo mới";
+"SET_CUSTOM" = "Đặt tùy chỉnh";
+"IDENTIFIER" = "Định dạng";
+"DEVICE_IDENTIFIER_DESCRIPTION" = "Số nhận dạng thiết bị bạn thấy ở đây được sử dụng để nhận dạng thiết bị của bạn với nhà cung cấp (nhà phát triển) của ứng dụng này. Nếu nhà cung cấp phân phối nhiều ứng dụng, số nhận dạng này sẽ giống nhau trên tất cả chúng. Vì một số ứng dụng sử dụng mã nhận dạng này để đăng xuất bạn, Crane giả mạo mã nhận dạng của các vùng chứa không phải mặc định thành số nhận dạng vùng chứa theo mặc định, bạn cũng có thể tắt cài đặt này và đặt một tùy chỉnh. Khi một thứ gì đó bên trong Crane thay đổi mã nhận dạng vùng chứa trong khi tùy chọn \"Sử dụng số nhận dạng vùng chứa\" được bật (ví dụ: khi đặt vùng chứa làm mặc định), thì cài đặt sẽ tự động được điều chỉnh để giữ nguyên số nhận dạng thiết bị. Khi bạn sửa đổi số nhận dạng thiết bị của vùng chứa mặc định, nó sẽ được ghi vào bộ nhớ đệm hệ thống và vẫn tồn tại ngay cả khi không tải Crane hoặc thiết bị chưa được bẻ khóa.";
+"DEVICE_IDENTIFIER_CHANGE_WARNING" = "Bạn sắp thay đổi số nhận dạng thiết bị của vùng chứa này. Một số ứng dụng sẽ đăng xuất bạn vì đối với họ, có vẻ như bạn đã thay đổi thiết bị của mình. Bạn có muốn tiếp tục?";
+"SET_CUSTOM_IDENTIFIER" = "Đặt mã nhận dạng tùy chỉnh";
+"SET_CUSTOM_IDENTIFIER_MESSAGE" = "Nhập số nhận dạng để đặt, nó phải là một chuỗi có 32 ký tự chỉ chứa các chữ cái hex (0-9, A-F).\nĐịnh dạng: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXXXX\n(dấu gạch nối bị bỏ qua)";
+"SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE" = "Số nhận dạng bạn đã nhập trước đó có định dạng sai, vui lòng thử lại.";
+"SET" = "Đặt";
+"NOTIFICATIONS" = "Quản Lý thông báo của vùng chứa";
+"NOTIFICATIONS_FOOTER" = "Định cấu hình xem vùng chứa này có được phép nhận thông báo đẩy hay không. Đặt lại đăng ký sẽ ngăn thông báo đến cho đến khi ứng dụng tiếp theo khởi chạy vào vùng chứa.";
+"SHOW_CONTAINER_IN_TITLE" = "Hiện tên vùng chứa khi thông báo";
+"NOTIFICATIONS_SUPPORT_ENABLED" = "Kích hoạt hỗ trợ thông báo";
+"NOTIFICATIONS_SUPPORT_FOOTER" = "Nếu bạn muốn tắt phần hỗ trợ thông báo của Crane (bao gồm cài đặt cho mỗi ứng dụng được gọi là 'Đăng ký thông báo riêng') ở mọi ứng dụng, bạn có thể làm như vậy tại đây. Ngoài ra, bạn có thể định cấu hình xem tiêu đề của các thông báo đến có hiển thị nó đến từ thùng cẩu nào hay không. ";
+"NOTIFICATIONS_SUPPORT_FOOTER_LITE" = "Nếu bạn muốn tắt phần hỗ trợ thông báo của Crane (bao gồm cài đặt cho mỗi ứng dụng được gọi là 'Đăng ký thông báo riêng') ở mọi ứng dụng, bạn có thể làm như vậy tại đây.";
+"SEPARATE_NOTIFICATION_REGISTRATIONS" = "Đăng ký thông báo riêng";
+"SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER" = "Khi bật chuyển đổi này, mọi vùng chứa Crane cho ứng dụng này sẽ nhận được một mã thông báo riêng biệt sẽ cho phép thông báo đến từ tất cả các vùng chứa. Khi nhấn vào một thông báo đã nhận, ứng dụng sẽ khởi chạy vào vùng chứa mà thông báo đến từ đó. Ngoài ra, nó bổ sung khả năng tắt thông báo trên cơ sở mỗi vùng chứa từ cài đặt của chúng. (Lưu ý: Điều này không hoạt động với tất cả các ứng dụng và một số ứng dụng thậm chí nhận được thông báo cho tất cả các vùng chứa mà không bật chuyển đổi này).";
+"ALLOW_NOTIFICATIONS" = "Cho phép thông báo";
+"RESET_NOTIFICATION_REGISTRATION" = "Đặt lại đăng ký";
+"CHOICY_INTEGRATION" = "Tích hợp Choicy";
+"OVERWRITE_CHOICY_CONFIGURATION" = "Ghi đè cấu hình Choicy";
+"CHOICY_CONFIGURATION" = "Cấu hình Choicy";
+"BROWSE_DATA" = "Duyệt dữ liệu";
+"APPLICATION" = "Ứng dụng";
+"GROUPS" = "Các nhóm";
+"PLUGINS" = "Bổ sung";
+"DELETE_DATA" = "Xoá dữ liệu";
+"SIZE_OF_CONTAINER" = "Kích thước vùng chứa";
+"UNARCHIVING" = "Hủy lưu trữ";
 "RESTORING" = "Đang khôi phục";
 "BACKING_UP" = "Sao lưu";
-/*PREPARING*/
-/*CHECKING*/
+"PREPARING" = "Chuẩn bị";
+"CHECKING" = "Kiểm tra";
 "ERROR" = "Lỗi";
-"WARNING" = "Cẩn thận ăn Táo";
-/*BACKUP_INVALID*/
-"APP_ID_MISMATCH_ERROR" = "Ứng dụng mà từ đó bản sao lưu này được tạo (% @) không giống với ứng dụng bạn đang cố gắng khôi phục nó (%@)";
-"GROUP_ID_MISMATCH_WARNING" = "Số nhận dạng nhóm của bản sao lưu (% @) không khớp với số nhận dạng hiện tại của ứng dụng (% @), điều này có thể khiến một số dữ liệu không được khôi phục.  Bạn có còn muốn tiếp tục không?";
-/*NO_APPS_INSTALLED_ERROR*/
-/*RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR*/
-/*BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR*/
-/*RESTORE_SUCCESS_MESSAGE*/
-/*MULTI_RESTORE_SUCCESS_MESSAGE*/
-/*SUCCESS*/
+"WARNING" = "Cảnh báo";
+"BACKUP_INVALID" = "Sao lưu không hợp lệ";
+"APP_ID_MISMATCH_ERROR" = "Ứng dụng mà bản sao lưu này được tạo (%@) không giống với ứng dụng bạn đang cố khôi phục nó (%@)";
+"GROUP_ID_MISMATCH_WARNING" = "Số nhận dạng nhóm của bản sao lưu (%@) không khớp với số nhận dạng hiện tại của ứng dụng (%@), điều này có thể khiến một số dữ liệu không được khôi phục. Bạn vẫn muốn tiếp tục?";
+"NO_APPS_INSTALLED_ERROR" = "Không có ứng dụng nào có trong bản sao lưu nhiều vùng chứa (%@) được cài đặt trên thiết bị của bạn. Cài đặt các ứng dụng và thử lại.";
+"RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR" = "Không còn đủ dung lượng đĩa trống để tiến hành khôi phục, quá trình khôi phục này yêu cầu ít nhất %@ dung lượng trống. Hãy giải phóng một số dung lượng rồi thử lại.";
+"BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR" = "Không còn đủ dung lượng đĩa trống để tiến hành sao lưu, bản sao lưu này yêu cầu ít nhất %@ dung lượng trống. Hãy giải phóng một số dung lượng rồi thử lại.";
+"RESTORE_SUCCESS_MESSAGE" = "Bản sao lưu đã được khôi phục thành công.";
+"MULTI_RESTORE_SUCCESS_MESSAGE" = "Đã khôi phục thành công bản sao lưu nhiều vùng chứa vào các vùng chứa %zd.";
+"SUCCESS" = "Thành công";
 "CONTINUE" = "Tiếp tục";
 "CLOSE" = "Đóng";
-"SETTINGS" = "Cài đặt";
-/*NEW_CONTAINER*/
-/*LAUNCH*/
-/*CREATE*/
-"INJECT_IN_SAFE_MODE" = "Tiêm trong Chế độ An toàn";
-"INJECT_IN_SAFE_MODE_DESCRIPTION" = "Theo mặc định, Crane không hoạt động khi một ứng dụng được khởi chạy ở chế độ an toàn (ví dụ: bằng cách sử dụng nút chuyển đổi 'Tắt tính năng tiêm tinh chỉnh' của Choicy hoặc phím tắt ứng dụng 'Khởi chạy không chỉnh sửa'), với tùy chọn này được bật, nó sẽ luôn đưa vào.  Điều này không ảnh hưởng đến chế độ an toàn từ bản bẻ khóa.";
-/*SELECT_ALL*/
-/*DESELECT_ALL*/
-"RESTORE_WARNING_MESSAGE" = "Khôi phục bản sao lưu sẽ ghi đè dữ liệu hiện tại của vùng chứa, tiếp tục?";
-"NOT_A_BACKUP_ERROR_MESSAGE" = "Tệp bạn đã chọn dường như không phải là bản sao lưu vùng chứa";
-/*NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE*/
-/*CONFIGURE_RESTORE*/
-/*INTO_CONTAINER*/
-/*NEW_CONTAINER_NAME*/
-/*RESTORE_ERROR*/
-/*BACKUP_ERROR*/
-/*COMMUNICATION_ERROR_MESSAGE*/
-/*DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
-/*TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
-"INJECTION_ERROR_MESSAGE" = "Nó được xác định rằng CraneSupport.dylib không được tải vào%@";
-/*INJECTION_ERROR_MESSAGE_CHOICY*/
-/*REGISTRATION_FAILED_MESSAGE*/
-/*PLUGIN_REDIRECTION_FAILED_MESSAGE*/
-"CRANE_DISABLED_MESSAGE" = "Cần trục đã bị vô hiệu hóa để tránh giải mã dữ liệu.";
-/*DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE*/
-/*CRANE_DYLIB_NOT_LOADED_ERROR*/
-"AND" = "Và";
-"CRANE_ERROR" = "Crane bị lỗi";
-/*OTHER*/
+"SETTINGS" = "Cài đặt ";
+"NEW_CONTAINER" = "Vùng chứa mới";
+"LAUNCH" = "Launch";
+"CREATE" = "Tác giả";
+"INJECT_IN_SAFE_MODE" = "Inject trong Safe Mode";
+"INJECT_IN_SAFE_MODE_DESCRIPTION" = "Theo mặc định, Crane không hoạt động khi ứng dụng được khởi chạy ở chế độ an toàn (ví dụ: bằng cách sử dụng nút chuyển đổi 'Tắt tính năng tiêm tinh chỉnh' của Choicy hoặc phím tắt ứng dụng 'Khởi chạy không chỉnh sửa'), với tùy chọn này được bật, nó sẽ luôn đưa vào. Điều này không ảnh hưởng đến chế độ an toàn từ bản bẻ khóa.";
+"SELECT_ALL" = "Chọn tất cả";
+"DESELECT_ALL" = "Xoá tất cả";
+"RESTORE_WARNING_MESSAGE" = "Khôi phục bản sao lưu sẽ ghi đè lên dữ liệu hiện tại của vùng chứa, tiếp tục?";
+"NOT_A_BACKUP_ERROR_MESSAGE" = "Tệp đã chọn dường như không phải là bản sao lưu vùng chứa";
+"NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE" = "Tệp đã chọn dường như không phải là bản sao lưu nhiều vùng chứa";
+"CONFIGURE_RESTORE" = "Định cấu hình Khôi phục";
+"INTO_CONTAINER" = "Vào vùng chứa";
+"NEW_CONTAINER_NAME" = "Tên vùng chứa mới";
+"RESTORE_ERROR" = "Lỗi sao lưu";
+"BACKUP_ERROR" = "Lỗi sao lưu";
+"COMMUNICATION_ERROR_MESSAGE" = "Người ta xác định rằng liên lạc với dịch vụ trợ giúp cần trục (Cranehelperd) không hoạt động. Điều này có thể do rocketbootstrap không hoạt động trên thiết bị của bạn.";
+"DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "Nó đã được xác định rằng daemon trợ giúp cần cẩu (Cranehelperd) không chạy. Đảm bảo rằng bản bẻ khóa của bạn được cập nhật.";
+"TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "Có một lỗi trong Taurine trên các thiết bị arm64 chạy iOS 14.0-14.2.1 ngăn không cho daemon trợ giúp Crane (Cranehelperd) khởi động. Người ta xác định rằng thiết bị này bị ảnh hưởng bởi lỗi, nếu bạn muốn sử dụng Crane thì hãy chuyển sang checkra1n hoặc unc0ver.";
+"INJECTION_ERROR_MESSAGE" = "Nó được xác định rằng CraneSupport.dylib không được tải vào %@.";
+"INJECTION_ERROR_MESSAGE_CHOICY" = "Thử chọn Crane bên trong Cài đặt -> Choicy -> Tinh chỉnh Khắc phục sự cố(Tweak Troubleshooting).";
+"REGISTRATION_FAILED_MESSAGE" = "Không thể chuyển hướng đăng ký thông báo vì CraneSupport.dylib không được tải vào daemon apsd.";
+"PLUGIN_REDIRECTION_FAILED_MESSAGE" = "Không thể chuyển hướng tiện ích mở rộng dịch vụ thông báo đến đúng vùng chứa vì CraneSupport.dylib không được tải vào daemon pkd.";
+"CRANE_DISABLED_MESSAGE" = "Crane đã bị vô hiệu hóa để tránh giải mã dữ liệu.";
+"DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE" = "Dịch vụ trợ giúp của Crane (Cranehelperd) dường như không phản hồi mặc dù rocketbootstrap đang hoạt động. Nếu có bất kỳ nhật ký sự cố nào cho nó trong Cr4shed hoặc CrashReporter, vui lòng gửi chúng qua email (opa334@protonmail.com).";
+"CRANE_DYLIB_NOT_LOADED_ERROR" = "Ứng dụng %@ bắt đầu vào vùng chứa mặc định bởi vì Crane dylib không được tải vào đó. Đảm bảo rằng nó không bị tắt bằng Choicy, TweakRestrict hoặc tương tự và thử lại.";
+"AND" = "và";
+"CRANE_ERROR" = "Lỗi Crane";
+"OTHER" = "Khác";
 "FOLLOW_ME_ON_TWITTER" = "Theo dõi tôi trên Twitter";
-/*CREDITS*/
-"CREDITS_AND_LICENSES" = "Tín dụng & Giấy phép";
-"LICENSE" = "Giấy phép";
+"CREDITS" = "Credits";
+"CREDITS_AND_LICENSES" = "Credits & Licenses(Dịch bởi HĐL)";
+"LICENSE" = "License";
 "SELECT_APPLICATION" = "Chọn ứng dụng";
 "CONFIGURE_APPLICATION" = "Định cấu hình ứng dụng";
-"SWITCH_WARNING_MESSAGE" = "Bạn sắp thay đổi ứng dụng đã chọn, làm như vậy sẽ xóa dữ liệu của tất cả các vùng chứa không phải mặc định của ứng dụng đã chọn trước đó.  Bạn có muốn tiếp tục?";
+"SWITCH_WARNING_MESSAGE" = "Bạn sắp thay đổi ứng dụng đã chọn, làm như vậy sẽ xóa dữ liệu của tất cả các vùng chứa không phải mặc định của ứng dụng đã chọn trước đó. Bạn có muốn tiếp tục?";
 "BUY_CRANE" = "Mua Crane";
 "RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "Khởi động lại daemon và SpringBoard bị ảnh hưởng";
-"LITE_IMPORT_TITLE" = "Nhập vào Crane";
-"LITE_IMPORT_MESSAGE" = "Đã tìm thấy các vùng chứa Crane cho ứng dụng '% @'.  Bạn muốn làm gì với chúng?";
-"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "Nhập vào thùng chứa";
-"DELETE_CRANE_LITE_CONTAINERS" = "Xóa thùng chứa";
-"REMIND_ME_LATER" = "Nhắc nhở tôi sau";
-"BUY_CRANE_FOOTER" = "Sau khi mua Crane, bạn sẽ có thể nhập các thùng chứa của Crane Lite vào đó.  Điều này sẽ khả dụng thông qua một cảnh báo xuất hiện khi bạn truy cập trang tùy chọn của Crane.";
+"LITE_IMPORT_TITLE" = "Nhập  Crane Lite";
+"LITE_IMPORT_MESSAGE" = "Đã tìm thấy vùng chứa Crane Lite cho ứng dụng '%@'. Bạn muốn làm gì với chúng?";
+"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "Nhập các thùng chứa của Crane Lite vào Crane";
+"DELETE_CRANE_LITE_CONTAINERS" = "Xóa các vùng chứa của Crane Lite";
+"REMIND_ME_LATER" = "Nhắc tôi sau";
+"BUY_CRANE_FOOTER" = "Sau khi mua Crane, bạn sẽ có thể nhập các thùng chứa của Crane Lite vào đó. Điều này sẽ khả dụng thông qua một cảnh báo xuất hiện khi bạn truy cập trang tùy chọn của Crane.";
 "UNKNOWN_CONTAINERS_FOUND" = "Đã tìm thấy vùng chứa không xác định";
-"UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "Đã tìm thấy%u vùng chứa không xác định có dữ liệu được lưu trữ bên trong ứng dụng nhưng hiện không có mục nhập bên trong tùy chọn của Crane.  Điều này có thể xảy ra nếu danh sách ưu tiên trước đó bị xóa.  Bạn muốn làm gì với các vùng chứa không xác định?";
+"UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "Đã tìm thấy %u vùng chứa không xác định có dữ liệu được lưu trữ bên trong ứng dụng nhưng hiện không có mục nhập bên trong tùy chọn của Crane. Điều này có thể xảy ra nếu danh sách ưu tiên trước đó đã bị xóa. Bạn muốn làm gì với các vùng chứa không xác định?";
 "DELETE_CONTAINERS" = "Xóa vùng chứa";
-"IMPORT_CONTAINERS" = "Nhập các thùng chứa";
+"IMPORT_CONTAINERS" = "Nhập các vùng chứa";
 "UNKOWN_CONTAINER" = "Vùng chứa không xác định";
-/*KEYCHAIN_MIGRATION*/
-/*KEYCHAIN_MIGRATION_MESSAGE*/
-/*OPEN_SETTINGS*/
-/*MIGRATION_SUCCEEDED*/
-/*MIGRATION_SUCCEEDED_MESSAGE*/
-/*FILENAME*/
-/*OPTIONAL*/
-/*ENCRYPT_BACKUP*/
-/*PASSWORD*/
-/*ENCRYPT_BACKUP_FOOTER*/
-/*INCLUDE_KEYCHAIN*/
-/*INCLUDE_KEYCHAIN_FOOTER*/
-/*ENTER_PASSWORD*/
-/*ENTER_PASSWORD_DESCRIPTION*/
-/*RESTORE*/
-/*INCLUDE_KEYCHAIN_UNSAFE_WARNING*/
-/*ENABLE_ENCRYPTION*/
-/*IGNORE*/
-/*NO_PASSWORD_ERROR*/
-/*ACTIVE*/
-/*SLICES_FOUND*/
-/*SLICES_FOUND_MESSAGE*/
-/*IMPORT_SLICES*/
-/*DELETE_SLICES*/
-/*CREATE*/
-/*CONFIRM_PASSWORD*/
-/*SEP_ITEMS_OMMITED_WARNING_MESSAGE*/
-/*NEW_BACKUP*/
-/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER*/
-/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE*/
-/*SEPARATE_SYSTEM_ACCOUNTS*/
-/*GAME_CENTER_SUPPORT*/
-/*CONTAINER_PROTECTION*/
-/*CONTAINER_PROTECTION_FOOTER*/
-/*PREVENT_SANDBOX_LOOKUPS*/
-/*PREVENT_SANDBOX_LOOKUPS_FOOTER*/
-/*PREVIOUS_PASSWORD_WRONG_MESSAGE*/
-/*CRANESB_COMMUNICATION_NOT_WORKING*/
-/*SET_AS_THE_ACTIVE_CRANE_CONTAINER*/
-/*CHANGED_TO_CONTAINER*/
-/*SUGGESTIONS*/
-/*CHOICYLOADER_SUGGESTION_TITLE*/
-/*CHOICYLOADER_SUGGESTION_MESSAGE*/
-/*OPEN_REPO*/
-/*ACTIVATOR_INFO_SUGGESTION_TITLE*/
-/*ACTIVATOR_INFO_SUGGESTION_MESSAGE*/
-/*SHORTCUTS_INFO_SUGGESTION_TITLE*/
-/*SHORTCUTS_INFO_SUGGESTION_MESSAGE*/
+"KEYCHAIN_MIGRATION" = "Di chuyển chuỗi khóa";
+"KEYCHAIN_MIGRATION_MESSAGE" = "Dữ liệu chuỗi khóa từ phiên bản Crane cũ hơn đã được phát hiện, dữ liệu này cần được di chuyển sang định dạng mới nhưng điều này chỉ có thể được thực hiện từ quy trình Tùy chọn. Vui lòng mở trang cài đặt của Crane một lần để bắt đầu di chuyển, Crane đã bị vô hiệu hóa cho đến khi việc này được thực hiện.";
+"OPEN_SETTINGS" = "Mở cài đặt";
+"MIGRATION_SUCCEEDED" = "Di chuyển thành công";
+"MIGRATION_SUCCEEDED_MESSAGE" = "Dữ liệu chuỗi khóa cũ đã được di chuyển thành công sang định dạng mới. Cranebây giờ có thể được sử dụng trở lại.";
+"FILENAME" = "Tên tệp";
+"OPTIONAL" = "Không bắt buộc";
+"ENCRYPT_BACKUP" = "Mã hóa sao lưu";
+"PASSWORD" = "Mật mã";
+"ENCRYPT_BACKUP_FOOTER" = "Mã hóa bản sao lưu bằng mật khẩu. Việc khôi phục bản sao lưu sau đó mà không có mật khẩu sẽ không thể thực hiện được. Nếu bạn mất mật khẩu, bạn mất dữ liệu.";
+"INCLUDE_KEYCHAIN" = "Bao gồm chuỗi khóa";
+"INCLUDE_KEYCHAIN_FOOTER" = "Bao gồm dữ liệu chuỗi khóa được ứng dụng / vùng chứa lưu trữ trong bản sao lưu. Chứa thông tin đăng nhập tài khoản, khóa và hơn thế nữa. Không an toàn khi không sử dụng mã hóa.";
+"ENTER_PASSWORD" = "Nhập mật mã";
+"ENTER_PASSWORD_DESCRIPTION" = "Bản sao lưu %@ được mã hóa bằng mật khẩu, vui lòng nhập mật khẩu đó để bắt đầu khôi phục.";
+"RESTORE" = "Đặt lại";
+"INCLUDE_KEYCHAIN_UNSAFE_WARNING" = "Khi bao gồm dữ liệu chuỗi khóa, bạn nên bật 'Sao lưu mã hóa', nếu không bất kỳ ai có quyền truy cập vào tệp sao lưu có thể xâm phạm tài khoản mà ứng dụng / vùng chứa đã đăng nhập.";
+"ENABLE_ENCRYPTION" = "Cho phép mã hóa";
+"IGNORE" = "Bỏ qua";
+"NO_PASSWORD_ERROR" = "Mã hóa được bật nhưng trường mật khẩu trống, vui lòng nhập mật khẩu hoặc tắt tính năng mã hóa và thử lại.";
+"ACTIVE" = "Active";
+"SLICES_FOUND" = "Slices dc tìm thấy";
+"SLICES_FOUND_MESSAGE" = "Slices đã được tìm thấy cho ứng dụng hiện được chọn:\n%@ Bạn có muốn nhập chúng dưới dạng thùng chứa cần cẩu không? Không thể hoàn nguyên chúng về Slices trong tương lai.";
+"IMPORT_SLICES" = "Nhập Slices";
+"DELETE_SLICES" = "Xoá Slices";
+"CREATE" = "Tác giả";
+"CONFIRM_PASSWORD" = "Xác nhận mật khẩu";
+"SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "Một hoặc nhiều mục keychain của ứng dụng này được lưu trữ trên vùng bảo mật và đã bị loại bỏ khỏi bản sao lưu vì việc khôi phục chúng sẽ không thể thực hiện được. Khi khôi phục bản sao lưu này, bạn có thể cần phải nhập lại mật khẩu hoặc các sự cố khác có thể xảy ra. Bạn có muốn tiếp tục?";
+"NEW_BACKUP" = "Sao lưu mới";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER" = "Có chuyển hướng các tài khoản hệ thống (ví dụ: ID Apple) được ứng dụng truy cập trên mỗi vùng chứa hay không. Hầu hết hữu ích cho các ứng dụng hệ thống như AppStore. Hỗ trợ Game Center phải được bật riêng và yêu cầu bạn chỉ định thủ công tài khoản Game Center cho một vùng chứa trong cài đặt của nó.";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE" = "Có chuyển hướng các tài khoản hệ thống (ví dụ: ID Apple) được ứng dụng truy cập trên mỗi vùng chứa hay không. Hầu hết hữu ích cho các ứng dụng hệ thống như AppStore. Hỗ trợ Game Center không được bao gồm trong Crane Lite, chỉ có trong phiên bản đầy đủ của Crane.";
+"SEPARATE_SYSTEM_ACCOUNTS" = "Tài khoản hệ thống riêng biệt";
+"GAME_CENTER_SUPPORT" = "Hỗ trợ Trung tâm trò chơi";
+"CONTAINER_PROTECTION" = "Bảo vệ container";
+"CONTAINER_PROTECTION_FOOTER" = "Ngăn ứng dụng xóa dữ liệu của các vùng chứa khác khi khởi chạy vào vùng chứa mặc định, cần thiết cho một số ứng dụng. Sử dụng móc ứng dụng.";
+"PREVENT_SANDBOX_LOOKUPS" = "Ngăn Tra cứu Hộp cát";
+"PREVENT_SANDBOX_LOOKUPS_FOOTER" = "Ngăn ứng dụng tự tìm kiếm hộp cát để nhận các đường dẫn thực không được chuyển hướng. Khắc phục sự cố với trình duyệt web không thể lưu cookie trong các vùng chứa không mặc định. Bật nó cho mấy app trình duyệt ok.";
+"PREVIOUS_PASSWORD_WRONG_MESSAGE" = "Mật khẩu đã nhập trước đó bị sai. Vui lòng thử lại!";
+"CRANESB_COMMUNICATION_NOT_WORKING" = "Kết nối với SpringBoard không hoạt động, điều này có thể do rocketbootstrap không hoạt động hoặc do CraneSB.dylib không được đưa vào SpringBoard. Do đó, một tính năng trong đó các ứng dụng tự động tải lại (khi được yêu cầu bởi một tùy chọn bạn chọn bên trong tùy chọn Crane) sẽ không hoạt động, hãy tự chịu rủi ro khi tiếp tục.";
+"SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "Set \"%@\" as the active Crane container";
+"CHANGED_TO_CONTAINER" = "\"%@\" đổi thành \"%@\"";
+"SUGGESTIONS" = "Gợi ý";
+"CHOICYLOADER_SUGGESTION_TITLE" = "Vấn đề về chất nền?";
+"CHOICYLOADER_SUGGESTION_MESSAGE" = "Thư viện Crane chính (\"Crane.dylib\") cần phải đưa vào các ứng dụng trước, trên Substrate, điều này không xảy ra tự động và một số chỉnh sửa đang tải trước khi Crane có thể phá vỡ một phần hoặc toàn bộ chức năng của nó. Các hiện tượng phổ biến bao gồm tất cả các vùng chứa xuất hiện dưới dạng vùng chứa mặc định, các vùng chứa bị xóa khi khởi chạy lại ứng dụng hoặc giải mã đồng bộ hóa dữ liệu. Nếu bất kỳ sự cố nào trong số này ảnh hưởng đến bạn, hãy cài đặt ChoicyLoader từ https://opa334.github.io. Thao tác này sẽ khắc phục chúng bằng cách đảm bảo rằng Crane luôn tải trước.";
+"OPEN_REPO" = "Mở Repo";
+"ACTIVATOR_INFO_SUGGESTION_TITLE" = "Tích hợp Activator";
+"ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane cho phép bạn chỉ định một hành động của trình kích hoạt để thực thi bất cứ khi nào một vùng chứa cụ thể được đặt là hoạt động. Điều này có thể được truy cập từ Trình kích hoạt -> (Mọi nơi / Tại Màn hình chính / Trong ứng dụng / Tại Màn hình khóa) -> Crane. Nó cũng có các hành động để đặt một vùng chứa cụ thể cho một ứng dụng đang hoạt động, có thể được truy cập bên trong Activator -> (Mọi nơi / Ở màn hình chính / Trong ứng dụng / Tại màn hình khóa) -> (Mọi sự kiện) -> Crane.";
+"SHORTCUTS_INFO_SUGGESTION_TITLE" = "Tích hợp phím tắt";
+"SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "Crane bao gồm một Hành động phím tắt để đặt vùng chứa hoạt động của một ứng dụng, nó có thể được truy cập khi thêm một Hành động vào một phím tắt trong Ứng dụng -> Crane -> Đặt vùng chứa Crane hoạt động";
