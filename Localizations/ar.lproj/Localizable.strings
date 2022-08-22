@@ -1,105 +1,29 @@
-"APPLICATIONS" = "قائمة التطبيقات";
-"ACTIVE_CONTAINER" = "تفعيل الحاوية";
-/*ALWAYS_ASK_ON_APP_LAUNCH*/
-/*SELECT_CONTAINER*/
+/* Misc */
+
+/*OPEN_REPO*/
 "CONTAINERS" = "حاويات";
 "CONTAINER" = "حاوية";
 "DEFAULT" = "إفتراضي";
 "ADD" = "إضافة";
-"ADD_CONTAINER" = "إضافة حاوية";
 "NAME" = "إسم";
 "CANCEL" = "إلغاء";
-"CONTAINER_NAME" = "إسم الحاوية";
-"SAVE" = "حفظ";
-"CONTAINER_DELETE_CONFIRMATION_TITLE" = "تاكيد الحذف";
-"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "حذف جميع البيانات المرتبطة بالحاوية '%@', لن تستطيع إرجاع هذه البيانات لاحقا. متابعة؟";
+/*SELECT_CONTAINER*/
+"ADD_CONTAINER" = "إضافة حاوية";
+/*NOTIFICATIONS*/
 "DELETE" = "حذف";
 "NONE" = "لا يوجد";
-"MAKE_DEFAULT_CONTAINER" = "تعيين كحاوية افتراضية";
-"DEFAULT_CONTAINER" = "الحاوية الافتراضية";
-"DEFAULT_CONTAINER_DESCRIPTION" = "سوف يتم استخدام الحاوية الافتراضية في حال لم تكن في وضع الجيلبريك.";
-"CONTAINER_IDENTIFIER" = "معرف الحاوية";
-/*PROTECT_USING_BIOMETRICS*/
-/*SET_ACTIVE_CONTAINER_DESCRIPTION*/
-/*DELETE_CONTAINER_DESCRIPTION*/
-/*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
-"UNNAMED" = "بدون اسم";
-/*APP_SHORTCUTS*/
-"APP_SHORTCUT_ENABLED" = "تفعيل اختصارات التطبيق";
-"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "فتح التطبيق عند اختيار الحاوية";
-"EXPAND_CONTAINERS_SHORTCUT" = "توسيع اسماء الحاويات";
-/*SHOW_NEW_CONTAINER_OPTION*/
-/*ONLY_SHOW_IF_CONTAINERS_EXIST*/
-/*SHOW_CONTAINER_NOTIFICATION_BADGES*/
-/*BACKUP_RESTORE*/
-/*CREATE_MULTI_CONTAINER_BACKUP*/
-/*RESTORE_MULTI_CONTAINER_BACKUP*/
-/*INCLUDED_CONTAINERS*/
-/*PRESETS*/
-/*NEW_PRESET*/
-/*SAVE_SELECTION_INTO_PRESET*/
-/*NEW_PRESET_MESSAGE*/
-"APP_SHORTCUT_DESCRIPTION" = "إدارة اختصارات الحاوية من قائمة اللمس للتطبيق و كيفية تشغيل التطبيق عند تحديد حاوية عبر الاختصار.";
-/*GAME_CENTER_SECTION_HEADER*/
-/*GAME_CENTER_SECTION_FOOTER*/
-/*GAME_CENTER_ACCOUNT*/
-/*GAME_CENTER_ACCOUNTS*/
-/*MANAGE_GAME_CENTER_ACCOUNTS*/
-/*GAME_CENTER_MANAGER_FOOTER*/
-/*SYSTEM_DEFAULT*/
-/*GAME_CENTER_ADD_ACCOUNT_TITLE*/
-/*GAME_CENTER_ADD_ACCOUNT_MESSAGE*/
-/*GAME_CENTER_RENAME_ACCOUNT_TITLE*/
-/*RENAME*/
-/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE*/
-/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE*/
-"BACKUP_DATA_TO_FILE" = "إنشاء نسخة احتياطية للبيانات";
-"RESTORE_DATA_FROM_BACKUP_FILE" = "استعادة البيانات من ملف النسخة الاحتياطية";
-/*DEVICE_IDENTIFIER_FOR_VENDOR*/
-/*USE_CONTAINER_IDENTIFIER*/
-/*GENERATE_NEW*/
-/*SET_CUSTOM*/
-/*IDENTIFIER*/
-/*DEVICE_IDENTIFIER_DESCRIPTION*/
-/*DEVICE_IDENTIFIER_CHANGE_WARNING*/
-/*SET_CUSTOM_IDENTIFIER*/
-/*SET_CUSTOM_IDENTIFIER_MESSAGE*/
-/*SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE*/
-/*SET*/
-/*NOTIFICATIONS*/
-/*NOTIFICATIONS_FOOTER*/
-/*SHOW_CONTAINER_IN_TITLE*/
-/*NOTIFICATIONS_SUPPORT_ENABLED*/
-/*NOTIFICATIONS_SUPPORT_FOOTER*/
-/*NOTIFICATIONS_SUPPORT_FOOTER_LITE*/
-/*SEPARATE_NOTIFICATION_REGISTRATIONS*/
-/*SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER*/
-/*ALLOW_NOTIFICATIONS*/
-/*RESET_NOTIFICATION_REGISTRATION*/
-/*CHOICY_INTEGRATION*/
-/*OVERWRITE_CHOICY_CONFIGURATION*/
-/*CHOICY_CONFIGURATION*/
-/*BROWSE_DATA*/
 /*APPLICATION*/
 /*GROUPS*/
 /*PLUGINS*/
-"DELETE_DATA" = "حذف البيانات";
-/*SIZE_OF_CONTAINER*/
-"UNARCHIVING" = "جاري فك الأرشفة ";
-"RESTORING" = "جاري الاستعادة";
-"BACKING_UP" = "جاري إنشاء نسخة احتياطية";
+"UNNAMED" = "بدون اسم";
+/*RENAME*/
+/*SYSTEM_DEFAULT*/
+/*IDENTIFIER*/
+/*SET*/
 /*PREPARING*/
 /*CHECKING*/
 "ERROR" = "خطأ";
 "WARNING" = "تحذير";
-/*BACKUP_INVALID*/
-"APP_ID_MISMATCH_ERROR" = "التطبيق الذي تم إنشاء هذه النسخة الاحتياطية منه (%@) يختلف من التطبيق الذي تحاول الاستعادة إليه (%@)";
-"GROUP_ID_MISMATCH_WARNING" = "عدم تطابق مجموعة معرفات النسخة الاحتياطية (%@) من المعرفات الحالية للتطبيق (%@) ، وقد يتسبب ذلك في عدم استعادة بعض البيانات. متابعة؟";
-/*NO_APPS_INSTALLED_ERROR*/
-/*RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR*/
-/*BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR*/
-/*RESTORE_SUCCESS_MESSAGE*/
-/*MULTI_RESTORE_SUCCESS_MESSAGE*/
 /*SUCCESS*/
 "CONTINUE" = "متابعة";
 "CLOSE" = "إغلاق";
@@ -107,10 +31,155 @@
 /*NEW_CONTAINER*/
 /*LAUNCH*/
 /*CREATE*/
-"INJECT_IN_SAFE_MODE" = "حقن الاداة في وضع الآمن للتطبيق";
-"INJECT_IN_SAFE_MODE_DESCRIPTION" = "افتراضيا Crane لا يعمل عندما تقوم بتشغيل تطبيق في وضع الآمن ( مثلا: عند استخدام خيار ' إلغاء حقن الأدوات ' الخاص ب Choicy أو خيار ' تشغيل بدون أدوات ' في اختصار التطبيقات )، عند تفعيل هذه الخيار سوف تتمكن من استخدام Crane ، ملاحضة: هذا الخيار ليس له تأثير في الوضع الآمن من الجيلبريك.";
 /*SELECT_ALL*/
 /*DESELECT_ALL*/
+"AND" = "أو";
+"CRANE_ERROR" = "خطأ";
+"LICENSE" = "ترخيص";
+/*FILENAME*/
+/*OPTIONAL*/
+/*PASSWORD*/
+/*ACTIVE*/
+/*CREATE*/
+
+/* Root preference page */
+
+"APPLICATIONS" = "قائمة التطبيقات";
+/*APP_SHORTCUTS*/
+"APP_SHORTCUT_ENABLED" = "تفعيل اختصارات التطبيق";
+"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "فتح التطبيق عند اختيار الحاوية";
+"EXPAND_CONTAINERS_SHORTCUT" = "توسيع اسماء الحاويات";
+/*SHOW_NEW_CONTAINER_OPTION*/
+/*ONLY_SHOW_IF_CONTAINERS_EXIST*/
+/*SHOW_CONTAINER_NOTIFICATION_BADGES*/
+"APP_SHORTCUT_DESCRIPTION" = "إدارة اختصارات الحاوية من قائمة اللمس للتطبيق و كيفية تشغيل التطبيق عند تحديد حاوية عبر الاختصار.";
+/*NOTIFICATIONS_SUPPORT_ENABLED*/
+/*SHOW_CONTAINER_IN_TITLE*/
+/*NOTIFICATIONS_SUPPORT_FOOTER*/
+/*NOTIFICATIONS_SUPPORT_FOOTER_LITE*/
+/*SUGGESTIONS*/
+/*CHOICYLOADER_SUGGESTION_TITLE*/
+/*CHOICYLOADER_SUGGESTION_MESSAGE*/
+/*ACTIVATOR_INFO_SUGGESTION_TITLE*/
+/*ACTIVATOR_INFO_SUGGESTION_MESSAGE*/
+/*SHORTCUTS_INFO_SUGGESTION_TITLE*/
+/*SHORTCUTS_INFO_SUGGESTION_MESSAGE*/
+/*BACKUP_RESTORE*/
+/*CREATE_MULTI_CONTAINER_BACKUP*/
+/*RESTORE_MULTI_CONTAINER_BACKUP*/
+/*OTHER*/
+"FOLLOW_ME_ON_TWITTER" = "متابعتي على تويتر";
+"CREDITS_AND_LICENSES" = "الاعتمادات والتراخيص";
+/*CREDITS*/
+
+/* Crane Lite root preference page */
+
+"SELECT_APPLICATION" = "اختيار التطبيق";
+"CONFIGURE_APPLICATION" = "تهيئة التطبيق";
+"SWITCH_WARNING_MESSAGE" = "اختيار تطبيق اخر سيؤدي الى حذف بيانات جميع الحاويات الغير الافتراضية من التطبيق المحدد سابقا، متابعة؟";
+"BUY_CRANE" = "شراء Crane ";
+"BUY_CRANE_FOOTER" = "بعد شراء النسخة الكاملة بإمكانك استيراد بياناتك من النسخة التجريبية الى النسخة الكاملة من خلال تنبيه يظهر لك عند فتح تفضيلات البرنامج في الإعدادات.";
+
+/* Crane Lite importing */
+
+"LITE_IMPORT_TITLE" = "استيراد البيانات من النسخة التجريبية ";
+"LITE_IMPORT_MESSAGE" = "تم العثور على حاويات من النسخة التجريبية من Crane لتطبيق '%@'. يمكنك استيرادها او حذفها ...";
+"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "إستيراد الحاويات من النسخة التجريبية ";
+"DELETE_CRANE_LITE_CONTAINERS" = "حذف حاويات النسخة التجريبية";
+"REMIND_ME_LATER" = "ذكرني لاحقا";
+
+/* Application preference page */
+
+"ACTIVE_CONTAINER" = "تفعيل الحاوية";
+/*ALWAYS_ASK_ON_APP_LAUNCH*/
+/*SEPARATE_NOTIFICATION_REGISTRATIONS*/
+/*SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER*/
+/*SEPARATE_SYSTEM_ACCOUNTS*/
+/*GAME_CENTER_SUPPORT*/
+/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER*/
+/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE*/
+/*CONTAINER_PROTECTION*/
+/*CONTAINER_PROTECTION_FOOTER*/
+/*PREVENT_SANDBOX_LOOKUPS*/
+/*PREVENT_SANDBOX_LOOKUPS_FOOTER*/
+
+/* Container preference page */
+
+"CONTAINER_NAME" = "إسم الحاوية";
+"CONTAINER_IDENTIFIER" = "معرف الحاوية";
+/*PROTECT_USING_BIOMETRICS*/
+"MAKE_DEFAULT_CONTAINER" = "تعيين كحاوية افتراضية";
+"DEFAULT_CONTAINER" = "الحاوية الافتراضية";
+"DEFAULT_CONTAINER_DESCRIPTION" = "سوف يتم استخدام الحاوية الافتراضية في حال لم تكن في وضع الجيلبريك.";
+/*DEVICE_IDENTIFIER_FOR_VENDOR*/
+/*DEVICE_IDENTIFIER_DESCRIPTION*/
+/*DEVICE_IDENTIFIER_CHANGE_WARNING*/
+/*USE_CONTAINER_IDENTIFIER*/
+/*GENERATE_NEW*/
+/*SET_CUSTOM*/
+/*SET_CUSTOM_IDENTIFIER*/
+/*SET_CUSTOM_IDENTIFIER_MESSAGE*/
+/*SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE*/
+/*ALLOW_NOTIFICATIONS*/
+/*RESET_NOTIFICATION_REGISTRATION*/
+/*NOTIFICATIONS_FOOTER*/
+/*CHOICY_INTEGRATION*/
+/*OVERWRITE_CHOICY_CONFIGURATION*/
+/*CHOICY_CONFIGURATION*/
+"BACKUP_DATA_TO_FILE" = "إنشاء نسخة احتياطية للبيانات";
+"RESTORE_DATA_FROM_BACKUP_FILE" = "استعادة البيانات من ملف النسخة الاحتياطية";
+/*BROWSE_DATA*/
+"DELETE_DATA" = "حذف البيانات";
+/*SIZE_OF_CONTAINER*/
+
+/* Container removal */
+
+"CONTAINER_DELETE_CONFIRMATION_TITLE" = "تاكيد الحذف";
+"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "حذف جميع البيانات المرتبطة بالحاوية '%@', لن تستطيع إرجاع هذه البيانات لاحقا. متابعة؟";
+
+/* Biometric protection descriptions */
+
+/*SET_ACTIVE_CONTAINER_DESCRIPTION*/
+/*DELETE_CONTAINER_DESCRIPTION*/
+/*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
+
+/* Backup */
+
+/*INCLUDED_CONTAINERS*/
+/*PRESETS*/
+"BACKING_UP" = "جاري إنشاء نسخة احتياطية";
+/*BACKUP_ERROR*/
+/*ENCRYPT_BACKUP*/
+/*ENCRYPT_BACKUP_FOOTER*/
+/*INCLUDE_KEYCHAIN*/
+/*INCLUDE_KEYCHAIN_FOOTER*/
+/*INCLUDE_KEYCHAIN_UNSAFE_WARNING*/
+/*ENABLE_ENCRYPTION*/
+/*IGNORE*/
+/*NO_PASSWORD_ERROR*/
+/*CONFIRM_PASSWORD*/
+/*SEP_ITEMS_OMMITED_WARNING_MESSAGE*/
+/*NEW_BACKUP*/
+
+/* Backup Presets */
+
+/*NEW_PRESET*/
+/*SAVE_SELECTION_INTO_PRESET*/
+/*NEW_PRESET_MESSAGE*/
+/*BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR*/
+
+/* Restore */
+
+/*RESTORE*/
+"UNARCHIVING" = "جاري فك الأرشفة ";
+"RESTORING" = "جاري الاستعادة";
+/*BACKUP_INVALID*/
+"APP_ID_MISMATCH_ERROR" = "التطبيق الذي تم إنشاء هذه النسخة الاحتياطية منه (%@) يختلف من التطبيق الذي تحاول الاستعادة إليه (%@)";
+"GROUP_ID_MISMATCH_WARNING" = "عدم تطابق مجموعة معرفات النسخة الاحتياطية (%@) من المعرفات الحالية للتطبيق (%@) ، وقد يتسبب ذلك في عدم استعادة بعض البيانات. متابعة؟";
+/*NO_APPS_INSTALLED_ERROR*/
+/*RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR*/
+/*RESTORE_SUCCESS_MESSAGE*/
+/*MULTI_RESTORE_SUCCESS_MESSAGE*/
 "RESTORE_WARNING_MESSAGE" = "سيؤدي استعادة النسخة الاحتياطية في استبدال البيانات الموجودة في الحاوية، متابعة؟";
 "NOT_A_BACKUP_ERROR_MESSAGE" = "الملف الذي حددته ليس نسخة احتياطية للحاوية";
 /*NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE*/
@@ -118,35 +187,46 @@
 /*INTO_CONTAINER*/
 /*NEW_CONTAINER_NAME*/
 /*RESTORE_ERROR*/
-/*BACKUP_ERROR*/
-"COMMUNICATION_ERROR_MESSAGE" = "الإتصال ب مساعد خدمات Crane او ما يسمى ( cranehelperd ) لايعمل، يمكن ان تكون هذه المشكلة متعلقة ب عدم تثبيت او عمل اداة ( rocketbootstrap )";
-/*DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
-/*TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE*/
+/*ENTER_PASSWORD*/
+/*ENTER_PASSWORD_DESCRIPTION*/
+/*PREVIOUS_PASSWORD_WRONG_MESSAGE*/
+
+/* Game Center account picker */
+
+/*GAME_CENTER_SECTION_HEADER*/
+/*GAME_CENTER_SECTION_FOOTER*/
+/*GAME_CENTER_ACCOUNT*/
+/*GAME_CENTER_ACCOUNTS*/
+/*MANAGE_GAME_CENTER_ACCOUNTS*/
+/*GAME_CENTER_MANAGER_FOOTER*/
+/*GAME_CENTER_ADD_ACCOUNT_TITLE*/
+/*GAME_CENTER_ADD_ACCOUNT_MESSAGE*/
+/*GAME_CENTER_RENAME_ACCOUNT_TITLE*/
+/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE*/
+/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE*/
+
+/* Safety checks */
+
+/*LIBSANDY_NOT_LOADED_ERROR_MESSAGE*/
+/*LIBSANDY_CHOICY_NOTICE*/
+/*COMMUNICATION_ERROR_MESSAGE*/
+/*INSURANCE_FAILED_ERROR_MESSAGE*/
 "INJECTION_ERROR_MESSAGE" = "لم يتم تحميل CraneSupport.dylib في %@";
 /*INJECTION_ERROR_MESSAGE_CHOICY*/
 /*REGISTRATION_FAILED_MESSAGE*/
 /*PLUGIN_REDIRECTION_FAILED_MESSAGE*/
 "CRANE_DISABLED_MESSAGE" = "تم الغاء تفعيل Crane لتجنب المزامنة.";
-/*DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE*/
 /*CRANE_DYLIB_NOT_LOADED_ERROR*/
-"AND" = "أو";
-"CRANE_ERROR" = "خطأ";
-/*OTHER*/
-"FOLLOW_ME_ON_TWITTER" = "متابعتي على تويتر";
-/*CREDITS*/
-"CREDITS_AND_LICENSES" = "الاعتمادات والتراخيص";
-"LICENSE" = "ترخيص";
-"SELECT_APPLICATION" = "اختيار التطبيق";
-"CONFIGURE_APPLICATION" = "تهيئة التطبيق";
-"SWITCH_WARNING_MESSAGE" = "اختيار تطبيق اخر سيؤدي الى حذف بيانات جميع الحاويات الغير الافتراضية من التطبيق المحدد سابقا، متابعة؟";
-"BUY_CRANE" = "شراء Crane ";
 "RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "اعد تشغيل السبرينغ بورد";
-"LITE_IMPORT_TITLE" = "استيراد البيانات من النسخة التجريبية ";
-"LITE_IMPORT_MESSAGE" = "تم العثور على حاويات من النسخة التجريبية من Crane لتطبيق '%@'. يمكنك استيرادها او حذفها ...";
-"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "إستيراد الحاويات من النسخة التجريبية ";
-"DELETE_CRANE_LITE_CONTAINERS" = "حذف حاويات النسخة التجريبية";
-"REMIND_ME_LATER" = "ذكرني لاحقا";
-"BUY_CRANE_FOOTER" = "بعد شراء النسخة الكاملة بإمكانك استيراد بياناتك من النسخة التجريبية الى النسخة الكاملة من خلال تنبيه يظهر لك عند فتح تفضيلات البرنامج في الإعدادات.";
+/*CRANEHELPERD_COMMUNICATION_WARNING*/
+/*CRANEHELPERD_INJECTION_ERROR_DYLIB_FILE_NOT_FOUND*/
+/*CRANEHELPERD_INJECTION_ERROR_INJECTION_BINARY_NOT_FOUND*/
+/*CRANEHELPERD_INJECTION_ERROR_EXCEPTION_OCCURED*/
+/*CRANEHELPERD_VERIFY_ERROR_PROCESS_NOT_RUNNING*/
+/*FIXUP_ERROR_DESCRIPTION*/
+
+/* Migration from previous versions and error detection */
+
 "UNKNOWN_CONTAINERS_FOUND" = "تم العثور على حاويات غير معروفة";
 "UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "تم العثور على %u حاويات غير معروفة تحتوي على بيانات مخزنة داخل التطبيق وليس لديها اية إدخالات داخل تفضيلات Crane. يمكن أن يحدث هذا إذا تم حذف قائمة التفضيل السابقة. ماذا تريد أن تفعل بالحاويات المجهولة؟";
 "DELETE_CONTAINERS" = "حذف الحاويات";
@@ -157,46 +237,16 @@
 "OPEN_SETTINGS" = "فتح الإعدادات";
 "MIGRATION_SUCCEEDED" = "تم بنجاح";
 "MIGRATION_SUCCEEDED_MESSAGE" = "العملية تمت بنجاح، بإمكانك استخدام البرنامج الان.";
-/*FILENAME*/
-/*OPTIONAL*/
-/*ENCRYPT_BACKUP*/
-/*PASSWORD*/
-/*ENCRYPT_BACKUP_FOOTER*/
-/*INCLUDE_KEYCHAIN*/
-/*INCLUDE_KEYCHAIN_FOOTER*/
-/*ENTER_PASSWORD*/
-/*ENTER_PASSWORD_DESCRIPTION*/
-/*RESTORE*/
-/*INCLUDE_KEYCHAIN_UNSAFE_WARNING*/
-/*ENABLE_ENCRYPTION*/
-/*IGNORE*/
-/*NO_PASSWORD_ERROR*/
-/*ACTIVE*/
+
+/* Import from Slices */
+
 /*SLICES_FOUND*/
 /*SLICES_FOUND_MESSAGE*/
 /*IMPORT_SLICES*/
 /*DELETE_SLICES*/
-/*CREATE*/
-/*CONFIRM_PASSWORD*/
-/*SEP_ITEMS_OMMITED_WARNING_MESSAGE*/
-/*NEW_BACKUP*/
-/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER*/
-/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE*/
-/*SEPARATE_SYSTEM_ACCOUNTS*/
-/*GAME_CENTER_SUPPORT*/
-/*CONTAINER_PROTECTION*/
-/*CONTAINER_PROTECTION_FOOTER*/
-/*PREVENT_SANDBOX_LOOKUPS*/
-/*PREVENT_SANDBOX_LOOKUPS_FOOTER*/
-/*PREVIOUS_PASSWORD_WRONG_MESSAGE*/
-/*CRANESB_COMMUNICATION_NOT_WORKING*/
+
+/* Activator Integration */
+
 /*SET_AS_THE_ACTIVE_CRANE_CONTAINER*/
 /*CHANGED_TO_CONTAINER*/
-/*SUGGESTIONS*/
-/*CHOICYLOADER_SUGGESTION_TITLE*/
-/*CHOICYLOADER_SUGGESTION_MESSAGE*/
-/*OPEN_REPO*/
-/*ACTIVATOR_INFO_SUGGESTION_TITLE*/
-/*ACTIVATOR_INFO_SUGGESTION_MESSAGE*/
-/*SHORTCUTS_INFO_SUGGESTION_TITLE*/
-/*SHORTCUTS_INFO_SUGGESTION_MESSAGE*/
+

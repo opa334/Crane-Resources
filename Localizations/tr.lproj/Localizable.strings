@@ -1,105 +1,29 @@
-"APPLICATIONS" = "Uygulamalar";
-"ACTIVE_CONTAINER" = "Aktif Konteyner";
-"ALWAYS_ASK_ON_APP_LAUNCH" = "Uygulama Her Başlatıldığında Sor";
-"SELECT_CONTAINER" = "Konteyner Seç";
+/* Misc */
+
+"OPEN_REPO" = "Repo'yu Aç";
 "CONTAINERS" = "Konteynerler";
 "CONTAINER" = "Konteyner";
 "DEFAULT" = "Varsayılan";
 "ADD" = "Ekle";
-"ADD_CONTAINER" = "Konteyner Ekle";
 "NAME" = "Ad";
 "CANCEL" = "İptal";
-"CONTAINER_NAME" = "Konteyner Adı";
-"SAVE" = "Kaydet";
-"CONTAINER_DELETE_CONFIRMATION_TITLE" = "Silmeyi Onayla?";
-"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "'%@' konteyneriyle ilişkili tüm verileri silmek üzeresiniz, bu veriler kurtarılamaz. Devam etmek istiyor musunuz?";
+"SELECT_CONTAINER" = "Konteyner Seç";
+"ADD_CONTAINER" = "Konteyner Ekle";
+"NOTIFICATIONS" = "Bildirimler";
 "DELETE" = "Sil";
 "NONE" = "Hiçbiri";
-"MAKE_DEFAULT_CONTAINER" = "Varsayılan Konteyner Yap";
-"DEFAULT_CONTAINER" = "Varsayılan Konteyner";
-"DEFAULT_CONTAINER_DESCRIPTION" = "Cihazınız jailbreak yapılmadığında veya Crane yüklenmediğinde varsayılan konteyner kullanılacaktır.";
-"CONTAINER_IDENTIFIER" = "Konteyner Tanımlayıcı";
-"PROTECT_USING_BIOMETRICS" = "Biyometri Kullanarak Koruyun";
-"SET_ACTIVE_CONTAINER_DESCRIPTION" = "Aktif Konteyneri \"%@\" olarak ayarlayın";
-"DELETE_CONTAINER_DESCRIPTION" = "\"%@\" Konteynerini Sil";
-"ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "\"%@\" Konteyner Ayarlarına Erişim";
-"UNNAMED" = "Adsız";
-"APP_SHORTCUTS" = "Uygulama Kısayolları";
-"APP_SHORTCUT_ENABLED" = "Uygulama Kısayollarını Etkinleştir";
-"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Konteyner Seçerek Başlat";
-"EXPAND_CONTAINERS_SHORTCUT" = "Kısayolları Genişlet";
-"SHOW_NEW_CONTAINER_OPTION" = "'Yeni Konteyner' Seçeneğini Göster";
-"ONLY_SHOW_IF_CONTAINERS_EXIST" = "Yalnızca Konteynerler Varsa Göster";
-"SHOW_CONTAINER_NOTIFICATION_BADGES" = "Konteyner Bildirim Rozetlerini Göster";
-"BACKUP_RESTORE" = "Yedekleme & Geri Yükleme";
-"CREATE_MULTI_CONTAINER_BACKUP" = "Çoklu Konteyner Yedeklemesi Oluştur";
-"RESTORE_MULTI_CONTAINER_BACKUP" = "Çoklu Konteyner Yedeklemesi Geri Yükle";
-"INCLUDED_CONTAINERS" = "Dahil Edilen Konteynerler";
-"PRESETS" = "Ön Ayarlar";
-"NEW_PRESET" = "Yeni Ön Ayar";
-"SAVE_SELECTION_INTO_PRESET" = "Seçimi Ön Ayara Kaydet";
-"NEW_PRESET_MESSAGE" = "Yeni ön ayar için bir ad girin. Mevcut konteyner seçimi içine kaydedilecektir.";
-"APP_SHORTCUT_DESCRIPTION" = "Uygulama Haptic Touch / 3D Touch menüsünden konteynerler arasında geçiş yapmak için kısayol";
-"GAME_CENTER_SECTION_HEADER" = "Game Center";
-"GAME_CENTER_SECTION_FOOTER" = "Bu konteyner'a giriş yaparken geçiş yapmak için bir Game Center hesabı seçin.";
-"GAME_CENTER_ACCOUNT" = "Game Center Hesabı";
-"GAME_CENTER_ACCOUNTS" = "Game Center Hesapları";
-"MANAGE_GAME_CENTER_ACCOUNTS" = "Game Center Hesaplarını Yönet";
-"GAME_CENTER_MANAGER_FOOTER" = "Teknik kısıtlamalar nedeniyle Game Center'ınızı bu global listeye eklemeniz gerekiyor. Daha sonra hesabı bir veya daha fazla konteyner'a atayabilirsiniz ve sistem, uygulamayı konteynerde başlatırken ona geçiş yapacaktır. Cihazınızda Crane'i kullanmak istemediğiniz Game Center kullanan bir uygulama yüklüyse, sistem açılırken sistem varsayılan Game Center hesabına geri dönebilsin diye 'Ayrı Sistem Hesapları' ve 'Game Center Desteği'ni etkinleştireceksiniz.";
-"SYSTEM_DEFAULT" = "Sistem Varsayılanı";
-"GAME_CENTER_ADD_ACCOUNT_TITLE" = "Hesap Ekle";
-"GAME_CENTER_ADD_ACCOUNT_MESSAGE" = "Buraya hesabınızın adını girin. Bir uygulamayı, hesabın atanmış olduğu bir konteynerde ilk kez başlattığınızda oturum açma istemi görünür.";
-"GAME_CENTER_RENAME_ACCOUNT_TITLE" = "Hesabı Yeniden Adlandır";
-"RENAME" = "Yeniden Adlandır";
-"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE" = "Hesabı Sil";
-"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE" = "\"%@\" Game Center Hesabını silmek istediğinizden emin misiniz? Şu anda onunla ilişkili her konteyner, Sistem Varsayılanına geçecektir.";
-"BACKUP_DATA_TO_FILE" = "Verileri Yedekle";
-"RESTORE_DATA_FROM_BACKUP_FILE" = "Yedeği Geri Yükle";
-"DEVICE_IDENTIFIER_FOR_VENDOR" = "Satıcı için Cihaz Tanımlayıcı";
-"USE_CONTAINER_IDENTIFIER" = "Konteyner Tanımlayıcıyı Kullan";
-"GENERATE_NEW" = "Yeni Oluştur";
-"SET_CUSTOM" = "Özel Ayarla";
-"IDENTIFIER" = "Tanımlayıcı";
-"DEVICE_IDENTIFIER_DESCRIPTION" = "Burada gördüğünüz cihaz tanımlayıcısı, cihazınızı bu uygulamanın satıcısına (geliştiricisine) tanıtmak için kullanılır. Satıcı birden fazla uygulama dağıtıyorsa, bu tanımlayıcı hepsinde aynı olacaktır. Bazı uygulamalar oturumunuzu kapatmak için bu tanımlayıcıyı kullandığından, Crane varsayılan olmayan konteyner tanımlayıcısını varsayılan olarak konteyner tanımlayıcıyla karıştırır, ayrıca ayarı kapatabilir ve özel bir tane belirleyebilirsiniz. 'Tanımlayıcısını Kullan' seçeneği etkinken (örneğin, bir konteyner varsayılan olarak ayarlarken), Crane içindeki konteyner tanımlayıcısı değiştirildiğinde, cihaz tanımlayıcısını aynı tutmak için ayar otomatik olarak ayarlanacaktır. Varsayılan konteynerin cihaz tanımlayıcısını değiştirdiğinizde, sistem önbelleğine yazılacak ve Crane yüklenmediğinde veya cihaz jailbreak yapılmadığında bile devam edecektir.";
-"DEVICE_IDENTIFIER_CHANGE_WARNING" = "Bu konteynerin cihaz tanımlayıcısını değiştirmek üzeresiniz. Bazı uygulamalar, cihazınızı değiştirmişsiniz gibi görüneceği için oturumunuzu kapatacaktır. Devam etmek istiyor musun?";
-"SET_CUSTOM_IDENTIFIER" = "Özel Tanımlayıcıyı Ayarla";
-"SET_CUSTOM_IDENTIFIER_MESSAGE" = "Ayarlanacak tanımlayıcıyı girin, yalnızca onaltılı harfler (0-9, A-F) içeren 32 karakterden oluşan bir dize olmalıdır.\nFormat:XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\n(tireler yok sayılır)";
-"SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE" = "Daha önce girdiğiniz tanımlayıcı yanlış biçime sahipti, lütfen tekrar deneyin.";
-"SET" = "Ayarla";
-"NOTIFICATIONS" = "Bildirimler";
-"NOTIFICATIONS_FOOTER" = "Bu konteynerin bildirimleri almasına izin verilip verilmeyeceğini yapılandırın. Kaydı sıfırlamak, bir sonraki uygulama konteynerini başlatılana kadar bildirimlerin gelmesini durdurur.";
-"SHOW_CONTAINER_IN_TITLE" = "Konteyneri Başlıkta Göster";
-"NOTIFICATIONS_SUPPORT_ENABLED" = "Bildirim Desteğini Etkinleştir";
-"NOTIFICATIONS_SUPPORT_FOOTER" = "Crane'in bildirim desteği bölümünü genel olarak devre dışı bırakmak istiyorsanız ('Ayrı Bildirim Kayıtları' adı verilen uygulama başına bir ayar içerir), bunu buradan yapabilirsiniz.  Ek olarak, gelen bildirimlerin başlığının hangi Crane konteynerinden geldiğini gösterip göstermemesini yapılandırabilirsiniz.";
-"NOTIFICATIONS_SUPPORT_FOOTER_LITE" = "Crane'in bildirim desteği bölümünü genel olarak devre dışı bırakmak istiyorsanız ('Ayrı Bildirim Kayıtları' adı verilen uygulama başına bir ayar içerir), bunu buradan yapabilirsiniz.";
-"SEPARATE_NOTIFICATION_REGISTRATIONS" = "Ayrı Bildirim Kayıtları";
-"SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER" = "Bu seçenek etkinleştirilirse, her Crane konteyneri kendi bildirim belirtecini kullanır ve tüm konteynerler bildirim alır. Alınan bir bildirime dokunulduğunda uygulama, bildirimin geldiği konteynerde başlatılır. Ayrıca ayarlarda konteyner bildirimlerini devre dışı bırakma seçeneği de vardır. (Not: Bu seçenek tüm uygulamalarda çalışmaz ve bazı uygulamalar bu seçenek etkinleştirilmese bile tüm konteynerler için bildirim alır).";
-"ALLOW_NOTIFICATIONS" = "Bildirimlere İzin Ver";
-"RESET_NOTIFICATION_REGISTRATION" = "Kaydı Sıfırla";
-"CHOICY_INTEGRATION" = "Choicy Entegrasyonu";
-"OVERWRITE_CHOICY_CONFIGURATION" = "Choicy Yapılandırmasının Üzerine Yaz";
-"CHOICY_CONFIGURATION" = "Choicy Yapılandırması";
-"BROWSE_DATA" = "Verilere Göz At";
 "APPLICATION" = "Uygulama";
 "GROUPS" = "Gruplar";
 "PLUGINS" = "Eklentiler";
-"DELETE_DATA" = "Verileri Sil";
-"SIZE_OF_CONTAINER" = "Konteyner Boyutu";
-"UNARCHIVING" = "Arşivden Çıkar";
-"RESTORING" = "Geri Yükleniyor";
-"BACKING_UP" = "Yedekleniyor";
+"UNNAMED" = "Adsız";
+"RENAME" = "Yeniden Adlandır";
+"SYSTEM_DEFAULT" = "Sistem Varsayılanı";
+"IDENTIFIER" = "Tanımlayıcı";
+"SET" = "Ayarla";
 "PREPARING" = "Hazırlanıyor";
 "CHECKING" = "Kontrol Ediliyor";
 "ERROR" = "Hata";
 "WARNING" = "Uyarı";
-"BACKUP_INVALID" = "Yedekleme Geçersiz";
-"APP_ID_MISMATCH_ERROR" = "Bu yedeklemenin oluşturulduğu uygulama (%@), geri yüklemeye çalıştığınız uygulamayla aynı değil (%@)";
-"GROUP_ID_MISMATCH_WARNING" = "Yedeklemenin (%@) grup tanımlayıcıları, uygulamanın mevcut tanımlayıcılarıyla (%@) uyuşmuyor, bu, bazı verilerin geri yüklenmemesine neden olabilir. Hala devam etmek istiyor musun?";
-"NO_APPS_INSTALLED_ERROR" = "Çoklu konteyner yedeklemesinde (%@) bulunan uygulamaların hiçbiri cihazınızda yüklü değil. Uygulamaları yükleyin ve yeniden deneyin.";
-"RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR" = "Geri yüklemeye devam etmek için yeterli boş disk alanı kalmadı, bu geri yükleme için en az %@ boş alan gerekiyor. Biraz yer açın ve yeniden deneyin.";
-"BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR" = "Yedeklemeye devam etmek için yeterli boş disk alanı kalmadı, bu yedekleme en az %@ boş alan gerektiriyor. Biraz yer açın ve yeniden deneyin.";
-"RESTORE_SUCCESS_MESSAGE" = "Yedekleme başarıyla geri yüklendi.";
-"MULTI_RESTORE_SUCCESS_MESSAGE" = "Çoklu konteyner yedeklemesi %zd konteynerlerine başarıyla geri yüklendi.";
 "SUCCESS" = "Başarılı";
 "CONTINUE" = "Devam Et";
 "CLOSE" = "Kapat";
@@ -107,10 +31,155 @@
 "NEW_CONTAINER" = "Yeni Konteyner";
 "LAUNCH" = "Başlat";
 "CREATE" = "Oluştur";
-"INJECT_IN_SAFE_MODE" = "Güvenli Modda Enjekte Et";
-"INJECT_IN_SAFE_MODE_DESCRIPTION" = "Varsayılan olarak Crane, bir uygulama güvenli modda başlatıldığında (örneğin, Choicy'deki 'Tweak Enjeksiyonu Devre Dışı' düğmesi veya 'Tweakler Olmadan Başlat' uygulama kısayolu kullanılarak) çalışmaz, bu seçenek etkinleştirildiğinde her zaman enjekte eder. Bunun jailbreak'ten gelen güvenli mod üzerinde herhangi bir etkisi yoktur.";
 "SELECT_ALL" = "Hepsini Seç";
 "DESELECT_ALL" = "Hiçbirini Seçme";
+"AND" = "ve";
+"CRANE_ERROR" = "Crane Hatası";
+"LICENSE" = "Lisans";
+"FILENAME" = "Dosya Adı";
+"OPTIONAL" = "İsteğe Bağlı";
+"PASSWORD" = "Parola";
+"ACTIVE" = "Aktif";
+"CREATE" = "Oluştur";
+
+/* Root preference page */
+
+"APPLICATIONS" = "Uygulamalar";
+"APP_SHORTCUTS" = "Uygulama Kısayolları";
+"APP_SHORTCUT_ENABLED" = "Uygulama Kısayollarını Etkinleştir";
+"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Konteyner Seçerek Başlat";
+"EXPAND_CONTAINERS_SHORTCUT" = "Kısayolları Genişlet";
+"SHOW_NEW_CONTAINER_OPTION" = "'Yeni Konteyner' Seçeneğini Göster";
+"ONLY_SHOW_IF_CONTAINERS_EXIST" = "Yalnızca Konteynerler Varsa Göster";
+"SHOW_CONTAINER_NOTIFICATION_BADGES" = "Konteyner Bildirim Rozetlerini Göster";
+"APP_SHORTCUT_DESCRIPTION" = "Uygulama Haptic Touch / 3D Touch menüsünden konteynerler arasında geçiş yapmak için kısayol";
+"NOTIFICATIONS_SUPPORT_ENABLED" = "Bildirim Desteğini Etkinleştir";
+"SHOW_CONTAINER_IN_TITLE" = "Konteyneri Başlıkta Göster";
+"NOTIFICATIONS_SUPPORT_FOOTER" = "Crane'in bildirim desteği bölümünü genel olarak devre dışı bırakmak istiyorsanız ('Ayrı Bildirim Kayıtları' adı verilen uygulama başına bir ayar içerir), bunu buradan yapabilirsiniz.  Ek olarak, gelen bildirimlerin başlığının hangi Crane konteynerinden geldiğini gösterip göstermemesini yapılandırabilirsiniz.";
+"NOTIFICATIONS_SUPPORT_FOOTER_LITE" = "Crane'in bildirim desteği bölümünü genel olarak devre dışı bırakmak istiyorsanız ('Ayrı Bildirim Kayıtları' adı verilen uygulama başına bir ayar içerir), bunu buradan yapabilirsiniz.";
+"SUGGESTIONS" = "Öneriler";
+"CHOICYLOADER_SUGGESTION_TITLE" = "Substrate ile ilgili sorun mu yaşıyorsunuz?";
+"CHOICYLOADER_SUGGESTION_MESSAGE" = "Ana Crane kitaplığının (\" Crane.dylib\") önce uygulamalara enjekte edilmesi gerekir, Substrate'da bu otomatik olarak gerçekleşmez ve Crane'in işlevselliğini kısmen veya tamamen bozmadan önce bazı ince ayarlar yüklenir. Yaygın belirtiler, varsayılan konteyner olarak görünen tüm konteynerleri, uygulama yeniden başlatıldığında konteynerlerin silinmesini veya veri senkronizasyonlarını içerir. Bu sorunlardan herhangi biri sizi etkiliyorsa, https://opa334.github.io adresinden ChoicyLoader'ı yükleyin; bu, Crane'in her zaman önce yüklenmesini sağlayarak bunları düzeltecektir.";
+"ACTIVATOR_INFO_SUGGESTION_TITLE" = "Activator Entegrasyonu";
+"ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane, belirli bir konteyner etkin olarak ayarlandığında yürütülecek bir activator eylemi atamanıza olanak tanır. Buna Activator -> (Her Yerde/Ana Ekranda/Uygulamada/Kilit Ekranında) -> Cranden erişilebilirsiniz. Ayrıca, Activator -> (Her Yerde/Ana Ekranda/Uygulamada/Kilit Ekranında) -> (Herhangi Bir Olay) -> Crane içinden erişilebilen bir uygulama için belirli bir konteyner etkin olarak ayarlamak için eylemler içerir.";
+"SHORTCUTS_INFO_SUGGESTION_TITLE" = "Kestirmeler Entegrasyonu";
+"SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "Crane, bir uygulamanın aktif konteynerini ayarlamak için bir Kestirmeler Eylemi içerir, Uygulamalar -> Crane -> Aktif Crane Konteynerini Ayarla altında bir Kestirmeler Eylemi eklerken erişilebilir";
+"BACKUP_RESTORE" = "Yedekleme & Geri Yükleme";
+"CREATE_MULTI_CONTAINER_BACKUP" = "Çoklu Konteyner Yedeklemesi Oluştur";
+"RESTORE_MULTI_CONTAINER_BACKUP" = "Çoklu Konteyner Yedeklemesi Geri Yükle";
+"OTHER" = "Diğer";
+"FOLLOW_ME_ON_TWITTER" = "Twitter'da Beni Takip Et";
+"CREDITS_AND_LICENSES" = "Katkıda Bulunanlar & Lisanslar";
+"CREDITS" = "Katkıda Bulunanlar";
+
+/* Crane Lite root preference page */
+
+"SELECT_APPLICATION" = "Uygulama Seç";
+"CONFIGURE_APPLICATION" = "Uygulamayı Yapılandır";
+"SWITCH_WARNING_MESSAGE" = "Seçili uygulamayı değiştirmek üzeresiniz, bunu yaptığınızda önceden seçilen uygulamanın varsayılan olmayan tüm konteynerlerinin verileri silinecektir. Devam etmek istiyor musun?";
+"BUY_CRANE" = "Crane Satın Al";
+"BUY_CRANE_FOOTER" = "Crane'i satın aldıktan sonra, Crane Lite'ın konteynerlerini içine aktarabileceksiniz. Bu, Crane'in tercih sayfasına eriştiğinizde görüntülenen bir uyarı aracılığıyla sunulacaktır.";
+
+/* Crane Lite importing */
+
+"LITE_IMPORT_TITLE" = "Crane Lite İçe Aktar";
+"LITE_IMPORT_MESSAGE" = "'%@' uygulaması için Crane Lite konteynerleri bulundu. Onlarla ne yapmak istiyorsun?";
+"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "Crane Lite Konteynerlerini Crane'e Aktar";
+"DELETE_CRANE_LITE_CONTAINERS" = "Crane Lite Konteynerlerini Sil";
+"REMIND_ME_LATER" = "Daha Sonra Hatırlat";
+
+/* Application preference page */
+
+"ACTIVE_CONTAINER" = "Aktif Konteyner";
+"ALWAYS_ASK_ON_APP_LAUNCH" = "Uygulama Her Başlatıldığında Sor";
+"SEPARATE_NOTIFICATION_REGISTRATIONS" = "Ayrı Bildirim Kayıtları";
+"SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER" = "Bu seçenek etkinleştirilirse, her Crane konteyneri kendi bildirim belirtecini kullanır ve tüm konteynerler bildirim alır. Alınan bir bildirime dokunulduğunda uygulama, bildirimin geldiği konteynerde başlatılır. Ayrıca ayarlarda konteyner bildirimlerini devre dışı bırakma seçeneği de vardır. (Not: Bu seçenek tüm uygulamalarda çalışmaz ve bazı uygulamalar bu seçenek etkinleştirilmese bile tüm konteynerler için bildirim alır).";
+"SEPARATE_SYSTEM_ACCOUNTS" = "Ayrı Sistem Hesapları";
+"GAME_CENTER_SUPPORT" = "Game Center Desteği";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER" = "Uygulama tarafından konteyner başına erişilen sistem hesaplarının (ör. Apple Kimliği) yeniden yönlendirilip yönlendirilmeyeceği. Çoğunlukla AppStore gibi sistem uygulamaları için kullanışlıdır. Game Center desteği ayrıca etkinleştirilmelidir ve ayarlarında bir konteyner'a manuel olarak bir Game Center hesabı atamanızı gerektirir.";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE" = "Uygulama tarafından konteyner başına erişilen sistem hesaplarının (ör. Apple Kimliği) yeniden yönlendirilip yönlendirilmeyeceği. Çoğunlukla AppStore gibi sistem uygulamaları için kullanışlıdır. Game Center desteği Crane Lite'a dahil değildir, yalnızca Crane'in tam sürümünde bulunur.";
+"CONTAINER_PROTECTION" = "Konteyner Koruması";
+"CONTAINER_PROTECTION_FOOTER" = "Bazı uygulamalar için gerekli olan varsayılan konteynerler başlatıldığında uygulamanın diğer konteyner verilerini kaldırmasını önleyin. Uygulama kancalarını kullanır.";
+"PREVENT_SANDBOX_LOOKUPS" = "Korumalı Alan Aramalarını Engelle";
+"PREVENT_SANDBOX_LOOKUPS_FOOTER" = "Uygulamanın, yönlendirilmemiş gerçek yolları almak için kendi üzerinde korumalı alan araması yapmasını engeller.  Web tarayıcılarının tanımlama bilgilerini varsayılan olmayan konteynerlere kaydedememesine ilişkin sorunları düzeltir. Uygulama kancalarını kullanır.";
+
+/* Container preference page */
+
+"CONTAINER_NAME" = "Konteyner Adı";
+"CONTAINER_IDENTIFIER" = "Konteyner Tanımlayıcı";
+"PROTECT_USING_BIOMETRICS" = "Biyometri Kullanarak Koruyun";
+"MAKE_DEFAULT_CONTAINER" = "Varsayılan Konteyner Yap";
+"DEFAULT_CONTAINER" = "Varsayılan Konteyner";
+"DEFAULT_CONTAINER_DESCRIPTION" = "Cihazınız jailbreak yapılmadığında veya Crane yüklenmediğinde varsayılan konteyner kullanılacaktır.";
+"DEVICE_IDENTIFIER_FOR_VENDOR" = "Satıcı için Cihaz Tanımlayıcı";
+"DEVICE_IDENTIFIER_DESCRIPTION" = "Burada gördüğünüz cihaz tanımlayıcısı, cihazınızı bu uygulamanın satıcısına (geliştiricisine) tanıtmak için kullanılır. Satıcı birden fazla uygulama dağıtıyorsa, bu tanımlayıcı hepsinde aynı olacaktır. Bazı uygulamalar oturumunuzu kapatmak için bu tanımlayıcıyı kullandığından, Crane varsayılan olmayan konteyner tanımlayıcısını varsayılan olarak konteyner tanımlayıcıyla karıştırır, ayrıca ayarı kapatabilir ve özel bir tane belirleyebilirsiniz. 'Tanımlayıcısını Kullan' seçeneği etkinken (örneğin, bir konteyner varsayılan olarak ayarlarken), Crane içindeki konteyner tanımlayıcısı değiştirildiğinde, cihaz tanımlayıcısını aynı tutmak için ayar otomatik olarak ayarlanacaktır. Varsayılan konteynerin cihaz tanımlayıcısını değiştirdiğinizde, sistem önbelleğine yazılacak ve Crane yüklenmediğinde veya cihaz jailbreak yapılmadığında bile devam edecektir.";
+"DEVICE_IDENTIFIER_CHANGE_WARNING" = "Bu konteynerin cihaz tanımlayıcısını değiştirmek üzeresiniz. Bazı uygulamalar, cihazınızı değiştirmişsiniz gibi görüneceği için oturumunuzu kapatacaktır. Devam etmek istiyor musun?";
+"USE_CONTAINER_IDENTIFIER" = "Konteyner Tanımlayıcıyı Kullan";
+"GENERATE_NEW" = "Yeni Oluştur";
+"SET_CUSTOM" = "Özel Ayarla";
+"SET_CUSTOM_IDENTIFIER" = "Özel Tanımlayıcıyı Ayarla";
+"SET_CUSTOM_IDENTIFIER_MESSAGE" = "Ayarlanacak tanımlayıcıyı girin, yalnızca onaltılı harfler (0-9, A-F) içeren 32 karakterden oluşan bir dize olmalıdır.\nFormat:XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\n(tireler yok sayılır)";
+"SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE" = "Daha önce girdiğiniz tanımlayıcı yanlış biçime sahipti, lütfen tekrar deneyin.";
+"ALLOW_NOTIFICATIONS" = "Bildirimlere İzin Ver";
+"RESET_NOTIFICATION_REGISTRATION" = "Kaydı Sıfırla";
+"NOTIFICATIONS_FOOTER" = "Bu konteynerin bildirimleri almasına izin verilip verilmeyeceğini yapılandırın. Kaydı sıfırlamak, bir sonraki uygulama konteynerini başlatılana kadar bildirimlerin gelmesini durdurur.";
+"CHOICY_INTEGRATION" = "Choicy Entegrasyonu";
+"OVERWRITE_CHOICY_CONFIGURATION" = "Choicy Yapılandırmasının Üzerine Yaz";
+"CHOICY_CONFIGURATION" = "Choicy Yapılandırması";
+"BACKUP_DATA_TO_FILE" = "Verileri Yedekle";
+"RESTORE_DATA_FROM_BACKUP_FILE" = "Yedeği Geri Yükle";
+"BROWSE_DATA" = "Verilere Göz At";
+"DELETE_DATA" = "Verileri Sil";
+"SIZE_OF_CONTAINER" = "Konteyner Boyutu";
+
+/* Container removal */
+
+"CONTAINER_DELETE_CONFIRMATION_TITLE" = "Silmeyi Onayla?";
+"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "'%@' konteyneriyle ilişkili tüm verileri silmek üzeresiniz, bu veriler kurtarılamaz. Devam etmek istiyor musunuz?";
+
+/* Biometric protection descriptions */
+
+"SET_ACTIVE_CONTAINER_DESCRIPTION" = "Aktif Konteyneri \"%@\" olarak ayarlayın";
+"DELETE_CONTAINER_DESCRIPTION" = "\"%@\" Konteynerini Sil";
+"ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "\"%@\" Konteyner Ayarlarına Erişim";
+
+/* Backup */
+
+"INCLUDED_CONTAINERS" = "Dahil Edilen Konteynerler";
+"PRESETS" = "Ön Ayarlar";
+"BACKING_UP" = "Yedekleniyor";
+"BACKUP_ERROR" = "Yedekleme Hatası";
+"ENCRYPT_BACKUP" = "Yedeklemeyi Şifrele";
+"ENCRYPT_BACKUP_FOOTER" = "Yedeklemeyi bir parola ile şifreleyin. Yedeklemeyi daha sonra şifre olmadan geri yüklemek mümkün olmayacaktır. Parolayı kaybederseniz, verileri kaybedersiniz.";
+"INCLUDE_KEYCHAIN" = "Anahtar Zinciri'ni Dahil Et";
+"INCLUDE_KEYCHAIN_FOOTER" = "Uygulama / konteyner tarafından depolanan anahtar zinciri verilerini yedeklemeye dahil edin. Hesap kimlik bilgilerini, anahtarları ve daha fazlasını içerir. Şifreleme kullanılmadığında güvensizdir.";
+"INCLUDE_KEYCHAIN_UNSAFE_WARNING" = "Anahtar zinciri verilerini eklerken, 'Yedeği Şifrele'yi etkinleştirmeniz önerilir, aksi takdirde yedekleme dosyasına erişimi olan herkes, uygulamanın / konteynerin oturum açtığı hesapları tehlikeye atabilir.";
+"ENABLE_ENCRYPTION" = "Şifrelemeyi Etkinleştir";
+"IGNORE" = "Geç";
+"NO_PASSWORD_ERROR" = "Şifreleme etkin ancak şifre alanı boş, lütfen bir şifre girin veya şifrelemeyi devre dışı bırakın ve tekrar deneyin.";
+"CONFIRM_PASSWORD" = "Parolayı Onayla";
+"SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "Bu uygulamanın bir veya daha fazla anahtar zinciri öğesi, güvenli yerleşim bölgesinde depolanır ve geri yüklenmesi imkansız olacağından yedeklemeden çıkarılmıştır. Bu yedeği geri yüklerken parolaları yeniden girmeniz gerekebilir veya başka sorunlar ortaya çıkabilir. Devam etmek istiyor musun?";
+"NEW_BACKUP" = "Yeni Yedek";
+
+/* Backup Presets */
+
+"NEW_PRESET" = "Yeni Ön Ayar";
+"SAVE_SELECTION_INTO_PRESET" = "Seçimi Ön Ayara Kaydet";
+"NEW_PRESET_MESSAGE" = "Yeni ön ayar için bir ad girin. Mevcut konteyner seçimi içine kaydedilecektir.";
+"BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR" = "Yedeklemeye devam etmek için yeterli boş disk alanı kalmadı, bu yedekleme en az %@ boş alan gerektiriyor. Biraz yer açın ve yeniden deneyin.";
+
+/* Restore */
+
+"RESTORE" = "Geri Yükle";
+"UNARCHIVING" = "Arşivden Çıkar";
+"RESTORING" = "Geri Yükleniyor";
+"BACKUP_INVALID" = "Yedekleme Geçersiz";
+"APP_ID_MISMATCH_ERROR" = "Bu yedeklemenin oluşturulduğu uygulama (%@), geri yüklemeye çalıştığınız uygulamayla aynı değil (%@)";
+"GROUP_ID_MISMATCH_WARNING" = "Yedeklemenin (%@) grup tanımlayıcıları, uygulamanın mevcut tanımlayıcılarıyla (%@) uyuşmuyor, bu, bazı verilerin geri yüklenmemesine neden olabilir. Hala devam etmek istiyor musun?";
+"NO_APPS_INSTALLED_ERROR" = "Çoklu konteyner yedeklemesinde (%@) bulunan uygulamaların hiçbiri cihazınızda yüklü değil. Uygulamaları yükleyin ve yeniden deneyin.";
+"RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR" = "Geri yüklemeye devam etmek için yeterli boş disk alanı kalmadı, bu geri yükleme için en az %@ boş alan gerekiyor. Biraz yer açın ve yeniden deneyin.";
+"RESTORE_SUCCESS_MESSAGE" = "Yedekleme başarıyla geri yüklendi.";
+"MULTI_RESTORE_SUCCESS_MESSAGE" = "Çoklu konteyner yedeklemesi %zd konteynerlerine başarıyla geri yüklendi.";
 "RESTORE_WARNING_MESSAGE" = "Bir yedeğin geri yüklenmesi, konteynerin mevcut verilerinin üzerine yazılacak, devam edilsin mi?";
 "NOT_A_BACKUP_ERROR_MESSAGE" = "Seçtiğiniz dosya bir konteyner yedeği gibi görünmüyor";
 "NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE" = "Seçili dosya çoklu bir konteyner yedeklemesi gibi görünmüyor";
@@ -118,35 +187,46 @@
 "INTO_CONTAINER" = "Konteynere";
 "NEW_CONTAINER_NAME" = "Yeni Konteyner Adı";
 "RESTORE_ERROR" = "Geri Yükleme Hatası";
-"BACKUP_ERROR" = "Yedekleme Hatası";
-"COMMUNICATION_ERROR_MESSAGE" = "Crane helper servisi (Cranehelperd) ile iletişimin kurulamadığı belirlendi. Bunun nedeni muhtemelen rocketbootstrap'in cihazınızda çalışmamasıdır.";
-"DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "Crane helper arka plan programının (Cranehelperd) çalışmadığı belirlendi. Jailbreak'inizin güncel olduğundan emin olun.";
-"TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "iOS 14.0-14.2.1 çalıştıran arm64 cihazlarında Taurine'de Crane yardımcı arka plan programının (Cranehelperd) başlamasını engelleyen bir hata var. Bu cihazın bugdan etkilendiği belirlendi, eğer Crane kullanmak istiyorsanız checkra1n veya unc0ver'a geçin.";
+"ENTER_PASSWORD" = "Parola Gir";
+"ENTER_PASSWORD_DESCRIPTION" = "%@ yedeği bir parola ile şifrelenmiştir, geri yüklemeyi başlatmak için lütfen parolayı girin.";
+"PREVIOUS_PASSWORD_WRONG_MESSAGE" = "Daha önce girilen şifre yanlıştı. Lütfen tekrar deneyin!";
+
+/* Game Center account picker */
+
+"GAME_CENTER_SECTION_HEADER" = "Game Center";
+"GAME_CENTER_SECTION_FOOTER" = "Bu konteyner'a giriş yaparken geçiş yapmak için bir Game Center hesabı seçin.";
+"GAME_CENTER_ACCOUNT" = "Game Center Hesabı";
+"GAME_CENTER_ACCOUNTS" = "Game Center Hesapları";
+"MANAGE_GAME_CENTER_ACCOUNTS" = "Game Center Hesaplarını Yönet";
+"GAME_CENTER_MANAGER_FOOTER" = "Teknik kısıtlamalar nedeniyle Game Center'ınızı bu global listeye eklemeniz gerekiyor. Daha sonra hesabı bir veya daha fazla konteyner'a atayabilirsiniz ve sistem, uygulamayı konteynerde başlatırken ona geçiş yapacaktır. Cihazınızda Crane'i kullanmak istemediğiniz Game Center kullanan bir uygulama yüklüyse, sistem açılırken sistem varsayılan Game Center hesabına geri dönebilsin diye 'Ayrı Sistem Hesapları' ve 'Game Center Desteği'ni etkinleştireceksiniz.";
+"GAME_CENTER_ADD_ACCOUNT_TITLE" = "Hesap Ekle";
+"GAME_CENTER_ADD_ACCOUNT_MESSAGE" = "Buraya hesabınızın adını girin. Bir uygulamayı, hesabın atanmış olduğu bir konteynerde ilk kez başlattığınızda oturum açma istemi görünür.";
+"GAME_CENTER_RENAME_ACCOUNT_TITLE" = "Hesabı Yeniden Adlandır";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE" = "Hesabı Sil";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE" = "\"%@\" Game Center Hesabını silmek istediğinizden emin misiniz? Şu anda onunla ilişkili her konteyner, Sistem Varsayılanına geçecektir.";
+
+/* Safety checks */
+
+/*LIBSANDY_NOT_LOADED_ERROR_MESSAGE*/
+/*LIBSANDY_CHOICY_NOTICE*/
+/*COMMUNICATION_ERROR_MESSAGE*/
+/*INSURANCE_FAILED_ERROR_MESSAGE*/
 "INJECTION_ERROR_MESSAGE" = "CraneSupport.dylib dosyasının %@ dizinine yüklenmediği belirlendi.";
 "INJECTION_ERROR_MESSAGE_CHOICY" = "Ayarlar -> Choicy -> Tweak Sorunu Giderici ayarı içinden Crane'i seçmeyi deneyin.";
 "REGISTRATION_FAILED_MESSAGE" = "CraneSupport.dylib apsd arka plan hizmetine yüklenmediğinden bildirim kayıtları yeniden yönlendirilemedi.";
 "PLUGIN_REDIRECTION_FAILED_MESSAGE" = "CraneSupport.dylib pkd arka plan hizmentine yüklenmediğinden bildirim hizmeti uzantısı doğru konteynere yönlendirilemedi.";
 "CRANE_DISABLED_MESSAGE" = "Veri senkronizasyonlarını önlemek için Crane devre dışı bırakıldı.";
-"DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE" = "Crane'in (Cranehelperd) yardımcı servisi, rocketbootstrap çalışmasına rağmen yanıt vermiyor gibi görünüyor. Cr4shed veya CrashReporter'da bununla ilgili herhangi bir kilitlenme günlüğü varsa, lütfen bunları e-postayla gönderin (opa334@protonmail.com).";
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "%@ uygulaması, Crane dylib yüklenmediği için varsayılan konteynerde başladı. Choicy, TweakRestrict veya benzeri ile devre dışı bırakılmadığından emin olun ve tekrar deneyin.";
-"AND" = "ve";
-"CRANE_ERROR" = "Crane Hatası";
-"OTHER" = "Diğer";
-"FOLLOW_ME_ON_TWITTER" = "Twitter'da Beni Takip Et";
-"CREDITS" = "Katkıda Bulunanlar";
-"CREDITS_AND_LICENSES" = "Katkıda Bulunanlar & Lisanslar";
-"LICENSE" = "Lisans";
-"SELECT_APPLICATION" = "Uygulama Seç";
-"CONFIGURE_APPLICATION" = "Uygulamayı Yapılandır";
-"SWITCH_WARNING_MESSAGE" = "Seçili uygulamayı değiştirmek üzeresiniz, bunu yaptığınızda önceden seçilen uygulamanın varsayılan olmayan tüm konteynerlerinin verileri silinecektir. Devam etmek istiyor musun?";
-"BUY_CRANE" = "Crane Satın Al";
 "RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "Etkilenen arka plan programlarını ve SpringBoard'u yeniden başlatın";
-"LITE_IMPORT_TITLE" = "Crane Lite İçe Aktar";
-"LITE_IMPORT_MESSAGE" = "'%@' uygulaması için Crane Lite konteynerleri bulundu. Onlarla ne yapmak istiyorsun?";
-"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "Crane Lite Konteynerlerini Crane'e Aktar";
-"DELETE_CRANE_LITE_CONTAINERS" = "Crane Lite Konteynerlerini Sil";
-"REMIND_ME_LATER" = "Daha Sonra Hatırlat";
-"BUY_CRANE_FOOTER" = "Crane'i satın aldıktan sonra, Crane Lite'ın konteynerlerini içine aktarabileceksiniz. Bu, Crane'in tercih sayfasına eriştiğinizde görüntülenen bir uyarı aracılığıyla sunulacaktır.";
+/*CRANEHELPERD_COMMUNICATION_WARNING*/
+/*CRANEHELPERD_INJECTION_ERROR_DYLIB_FILE_NOT_FOUND*/
+/*CRANEHELPERD_INJECTION_ERROR_INJECTION_BINARY_NOT_FOUND*/
+/*CRANEHELPERD_INJECTION_ERROR_EXCEPTION_OCCURED*/
+/*CRANEHELPERD_VERIFY_ERROR_PROCESS_NOT_RUNNING*/
+/*FIXUP_ERROR_DESCRIPTION*/
+
+/* Migration from previous versions and error detection */
+
 "UNKNOWN_CONTAINERS_FOUND" = "Bilinmeyen Konteyner Bulundu";
 "UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "Uygulama içinde saklanan verileri olan ancak şu anda Crane'in tercihlerinde bir girişi olmayan %u bilinmeyen konteyner bulundu. Bu, önceki bir tercih listesi silindiyse olabilir. Bilinmeyen konteyneri ne yapmak istiyorsunuz?";
 "DELETE_CONTAINERS" = "Konteynerleri Sil";
@@ -157,46 +237,16 @@
 "OPEN_SETTINGS" = "Ayarları Aç";
 "MIGRATION_SUCCEEDED" = "Taşıma Başarılı";
 "MIGRATION_SUCCEEDED_MESSAGE" = "Eski anahtar zinciri verileri başarıyla yeni biçime taşındı. Crane artık tekrar kullanılabilir.";
-"FILENAME" = "Dosya Adı";
-"OPTIONAL" = "İsteğe Bağlı";
-"ENCRYPT_BACKUP" = "Yedeklemeyi Şifrele";
-"PASSWORD" = "Parola";
-"ENCRYPT_BACKUP_FOOTER" = "Yedeklemeyi bir parola ile şifreleyin. Yedeklemeyi daha sonra şifre olmadan geri yüklemek mümkün olmayacaktır. Parolayı kaybederseniz, verileri kaybedersiniz.";
-"INCLUDE_KEYCHAIN" = "Anahtar Zinciri'ni Dahil Et";
-"INCLUDE_KEYCHAIN_FOOTER" = "Uygulama / konteyner tarafından depolanan anahtar zinciri verilerini yedeklemeye dahil edin. Hesap kimlik bilgilerini, anahtarları ve daha fazlasını içerir. Şifreleme kullanılmadığında güvensizdir.";
-"ENTER_PASSWORD" = "Parola Gir";
-"ENTER_PASSWORD_DESCRIPTION" = "%@ yedeği bir parola ile şifrelenmiştir, geri yüklemeyi başlatmak için lütfen parolayı girin.";
-"RESTORE" = "Geri Yükle";
-"INCLUDE_KEYCHAIN_UNSAFE_WARNING" = "Anahtar zinciri verilerini eklerken, 'Yedeği Şifrele'yi etkinleştirmeniz önerilir, aksi takdirde yedekleme dosyasına erişimi olan herkes, uygulamanın / konteynerin oturum açtığı hesapları tehlikeye atabilir.";
-"ENABLE_ENCRYPTION" = "Şifrelemeyi Etkinleştir";
-"IGNORE" = "Geç";
-"NO_PASSWORD_ERROR" = "Şifreleme etkin ancak şifre alanı boş, lütfen bir şifre girin veya şifrelemeyi devre dışı bırakın ve tekrar deneyin.";
-"ACTIVE" = "Aktif";
+
+/* Import from Slices */
+
 "SLICES_FOUND" = "Bulunan Dilimler";
 "SLICES_FOUND_MESSAGE" = "Şu anda seçili uygulama için aşağıdaki Dilimler bulundu:\n%@Onları Crane konteynerileri olarak içe aktarmak istiyor musunuz? Bunları gelecekte Dilimlere geri döndürmek mümkün değildir.";
 "IMPORT_SLICES" = "Dilimleri İçe Aktar";
 "DELETE_SLICES" = "Dilimleri Sil";
-"CREATE" = "Oluştur";
-"CONFIRM_PASSWORD" = "Parolayı Onayla";
-"SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "Bu uygulamanın bir veya daha fazla anahtar zinciri öğesi, güvenli yerleşim bölgesinde depolanır ve geri yüklenmesi imkansız olacağından yedeklemeden çıkarılmıştır. Bu yedeği geri yüklerken parolaları yeniden girmeniz gerekebilir veya başka sorunlar ortaya çıkabilir. Devam etmek istiyor musun?";
-"NEW_BACKUP" = "Yeni Yedek";
-"SEPARATE_SYSTEM_ACCOUNTS_FOOTER" = "Uygulama tarafından konteyner başına erişilen sistem hesaplarının (ör. Apple Kimliği) yeniden yönlendirilip yönlendirilmeyeceği. Çoğunlukla AppStore gibi sistem uygulamaları için kullanışlıdır. Game Center desteği ayrıca etkinleştirilmelidir ve ayarlarında bir konteyner'a manuel olarak bir Game Center hesabı atamanızı gerektirir.";
-"SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE" = "Uygulama tarafından konteyner başına erişilen sistem hesaplarının (ör. Apple Kimliği) yeniden yönlendirilip yönlendirilmeyeceği. Çoğunlukla AppStore gibi sistem uygulamaları için kullanışlıdır. Game Center desteği Crane Lite'a dahil değildir, yalnızca Crane'in tam sürümünde bulunur.";
-"SEPARATE_SYSTEM_ACCOUNTS" = "Ayrı Sistem Hesapları";
-"GAME_CENTER_SUPPORT" = "Game Center Desteği";
-"CONTAINER_PROTECTION" = "Konteyner Koruması";
-"CONTAINER_PROTECTION_FOOTER" = "Bazı uygulamalar için gerekli olan varsayılan konteynerler başlatıldığında uygulamanın diğer konteyner verilerini kaldırmasını önleyin. Uygulama kancalarını kullanır.";
-"PREVENT_SANDBOX_LOOKUPS" = "Korumalı Alan Aramalarını Engelle";
-"PREVENT_SANDBOX_LOOKUPS_FOOTER" = "Uygulamanın, yönlendirilmemiş gerçek yolları almak için kendi üzerinde korumalı alan araması yapmasını engeller.  Web tarayıcılarının tanımlama bilgilerini varsayılan olmayan konteynerlere kaydedememesine ilişkin sorunları düzeltir. Uygulama kancalarını kullanır.";
-"PREVIOUS_PASSWORD_WRONG_MESSAGE" = "Daha önce girilen şifre yanlıştı. Lütfen tekrar deneyin!";
-"CRANESB_COMMUNICATION_NOT_WORKING" = "SpringBoard'a bağlantı çalışmıyor, bu ya roketbootstrap'in çalışmamasından ya da CraneSB.dylib'in SpringBoard'a enjekte edilmemesinden kaynaklanıyor. Uygulamaların otomatik olarak yeniden yüklendiği bir özellik (Crane tercihlerinde seçtiğiniz bir seçenek gerektiğinde) bu nedenle çalışmaz, riski size ait olmak üzere devam eder.";
+
+/* Activator Integration */
+
 "SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "\"%@\" öğesini aktif Crane konteyneri olarak ayarlayın";
 "CHANGED_TO_CONTAINER" = "\"%@\" Crane konteyneri \"%@\" olarak değiştirildi";
-"SUGGESTIONS" = "Öneriler";
-"CHOICYLOADER_SUGGESTION_TITLE" = "Substrate ile ilgili sorun mu yaşıyorsunuz?";
-"CHOICYLOADER_SUGGESTION_MESSAGE" = "Ana Crane kitaplığının (\" Crane.dylib\") önce uygulamalara enjekte edilmesi gerekir, Substrate'da bu otomatik olarak gerçekleşmez ve Crane'in işlevselliğini kısmen veya tamamen bozmadan önce bazı ince ayarlar yüklenir. Yaygın belirtiler, varsayılan konteyner olarak görünen tüm konteynerleri, uygulama yeniden başlatıldığında konteynerlerin silinmesini veya veri senkronizasyonlarını içerir. Bu sorunlardan herhangi biri sizi etkiliyorsa, https://opa334.github.io adresinden ChoicyLoader'ı yükleyin; bu, Crane'in her zaman önce yüklenmesini sağlayarak bunları düzeltecektir.";
-"OPEN_REPO" = "Repo'yu Aç";
-"ACTIVATOR_INFO_SUGGESTION_TITLE" = "Activator Entegrasyonu";
-"ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane, belirli bir konteyner etkin olarak ayarlandığında yürütülecek bir activator eylemi atamanıza olanak tanır. Buna Activator -> (Her Yerde/Ana Ekranda/Uygulamada/Kilit Ekranında) -> Cranden erişilebilirsiniz. Ayrıca, Activator -> (Her Yerde/Ana Ekranda/Uygulamada/Kilit Ekranında) -> (Herhangi Bir Olay) -> Crane içinden erişilebilen bir uygulama için belirli bir konteyner etkin olarak ayarlamak için eylemler içerir.";
-"SHORTCUTS_INFO_SUGGESTION_TITLE" = "Kestirmeler Entegrasyonu";
-"SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "Crane, bir uygulamanın aktif konteynerini ayarlamak için bir Kestirmeler Eylemi içerir, Uygulamalar -> Crane -> Aktif Crane Konteynerini Ayarla altında bir Kestirmeler Eylemi eklerken erişilebilir";
+

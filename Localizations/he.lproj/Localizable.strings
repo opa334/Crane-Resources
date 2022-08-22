@@ -1,105 +1,29 @@
-"APPLICATIONS" = "אפליקציות";
-"ACTIVE_CONTAINER" = "שכפול אפליקציה פעיל";
-/*ALWAYS_ASK_ON_APP_LAUNCH*/
-/*SELECT_CONTAINER*/
+/* Misc */
+
+"OPEN_REPO" = "פתח מקור";
 "CONTAINERS" = "שכפולי אפליקציות";
 "CONTAINER" = "שכפול אפליקציה";
 "DEFAULT" = "ברירת מחדל";
 "ADD" = "הוסף";
-"ADD_CONTAINER" = "הוסף שכפול אפליקציה";
 "NAME" = "שם";
 "CANCEL" = "ביטול";
-"CONTAINER_NAME" = "שם שכפול";
-"SAVE" = "שמירה";
-"CONTAINER_DELETE_CONFIRMATION_TITLE" = "מאשר מחיקה?";
-"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "אתה עומד למחוק את כל הנתונים המשויכים אל השכפול '%@', לא ניתן לשחזר נתונים אלה. האם אתה מעוניין להמשיך?";
+/*SELECT_CONTAINER*/
+"ADD_CONTAINER" = "הוסף שכפול אפליקציה";
+/*NOTIFICATIONS*/
 "DELETE" = "מחיקה";
 "NONE" = "אף אחד";
-"MAKE_DEFAULT_CONTAINER" = "הגדר שכפול ברירת מחדל ";
-"DEFAULT_CONTAINER" = "שכפול ברירת מחדל ";
-"DEFAULT_CONTAINER_DESCRIPTION" = "הברירת המחדל היא שכפול שישמש כאשר המכשיר שלך לא פרוץ או כאשר Crane לא עמוסה.";
-"CONTAINER_IDENTIFIER" = "מזהה שכפול";
-"PROTECT_USING_BIOMETRICS" = "הגנה על השימוש בביומטריה";
-"SET_ACTIVE_CONTAINER_DESCRIPTION" = "הגדר שכפול פעיל אל- \"%@\"";
-"DELETE_CONTAINER_DESCRIPTION" = "מחק שכפול \"%@\"";
-"ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "גישה להגדרות שכפול של \"%@\"";
-"UNNAMED" = "ללא שם";
-"APP_SHORTCUTS" = "קיצורים";
-"APP_SHORTCUT_ENABLED" = "אפליקציית 'קיצורים'";
-"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "הפעל את שכפול אפליקציה לפי בחירה";
-"EXPAND_CONTAINERS_SHORTCUT" = "הרחב קיצורי דרך";
-"SHOW_NEW_CONTAINER_OPTION" = "הצג 'שכפול חדש' כאופציה";
-"ONLY_SHOW_IF_CONTAINERS_EXIST" = "הראה רק אם קיימים שכפולי אפליקציה";
-/*SHOW_CONTAINER_NOTIFICATION_BADGES*/
-/*BACKUP_RESTORE*/
-/*CREATE_MULTI_CONTAINER_BACKUP*/
-/*RESTORE_MULTI_CONTAINER_BACKUP*/
-/*INCLUDED_CONTAINERS*/
-/*PRESETS*/
-/*NEW_PRESET*/
-/*SAVE_SELECTION_INTO_PRESET*/
-/*NEW_PRESET_MESSAGE*/
-"APP_SHORTCUT_DESCRIPTION" = "קיצור דרך לניהול של ״שכפול אפליקציה״ על ידי טביעת אצבע / זיהוי פנים ומאפשר הפעלת האפליקציה בעת בחירת שכפול מקיצורים.";
-"GAME_CENTER_SECTION_HEADER" = "Game Center";
-"GAME_CENTER_SECTION_FOOTER" = "בחר בחשבון Game Center שאליו אתה צריך לעבור בעת העברה באפליקציה.";
-"GAME_CENTER_ACCOUNT" = "Game Center חשבון";
-"GAME_CENTER_ACCOUNTS" = "Game Center חשבונות";
-"MANAGE_GAME_CENTER_ACCOUNTS" = "ניהול חשבונות Game Center ";
-"GAME_CENTER_MANAGER_FOOTER" = "בשל מגבלות טכניות עליך להוסיף את Game Center לרשימה העולמית הזו. לאחר מכן תוכל להקצות את החשבון לשכפול אחד או יותר והמערכת תעבור אליו בעת הפעלת האפליקציה לתוך השכפול. אם מותקנת במכשיר שלך אפליקציה שעובדת עם Game Center שאתה לא רוצה להשתמש עם הטוויק Crane, עדיין תרצה להפעיל  את 'חשבונות מערכת נפרדים' ו 'תמיכה Game Center' כך שהמערכת חוזרת למערכת ברירת מחדל של חשבון Game Center בעת פתיחתו.";
-"SYSTEM_DEFAULT" = "ברירת מחדל מערכת";
-"GAME_CENTER_ADD_ACCOUNT_TITLE" = "הוסף חשבון";
-"GAME_CENTER_ADD_ACCOUNT_MESSAGE" = "הזן את שם החשבון שלך כאן. הודעת הכניסה תופיע כאשר תפעיל אפליקציה לראשונה אשר הוגדר לה שכפול.";
-"GAME_CENTER_RENAME_ACCOUNT_TITLE" = "שנה שם חשבון";
-"RENAME" = "שנה שם";
-"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE" = "מחק חשבון";
-"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE" = "האם אתה בטוח שברצונך למחוק את Game Center חשבון \"%@\"? כל שכפול המשויך אליו כעת יעבור לברירת מחדל מערכת.";
-"BACKUP_DATA_TO_FILE" = "גיבוי נתונים לקובץ";
-"RESTORE_DATA_FROM_BACKUP_FILE" = "שחזר נתונים מקובץ הגיבוי";
-"DEVICE_IDENTIFIER_FOR_VENDOR" = "מזהה מכשיר לספק";
-"USE_CONTAINER_IDENTIFIER" = "השתמש במזהה שכפול";
-"GENERATE_NEW" = "צור מזהה חדש";
-"SET_CUSTOM" = "הגדר מותאם אישית";
-"IDENTIFIER" = "מזהה";
-"DEVICE_IDENTIFIER_DESCRIPTION" = "מזהה המכשיר שאתה רואה כאן משמש לזיהוי המכשיר שלך לספק (מפתח) של יישום זה. אם הספק מפיץ מספר אפליקציות, מזהה זה יהיה זהה על פני כולם. מכיוון שיש יישומים שמשתמשים במזהה זה כדי להתנתק, Crane מזייף את המזהה של שכפולים אפליקציות. שאינן ברירת מחדל למזהה המיכל כברירת מחדל, באפשרותך גם לכבות את ההגדרה ולהגדיר הגדרה מותאמת אישית. כאשר משהו בתוך מנוף משנה את מזהה המכולה בזמן שהאפשרות \"השתמש במזהה שכפול אפליקציה\" מופעלת (למשל כאשר מגדירים שכפול אפליקציה כברירת מחדל), ההגדרה תותאם אוטומטית על מנת לשמור על מזהה המכשיר זהה. כאשר אתה משנה את מזהה ההתקן של שכפול אפליקציה ברירת המחדל, הוא ייכתב למטמון המערכת ויימשך גם כאשר Crane לא נטען או שהמכשיר לא פרוץ.";
-"DEVICE_IDENTIFIER_CHANGE_WARNING" = "אתה עומד לשנות את מזהה המכשיר של שכפול אפליקציה זו. אפליקציות מסויימות ינתקו אותך מכיוון שלגביהם זה ייראה כאילו שינית את המכשיר שלך. האם אתה רוצה להמשיך?";
-"SET_CUSTOM_IDENTIFIER" = "הגדר מזהה מותאם אישית";
-"SET_CUSTOM_IDENTIFIER_MESSAGE" = "הזן את המזהה להגדרה, זה צריך להיות מחרוזת עם 32 תווים המכילים בלבד\n אותיות ומספרים בלבד (0-9, A-F).\nפורמט:XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\n(לא כולל מעקפים)";
-"SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE" = "המזהה שהזנת בעבר היה בפורמט שגוי. נסה שוב.";
-"SET" = "הגדר";
-/*NOTIFICATIONS*/
-/*NOTIFICATIONS_FOOTER*/
-/*SHOW_CONTAINER_IN_TITLE*/
-/*NOTIFICATIONS_SUPPORT_ENABLED*/
-/*NOTIFICATIONS_SUPPORT_FOOTER*/
-/*NOTIFICATIONS_SUPPORT_FOOTER_LITE*/
-/*SEPARATE_NOTIFICATION_REGISTRATIONS*/
-/*SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER*/
-/*ALLOW_NOTIFICATIONS*/
-/*RESET_NOTIFICATION_REGISTRATION*/
-/*CHOICY_INTEGRATION*/
-/*OVERWRITE_CHOICY_CONFIGURATION*/
-/*CHOICY_CONFIGURATION*/
-"BROWSE_DATA" = "עיין בנתונים";
 "APPLICATION" = "אפליקציה";
 "GROUPS" = "קבוצות";
 "PLUGINS" = "תוספים";
-"DELETE_DATA" = "מחק נתונים";
-"SIZE_OF_CONTAINER" = "גודל שכפול אפליקציה";
-"UNARCHIVING" = "ביטול הארכיון";
-"RESTORING" = "משחזר";
-"BACKING_UP" = "גיבוי";
+"UNNAMED" = "ללא שם";
+"RENAME" = "שנה שם";
+"SYSTEM_DEFAULT" = "ברירת מחדל מערכת";
+"IDENTIFIER" = "מזהה";
+"SET" = "הגדר";
 /*PREPARING*/
 /*CHECKING*/
 "ERROR" = "שגיאה";
 "WARNING" = "אזהרה";
-/*BACKUP_INVALID*/
-"APP_ID_MISMATCH_ERROR" = "האפליקציה ממנה נוצר גיבוי זה\n(%@) אינה זהה לאפליקציה שאתה מנסה להחזיר אל (%@)";
-"GROUP_ID_MISMATCH_WARNING" = " מזהה הקבוצה של הגיבוי\n (%@) אי התאמה בין המזהים הנוכחיים של האפליקציה (%@), זה יכול לגרום לשחזור נתונים מסוימים. האם אתה עדיין רוצה להמשיך?";
-/*NO_APPS_INSTALLED_ERROR*/
-/*RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR*/
-/*BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR*/
-/*RESTORE_SUCCESS_MESSAGE*/
-/*MULTI_RESTORE_SUCCESS_MESSAGE*/
 /*SUCCESS*/
 "CONTINUE" = "המשך";
 "CLOSE" = "סגור";
@@ -107,10 +31,155 @@
 "NEW_CONTAINER" = "שכפול חדש";
 /*LAUNCH*/
 "CREATE" = "צור";
-"INJECT_IN_SAFE_MODE" = "מצב בטוח";
-"INJECT_IN_SAFE_MODE_DESCRIPTION" = "מחדל של Crane אינו פועל כאשר אפליקציה מופעלת במצב בטוח (למשל באמצעות מתג 'השבת הזרקת טוויק' של Choicy או קיצור הדרך לאפליקציה 'הפעל ללא טוויק'), כאשר אפשרות זו מופעלת, היא תמיד תזריק. אין לכך כל השפעה על המצב הבטוח מפגיעת הפריצה.";
 /*SELECT_ALL*/
 /*DESELECT_ALL*/
+"AND" = "ו";
+"CRANE_ERROR" = "Crane שגיאה";
+"LICENSE" = "רשיון";
+"FILENAME" = "שם קובץ";
+"OPTIONAL" = "אופציונאלי";
+"PASSWORD" = "סיסמה";
+"ACTIVE" = "פעיל";
+"CREATE" = "צור";
+
+/* Root preference page */
+
+"APPLICATIONS" = "אפליקציות";
+"APP_SHORTCUTS" = "קיצורים";
+"APP_SHORTCUT_ENABLED" = "אפליקציית 'קיצורים'";
+"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "הפעל את שכפול אפליקציה לפי בחירה";
+"EXPAND_CONTAINERS_SHORTCUT" = "הרחב קיצורי דרך";
+"SHOW_NEW_CONTAINER_OPTION" = "הצג 'שכפול חדש' כאופציה";
+"ONLY_SHOW_IF_CONTAINERS_EXIST" = "הראה רק אם קיימים שכפולי אפליקציה";
+/*SHOW_CONTAINER_NOTIFICATION_BADGES*/
+"APP_SHORTCUT_DESCRIPTION" = "קיצור דרך לניהול של ״שכפול אפליקציה״ על ידי טביעת אצבע / זיהוי פנים ומאפשר הפעלת האפליקציה בעת בחירת שכפול מקיצורים.";
+/*NOTIFICATIONS_SUPPORT_ENABLED*/
+/*SHOW_CONTAINER_IN_TITLE*/
+/*NOTIFICATIONS_SUPPORT_FOOTER*/
+/*NOTIFICATIONS_SUPPORT_FOOTER_LITE*/
+"SUGGESTIONS" = "הצעות";
+"CHOICYLOADER_SUGGESTION_TITLE" = "נמצאו בעיות?";
+"CHOICYLOADER_SUGGESTION_MESSAGE" = "הספריה הראשית של Crane (\" Crane.dylib\") צריך להזריק לאפליקציות תחילה, על מצע זה לא קורה אוטומטית וחלקם טוויקים נטענים לפני Crane יכול לשבור באופן חלקי או מלא את הפונקציונליות שלו. התסמינים השכיחים כוללים את כל השכפולים המופיעות כשכפול ברירת המחדל, שכפולים נמחקים בהפעלה מחדש של אפליקציות או סנכרון נתונים. אם אחת מבעיות אלה משפיעות עליך, התקן את ChoicyLoader מהמקור https://opa334.github.io מה שיתקן אותם בכך שהוא יבטיח שטוויק Crane תמיד נטען ראשון.";
+"ACTIVATOR_INFO_SUGGESTION_TITLE" = "Activator שילוב ";
+"ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "טוויק Crane מאפשר לך להקצות פעולת מפעיל לביצוע בכל פעם ששכפול ספציפי מוגדר כפעיל. ניתן לגשת אל זה מ Activator -> (בכל מקום/במסך הבית/באפליקציות/במסך נעילה) -> Crane. הוא כולל גם פעולות להגדרת מיכל ספציפי ליישום כפעיל, שניתן לגשת אליו בתוך Activator -> (בכל מקום/במסך הבית/באפליקציות/במסך נעילה) -> (כל אירוע) -> Crane.";
+"SHORTCUTS_INFO_SUGGESTION_TITLE" = "שילוב קיצורי דרך";
+"SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "טוויק Crane כולל פעולת קיצור דרך להגדרת השכפול הפעילה של אפליקציה, ניתן לגשת אליה בעת הוספת פעולה לקיצור דרך אפליקציות -> Crane -> הגדר שכפול Crane פעיל.";
+/*BACKUP_RESTORE*/
+/*CREATE_MULTI_CONTAINER_BACKUP*/
+/*RESTORE_MULTI_CONTAINER_BACKUP*/
+"OTHER" = "אחר";
+"FOLLOW_ME_ON_TWITTER" = "עקוב אחריי בטוויטר";
+"CREDITS_AND_LICENSES" = "רשיון וקרדיטים";
+"CREDITS" = "קרדיטים";
+
+/* Crane Lite root preference page */
+
+"SELECT_APPLICATION" = "בחר אפליקציות";
+"CONFIGURE_APPLICATION" = "הגדרת אפליקציה";
+"SWITCH_WARNING_MESSAGE" = "אתה עומד לשנות את האפליקציה שנבחרה, פעולה זו תמחק את נתוני השכפולים שאינן ברירת המחדל של האפליקציה שנבחרה בעבר. האם אתה רוצה להמשיך?";
+"BUY_CRANE" = "רכוש את Crane";
+"BUY_CRANE_FOOTER" = "לאחר רכישת טוויק Crane, תוכל לייבא את כל השכפולים מתוך Crane Lite והם יהיו זמינים באמצעות התראה שמופיעה כשאתה ניגש לדף ההעדפות של Crane.";
+
+/* Crane Lite importing */
+
+"LITE_IMPORT_TITLE" = "Crane Lite ייבא";
+"LITE_IMPORT_MESSAGE" = "Crane Lite שכפול לאפליקציה '%@' נמצא. מה אתה רוצה לעשות איתם?";
+"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "ייבא Crane Lite שכלולי אפליקציות אל Crane";
+"DELETE_CRANE_LITE_CONTAINERS" = "מחק שכפולים מתוך Crane Lite";
+"REMIND_ME_LATER" = "הזכר לי מאוחר יותר";
+
+/* Application preference page */
+
+"ACTIVE_CONTAINER" = "שכפול אפליקציה פעיל";
+/*ALWAYS_ASK_ON_APP_LAUNCH*/
+/*SEPARATE_NOTIFICATION_REGISTRATIONS*/
+/*SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER*/
+"SEPARATE_SYSTEM_ACCOUNTS" = "חשבונות מערכת נפרדים";
+"GAME_CENTER_SUPPORT" = "Game Center תמיכה";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER" = "האם להפנות חשבונות מערכת (למשל מזהה Apple ID) שאליו ניגשת עם האפליקציה לכל שכפול. שימושי בעיקר ליישומי מערכת כמו AppStore. התמיכה ב-Game Center חייבת להיות מופעלת בנפרד ודורשת ממך להקצות באופן ידני חשבון Game Center לשכפול בהגדרות שלו.";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE" = "האם להפנות חשבונות מערכת (למשל Apple ID) שאליו ניגשת האפליקציה לכל שכפול. שימושי בעיקר ליישומי מערכת כמו AppStore. תמיכה ב-Game Center אינה כלולה ב Crane Lite, רק בגרסה המלאה של Crane.\n\n";
+"CONTAINER_PROTECTION" = "הגנה על שכפול אפליקציה";
+"CONTAINER_PROTECTION_FOOTER" = "מנע מאפליקציה זו להסיר נתונים של אחרים של ״שכפול אפליקציה״ כאשר הושק לשכפול ברירת המחדל, הדרוש לאפליקציות מסוימות. הטוויק משתמש בקרסי אפליקציה.";
+/*PREVENT_SANDBOX_LOOKUPS*/
+/*PREVENT_SANDBOX_LOOKUPS_FOOTER*/
+
+/* Container preference page */
+
+"CONTAINER_NAME" = "שם שכפול";
+"CONTAINER_IDENTIFIER" = "מזהה שכפול";
+"PROTECT_USING_BIOMETRICS" = "הגנה על השימוש בביומטריה";
+"MAKE_DEFAULT_CONTAINER" = "הגדר שכפול ברירת מחדל ";
+"DEFAULT_CONTAINER" = "שכפול ברירת מחדל ";
+"DEFAULT_CONTAINER_DESCRIPTION" = "הברירת המחדל היא שכפול שישמש כאשר המכשיר שלך לא פרוץ או כאשר Crane לא עמוסה.";
+"DEVICE_IDENTIFIER_FOR_VENDOR" = "מזהה מכשיר לספק";
+"DEVICE_IDENTIFIER_DESCRIPTION" = "מזהה המכשיר שאתה רואה כאן משמש לזיהוי המכשיר שלך לספק (מפתח) של יישום זה. אם הספק מפיץ מספר אפליקציות, מזהה זה יהיה זהה על פני כולם. מכיוון שיש יישומים שמשתמשים במזהה זה כדי להתנתק, Crane מזייף את המזהה של שכפולים אפליקציות. שאינן ברירת מחדל למזהה המיכל כברירת מחדל, באפשרותך גם לכבות את ההגדרה ולהגדיר הגדרה מותאמת אישית. כאשר משהו בתוך מנוף משנה את מזהה המכולה בזמן שהאפשרות \"השתמש במזהה שכפול אפליקציה\" מופעלת (למשל כאשר מגדירים שכפול אפליקציה כברירת מחדל), ההגדרה תותאם אוטומטית על מנת לשמור על מזהה המכשיר זהה. כאשר אתה משנה את מזהה ההתקן של שכפול אפליקציה ברירת המחדל, הוא ייכתב למטמון המערכת ויימשך גם כאשר Crane לא נטען או שהמכשיר לא פרוץ.";
+"DEVICE_IDENTIFIER_CHANGE_WARNING" = "אתה עומד לשנות את מזהה המכשיר של שכפול אפליקציה זו. אפליקציות מסויימות ינתקו אותך מכיוון שלגביהם זה ייראה כאילו שינית את המכשיר שלך. האם אתה רוצה להמשיך?";
+"USE_CONTAINER_IDENTIFIER" = "השתמש במזהה שכפול";
+"GENERATE_NEW" = "צור מזהה חדש";
+"SET_CUSTOM" = "הגדר מותאם אישית";
+"SET_CUSTOM_IDENTIFIER" = "הגדר מזהה מותאם אישית";
+"SET_CUSTOM_IDENTIFIER_MESSAGE" = "הזן את המזהה להגדרה, זה צריך להיות מחרוזת עם 32 תווים המכילים בלבד\n אותיות ומספרים בלבד (0-9, A-F).\nפורמט:XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\n(לא כולל מעקפים)";
+"SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE" = "המזהה שהזנת בעבר היה בפורמט שגוי. נסה שוב.";
+/*ALLOW_NOTIFICATIONS*/
+/*RESET_NOTIFICATION_REGISTRATION*/
+/*NOTIFICATIONS_FOOTER*/
+/*CHOICY_INTEGRATION*/
+/*OVERWRITE_CHOICY_CONFIGURATION*/
+/*CHOICY_CONFIGURATION*/
+"BACKUP_DATA_TO_FILE" = "גיבוי נתונים לקובץ";
+"RESTORE_DATA_FROM_BACKUP_FILE" = "שחזר נתונים מקובץ הגיבוי";
+"BROWSE_DATA" = "עיין בנתונים";
+"DELETE_DATA" = "מחק נתונים";
+"SIZE_OF_CONTAINER" = "גודל שכפול אפליקציה";
+
+/* Container removal */
+
+"CONTAINER_DELETE_CONFIRMATION_TITLE" = "מאשר מחיקה?";
+"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "אתה עומד למחוק את כל הנתונים המשויכים אל השכפול '%@', לא ניתן לשחזר נתונים אלה. האם אתה מעוניין להמשיך?";
+
+/* Biometric protection descriptions */
+
+"SET_ACTIVE_CONTAINER_DESCRIPTION" = "הגדר שכפול פעיל אל- \"%@\"";
+"DELETE_CONTAINER_DESCRIPTION" = "מחק שכפול \"%@\"";
+"ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "גישה להגדרות שכפול של \"%@\"";
+
+/* Backup */
+
+/*INCLUDED_CONTAINERS*/
+/*PRESETS*/
+"BACKING_UP" = "גיבוי";
+/*BACKUP_ERROR*/
+"ENCRYPT_BACKUP" = "הצפנה באמצעות גיבוי";
+"ENCRYPT_BACKUP_FOOTER" = "הצפן את הגיבוי באמצעות סיסמה. לא ניתן יהיה לשחזר את הגיבוי לאחר מכן ללא הסיסמה. אם אתה מאבד את הסיסמה, אתה מאבד את הנתונים.";
+"INCLUDE_KEYCHAIN" = "כלול מחזיק מפתחות";
+"INCLUDE_KEYCHAIN_FOOTER" = "כלול את נתוני מחזיק המפתחות המאוחסנים על ידי האפליקציה / שכפול אפליקציה בגיבוי. מכיל אישורי חשבון, מפתחות ועוד. לא בטוח כאשר לא משתמשים בהצפנה.";
+"INCLUDE_KEYCHAIN_UNSAFE_WARNING" = "כאשר כלולים נתוני מחזיקי מפתחות, מומלץ להפעיל את 'הצפנת גיבוי', אחרת כל מי שיש לו גישה לקובץ הגיבוי יכול לפגוע בחשבונות שהאפליקציה / שכפול אפליקציה מחוברים אליהם.";
+"ENABLE_ENCRYPTION" = "אפשר קידוד";
+"IGNORE" = "התעלם";
+"NO_PASSWORD_ERROR" = "ההצפנה מופעלת אך שדה הסיסמה ריק, הזן סיסמה או בטל הצפנה ונסה שוב.";
+"CONFIRM_PASSWORD" = "אשר סיסמה ";
+"SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "אזהרה! פריט אחד או יותר של מחזיקי מפתחות של אפליקציה זו נשמרים בסיסמאות המאובטחות וימחקו מהגיבוי מכיוון ששחזורם יהיה בלתי אפשרי. בעת שחזור גיבוי זה, ייתכן שיהיה עליך להזין סיסמאות או בעיות אחרות עלולות להופיע. האם אתה רוצה להמשיך?";
+"NEW_BACKUP" = "גיבוי חדש";
+
+/* Backup Presets */
+
+/*NEW_PRESET*/
+/*SAVE_SELECTION_INTO_PRESET*/
+/*NEW_PRESET_MESSAGE*/
+/*BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR*/
+
+/* Restore */
+
+"RESTORE" = "שחזור";
+"UNARCHIVING" = "ביטול הארכיון";
+"RESTORING" = "משחזר";
+/*BACKUP_INVALID*/
+"APP_ID_MISMATCH_ERROR" = "האפליקציה ממנה נוצר גיבוי זה\n(%@) אינה זהה לאפליקציה שאתה מנסה להחזיר אל (%@)";
+"GROUP_ID_MISMATCH_WARNING" = " מזהה הקבוצה של הגיבוי\n (%@) אי התאמה בין המזהים הנוכחיים של האפליקציה (%@), זה יכול לגרום לשחזור נתונים מסוימים. האם אתה עדיין רוצה להמשיך?";
+/*NO_APPS_INSTALLED_ERROR*/
+/*RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR*/
+/*RESTORE_SUCCESS_MESSAGE*/
+/*MULTI_RESTORE_SUCCESS_MESSAGE*/
 "RESTORE_WARNING_MESSAGE" = "שחזור גיבוי יחליף את הנתונים הנוכחיים של השכפולים, להמשיך?";
 "NOT_A_BACKUP_ERROR_MESSAGE" = "נראה שהקובץ שבחרת אינו שכפול גיבוי";
 /*NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE*/
@@ -118,35 +187,46 @@
 /*INTO_CONTAINER*/
 /*NEW_CONTAINER_NAME*/
 /*RESTORE_ERROR*/
-/*BACKUP_ERROR*/
-"COMMUNICATION_ERROR_MESSAGE" = "התקשורת למערכת\n crane שירות ההעזרה של (cranehelperd) לא עובדת. נושא זה קשור ככל הנראה ל rocketbootstrap שאינו עובד";
-"DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "נתקלנו בשגיאה ב-crane\n הכלי של daemon (העוזר של crane) לא רץ. וודא כי הפריצה שלך מעודכנת, (נסה לבצע הפעלה מחדש ופריצה מחודשת).";
-"TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "יש באג ב-Taurine על מכשירי iOS arm64 המריצים את גרסאות 14.0-14.2.1 זה מונע מ-crane ומ-daemon (עוזר crane) לעבוד כראוי. נקבע כי התקן זה מושפע מהבאג, אם ברצונך להשתמש באפשרות נוספת ואז לעבור אל checkra1n או unc0ver.";
+"ENTER_PASSWORD" = "הזן סיסמה";
+"ENTER_PASSWORD_DESCRIPTION" = "הגיבוי %@ מוצפן באמצעות סיסמה, הזן אותה כדי להתחיל בשחזור.";
+"PREVIOUS_PASSWORD_WRONG_MESSAGE" = "הסיסמה שהוזנה בעבר הייתה שגויה. נסה שוב!";
+
+/* Game Center account picker */
+
+"GAME_CENTER_SECTION_HEADER" = "Game Center";
+"GAME_CENTER_SECTION_FOOTER" = "בחר בחשבון Game Center שאליו אתה צריך לעבור בעת העברה באפליקציה.";
+"GAME_CENTER_ACCOUNT" = "Game Center חשבון";
+"GAME_CENTER_ACCOUNTS" = "Game Center חשבונות";
+"MANAGE_GAME_CENTER_ACCOUNTS" = "ניהול חשבונות Game Center ";
+"GAME_CENTER_MANAGER_FOOTER" = "בשל מגבלות טכניות עליך להוסיף את Game Center לרשימה העולמית הזו. לאחר מכן תוכל להקצות את החשבון לשכפול אחד או יותר והמערכת תעבור אליו בעת הפעלת האפליקציה לתוך השכפול. אם מותקנת במכשיר שלך אפליקציה שעובדת עם Game Center שאתה לא רוצה להשתמש עם הטוויק Crane, עדיין תרצה להפעיל  את 'חשבונות מערכת נפרדים' ו 'תמיכה Game Center' כך שהמערכת חוזרת למערכת ברירת מחדל של חשבון Game Center בעת פתיחתו.";
+"GAME_CENTER_ADD_ACCOUNT_TITLE" = "הוסף חשבון";
+"GAME_CENTER_ADD_ACCOUNT_MESSAGE" = "הזן את שם החשבון שלך כאן. הודעת הכניסה תופיע כאשר תפעיל אפליקציה לראשונה אשר הוגדר לה שכפול.";
+"GAME_CENTER_RENAME_ACCOUNT_TITLE" = "שנה שם חשבון";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE" = "מחק חשבון";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE" = "האם אתה בטוח שברצונך למחוק את Game Center חשבון \"%@\"? כל שכפול המשויך אליו כעת יעבור לברירת מחדל מערכת.";
+
+/* Safety checks */
+
+/*LIBSANDY_NOT_LOADED_ERROR_MESSAGE*/
+/*LIBSANDY_CHOICY_NOTICE*/
+/*COMMUNICATION_ERROR_MESSAGE*/
+/*INSURANCE_FAILED_ERROR_MESSAGE*/
 "INJECTION_ERROR_MESSAGE" = "נקבע כי CraneSupport.dylib אינו טעון\n %@.";
 /*INJECTION_ERROR_MESSAGE_CHOICY*/
 /*REGISTRATION_FAILED_MESSAGE*/
 /*PLUGIN_REDIRECTION_FAILED_MESSAGE*/
 "CRANE_DISABLED_MESSAGE" = "טוויק Crane הושבת כדי למנוע נתוני desyncs.";
-"DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE" = "שירות העוזרים של טוויק Crane (cranehelperd)\nינסה לעזור לך במידה ויש לך בעיות כלשהן. אם יש יומני קריסה במכשיר, אתה יכול להשתמש ב-Cr4shed או ב-CrashReporter, אנא שלח אותם באמצעות דוא\"ל(opa334@protonmail.com).";
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "האפליקציה %@ מחוברת אל ״שכפול אפליקציה״ ברירת המחדל מכיוון שהטוויק Crane לא הוגדר בתוכו. נא וודא שהוא לא הושבת באמצעות Choicy, TweakRestrict או דומה ונסה שוב.";
-"AND" = "ו";
-"CRANE_ERROR" = "Crane שגיאה";
-"OTHER" = "אחר";
-"FOLLOW_ME_ON_TWITTER" = "עקוב אחריי בטוויטר";
-"CREDITS" = "קרדיטים";
-"CREDITS_AND_LICENSES" = "רשיון וקרדיטים";
-"LICENSE" = "רשיון";
-"SELECT_APPLICATION" = "בחר אפליקציות";
-"CONFIGURE_APPLICATION" = "הגדרת אפליקציה";
-"SWITCH_WARNING_MESSAGE" = "אתה עומד לשנות את האפליקציה שנבחרה, פעולה זו תמחק את נתוני השכפולים שאינן ברירת המחדל של האפליקציה שנבחרה בעבר. האם אתה רוצה להמשיך?";
-"BUY_CRANE" = "רכוש את Crane";
 "RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "הפעל מחדש את daemons ואת SpringBoard";
-"LITE_IMPORT_TITLE" = "Crane Lite ייבא";
-"LITE_IMPORT_MESSAGE" = "Crane Lite שכפול לאפליקציה '%@' נמצא. מה אתה רוצה לעשות איתם?";
-"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "ייבא Crane Lite שכלולי אפליקציות אל Crane";
-"DELETE_CRANE_LITE_CONTAINERS" = "מחק שכפולים מתוך Crane Lite";
-"REMIND_ME_LATER" = "הזכר לי מאוחר יותר";
-"BUY_CRANE_FOOTER" = "לאחר רכישת טוויק Crane, תוכל לייבא את כל השכפולים מתוך Crane Lite והם יהיו זמינים באמצעות התראה שמופיעה כשאתה ניגש לדף ההעדפות של Crane.";
+/*CRANEHELPERD_COMMUNICATION_WARNING*/
+/*CRANEHELPERD_INJECTION_ERROR_DYLIB_FILE_NOT_FOUND*/
+/*CRANEHELPERD_INJECTION_ERROR_INJECTION_BINARY_NOT_FOUND*/
+/*CRANEHELPERD_INJECTION_ERROR_EXCEPTION_OCCURED*/
+/*CRANEHELPERD_VERIFY_ERROR_PROCESS_NOT_RUNNING*/
+/*FIXUP_ERROR_DESCRIPTION*/
+
+/* Migration from previous versions and error detection */
+
 "UNKNOWN_CONTAINERS_FOUND" = "נמצא שכפול לא ידוע";
 "UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "נמצאו % לא ידועים שכפולים המאוחסנים נתונים בתוך האפליקציה, אך כרגע אין להם ערך בהעדפות Crane. זה יכול לקרות אם נמחקה רשימת העדפות קודמת. מה אתה רוצה לעשות עם הלא נודע של השכפולים?";
 "DELETE_CONTAINERS" = "מחק שכפול";
@@ -157,46 +237,16 @@
 "OPEN_SETTINGS" = "פתח הגדרות";
 "MIGRATION_SUCCEEDED" = "מחזיק מפתחות הצליח";
 "MIGRATION_SUCCEEDED_MESSAGE" = "נתוני מחזיק המפתחות הישנים הועברו בהצלחה לפורמט החדש\n. Crane יכול לשמש כעת שוב";
-"FILENAME" = "שם קובץ";
-"OPTIONAL" = "אופציונאלי";
-"ENCRYPT_BACKUP" = "הצפנה באמצעות גיבוי";
-"PASSWORD" = "סיסמה";
-"ENCRYPT_BACKUP_FOOTER" = "הצפן את הגיבוי באמצעות סיסמה. לא ניתן יהיה לשחזר את הגיבוי לאחר מכן ללא הסיסמה. אם אתה מאבד את הסיסמה, אתה מאבד את הנתונים.";
-"INCLUDE_KEYCHAIN" = "כלול מחזיק מפתחות";
-"INCLUDE_KEYCHAIN_FOOTER" = "כלול את נתוני מחזיק המפתחות המאוחסנים על ידי האפליקציה / שכפול אפליקציה בגיבוי. מכיל אישורי חשבון, מפתחות ועוד. לא בטוח כאשר לא משתמשים בהצפנה.";
-"ENTER_PASSWORD" = "הזן סיסמה";
-"ENTER_PASSWORD_DESCRIPTION" = "הגיבוי %@ מוצפן באמצעות סיסמה, הזן אותה כדי להתחיל בשחזור.";
-"RESTORE" = "שחזור";
-"INCLUDE_KEYCHAIN_UNSAFE_WARNING" = "כאשר כלולים נתוני מחזיקי מפתחות, מומלץ להפעיל את 'הצפנת גיבוי', אחרת כל מי שיש לו גישה לקובץ הגיבוי יכול לפגוע בחשבונות שהאפליקציה / שכפול אפליקציה מחוברים אליהם.";
-"ENABLE_ENCRYPTION" = "אפשר קידוד";
-"IGNORE" = "התעלם";
-"NO_PASSWORD_ERROR" = "ההצפנה מופעלת אך שדה הסיסמה ריק, הזן סיסמה או בטל הצפנה ונסה שוב.";
-"ACTIVE" = "פעיל";
+
+/* Import from Slices */
+
 "SLICES_FOUND" = "Slices נמצאו";
 "SLICES_FOUND_MESSAGE" = "ה-Slices הבאים נמצאו עבור האפליקציה שנבחרה כעת:\n%@האם ברצונך לייבא אותם כ-Crane שכפולי אפליקציה? לא ניתן להחזיר אותם בחזרה אל Slices בעתיד.";
 "IMPORT_SLICES" = "ייבוא Slices ";
 "DELETE_SLICES" = "מחק Slices";
-"CREATE" = "צור";
-"CONFIRM_PASSWORD" = "אשר סיסמה ";
-"SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "אזהרה! פריט אחד או יותר של מחזיקי מפתחות של אפליקציה זו נשמרים בסיסמאות המאובטחות וימחקו מהגיבוי מכיוון ששחזורם יהיה בלתי אפשרי. בעת שחזור גיבוי זה, ייתכן שיהיה עליך להזין סיסמאות או בעיות אחרות עלולות להופיע. האם אתה רוצה להמשיך?";
-"NEW_BACKUP" = "גיבוי חדש";
-"SEPARATE_SYSTEM_ACCOUNTS_FOOTER" = "האם להפנות חשבונות מערכת (למשל מזהה Apple ID) שאליו ניגשת עם האפליקציה לכל שכפול. שימושי בעיקר ליישומי מערכת כמו AppStore. התמיכה ב-Game Center חייבת להיות מופעלת בנפרד ודורשת ממך להקצות באופן ידני חשבון Game Center לשכפול בהגדרות שלו.";
-"SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE" = "האם להפנות חשבונות מערכת (למשל Apple ID) שאליו ניגשת האפליקציה לכל שכפול. שימושי בעיקר ליישומי מערכת כמו AppStore. תמיכה ב-Game Center אינה כלולה ב Crane Lite, רק בגרסה המלאה של Crane.\n\n";
-"SEPARATE_SYSTEM_ACCOUNTS" = "חשבונות מערכת נפרדים";
-"GAME_CENTER_SUPPORT" = "Game Center תמיכה";
-"CONTAINER_PROTECTION" = "הגנה על שכפול אפליקציה";
-"CONTAINER_PROTECTION_FOOTER" = "מנע מאפליקציה זו להסיר נתונים של אחרים של ״שכפול אפליקציה״ כאשר הושק לשכפול ברירת המחדל, הדרוש לאפליקציות מסוימות. הטוויק משתמש בקרסי אפליקציה.";
-/*PREVENT_SANDBOX_LOOKUPS*/
-/*PREVENT_SANDBOX_LOOKUPS_FOOTER*/
-"PREVIOUS_PASSWORD_WRONG_MESSAGE" = "הסיסמה שהוזנה בעבר הייתה שגויה. נסה שוב!";
-"CRANESB_COMMUNICATION_NOT_WORKING" = "החיבור ל-SpringBoard אינו פועל, זה נגרם על ידי \"רצועה-רקטה-בוט\" שאינה פועלת או על ידי CraneSB.dylib שלא הוזרק ל-SpringBoard. לכן תכונה שבה אפליקציות נטענות אוטומטית (כאשר נדרשת על ידי אפשרות שתבחר בהעדפות Crane) לא תפעל, תמשיך על אחריותך בלבד.";
+
+/* Activator Integration */
+
 "SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "הגדר \"%@\" בתור שכפול Crane פעיל";
 "CHANGED_TO_CONTAINER" = "\"%@\" שונה אל Crane שכפול \"%@\"";
-"SUGGESTIONS" = "הצעות";
-"CHOICYLOADER_SUGGESTION_TITLE" = "נמצאו בעיות?";
-"CHOICYLOADER_SUGGESTION_MESSAGE" = "הספריה הראשית של Crane (\" Crane.dylib\") צריך להזריק לאפליקציות תחילה, על מצע זה לא קורה אוטומטית וחלקם טוויקים נטענים לפני Crane יכול לשבור באופן חלקי או מלא את הפונקציונליות שלו. התסמינים השכיחים כוללים את כל השכפולים המופיעות כשכפול ברירת המחדל, שכפולים נמחקים בהפעלה מחדש של אפליקציות או סנכרון נתונים. אם אחת מבעיות אלה משפיעות עליך, התקן את ChoicyLoader מהמקור https://opa334.github.io מה שיתקן אותם בכך שהוא יבטיח שטוויק Crane תמיד נטען ראשון.";
-"OPEN_REPO" = "פתח מקור";
-"ACTIVATOR_INFO_SUGGESTION_TITLE" = "Activator שילוב ";
-"ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "טוויק Crane מאפשר לך להקצות פעולת מפעיל לביצוע בכל פעם ששכפול ספציפי מוגדר כפעיל. ניתן לגשת אל זה מ Activator -> (בכל מקום/במסך הבית/באפליקציות/במסך נעילה) -> Crane. הוא כולל גם פעולות להגדרת מיכל ספציפי ליישום כפעיל, שניתן לגשת אליו בתוך Activator -> (בכל מקום/במסך הבית/באפליקציות/במסך נעילה) -> (כל אירוע) -> Crane.";
-"SHORTCUTS_INFO_SUGGESTION_TITLE" = "שילוב קיצורי דרך";
-"SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "טוויק Crane כולל פעולת קיצור דרך להגדרת השכפול הפעילה של אפליקציה, ניתן לגשת אליה בעת הוספת פעולה לקיצור דרך אפליקציות -> Crane -> הגדר שכפול Crane פעיל.";
+
