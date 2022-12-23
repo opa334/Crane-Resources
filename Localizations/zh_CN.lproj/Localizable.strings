@@ -1,252 +1,252 @@
 /* Misc */
 
-/*OPEN_REPO*/
+"OPEN_REPO" = "开启源(repo)";
 "CONTAINERS" = "容器(分身)";
 "CONTAINER" = "容器(分身)";
 "DEFAULT" = "默认";
 "ADD" = "新增";
 "NAME" = "名称";
 "CANCEL" = "取消";
-/*SELECT_CONTAINER*/
+"SELECT_CONTAINER" = "选择容器";
 "ADD_CONTAINER" = "新增容器";
-/*NOTIFICATIONS*/
+"NOTIFICATIONS" = "容器通知设置";
 "DELETE" = "删除";
 "NONE" = "无";
-/*APPLICATION*/
-/*GROUPS*/
-/*PLUGINS*/
+"APPLICATION" = "应用程序";
+"GROUPS" = "组(Groups)";
+"PLUGINS" = "挂载(Plugins)";
 "UNNAMED" = "未命名";
-/*RENAME*/
-/*SYSTEM_DEFAULT*/
-/*IDENTIFIER*/
-/*SET*/
-/*PREPARING*/
-/*CHECKING*/
+"RENAME" = "重新命名";
+"SYSTEM_DEFAULT" = "系统默认";
+"IDENTIFIER" = "装置识别码";
+"SET" = "确定设置";
+"PREPARING" = "准备中";
+"CHECKING" = "检查中";
 "ERROR" = "错误";
 "WARNING" = "警告";
-/*SUCCESS*/
+"SUCCESS" = "成功";
 "CONTINUE" = "继续";
 "CLOSE" = "关闭";
-"SETTINGS" = "设置";
-/*NEW_CONTAINER*/
-/*LAUNCH*/
-/*CREATE*/
-/*SELECT_ALL*/
-/*DESELECT_ALL*/
+"SETTINGS" = "Crane";
+"NEW_CONTAINER" = "新增容器";
+"LAUNCH" = "启动";
+"CREATE" = "创建";
+"SELECT_ALL" = "选择全部";
+"DESELECT_ALL" = "删除全部";
 "AND" = "和";
-"CRANE_ERROR" = "Crane 错误";
-"LICENSE" = "License";
-/*FILENAME*/
-/*OPTIONAL*/
-/*PASSWORD*/
-/*ACTIVE*/
-/*CREATE*/
+"CRANE_ERROR" = "Crane发生错误";
+"LICENSE" = "许可证";
+"FILENAME" = "档案名称";
+"OPTIONAL" = "随意命名";
+"PASSWORD" = "密码";
+"ACTIVE" = "启动状态中";
+"CREATE" = "创建";
 
 /* Root preference page */
 
-"APPLICATIONS" = "应用程序";
-/*APP_SHORTCUTS*/
-"APP_SHORTCUT_ENABLED" = "快捷启动应用程序";
-"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "直接通过快捷菜单启动容器";
-"EXPAND_CONTAINERS_SHORTCUT" = "容器菜单默认展开";
-/*SHOW_NEW_CONTAINER_OPTION*/
-/*ONLY_SHOW_IF_CONTAINERS_EXIST*/
-/*SHOW_CONTAINER_NOTIFICATION_BADGES*/
-"APP_SHORTCUT_DESCRIPTION" = "通过长按/用力按压应用图标，召出快捷菜单来管理接下来需要使用的分身(容器)，以及使用“直接通过快捷菜单启动容器”选项来决定是否在单击菜单中容器时直接启动。";
-/*NOTIFICATIONS_SUPPORT_ENABLED*/
-/*SHOW_CONTAINER_IN_TITLE*/
-/*NOTIFICATIONS_SUPPORT_FOOTER*/
-/*NOTIFICATIONS_SUPPORT_FOOTER_LITE*/
-/*SUGGESTIONS*/
-/*CHOICYLOADER_SUGGESTION_TITLE*/
-/*CHOICYLOADER_SUGGESTION_MESSAGE*/
-/*ACTIVATOR_INFO_SUGGESTION_TITLE*/
-/*ACTIVATOR_INFO_SUGGESTION_MESSAGE*/
-/*SHORTCUTS_INFO_SUGGESTION_TITLE*/
-/*SHORTCUTS_INFO_SUGGESTION_MESSAGE*/
-/*BACKUP_RESTORE*/
-/*CREATE_MULTI_CONTAINER_BACKUP*/
-/*RESTORE_MULTI_CONTAINER_BACKUP*/
-/*OTHER*/
-"FOLLOW_ME_ON_TWITTER" = "关注我的Twitter";
-"CREDITS_AND_LICENSES" = "Credits & Licenses";
-"CREDITS" = "Credits";
+"APPLICATIONS" = "选择应用程序";
+"APP_SHORTCUTS" = "App快捷菜单功能";
+"APP_SHORTCUT_ENABLED" = "启用应用程序快捷菜单";
+"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "直接从快捷菜单打开App";
+"EXPAND_CONTAINERS_SHORTCUT" = "展开快捷菜单内容器选项";
+"SHOW_NEW_CONTAINER_OPTION" = "在快捷菜单内显示新增容器选项";
+"ONLY_SHOW_IF_CONTAINERS_EXIST" = "只在App有容器时显示快捷菜单";
+"SHOW_CONTAINER_NOTIFICATION_BADGES" = "在快捷菜单内显示各容器的通知数";
+"APP_SHORTCUT_DESCRIPTION" = "通过应用程序的Haptic touch(3D touch)快捷菜单，管理启动分身(容器)的快捷，以及通过开启/关闭“选择快捷菜单的容器后直接开启App”来决定是否在点击快捷菜单中的容器后直接开启应用程序。";
+"NOTIFICATIONS_SUPPORT_ENABLED" = "全域允许容器传送通知与跳转功能";
+"SHOW_CONTAINER_IN_TITLE" = "在通知上显示来源容器名称";
+"NOTIFICATIONS_SUPPORT_FOOTER" = "若想全域停用Crane的容器通知功能（将覆盖掉每个应用程序内的单独通知传送功能），您可以关闭此开关。 此外，您可以选择是否在通知上显示其来自的容器名称。译者附注：当此开关有所更动时，需要手动启用各容器一次才能重新产生通知token";
+"NOTIFICATIONS_SUPPORT_FOOTER_LITE" = "若想全域停用Crane的容器通知功能（将覆盖掉每个应用程序内的单独通知传送功能），您可以关闭此开关。";
+"SUGGESTIONS" = "建议";
+"CHOICYLOADER_SUGGESTION_TITLE" = "您正在使用Substrate环境吗？";
+"CHOICYLOADER_SUGGESTION_MESSAGE" = "Crane的主资料库需要先被加载至应用程序中，这在Substrate环境中并不会自动执行，并且一些比Crane优先载入的插体(tweak)会部分或全然的破坏Crane功能。常见的迹象如：所有容器都显示为默认容器、容器在重新启动应用程序或数据不同步时被删除。如果您遇到了上述的问题，请在https://opa334.github.io源安装ChoicyLoader，此插体能保证Crane永远都是首位加载的程序来解决您的问题。";
+"ACTIVATOR_INFO_SUGGESTION_TITLE" = "Activator整合功能";
+"ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane让您能够使用Activator的任意指派动作来执行当下要开启的特定容器。你可以在Activator -> (任意位置/在主画面萤幕/在程式中/在锁定萤幕) -> Crane中设置。Crane还具有将应用程序的特定容器设定为启动状态的动作，你可以在Activator -> (任意位置/在主画面萤幕/在程式中/在锁定萤幕) -> Crane中设置。";
+"SHORTCUTS_INFO_SUGGESTION_TITLE" = "捷径App整合功能";
+"SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "Crane带有捷径动作，可以为一个应用程序设置当前的启动容器。你可以在捷径App内 -> Apps -> Crane -> Set Active Crane Container中设定。";
+"BACKUP_RESTORE" = "备份和还原资料";
+"CREATE_MULTI_CONTAINER_BACKUP" = "创建多组容器的备份";
+"RESTORE_MULTI_CONTAINER_BACKUP" = "还原多组容器的备份";
+"OTHER" = "其他";
+"FOLLOW_ME_ON_TWITTER" = "在Twitter上关注我 (opa334)";
+"CREDITS_AND_LICENSES" = "鸣谢与许可证";
+"CREDITS" = "鸣谢";
 
 /* Crane Lite root preference page */
 
 "SELECT_APPLICATION" = "选择应用程序";
-"CONFIGURE_APPLICATION" = "设定应用程序";
-"SWITCH_WARNING_MESSAGE" = "您将会更改当前选择的应用，这将删除此前所选应用的所有非默认数据，是否继续？";
+"CONFIGURE_APPLICATION" = "设置应用程序";
+"SWITCH_WARNING_MESSAGE" = "您将会更改当前选定的应用程序，这么做将会删除先前已选定应用程序的所有非默认数据。您要继续此操作吗？";
 "BUY_CRANE" = "购买Crane";
-"BUY_CRANE_FOOTER" = "购买Crane后，您将可以导入Crane Lite的容器，并会在您进入Crane设置页时弹窗告诉您。";
+"BUY_CRANE_FOOTER" = "购买Crane后，您将可以导入Crane Lite的容器，并会在您进入Crane的设置页面时，通过弹窗告诉您。";
 
 /* Crane Lite importing */
 
-"LITE_IMPORT_TITLE" = "Crane Lite 导入";
-"LITE_IMPORT_MESSAGE" = "检测到Crane Lite中应用程序“%@”的容器。您想要如何处理?";
+"LITE_IMPORT_TITLE" = "从Crane Lite导入";
+"LITE_IMPORT_MESSAGE" = "找到Crane Lite中应用程序'%@'的容器。您想要怎么处理?";
 "IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "导入Crane Lite的容器到Crane";
 "DELETE_CRANE_LITE_CONTAINERS" = "删除Crane Lite的容器";
 "REMIND_ME_LATER" = "稍后提醒我";
 
 /* Application preference page */
 
-"ACTIVE_CONTAINER" = "默认启动容器";
-/*ALWAYS_ASK_ON_APP_LAUNCH*/
-/*SEPARATE_NOTIFICATION_REGISTRATIONS*/
-/*SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER*/
-/*SEPARATE_SYSTEM_ACCOUNTS*/
-/*GAME_CENTER_SUPPORT*/
-/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER*/
-/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE*/
-/*CONTAINER_PROTECTION*/
-/*CONTAINER_PROTECTION_FOOTER*/
-/*PREVENT_SANDBOX_LOOKUPS*/
-/*PREVENT_SANDBOX_LOOKUPS_FOOTER*/
+"ACTIVE_CONTAINER" = "目前启动容器";
+"ALWAYS_ASK_ON_APP_LAUNCH" = "每次启动App时询问选择容器";
+"SEPARATE_NOTIFICATION_REGISTRATIONS" = "单独允许此App容器传送通知与跳转功能";
+"SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER" = "启用此功能后，此应用程序的每个Crane容器都将获得一个单独的通知token，并使得来自所有容器的通知都能被接收、呈现。当点击收到的通知时，应用程序将自动跳转到通知来源的容器中。此外，您也能在个别容器的设置中单独停用其通知功能。（注意：这不适用于所有应用程序，某些应用程序甚至会在未启用此功能的情况下接收到所有容器的通知）。";
+"SEPARATE_SYSTEM_ACCOUNTS" = "独立系统帐号";
+"GAME_CENTER_SUPPORT" = "Game Center支援";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER" = "将此应用程序容器使用的系统帐号（例如Apple ID）重新导向。主要用于AppStore一类的系统应用程序。Game Center支援必须被单独启用，并需要您在容器内设置中手动指定所需的Game Center帐号。";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE" = "将此应用程序容器使用的系统帐号（例如Apple ID）重新导向。主要用于AppStore一类的系统应用程序。Lite版本不包含进阶的Game Center支援，其只在完整版本的Crane中提供。";
+"CONTAINER_PROTECTION" = "容器保护功能";
+"CONTAINER_PROTECTION_FOOTER" = "防止此应用程序在启动默认容器时删除其他容器内的资料，少部分应用程序必须开启此功能。使用个别应用程序hook的方式。";
+"PREVENT_SANDBOX_LOOKUPS" = "防止沙盒检查";
+"PREVENT_SANDBOX_LOOKUPS_FOOTER" = "防止应用程序对其自身进行沙盒检查而获得真正的非重新导向路径。此功能修复了Web浏览器无法在非默认容器中储存cookies的问题。使用个别应用程序hook的方式。";
 
 /* Container preference page */
 
 "CONTAINER_NAME" = "容器名称";
 "CONTAINER_IDENTIFIER" = "容器ID";
-/*PROTECT_USING_BIOMETRICS*/
+"PROTECT_USING_BIOMETRICS" = "使用生物认证锁保护容器";
 "MAKE_DEFAULT_CONTAINER" = "设为默认容器";
-"DEFAULT_CONTAINER" = "默认容器";
+"DEFAULT_CONTAINER" = "已为默认容器";
 "DEFAULT_CONTAINER_DESCRIPTION" = "当您的设备没有越狱或未加载Crane时，将会使用默认容器。";
-/*DEVICE_IDENTIFIER_FOR_VENDOR*/
-/*DEVICE_IDENTIFIER_DESCRIPTION*/
-/*DEVICE_IDENTIFIER_CHANGE_WARNING*/
-/*USE_CONTAINER_IDENTIFIER*/
-/*GENERATE_NEW*/
-/*SET_CUSTOM*/
-/*SET_CUSTOM_IDENTIFIER*/
-/*SET_CUSTOM_IDENTIFIER_MESSAGE*/
-/*SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE*/
-/*ALLOW_NOTIFICATIONS*/
-/*RESET_NOTIFICATION_REGISTRATION*/
-/*NOTIFICATIONS_FOOTER*/
-/*CHOICY_INTEGRATION*/
-/*OVERWRITE_CHOICY_CONFIGURATION*/
-/*CHOICY_CONFIGURATION*/
-"BACKUP_DATA_TO_FILE" = "备份数据并导出为文件";
-"RESTORE_DATA_FROM_BACKUP_FILE" = "从备份文件恢复数据";
-/*BROWSE_DATA*/
+"DEVICE_IDENTIFIER_FOR_VENDOR" = "当前显示给供应／服务商的装置识别码";
+"DEVICE_IDENTIFIER_DESCRIPTION" = "您在此处看到的装置识别码是用来提供装置资讯给此应用程序的开发者/商。如果此开发商分发多个应用程序，则这些应用程序都会使用相同的装置识别码。由于部分应用程序是利用装置识别码来登出您的帐号，Crane可以欺骗应用程序，将非默认容器的装置识别码视为默认容器的装置识别码，您也可以关闭此设置并设定一个自定义的装置识别码。当“使用此容器的装置识别码”选项被启用时（例如设置一个容器为默认容器），任何在Crane内修改装置识别码的举动将会触发自动调整机制，以保持您设备上的装置识别码是相同的。当您修改默认容器的装置识别码时，其会被写入至系统缓存，并且即使在Crane没有被加载或装置无越狱的情况下仍然存在。";
+"DEVICE_IDENTIFIER_CHANGE_WARNING" = "您即将更改此容器的装置识别码。部分应用程序将会登出您的现有帐号，因为对其而言您更换了一个装置使用帐号。您确定要继续此操作吗？";
+"USE_CONTAINER_IDENTIFIER" = "使用此容器的装置识别码";
+"GENERATE_NEW" = "产生新的装置识别码";
+"SET_CUSTOM" = "设置个人定义的装置识别码";
+"SET_CUSTOM_IDENTIFIER" = "设置个人定义的装置识别码";
+"SET_CUSTOM_IDENTIFIER_MESSAGE" = "请在此输入您想设置的装置识别码，其格式应为包含32个字元的string，并限定只能使用hex字母(0-9, A-F)。范例格式：XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX。";
+"SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE" = "您先前输入的装置识别码格式错误，请再试一次。";
+"ALLOW_NOTIFICATIONS" = "允许容器传送通知与跳转功能";
+"RESET_NOTIFICATION_REGISTRATION" = "重置通知注册";
+"NOTIFICATIONS_FOOTER" = "启用此开关将允许此容器传送通知与跳转。重置通知注册将会停止此容器传送通知直到下次再度开启此容器";
+"CHOICY_INTEGRATION" = "与Choicy的整合功能";
+"OVERWRITE_CHOICY_CONFIGURATION" = "覆写原先Choicy的设置";
+"CHOICY_CONFIGURATION" = "设定专属于此容器的Choicy设置";
+"BACKUP_DATA_TO_FILE" = "创建备份数据到档案App";
+"RESTORE_DATA_FROM_BACKUP_FILE" = "从档案App还原备份数据";
+"BROWSE_DATA" = "浏览数据";
 "DELETE_DATA" = "删除数据";
-/*SIZE_OF_CONTAINER*/
+"SIZE_OF_CONTAINER" = "当前容器大小";
 
 /* Container removal */
 
-"CONTAINER_DELETE_CONFIRMATION_TITLE" = "确认删除";
-"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "您将删除所有和“%@”有关的数据，数据将无法恢复，要继续吗？";
+"CONTAINER_DELETE_CONFIRMATION_TITLE" = "您确定要删除此容器吗?";
+"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "您将删除所有和'%@'有关的数据，这些数据将无法被还原。您确定要继续此操作吗?";
 
 /* Biometric protection descriptions */
 
-/*SET_ACTIVE_CONTAINER_DESCRIPTION*/
-/*DELETE_CONTAINER_DESCRIPTION*/
-/*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
+"SET_ACTIVE_CONTAINER_DESCRIPTION" = "将活动状态容器设为 \"%@\"";
+"DELETE_CONTAINER_DESCRIPTION" = "删除 \"%@\" 容器";
+"ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "进入\"%@\"容器的设置";
 
 /* Backup */
 
-/*INCLUDED_CONTAINERS*/
-/*PRESETS*/
-"BACKING_UP" = "备份中";
-/*BACKUP_ERROR*/
-/*ENCRYPT_BACKUP*/
-/*ENCRYPT_BACKUP_FOOTER*/
-/*INCLUDE_KEYCHAIN*/
-/*INCLUDE_KEYCHAIN_FOOTER*/
-/*INCLUDE_KEYCHAIN_UNSAFE_WARNING*/
-/*ENABLE_ENCRYPTION*/
-/*IGNORE*/
-/*NO_PASSWORD_ERROR*/
-/*CONFIRM_PASSWORD*/
-/*SEP_ITEMS_OMMITED_WARNING_MESSAGE*/
-/*NEW_BACKUP*/
+"INCLUDED_CONTAINERS" = "选择欲备份容器";
+"PRESETS" = "固定配置";
+"BACKING_UP" = "创建备份中";
+"BACKUP_ERROR" = "备份错误";
+"ENCRYPT_BACKUP" = "将备份档案加密";
+"ENCRYPT_BACKUP_FOOTER" = "设定密码来将备份档案加密。若遗失了密码是绝对不可能再还原此备份档案的。遗失了密码＝遗失了备份档案内所有资料，请妥善保存您的密码。";
+"INCLUDE_KEYCHAIN" = "将Keychain(钥匙链)列入备份";
+"INCLUDE_KEYCHAIN_FOOTER" = "将应用程序、容器所拥有的Keychain资料也列入备份档案内，其包含个人帐号、密码等等隐私资讯。不建议在未开启加密功能时使用，您的资讯将没有安全性。";
+"INCLUDE_KEYCHAIN_UNSAFE_WARNING" = "当将Keychain资料也列入备份档案时，强烈建议您也同时开启“将备份档案加密”功能。否则任何可以存取到备份档案的有心人士将会威胁到您已登入的帐号安全";
+"ENABLE_ENCRYPTION" = "启用将备份档案加密";
+"IGNORE" = "忽略警告并继续操作";
+"NO_PASSWORD_ERROR" = "您已启用加密备份档案功能，但密码栏位仍是空白的。请输入一组密码或关闭加密备份档案功能后再试一次。";
+"CONFIRM_PASSWORD" = "再次确认密码";
+"SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "此应用程序有一或多个Keychain物件被存放在安全隔离区(secure enclave)之中，由于这些物件是不可能被还原的，因此备份档案省略了备份他们的动作。当您在还原此备份时，您可能需要重新输入您的帐号密码且可能会遇到一些问题，您确定要继续吗？";
+"NEW_BACKUP" = "新备份档案";
 
 /* Backup Presets */
 
-/*NEW_PRESET*/
-/*SAVE_SELECTION_INTO_PRESET*/
-/*NEW_PRESET_MESSAGE*/
-/*BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR*/
+"NEW_PRESET" = "新配置";
+"SAVE_SELECTION_INTO_PRESET" = "将所选容器新增至固定配置";
+"NEW_PRESET_MESSAGE" = "请输入新配置的名称。当前已选择的容器将被新增至其内容";
+"BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR" = "您的剩馀储存空间不足以继续创建备份档案，此备份档案至少需要 %@ 大小的空间。请在储存空间充足后再试一次。";
 
 /* Restore */
 
-/*RESTORE*/
+"RESTORE" = "还原";
 "UNARCHIVING" = "解压中";
-"RESTORING" = "恢复中";
-/*BACKUP_INVALID*/
-"APP_ID_MISMATCH_ERROR" = "(%@)这个应用程序所创建的备份与您尝试还原的应用程序不匹配(%@)";
-"GROUP_ID_MISMATCH_WARNING" = "(%@)此备份的数据共享空间ID与当前应用程序(%@)不匹配，可能导致数据还原失败。要继续吗？";
-/*NO_APPS_INSTALLED_ERROR*/
-/*RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR*/
-/*RESTORE_SUCCESS_MESSAGE*/
-/*MULTI_RESTORE_SUCCESS_MESSAGE*/
-"RESTORE_WARNING_MESSAGE" = "从备份文件恢复将会覆盖掉当前的容器，是否继续？";
-"NOT_A_BACKUP_ERROR_MESSAGE" = "您选择的文件不是容器备份文件";
-/*NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE*/
-/*CONFIGURE_RESTORE*/
-/*INTO_CONTAINER*/
-/*NEW_CONTAINER_NAME*/
-/*RESTORE_ERROR*/
-/*ENTER_PASSWORD*/
-/*ENTER_PASSWORD_DESCRIPTION*/
-/*PREVIOUS_PASSWORD_WRONG_MESSAGE*/
+"RESTORING" = "还原中";
+"BACKUP_INVALID" = "此备份档案无效";
+"APP_ID_MISMATCH_ERROR" = "(%@)此应用程序所创建的备份，与您尝试还原的应用程序不相同(%@)";
+"GROUP_ID_MISMATCH_WARNING" = "(%@)此备份的group identifiers与当前应用程序(%@)的装置识别码(identifier)不相同，可能会导致数据无法还原成功。要继续此操作吗?";
+"NO_APPS_INSTALLED_ERROR" = "在您的多个容器备份中 (%@) 所对应的应用程序并没有安装在您的装置上。请在确认所需应用程序安装完毕后再试一次。";
+"RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR" = "您的剩馀储存空间不足以继续还原程序，此还原程序至少需要 %@ 大小的空间。请在储存空间充足后再试一次。";
+"RESTORE_SUCCESS_MESSAGE" = "成功还原此备份档案";
+"MULTI_RESTORE_SUCCESS_MESSAGE" = "成功还原多组容器的备份档案至 %zd 容器之中";
+"RESTORE_WARNING_MESSAGE" = "从备份档案还原将会覆盖掉当前容器的数据，确定要继续此操作吗？";
+"NOT_A_BACKUP_ERROR_MESSAGE" = "您所选择的档案似乎不是容器的备份档案";
+"NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE" = "您所选择的档案似乎不是多重容器的备份档案";
+"CONFIGURE_RESTORE" = "设置还原程序(Configure Restore)";
+"INTO_CONTAINER" = "进入容器(Into Container)";
+"NEW_CONTAINER_NAME" = "新容器名称";
+"RESTORE_ERROR" = "还原错误";
+"ENTER_PASSWORD" = "请输入密码";
+"ENTER_PASSWORD_DESCRIPTION" = "此备份档案已加密处理，请输入正确密码来初始化还原程序。";
+"PREVIOUS_PASSWORD_WRONG_MESSAGE" = "您先前输入的密码错误，请再试一次。";
 
 /* Game Center account picker */
 
-/*GAME_CENTER_SECTION_HEADER*/
-/*GAME_CENTER_SECTION_FOOTER*/
-/*GAME_CENTER_ACCOUNT*/
-/*GAME_CENTER_ACCOUNTS*/
-/*MANAGE_GAME_CENTER_ACCOUNTS*/
-/*GAME_CENTER_MANAGER_FOOTER*/
-/*GAME_CENTER_ADD_ACCOUNT_TITLE*/
-/*GAME_CENTER_ADD_ACCOUNT_MESSAGE*/
-/*GAME_CENTER_RENAME_ACCOUNT_TITLE*/
-/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE*/
-/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE*/
+"GAME_CENTER_SECTION_HEADER" = "Game Center";
+"GAME_CENTER_SECTION_FOOTER" = "选择一个开启此容器时欲使用的Game Center帐号";
+"GAME_CENTER_ACCOUNT" = "Game Center帐号";
+"GAME_CENTER_ACCOUNTS" = "Game Center帐号";
+"MANAGE_GAME_CENTER_ACCOUNTS" = "管理Game Center帐号";
+"GAME_CENTER_MANAGER_FOOTER" = "由于一些技术上的限制，您必须在此全域列表中加入您的Game Center帐号。之后您便可将此帐号分配给一个或多个容器，系统将在您开启这些容器时自动切换到此Game Center帐号。如果您的装置上安装了一个使用Game Center的应用程序，但您不想要在其上使用Crane，您仍需要开启“独立系统帐号”与“Game Center支援”以便系统能在开启此应用程序时自动切换回系统默认Game Center帐号。";
+"GAME_CENTER_ADD_ACCOUNT_TITLE" = "新增Game Center帐号";
+"GAME_CENTER_ADD_ACCOUNT_MESSAGE" = "请在此输入您的Game Center帐号名称。登入弹窗将会在您第一次开启使用此Game Center帐号的容器时出现。";
+"GAME_CENTER_RENAME_ACCOUNT_TITLE" = "重新命名Game Center帐号";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE" = "删除Game Center帐号";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE" = "您确定要删除此Game Center帐号 \"%@\" 吗？任何与此帐号相关的容器将会被切换成系统默认Game Center帐号";
 
 /* Safety checks */
 
-/*LIBSANDY_NOT_LOADED_ERROR_MESSAGE*/
-/*LIBSANDY_CHOICY_NOTICE*/
-/*COMMUNICATION_ERROR_MESSAGE*/
-/*INSURANCE_FAILED_ERROR_MESSAGE*/
-"INJECTION_ERROR_MESSAGE" = "CraneSupport.dylib 未能加载到 %@ 中";
-/*INJECTION_ERROR_MESSAGE_CHOICY*/
-/*REGISTRATION_FAILED_MESSAGE*/
-/*PLUGIN_REDIRECTION_FAILED_MESSAGE*/
-"CRANE_DISABLED_MESSAGE" = "为避免数据不同步，Crane已禁用。";
-"CRANE_DYLIB_NOT_LOADED_ERROR" = "%@ 启动了默认容器，因为Crane未能成功在该应用程序中加载。请确保其未被Choicy、TweakRestrict或其他类似的插件禁止加载，然后再试一次。";
-"RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "重启相关进程并注销";
-/*CRANEHELPERD_COMMUNICATION_WARNING*/
-/*CRANEHELPERD_INJECTION_ERROR_DYLIB_FILE_NOT_FOUND*/
-/*CRANEHELPERD_INJECTION_ERROR_INJECTION_BINARY_NOT_FOUND*/
-/*CRANEHELPERD_INJECTION_ERROR_EXCEPTION_OCCURED*/
-/*CRANEHELPERD_VERIFY_ERROR_PROCESS_NOT_RUNNING*/
-/*FIXUP_ERROR_DESCRIPTION*/
+"LIBSANDY_NOT_LOADED_ERROR_MESSAGE" = "经检测发现libSandySupport.dylib并没有被加载到MobileGestaltHelper守护程式(daemon)中，因此libSandy停止作用。";
+"LIBSANDY_CHOICY_NOTICE" = "请试著在设置App -> Choicy -> 插体错误排除中选择libSandy以观察是否被停用加载了";
+"COMMUNICATION_ERROR_MESSAGE" = "经检测发现Crane服务辅助守护程式(cranehelperd daemon)的通信已失效，以下为尝试传送讯息给其所发生的错误：";
+"INSURANCE_FAILED_ERROR_MESSAGE" = "在检查Crane是否被成功加载时发生错误";
+"INJECTION_ERROR_MESSAGE" = "经检测发现CraneSupport.dylib并没有被加载到 %@ 中";
+"INJECTION_ERROR_MESSAGE_CHOICY" = "请试著在设置App -> Choicy -> 插体错误排除中选择Crane以观察是否被停用加载了";
+"REGISTRATION_FAILED_MESSAGE" = "由于CraneSupport.dylib没有被加载至apsd守护程式(daemon)中，重新导向通知注册失败。";
+"PLUGIN_REDIRECTION_FAILED_MESSAGE" = "由于CraneSupport.dylib没有被加载至pkd守护程式(daemon)中，重新导向通知服务挂载到正确的容器失败。";
+"CRANE_DISABLED_MESSAGE" = "为避免数据不同步，Crane已被停用.";
+"CRANE_DYLIB_NOT_LOADED_ERROR" = "由于Crane.dylib没有被成功加载到其中，此应用程序 %@ 只能启动默认容器。请确保Crane没有被Choicy, TweakRestrict或相似插体禁止载入后再尝试一次。";
+"RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "重启相关守护程式(daemon)和SpringBoard";
+"CRANEHELPERD_COMMUNICATION_WARNING" = "与cranehelperd守护程式(daemon)通信失败，可能原因为其并没有正在运行。因此应用程序的自动重新加载功能（当您在Crane设置页面内调整选项时）与Keychain存取功能将失效。在解决此问题之前，继续使用Crane的设置页面可能会导致无法判断的问题";
+"CRANEHELPERD_INJECTION_ERROR_DYLIB_FILE_NOT_FOUND" = "无法将 \"%@\" 加载至PID为 %d 的守护程式(daemon)。原因：没有找到Dylib档案。";
+"CRANEHELPERD_INJECTION_ERROR_INJECTION_BINARY_NOT_FOUND" = "无法将 \"%@\" 加载至PID为 %d 的守护程式(daemon)。原因：找不到二进制(%@)加载档案，请尝试在您的安装包管理器(Cydia/Zebra)重新安装 %@ 。";
+"CRANEHELPERD_INJECTION_ERROR_EXCEPTION_OCCURED" = "无法将 \"%@\" 加载至PID为 %d 的守护程式(daemon)。原因：发生以下异常:%@。";
+"CRANEHELPERD_VERIFY_ERROR_PROCESS_NOT_RUNNING" = "无法检查 \"%@\" 是否已被载入至 \"%@\" 。原因：程序没有正在运行。";
+"FIXUP_ERROR_DESCRIPTION" = "Crane在试著自动修复此问题时，发生了以下错误：";
 
 /* Migration from previous versions and error detection */
 
-"UNKNOWN_CONTAINERS_FOUND" = "发现未知容器";
-"UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "发现%u个未知容器，这些容器包含存储在应用程序中的数据，但当前在Crane的设定中没有任何项目。如果先前设定中的plist文件被删除则会发生这种情况。您希望如何处理这些容器？";
+"UNKNOWN_CONTAINERS_FOUND" = "找到未知的容器";
+"UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "找到%u个未知容器，这些容器具有存储在应用程序中的数据，但在当前Crane的设置中没有任何对应项目。这种情况发生在Crane的偏好设置档案(.plist)曾经被删除过的环境。您想怎么处理这些未知容器?";
 "DELETE_CONTAINERS" = "删除容器";
 "IMPORT_CONTAINERS" = "导入容器";
 "UNKOWN_CONTAINER" = "未知的容器";
-"KEYCHAIN_MIGRATION" = "钥匙串移植";
-"KEYCHAIN_MIGRATION_MESSAGE" = "检测到旧版 Crane 中的钥匙串数据，这些数据需被迁移至新的格式，但此过程只能通过“设置”应用来完成。请打开Crane的设置页面来开始迁移。Crane将会暂时禁用直到迁移完成。";
-"OPEN_SETTINGS" = "进入设置";
+"KEYCHAIN_MIGRATION" = "Keychain迁移";
+"KEYCHAIN_MIGRATION_MESSAGE" = "检测到旧版Crane中Keychain的数据，此数据需要被迁移到新的格式，但此程序只能通过”设置“页面来完成。请打开Crane的设置页面来启动迁移程序。Crane将会暂时被停用直到程序完成作业。";
+"OPEN_SETTINGS" = "开启设置页面";
 "MIGRATION_SUCCEEDED" = "迁移成功";
-"MIGRATION_SUCCEEDED_MESSAGE" = "旧的钥匙串数据已成功迁移到新的格式，Crane现在可以使用了。";
+"MIGRATION_SUCCEEDED_MESSAGE" = "旧的Keychain数据已成功迁移到新的格式。 现在Crane可再次使用。";
 
 /* Import from Slices */
 
-/*SLICES_FOUND*/
-/*SLICES_FOUND_MESSAGE*/
-/*IMPORT_SLICES*/
-/*DELETE_SLICES*/
+"SLICES_FOUND" = "发现Slices资料";
+"SLICES_FOUND_MESSAGE" = "在当前选择的应用程序发现以下的Slices资料：%@ 您是否想要将其导入为Crane的容器呢？请注意：导入为Crane容器后无法再还原为Slices资料。";
+"IMPORT_SLICES" = "导入Slices";
+"DELETE_SLICES" = "删除Slices";
 
 /* Activator Integration */
 
-/*SET_AS_THE_ACTIVE_CRANE_CONTAINER*/
-/*CHANGED_TO_CONTAINER*/
+"SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "将 \"%@\" 设置为活动状态的Crane容器";
+"CHANGED_TO_CONTAINER" = "已将 \"%@\" 容器切换成 \"%@\" 容器";
 

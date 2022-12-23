@@ -59,7 +59,7 @@
 "NOTIFICATIONS_SUPPORT_FOOTER_LITE" = "إذا كنت ترغب في تعطيل جزء دعم الإشعارات من Crane في كل مكان (والذي يتضمن إعدادًا لكل تطبيق يسمى 'تسجيلات الإشعارات المنفصلة')، فيمكنك القيام بذلك هنا.";
 "SUGGESTIONS" = "الاقتراحات";
 "CHOICYLOADER_SUGGESTION_TITLE" = "خطأ في Substrate؟";
-"CHOICYLOADER_SUGGESTION_MESSAGE" = "تحتاج مكتبة Crane الرئيسية ("\Crane.dylib "\) إلى الحقن في التطبيقات أولًا، في Substrate لا يحدث هذا تلقائيًا وبعض الأدوات التي تتحمل قبل Crane من شأنها تعطيل وظيفة Crane جزئيًا أو كليًا. الأعطال الشائعة تتضمن ظهور كل الحاويات كحاوية افتراضية، مسح الحاويات عند إعادة تشغيل التطبيق أو مزامنة البيانات. إذا كانت لديك مشكلة مماثلة، فقم بتثبيت حزمة ChoicyLoader من https://opa334.github.io التي ستصلح المشكلة عن طريق التأكد من أن Crane دائمًا ما تتحمل أولًا.";
+"CHOICYLOADER_SUGGESTION_MESSAGE" = "تحتاج مكتبة Crane الرئيسية (\"Crane.dylib \") إلى الحقن في التطبيقات أولًا، في Substrate لا يحدث هذا تلقائيًا وبعض الأدوات التي تتحمل قبل Crane من شأنها تعطيل وظيفة Crane جزئيًا أو كليًا. الأعطال الشائعة تتضمن ظهور كل الحاويات كحاوية افتراضية، مسح الحاويات عند إعادة تشغيل التطبيق أو مزامنة البيانات. إذا كانت لديك مشكلة مماثلة، فقم بتثبيت حزمة ChoicyLoader من https://opa334.github.io التي ستصلح المشكلة عن طريق التأكد من أن Crane دائمًا ما تتحمل أولًا.";
 "ACTIVATOR_INFO_SUGGESTION_TITLE" = "تكامل Activator";
 "ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "تسمح لك Crane بتعيين إجراء Activator لتنفيذه كلما تم تعيين حاوية معينة على إنها نشطة. يمكن الوصول إلى هذا من Activator -> (في كل مكان/الشاشة الرئيسية/التطبيقات/شاشة القفل) -> Crane. كما يتميز بإجراءات لتعيين حاوية محددة لتطبيق كنشط، ويمكن الوصول إلى هذا من داخل Activator -> (في كل مكان/الشاشة الرئيسية/التطبيقات/شاشة القفل) -> (أي حدث) -> Crane.";
 "SHORTCUTS_INFO_SUGGESTION_TITLE" = "تكامل الاختصارات";
@@ -203,7 +203,7 @@
 "GAME_CENTER_ADD_ACCOUNT_MESSAGE" = "أدخل اسم حسابك هنا. ستظهر مطالبة تسجيل الدخول عند تشغيل تطبيق لأول مرة في حاوية تم تعيين الحساب لها.";
 "GAME_CENTER_RENAME_ACCOUNT_TITLE" = "إعادة تسمية الحساب";
 "GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE" = "حذف الحساب";
-"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE" = "هل أنت متأكد من أنك تريد حذف حساب Game Center \"%@\”؟ ستتحول كل حاوية مرتبطة به الآن إلى النظام الافتراضي.";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE" = "هل أنت متأكد من أنك تريد حذف حساب Game Center \"%@”؟ ستتحول كل حاوية مرتبطة به الآن إلى النظام الافتراضي.";
 
 /* Safety checks */
 
@@ -249,3 +249,4 @@
 
 "SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "تعيين \"%@\" كحاوية Crane نشطة";
 "CHANGED_TO_CONTAINER" = "تم تغيير \"%@\" إلى حاوية Crane \"%@\"";
+
