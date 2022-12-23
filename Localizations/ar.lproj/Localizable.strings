@@ -1,252 +1,251 @@
 /* Misc */
 
-/*OPEN_REPO*/
-"CONTAINERS" = "حاويات";
-"CONTAINER" = "حاوية";
-"DEFAULT" = "إفتراضي";
+"OPEN_REPO" = "فتح المستودع";
+"CONTAINERS" = "الحاويات";
+"CONTAINER" = "الحاوية";
+"DEFAULT" = "الافتراضي";
 "ADD" = "إضافة";
-"NAME" = "إسم";
-"CANCEL" = "إلغاء";
-/*SELECT_CONTAINER*/
+"NAME" = "الاسم";
+"CANCEL" = "إلعاء";
+"SELECT_CONTAINER" = "اختر حاوية";
 "ADD_CONTAINER" = "إضافة حاوية";
-/*NOTIFICATIONS*/
+"NOTIFICATIONS" = "الإشعارات";
 "DELETE" = "حذف";
-"NONE" = "لا يوجد";
-/*APPLICATION*/
-/*GROUPS*/
-/*PLUGINS*/
+"NONE" = "غير معروف";
+"APPLICATION" = "التطبيق";
+"GROUPS" = "المجموعات";
+"PLUGINS" = "الإضافات";
 "UNNAMED" = "بدون اسم";
-/*RENAME*/
-/*SYSTEM_DEFAULT*/
-/*IDENTIFIER*/
-/*SET*/
-/*PREPARING*/
-/*CHECKING*/
+"RENAME" = "إعادة تسمية";
+"SYSTEM_DEFAULT" = "افتراضي للنظام";
+"IDENTIFIER" = "المعرف";
+"SET" = "تعيين";
+"PREPARING" = "جارِ التحضير";
+"CHECKING" = "جارِ التحقق";
 "ERROR" = "خطأ";
 "WARNING" = "تحذير";
-/*SUCCESS*/
-"CONTINUE" = "متابعة";
+"SUCCESS" = "نجاح";
+"CONTINUE" = "استمرار";
 "CLOSE" = "إغلاق";
-"SETTINGS" = "إعدادات";
-/*NEW_CONTAINER*/
-/*LAUNCH*/
-/*CREATE*/
-/*SELECT_ALL*/
-/*DESELECT_ALL*/
-"AND" = "أو";
-"CRANE_ERROR" = "خطأ";
-"LICENSE" = "ترخيص";
-/*FILENAME*/
-/*OPTIONAL*/
-/*PASSWORD*/
-/*ACTIVE*/
-/*CREATE*/
+"SETTINGS" = "الإعدادات";
+"NEW_CONTAINER" = "حاوية جديدة";
+"LAUNCH" = "تشغيل";
+"CREATE" = "إنشاء";
+"SELECT_ALL" = "تحديد الكل";
+"DESELECT_ALL" = "إلغاء تحديد الكل";
+"AND" = "و";
+"CRANE_ERROR" = "خطأ في Crane";
+"LICENSE" = "الترخيص";
+"FILENAME" = "اسم الملف";
+"OPTIONAL" = "اختياري";
+"PASSWORD" = "كلمة السر";
+"ACTIVE" = "تنشيط";
+"CREATE" = "إنشاء";
 
 /* Root preference page */
 
-"APPLICATIONS" = "قائمة التطبيقات";
-/*APP_SHORTCUTS*/
-"APP_SHORTCUT_ENABLED" = "تفعيل اختصارات التطبيق";
-"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "فتح التطبيق عند اختيار الحاوية";
-"EXPAND_CONTAINERS_SHORTCUT" = "توسيع اسماء الحاويات";
-/*SHOW_NEW_CONTAINER_OPTION*/
-/*ONLY_SHOW_IF_CONTAINERS_EXIST*/
-/*SHOW_CONTAINER_NOTIFICATION_BADGES*/
-"APP_SHORTCUT_DESCRIPTION" = "إدارة اختصارات الحاوية من قائمة اللمس للتطبيق و كيفية تشغيل التطبيق عند تحديد حاوية عبر الاختصار.";
-/*NOTIFICATIONS_SUPPORT_ENABLED*/
-/*SHOW_CONTAINER_IN_TITLE*/
-/*NOTIFICATIONS_SUPPORT_FOOTER*/
-/*NOTIFICATIONS_SUPPORT_FOOTER_LITE*/
-/*SUGGESTIONS*/
-/*CHOICYLOADER_SUGGESTION_TITLE*/
-/*CHOICYLOADER_SUGGESTION_MESSAGE*/
-/*ACTIVATOR_INFO_SUGGESTION_TITLE*/
-/*ACTIVATOR_INFO_SUGGESTION_MESSAGE*/
-/*SHORTCUTS_INFO_SUGGESTION_TITLE*/
-/*SHORTCUTS_INFO_SUGGESTION_MESSAGE*/
-/*BACKUP_RESTORE*/
-/*CREATE_MULTI_CONTAINER_BACKUP*/
-/*RESTORE_MULTI_CONTAINER_BACKUP*/
-/*OTHER*/
-"FOLLOW_ME_ON_TWITTER" = "متابعتي على تويتر";
+"APPLICATIONS" = "التطبيقات";
+"APP_SHORTCUTS" = "اختصارات التطبيقات";
+"APP_SHORTCUT_ENABLED" = "تفعيل اختصارات التطبيقات";
+"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "تشغيل التطبيق على اختيار الحاويات";
+"EXPAND_CONTAINERS_SHORTCUT" = "توسيع الاختصارات";
+"SHOW_NEW_CONTAINER_OPTION" = "إظهار خيار 'حاوية جديدة'";
+"ONLY_SHOW_IF_CONTAINERS_EXIST" = "الإظهار فقط عند وجود حاويات";
+"SHOW_CONTAINER_NOTIFICATION_BADGES" = "عرض شارات إشعارات الحاوية";
+"APP_SHORTCUT_DESCRIPTION" = "اختصار للتبديل بين الحاويات من قائمة الحس اللمسي أو قائمة 3D Touch للتطبيقات.";
+"NOTIFICATIONS_SUPPORT_ENABLED" = "تفعيل دعم الإشعارات";
+"SHOW_CONTAINER_IN_TITLE" = "إظهار الحاوية في العنوان";
+"NOTIFICATIONS_SUPPORT_FOOTER" = "إذا كنت ترغب في تعطيل جزء دعم الإشعارات من Crane في كل مكان (والذي يتضمن إعدادًا لكل تطبيق يسمى 'تسجيلات الإشعارات المنفصلة')، فيمكنك القيام بذلك هنا. بالإضافة إلى ذلك، يمكنك إعداد ما إذا كان عنوان الإشعارات الواردة يجب أن يُظهر حاوية Crane التي أتى منها الإشعار أم لا.";
+"NOTIFICATIONS_SUPPORT_FOOTER_LITE" = "إذا كنت ترغب في تعطيل جزء دعم الإشعارات من Crane في كل مكان (والذي يتضمن إعدادًا لكل تطبيق يسمى 'تسجيلات الإشعارات المنفصلة')، فيمكنك القيام بذلك هنا.";
+"SUGGESTIONS" = "الاقتراحات";
+"CHOICYLOADER_SUGGESTION_TITLE" = "خطأ في Substrate؟";
+"CHOICYLOADER_SUGGESTION_MESSAGE" = "تحتاج مكتبة Crane الرئيسية ("\Crane.dylib "\) إلى الحقن في التطبيقات أولًا، في Substrate لا يحدث هذا تلقائيًا وبعض الأدوات التي تتحمل قبل Crane من شأنها تعطيل وظيفة Crane جزئيًا أو كليًا. الأعطال الشائعة تتضمن ظهور كل الحاويات كحاوية افتراضية، مسح الحاويات عند إعادة تشغيل التطبيق أو مزامنة البيانات. إذا كانت لديك مشكلة مماثلة، فقم بتثبيت حزمة ChoicyLoader من https://opa334.github.io التي ستصلح المشكلة عن طريق التأكد من أن Crane دائمًا ما تتحمل أولًا.";
+"ACTIVATOR_INFO_SUGGESTION_TITLE" = "تكامل Activator";
+"ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "تسمح لك Crane بتعيين إجراء Activator لتنفيذه كلما تم تعيين حاوية معينة على إنها نشطة. يمكن الوصول إلى هذا من Activator -> (في كل مكان/الشاشة الرئيسية/التطبيقات/شاشة القفل) -> Crane. كما يتميز بإجراءات لتعيين حاوية محددة لتطبيق كنشط، ويمكن الوصول إلى هذا من داخل Activator -> (في كل مكان/الشاشة الرئيسية/التطبيقات/شاشة القفل) -> (أي حدث) -> Crane.";
+"SHORTCUTS_INFO_SUGGESTION_TITLE" = "تكامل الاختصارات";
+"SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "تتضمن Crane إجراء مختصر لتعيين الحاوية النشطة للتطبيق، يمكن الوصول إليها عند إضافة إجراء إلى اختصار ضمن التطبيقات -> Crane -> تعيين حاوية Crane نشطة";
+"BACKUP_RESTORE" = "النسخ الاحتياطي والاستعادة";
+"CREATE_MULTI_CONTAINER_BACKUP" = "إنشاء نسخة احتياطية متعددة الحاويات";
+"RESTORE_MULTI_CONTAINER_BACKUP" = "استعادة نسخة احتياطية متعددة الحاويات";
+"OTHER" = "أخرى";
+"FOLLOW_ME_ON_TWITTER" = "تابعني على تويتر";
 "CREDITS_AND_LICENSES" = "الاعتمادات والتراخيص";
-/*CREDITS*/
+"CREDITS" = "الاعتمادات";
 
 /* Crane Lite root preference page */
 
 "SELECT_APPLICATION" = "اختيار التطبيق";
-"CONFIGURE_APPLICATION" = "تهيئة التطبيق";
-"SWITCH_WARNING_MESSAGE" = "اختيار تطبيق اخر سيؤدي الى حذف بيانات جميع الحاويات الغير الافتراضية من التطبيق المحدد سابقا، متابعة؟";
-"BUY_CRANE" = "شراء Crane ";
-"BUY_CRANE_FOOTER" = "بعد شراء النسخة الكاملة بإمكانك استيراد بياناتك من النسخة التجريبية الى النسخة الكاملة من خلال تنبيه يظهر لك عند فتح تفضيلات البرنامج في الإعدادات.";
+"CONFIGURE_APPLICATION" = "تكوين التطبيق";
+"SWITCH_WARNING_MESSAGE" = "أنت على وشك تغيير التطبيق المحدد، سيؤدي القيام بذلك إلى حذف بيانات جميع الحاويات غير الافتراضية للتطبيق المحدد سابقًا. هل تريد الاستمرار؟";
+"BUY_CRANE" = "شراء Crane";
+"BUY_CRANE_FOOTER" = "بعد الشراء، ستتمكن من استيراد حاويات Crane Lite إلى Crane الكاملة. سيكون هذا متاحًا من خلال تنبيه يظهر عند الوصول إلى صفحة إعدادات Crane.";
 
 /* Crane Lite importing */
 
-"LITE_IMPORT_TITLE" = "استيراد البيانات من النسخة التجريبية ";
-"LITE_IMPORT_MESSAGE" = "تم العثور على حاويات من النسخة التجريبية من Crane لتطبيق '%@'. يمكنك استيرادها او حذفها ...";
-"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "إستيراد الحاويات من النسخة التجريبية ";
-"DELETE_CRANE_LITE_CONTAINERS" = "حذف حاويات النسخة التجريبية";
-"REMIND_ME_LATER" = "ذكرني لاحقا";
+"LITE_IMPORT_TITLE" = "استيراد Crane Lite";
+"LITE_IMPORT_MESSAGE" = "تم العثور على حاويات Crane Lite لتطبيق '%@'. ماذا تريد أن تفعل بهم؟";
+"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "استيراد حاويات Crane Lite إلى Crane";
+"DELETE_CRANE_LITE_CONTAINERS" = "حذف حاويات Crane Lite";
+"REMIND_ME_LATER" = "ذكرني لاحقًا";
 
 /* Application preference page */
 
-"ACTIVE_CONTAINER" = "تفعيل الحاوية";
-/*ALWAYS_ASK_ON_APP_LAUNCH*/
-/*SEPARATE_NOTIFICATION_REGISTRATIONS*/
-/*SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER*/
-/*SEPARATE_SYSTEM_ACCOUNTS*/
-/*GAME_CENTER_SUPPORT*/
-/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER*/
-/*SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE*/
-/*CONTAINER_PROTECTION*/
-/*CONTAINER_PROTECTION_FOOTER*/
-/*PREVENT_SANDBOX_LOOKUPS*/
-/*PREVENT_SANDBOX_LOOKUPS_FOOTER*/
+"ACTIVE_CONTAINER" = "الحاوية النشطة";
+"ALWAYS_ASK_ON_APP_LAUNCH" = "السؤال دائمًا عند تشغيل التطبيق";
+"SEPARATE_NOTIFICATION_REGISTRATIONS" = "تسجيلات الإشعارات المنفصلة";
+"SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER" = "عند تفعيل زر التبديل هذا، ستحصل كل حاوية Crane لهذا التطبيق على رمز إشعار منفصل والذي يجب أن يُفعِّل الإشعارات الواردة من كل الحاويات. عند النقر على إشعار وارد، سيتم تشغيل على الحاوية التي تم استقبال منها هذا الإشعار. بالإضافة إلى ذلك، فإنه يضيف إمكانية تعطيل الإشعارات لكل حاوية لوحدها من إعداداتها. (ملاحظة: هذا لا يعمل لجميع التطبيقات، وبعض التطبيقات تحصل على إشعارات لكل الحاويات دون تفعيل هذا الخيار حتى).";
+"SEPARATE_SYSTEM_ACCOUNTS" = "حسابات نظام منفصلة";
+"GAME_CENTER_SUPPORT" = "دعم Game Center";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER" = "في حال كنت تريد إعادة توجيه حسابات النظام (Apple ID على سبيل المثال) بحيث يتم الوصول إليه بواسطة التطبيق في كل حاوية. مفيد غالبًا لتطبيقات النظام مثل AppStore. يجب تفعيل دعم Game Center بشكل منفصل، ويتطلب منك تعيين حساب Game Center يدويًا إلى كل حاوية في إعداداتها.";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE" = "في حال كنت تريد إعادة توجيه حسابات النظام (Apple ID على سبيل المثال) بحيث يتم الوصول إليه بواسطة التطبيق في كل حاوية. مفيد غالبًا لتطبيقات النظام مثل AppStore. دعم Game Center غير متوفر في Crane Lite، الميزة موجودة في نسخة Crane الكاملة فقط.";
+"CONTAINER_PROTECTION" = "حماية الحاوية";
+"CONTAINER_PROTECTION_FOOTER" = "منع التطبيق من إزالة بيانات الحاويات الأخرى عند التشغيل على الحاوية الافتراضية، هذا الخيار لابد منه لبعض التطبيقات. يستخدم hooks التطبيقات.";
+"PREVENT_SANDBOX_LOOKUPS" = "منع الـ Sandbox من البحث";
+"PREVENT_SANDBOX_LOOKUPS_FOOTER" = "منع التطبيق من عمل إجراءات Sandbox بحث على نفسه لتلقي المسارات الفعلية غير المعاد توجيهها. هذا يصلح المشكلات المتعلقة بعدم تمكن صفحات الويب من حفظ ملفات تعريف الارتباط في حاويات غير افتراضية. يستخدم hooks التطبيقات.";
 
 /* Container preference page */
 
-"CONTAINER_NAME" = "إسم الحاوية";
+"CONTAINER_NAME" = "اسم الحاوية";
 "CONTAINER_IDENTIFIER" = "معرف الحاوية";
-/*PROTECT_USING_BIOMETRICS*/
-"MAKE_DEFAULT_CONTAINER" = "تعيين كحاوية افتراضية";
+"PROTECT_USING_BIOMETRICS" = "الحماية باستخدام المصادقة الحيوية";
+"MAKE_DEFAULT_CONTAINER" = "جعله الحاوية الافتراضية";
 "DEFAULT_CONTAINER" = "الحاوية الافتراضية";
-"DEFAULT_CONTAINER_DESCRIPTION" = "سوف يتم استخدام الحاوية الافتراضية في حال لم تكن في وضع الجيلبريك.";
-/*DEVICE_IDENTIFIER_FOR_VENDOR*/
-/*DEVICE_IDENTIFIER_DESCRIPTION*/
-/*DEVICE_IDENTIFIER_CHANGE_WARNING*/
-/*USE_CONTAINER_IDENTIFIER*/
-/*GENERATE_NEW*/
-/*SET_CUSTOM*/
-/*SET_CUSTOM_IDENTIFIER*/
-/*SET_CUSTOM_IDENTIFIER_MESSAGE*/
-/*SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE*/
-/*ALLOW_NOTIFICATIONS*/
-/*RESET_NOTIFICATION_REGISTRATION*/
-/*NOTIFICATIONS_FOOTER*/
-/*CHOICY_INTEGRATION*/
-/*OVERWRITE_CHOICY_CONFIGURATION*/
-/*CHOICY_CONFIGURATION*/
-"BACKUP_DATA_TO_FILE" = "إنشاء نسخة احتياطية للبيانات";
-"RESTORE_DATA_FROM_BACKUP_FILE" = "استعادة البيانات من ملف النسخة الاحتياطية";
-/*BROWSE_DATA*/
-"DELETE_DATA" = "حذف البيانات";
-/*SIZE_OF_CONTAINER*/
+"DEFAULT_CONTAINER_DESCRIPTION" = "سيتم استخدام الحساب في الحاوية الافتراضية عندما لا يكون جهازك في وضع الجيلبريك أو عندما لا يتم تحميل Crane.";
+"DEVICE_IDENTIFIER_FOR_VENDOR" = "معرف الجهاز للمطور";
+"DEVICE_IDENTIFIER_DESCRIPTION" = "يتم استخدام معرف الجهاز الذي تراه هنا لتعريف جهازك لمطور هذا التطبيق. إذا قام المطور بنشر تطبيقات متعددة، فسيكون هذا المعرف هو نفسه على جميع تطبيقاته. حيث أن بعض التطبيقات تستخدم هذا المعرف لتسجيل خروجك، فستقوم Crane بتزييف معرفات الحاويات غير الافتراضية إلى الافتراضي، ويمكنك أيضًا إيقاف تشغيل الإعداد وتعيين إعداد مخصص. عندما يغير شيء ما داخل Crane معرف الحاوية أثناء تفعيل خيار \"استخدام معرف الحاوية\" (مثلًا عند تعيين حاوية كافتراضية)، فسيتم ضبط الإعداد تلقائيًا من أجل الحفاظ على معرف الجهاز كما هو. عند تعديل معرف الجهاز للحاوية الافتراضية، سيتم كتابته إلى ذاكرة التخزين المؤقت للنظام، وسيستمر حتى عندما لا يتم تحميل Crane أو عندما يكون الجيلبريك غير مفعل.";
+"DEVICE_IDENTIFIER_CHANGE_WARNING" = "أنت على وشك تغيير معرف الجهاز لهذه الحاوية. بعض التطبيقات ستقوم بتسجيل خروجك لأن الأمر سيبدو كأنك غيرت جهازك. هل تريد الاستمرار؟";
+"USE_CONTAINER_IDENTIFIER" = "استخدام معرف الحاوية";
+"GENERATE_NEW" = "إنشاء جديد";
+"SET_CUSTOM" = "تعيين تخصيص";
+"SET_CUSTOM_IDENTIFIER" = "تعيين معرف مخصص";
+"SET_CUSTOM_IDENTIFIER_MESSAGE" = "أدخل المعرف لتعيينه، يجب أن تكون سلسلة تحتوي على ٣٢ حرفًا من النوع السداسي فقط (0-9، F-A).\nالصيغة:XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\n(سيتم تجاهل الشرطات)";
+"SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE" = "المعرف الذي أدخلته يحمل تنسيقًا خاطئًا، يرجى المحاولة مجددًا.";
+"ALLOW_NOTIFICATIONS" = "السماح بالإشعارات";
+"RESET_NOTIFICATION_REGISTRATION" = "إعادة تعيين التسجيلات";
+"NOTIFICATIONS_FOOTER" = "قم بتكوين ما إذا كان ينبغي السماح لهذه الحاوية بتلقي الإشعارات الواردة أم لا. ستؤدي إعادة تعيين التسجيلات إلى منع الإشعارات من الظهور حتى تشغيل التطبيق في المرة القادمة في الحاوية.";
+"CHOICY_INTEGRATION" = "التوافق مع Choicy";
+"OVERWRITE_CHOICY_CONFIGURATION" = "تخطي إعدادات Choicy";
+"CHOICY_CONFIGURATION" = "إعدادات Choicy";
+"BACKUP_DATA_TO_FILE" = "نسخ البيانات احتياطيًا للملف";
+"RESTORE_DATA_FROM_BACKUP_FILE" = "استعادة البيانات من ملف النسخ الاحتياطي";
+"BROWSE_DATA" = "تصفح البيانات";
+"DELETE_DATA" = "حذف االيانات";
+"SIZE_OF_CONTAINER" = "حجم الحاوية";
 
 /* Container removal */
 
-"CONTAINER_DELETE_CONFIRMATION_TITLE" = "تاكيد الحذف";
-"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "حذف جميع البيانات المرتبطة بالحاوية '%@', لن تستطيع إرجاع هذه البيانات لاحقا. متابعة؟";
+"CONTAINER_DELETE_CONFIRMATION_TITLE" = "تأكيد الحذف";
+"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "أنت على وشك حذف جميع بيانات الحاوية '%@' ولا يمكن استرداد هذه البيانات لاحقًا. هل ترغب في المتابعة؟";
 
 /* Biometric protection descriptions */
 
-/*SET_ACTIVE_CONTAINER_DESCRIPTION*/
-/*DELETE_CONTAINER_DESCRIPTION*/
-/*ACCESS_CONTAINER_SETTINGS_DESCRIPTION*/
+"SET_ACTIVE_CONTAINER_DESCRIPTION" = "تعيين الحاوية النشطة إلى \"%@\"";
+"DELETE_CONTAINER_DESCRIPTION" = "حذف الحاوية \"%@\"";
+"ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "الوصول إلى إعدادات الحاوية \"%@\"";
 
 /* Backup */
 
-/*INCLUDED_CONTAINERS*/
-/*PRESETS*/
-"BACKING_UP" = "جاري إنشاء نسخة احتياطية";
-/*BACKUP_ERROR*/
-/*ENCRYPT_BACKUP*/
-/*ENCRYPT_BACKUP_FOOTER*/
-/*INCLUDE_KEYCHAIN*/
-/*INCLUDE_KEYCHAIN_FOOTER*/
-/*INCLUDE_KEYCHAIN_UNSAFE_WARNING*/
-/*ENABLE_ENCRYPTION*/
-/*IGNORE*/
-/*NO_PASSWORD_ERROR*/
-/*CONFIRM_PASSWORD*/
-/*SEP_ITEMS_OMMITED_WARNING_MESSAGE*/
-/*NEW_BACKUP*/
+"INCLUDED_CONTAINERS" = "تضمين الحاويات";
+"PRESETS" = "الإعدادات المسبقة";
+"BACKING_UP" = "جارِ النسخ الاحتياطي";
+"BACKUP_ERROR" = "خطأ في النسخة الاحتياطية";
+"ENCRYPT_BACKUP" = "تشفير النسخة الاحتياطية";
+"ENCRYPT_BACKUP_FOOTER" = "تشفير النسخة الاحتياطية بكلمة سر. لن تكون استعادة النسخة الاحتياطية ممكنة بدون كلمة سر بعد ذلك. فقدان كلمة السر يعني فقدان البيانات.";
+"INCLUDE_KEYCHAIN" = "تضمين سلسلة المفاتيح";
+"INCLUDE_KEYCHAIN_FOOTER" = "تضمين بيانات سلسلة المفاتيح المخزنة بواسطة التطبيق/الحاوية في النسخة الاحتياطية. يحتوي على بيانات اعتماد الحساب، المفاتيح والمزيد. لن يكون آمنًا إذا لم تستخدم تشفير النسخة الاحتياطية.";
+"INCLUDE_KEYCHAIN_UNSAFE_WARNING" = "عند تضمين بيانات سلسلة المفاتيح، يوصى بتفعيل 'تشفير النسخة الاحتياطية'، وإلا سيتمكن أي شخص من الوصول إلى ملف النسخة الاحتياطية التي قام التطبيق/الحاوية بتسجيل الدخول إليها.";
+"ENABLE_ENCRYPTION" = "تفعيل التشفير";
+"IGNORE" = "تجاهل";
+"NO_PASSWORD_ERROR" = "تم تفعيل التشفير ولكن خانة كلمة السر فارغة، يرجى إدخال كلمة سر أو تعطيل التشفير والمحاولة مرة أخرى.";
+"CONFIRM_PASSWORD" = "تأكيد كلمة سر";
+"SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "يتم تخزين عنصر واحد أو أكثر من عناصر سلسلة المفاتيح لهذا التطبيق في الجيب الآمن، وتم حذف هذه العناصر لأن استعادتها مستحيلة، عند استعادة هذه النسخة الاحتياطية، قد تحتاج إلى إعادة إدخال كلمات السر أو قد تظهر مشكلات أخرى. هل تريد الاستمرار؟";
+"NEW_BACKUP" = "نسخة احتياطية جديدة";
 
 /* Backup Presets */
 
-/*NEW_PRESET*/
-/*SAVE_SELECTION_INTO_PRESET*/
-/*NEW_PRESET_MESSAGE*/
-/*BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR*/
+"NEW_PRESET" = "إعداد مسبق جديد";
+"SAVE_SELECTION_INTO_PRESET" = "حفظ المحدد في الإعداد المسبق";
+"NEW_PRESET_MESSAGE" = "أدخل اسمًا للإعداد المسبق الجديد. سيتم حفظ الحاوية المحددة فيه.";
+"BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR" = "لا توجد مساحة تخزين كافية لمتابعة النسخ الاحتياطي، تتطلب هذه النسخة الاحتياطية ما لا يقل عن %@ من المساحة الحرة. حرر بعض المساحة ثم حاول مجددًا.";
 
 /* Restore */
 
-/*RESTORE*/
-"UNARCHIVING" = "جاري فك الأرشفة ";
-"RESTORING" = "جاري الاستعادة";
-/*BACKUP_INVALID*/
-"APP_ID_MISMATCH_ERROR" = "التطبيق الذي تم إنشاء هذه النسخة الاحتياطية منه (%@) يختلف من التطبيق الذي تحاول الاستعادة إليه (%@)";
-"GROUP_ID_MISMATCH_WARNING" = "عدم تطابق مجموعة معرفات النسخة الاحتياطية (%@) من المعرفات الحالية للتطبيق (%@) ، وقد يتسبب ذلك في عدم استعادة بعض البيانات. متابعة؟";
-/*NO_APPS_INSTALLED_ERROR*/
-/*RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR*/
-/*RESTORE_SUCCESS_MESSAGE*/
-/*MULTI_RESTORE_SUCCESS_MESSAGE*/
-"RESTORE_WARNING_MESSAGE" = "سيؤدي استعادة النسخة الاحتياطية في استبدال البيانات الموجودة في الحاوية، متابعة؟";
-"NOT_A_BACKUP_ERROR_MESSAGE" = "الملف الذي حددته ليس نسخة احتياطية للحاوية";
-/*NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE*/
-/*CONFIGURE_RESTORE*/
-/*INTO_CONTAINER*/
-/*NEW_CONTAINER_NAME*/
-/*RESTORE_ERROR*/
-/*ENTER_PASSWORD*/
-/*ENTER_PASSWORD_DESCRIPTION*/
-/*PREVIOUS_PASSWORD_WRONG_MESSAGE*/
+"RESTORE" = "استعادة";
+"UNARCHIVING" = "إلغاء الأرشفة";
+"RESTORING" = "جارِ الاستعادة";
+"BACKUP_INVALID" = "نسخة احتياطية غير صالحة";
+"APP_ID_MISMATCH_ERROR" = "التطبيق الذي تم إنشاء هذه النسخة الاحتياطية منه (%@) ليس هو نفس التطبيق الذي تحاول استعادتها إليه (%@)";
+"GROUP_ID_MISMATCH_WARNING" = "لا تتطابق معرفات المجموعة للنسخة الاحتياطية (%@) مع المعرفات الحالية للتطبيق (%@)، وهذا يمكن أن يؤدي إلى عدم استعادة بعض البيانات. هل ما زلت ترغب في المتابعة؟";
+"NO_APPS_INSTALLED_ERROR" = "التطبيقات المضمنة في النسخة الاحتياطية للحاويات المتعددة غير مُثبَّتة على جهازك. قم بتثبيت التطبيقات وحاول مجددًا.";
+"RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR" = "لا توجد مساحة تخزين كافية لمعالجة الاستعادة، تتطلب هذه الاستعادة ما لا يقل عن %@ من المساحة الحرة. حرر بعض المساحة ثم حاول مجددًا.";
+"RESTORE_SUCCESS_MESSAGE" = "تم استعادة النسخة الاحتياطية بنجاح.";
+"MULTI_RESTORE_SUCCESS_MESSAGE" = "تم استعادة النسخة الاحتياطية للحاويات المتعددة بنجاح إلى حاويات %zd.";
+"RESTORE_WARNING_MESSAGE" = "ستؤدي استعادة نسخة احتياطية إلى الكتابة فوق البيانات الحالية للحاوية، هل تريد الاستمرار؟";
+"NOT_A_BACKUP_ERROR_MESSAGE" = "يبدو أن الملف المحدد ليس نسخة احتياطية للحاويات";
+"NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE" = "يبدو أن الملف المحدد ليس نسخة احتياطية للحاويات المتعددة";
+"CONFIGURE_RESTORE" = "تكوين الاستعادة";
+"INTO_CONTAINER" = "في الحاوية";
+"NEW_CONTAINER_NAME" = "اسم حاوية جديد";
+"RESTORE_ERROR" = "خطأ في الاستعادة";
+"ENTER_PASSWORD" = "أدخل كلمة السر";
+"ENTER_PASSWORD_DESCRIPTION" = "النسخة الاحتياطية %@ مشفرة بكلمة سر، يرجى إدخال كلمة السر لبدء الاستعادة.";
+"PREVIOUS_PASSWORD_WRONG_MESSAGE" = "كلمة السر التي أدخلتها خاطئة. يرجى المحاولة مجددًا!";
 
 /* Game Center account picker */
 
-/*GAME_CENTER_SECTION_HEADER*/
-/*GAME_CENTER_SECTION_FOOTER*/
-/*GAME_CENTER_ACCOUNT*/
-/*GAME_CENTER_ACCOUNTS*/
-/*MANAGE_GAME_CENTER_ACCOUNTS*/
-/*GAME_CENTER_MANAGER_FOOTER*/
-/*GAME_CENTER_ADD_ACCOUNT_TITLE*/
-/*GAME_CENTER_ADD_ACCOUNT_MESSAGE*/
-/*GAME_CENTER_RENAME_ACCOUNT_TITLE*/
-/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE*/
-/*GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE*/
+"GAME_CENTER_SECTION_HEADER" = "Game Center";
+"GAME_CENTER_SECTION_FOOTER" = "حدد حساب Game Center للتبديل إليه عند التشغيل في هذه الحاوية.";
+"GAME_CENTER_ACCOUNT" = "حساب Game Center";
+"GAME_CENTER_ACCOUNTS" = "حسابات Game Center";
+"MANAGE_GAME_CENTER_ACCOUNTS" = "إدارة حسابات Game Center";
+"GAME_CENTER_MANAGER_FOOTER" = "نظرا للقيود التقنية، تحتاج إلى إضافة Game Center الخاص بك إلى هذه القائمة الشاملة. يمكنك بعد ذلك تعيين الحساب إلى حاوية واحدة أو أكثر وسيتحول النظام إليه عند بدء تشغيل التطبيق في الحاوية. إذا كان لديك تطبيق مثبت على جهازك يستخدم Game Center لا تريد استخدام Crane عليه، فستظل ترغب في تمكين 'حسابات النظام المنفصلة' و 'دعم Game Center' بحيث يعود النظام إلى حساب Game Center الافتراضي للنظام عند فتحه.";
+"GAME_CENTER_ADD_ACCOUNT_TITLE" = "إضافة حساب";
+"GAME_CENTER_ADD_ACCOUNT_MESSAGE" = "أدخل اسم حسابك هنا. ستظهر مطالبة تسجيل الدخول عند تشغيل تطبيق لأول مرة في حاوية تم تعيين الحساب لها.";
+"GAME_CENTER_RENAME_ACCOUNT_TITLE" = "إعادة تسمية الحساب";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE" = "حذف الحساب";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE" = "هل أنت متأكد من أنك تريد حذف حساب Game Center \"%@\”؟ ستتحول كل حاوية مرتبطة به الآن إلى النظام الافتراضي.";
 
 /* Safety checks */
 
-/*LIBSANDY_NOT_LOADED_ERROR_MESSAGE*/
-/*LIBSANDY_CHOICY_NOTICE*/
-/*COMMUNICATION_ERROR_MESSAGE*/
-/*INSURANCE_FAILED_ERROR_MESSAGE*/
-"INJECTION_ERROR_MESSAGE" = "لم يتم تحميل CraneSupport.dylib في %@";
-/*INJECTION_ERROR_MESSAGE_CHOICY*/
-/*REGISTRATION_FAILED_MESSAGE*/
-/*PLUGIN_REDIRECTION_FAILED_MESSAGE*/
-"CRANE_DISABLED_MESSAGE" = "تم الغاء تفعيل Crane لتجنب المزامنة.";
-/*CRANE_DYLIB_NOT_LOADED_ERROR*/
-"RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "اعد تشغيل السبرينغ بورد";
-/*CRANEHELPERD_COMMUNICATION_WARNING*/
-/*CRANEHELPERD_INJECTION_ERROR_DYLIB_FILE_NOT_FOUND*/
-/*CRANEHELPERD_INJECTION_ERROR_INJECTION_BINARY_NOT_FOUND*/
-/*CRANEHELPERD_INJECTION_ERROR_EXCEPTION_OCCURED*/
-/*CRANEHELPERD_VERIFY_ERROR_PROCESS_NOT_RUNNING*/
-/*FIXUP_ERROR_DESCRIPTION*/
+"LIBSANDY_NOT_LOADED_ERROR_MESSAGE" = "تقرر أن libSandy لا يعمل لأن libSandySupport.dylib غير مُحمَّل في خدمة MobileGestaltHelper.";
+"LIBSANDY_CHOICY_NOTICE" = "حاول تحديد libSandy داخل الإعدادات -> Choicy -> استكشاف أخطاء الأداة وإصلاحها.";
+"COMMUNICATION_ERROR_MESSAGE" = "تقرر أن الاتصال بخدمة مساعد Crane الذي هو (cranehelperd) لا يعمل. حدث الخطأ التالي أثناء محاولة إرسال رسالة إليه: ";
+"INSURANCE_FAILED_ERROR_MESSAGE" = "حدث خطأ أثناء محاولة التحقق مما إذا كان Crane مُحمَّلًا بشكل صحيح: ";
+"INJECTION_ERROR_MESSAGE" = "تم تحديد أن CraneSupport.dylib لم يتم تحميله في %@.";
+"INJECTION_ERROR_MESSAGE_CHOICY" = "حاول تحديد Crane داخل الإعدادات -> Choicy -> استكشاف أخطاء الأداة وإصلاحها.";
+"REGISTRATION_FAILED_MESSAGE" = "فشل في إعادة توجيه تسجيلات الإشعارات لأن CraneSupport.dylib غير مُحمَّل في الملف التنفيذي apsd.";
+"PLUGIN_REDIRECTION_FAILED_MESSAGE" = "فشل في إعادة توجيه ملحق خدمة الإشعارات إلى الحاوية الصحيحة لأنه لم يتم تحميل CraneSupport.dylib في الملف التنفيذي pkd.";
+"CRANE_DISABLED_MESSAGE" = "تم تعطيل Crane لتجنب مزامنة البيانات.";
+"CRANE_DYLIB_NOT_LOADED_ERROR" = "بدأ التطبيق %@ في الحاوية الافتراضية لأنه لم يتم تحميل Crane.dylib فيه. تأكد من عدم تعطيله باستخدام Choicy أو TweakRestrict أو ما شابه ذلك وحاول مرة أخرى.";
+"RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "إعادة تشغيل ملفات التنفيذ المُتأثرة وواجهة النظام.";
+"CRANEHELPERD_COMMUNICATION_WARNING" = "الاتصال بـ cranehelperd لا يعمل، على الأرجح لأنه غير مُشغَّل. هي ميزة حيث يتم إعادة تحميل التطبيقات تلقائيًا (عند الحاجة بواسطة خيار تحدده داخل إعدادات Crane) وبالتالي لن يعمل الوصول إلى سلسلة المفاتيح. قد يؤدي استخدام إعدادات Crane إلى سلوك غير محدد حتى يتم حل هذه المشكلة.";
+"CRANEHELPERD_INJECTION_ERROR_DYLIB_FILE_NOT_FOUND" = "تعذر حقن \"%@\" في العملية باستخدام pid %d.\nالسبب: لم يتم العثور على ملف Dylib";
+"CRANEHELPERD_INJECTION_ERROR_INJECTION_BINARY_NOT_FOUND" = "تعذر حقن \"%@\" في العملية باستخدام pid %d.\nالسبب: لم يتم العثور على ثنائي الحقن (%@)، جرِّب إعادة تثبيت %@ من مدير الحزم الخاص بك.";
+"CRANEHELPERD_INJECTION_ERROR_EXCEPTION_OCCURED" = "تعذر حقن \"%@\" في العملية باستخدام pid %d.\nالسبب: حدث الاستثناء التالي: %@.";
+"CRANEHELPERD_VERIFY_ERROR_PROCESS_NOT_RUNNING" = "تعذر التحقق مما إذا كان \"%@\" يتم تحميله في \"%@\".\n السبب: العملية ليست قيد التشغيل.";
+"FIXUP_ERROR_DESCRIPTION" = "أثناء محاولة إصلاح هذه المشكلة تلقائيًا، حدث الخطأ التالي:";
 
 /* Migration from previous versions and error detection */
 
 "UNKNOWN_CONTAINERS_FOUND" = "تم العثور على حاويات غير معروفة";
-"UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "تم العثور على %u حاويات غير معروفة تحتوي على بيانات مخزنة داخل التطبيق وليس لديها اية إدخالات داخل تفضيلات Crane. يمكن أن يحدث هذا إذا تم حذف قائمة التفضيل السابقة. ماذا تريد أن تفعل بالحاويات المجهولة؟";
+"UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "تم العثور على حاويات غير معروفة تحتوي على بيانات مخزنة داخل التطبيق ولكن ليس لديها حاليًا إدخال داخل إعدادات Crane. يمكن أن يحدث هذا إذا تم حذف إعدادات plist سابقة. ماذا تريد أن تفعل بالحاويات غير المعروفة؟";
 "DELETE_CONTAINERS" = "حذف الحاويات";
 "IMPORT_CONTAINERS" = "استيراد الحاويات";
 "UNKOWN_CONTAINER" = "حاوية غير معروفة";
 "KEYCHAIN_MIGRATION" = "ترحيل سلسلة المفاتيح";
-"KEYCHAIN_MIGRATION_MESSAGE" = "تم العثور على بيانات من إصدار مختلف، يجب ترحيل و نسخ البيانات للإصدار الحالي و بإمكانك القيام بذلك من خلال فتح تفضيلات Crane في الإعدادات، تم تعطيل Crane في الوقت الحالي.";
+"KEYCHAIN_MIGRATION_MESSAGE" = "تم اكتشاف بيانات سلسلة مفاتيح من إصدار Crane قديم، ويجب ترحيل هذه البيانات إلى تنسيق جديد، ولكن لا يمكن القيام بهذه العملية إلا من الإعدادات. يرجى فتح صفحة الإعدادات الخاصة بـ Crane مرة واحدة لبدء الترحيل، تم تعطيل Crane حتى يتم ذلك.";
 "OPEN_SETTINGS" = "فتح الإعدادات";
-"MIGRATION_SUCCEEDED" = "تم بنجاح";
-"MIGRATION_SUCCEEDED_MESSAGE" = "العملية تمت بنجاح، بإمكانك استخدام البرنامج الان.";
+"MIGRATION_SUCCEEDED" = "تم الترحيل بنجاح";
+"MIGRATION_SUCCEEDED_MESSAGE" = "تم ترحيل بيانات سلسلة المفاتيح القديمة بنجاح إلى التنسيق الجديد. يمكن الآن استخدام Crane مرة أخرى.";
 
 /* Import from Slices */
 
-/*SLICES_FOUND*/
-/*SLICES_FOUND_MESSAGE*/
-/*IMPORT_SLICES*/
-/*DELETE_SLICES*/
+"SLICES_FOUND" = "تم العثور على Slices";
+"SLICES_FOUND_MESSAGE" = "تم العثور على الـ Slices التالية للتطبيق المحدد حاليًا:\n%@هل تريد استيرادها كحاويات Crane؟ لا يمكن إعادتهم إلى Slices في المستقبل.";
+"IMPORT_SLICES" = "استيراد Slices";
+"DELETE_SLICES" = "حذف Slices";
 
 /* Activator Integration */
 
-/*SET_AS_THE_ACTIVE_CRANE_CONTAINER*/
-/*CHANGED_TO_CONTAINER*/
-
+"SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "تعيين \"%@\" كحاوية Crane نشطة";
+"CHANGED_TO_CONTAINER" = "تم تغيير \"%@\" إلى حاوية Crane \"%@\"";
