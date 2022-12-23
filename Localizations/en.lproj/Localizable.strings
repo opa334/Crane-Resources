@@ -1,99 +1,29 @@
-"APPLICATIONS" = "Applications";
-"ACTIVE_CONTAINER" = "Active Container";
-"ALWAYS_ASK_ON_APP_LAUNCH" = "Always ask on App-Launch";
-"SELECT_CONTAINER" = "Select Container";
+/* Misc */
+
+"OPEN_REPO" = "Open Repo";
 "CONTAINERS" = "Containers";
 "CONTAINER" = "Container";
 "DEFAULT" = "Default";
 "ADD" = "Add";
-"ADD_CONTAINER" = "Add Container";
 "NAME" = "Name";
 "CANCEL" = "Cancel";
-"CONTAINER_NAME" = "Container Name";
-"SAVE" = "Save";
-"CONTAINER_DELETE_CONFIRMATION_TITLE" = "Confirm Deletion?";
-"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "You are about to delete all data associated with the container '%@', this data cannot be recovered. Do you wish to proceed?";
+"SELECT_CONTAINER" = "Select Container";
+"ADD_CONTAINER" = "Add Container";
+"NOTIFICATIONS" = "Notifications";
 "DELETE" = "Delete";
 "NONE" = "None";
-"MAKE_DEFAULT_CONTAINER" = "Make Default Container";
-"DEFAULT_CONTAINER" = "Default Container";
-"DEFAULT_CONTAINER_DESCRIPTION" = "The default container will be used when your device is not jailbroken or when Crane is not loaded.";
-"CONTAINER_IDENTIFIER" = "Container Identifier";
-"PROTECT_USING_BIOMETRICS" = "Protect Using Biometrics";
-"SET_ACTIVE_CONTAINER_DESCRIPTION" = "Set Active Container to \"%@\"";
-"DELETE_CONTAINER_DESCRIPTION" = "Delete Container \"%@\"";
-"ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "Access Container Settings of \"%@\"";
-"UNNAMED" = "Unnamed";
-"APP_SHORTCUTS" = "App Shortcuts";
-"APP_SHORTCUT_ENABLED" = "App Shortcuts Enabled";
-"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Launch App on Container Selection";
-"EXPAND_CONTAINERS_SHORTCUT" = "Expand Shortcuts";
-"SHOW_NEW_CONTAINER_OPTION" = "Show 'New Container' Option";
-"ONLY_SHOW_IF_CONTAINERS_EXIST" = "Only Show if Containers Exist";
-"SHOW_CONTAINER_NOTIFICATION_BADGES" = "Show Container Notification Badges";
-"BACKUP_RESTORE" = "Backup & Restore";
-"CREATE_MULTI_CONTAINER_BACKUP" = "Create Multi-Container Backup";
-"RESTORE_MULTI_CONTAINER_BACKUP" = "Restore Multi-Container Backup";
-"INCLUDED_CONTAINERS" = "Included Containers";
-"PRESETS" = "Presets";
-"NEW_PRESET" = "New Preset";
-"SAVE_SELECTION_INTO_PRESET" = "Save Selection into Preset";
-"NEW_PRESET_MESSAGE" = "Enter a name for the new preset. The current container selection will be saved into it.";
-"APP_SHORTCUT_DESCRIPTION" = "Shortcut to switch between containers from the haptic touch / 3D touch menu of applications.";
-"GAME_CENTER_SECTION_HEADER" = "Game Center";
-"GAME_CENTER_SECTION_FOOTER" = "Select a Game Center account to switch to when launching into this container.";
-"GAME_CENTER_ACCOUNT" = "Game Center Account";
-"GAME_CENTER_ACCOUNTS" = "Game Center Accounts";
-"MANAGE_GAME_CENTER_ACCOUNTS" = "Manage Game Center Accounts";
-"GAME_CENTER_MANAGER_FOOTER" = "Due to technical restrictions you need to add your Game Center into this global list. You can then assign the account to one or more containers and the system will switch to it when starting the app into the container. If you have an app installed on your device that uses Game Center that you do not want to use Crane on, you will still want to enable 'Separate System Accounts' and 'Game Center Support' so the system switches back to the system default Game Center account when opening it.";
-"SYSTEM_DEFAULT" = "System Default";
-"GAME_CENTER_ADD_ACCOUNT_TITLE" = "Add Account";
-"GAME_CENTER_ADD_ACCOUNT_MESSAGE" = "Enter the name of your account here. The sign in prompt will appear when you first launch an app into a container that has the account assigned.";
-"GAME_CENTER_RENAME_ACCOUNT_TITLE" = "Rename Account";
-"RENAME" = "Rename";
-"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE" = "Delete Account";
-"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE" = "Are you sure you want to delete the Game Center Account \"%@\"? Every container associated to it right now will switch to System Default.";
-"BACKUP_DATA_TO_FILE" = "Backup Data to File";
-"RESTORE_DATA_FROM_BACKUP_FILE" = "Restore Data from Backup File";
-"DEVICE_IDENTIFIER_FOR_VENDOR" = "Device Identifier for Vendor";
-"USE_CONTAINER_IDENTIFIER" = "Use Container Identifier";
-"GENERATE_NEW" = "Generate New";
-"SET_CUSTOM" = "Set Custom";
-"IDENTIFIER" = "Identifier";
-"DEVICE_IDENTIFIER_DESCRIPTION" = "The device identifier you see here is used to identify your device to the vendor (developer) of this application. If the vendor distributes multiple applications, this identifier will be the same across all of them. Because some applications use this identifier to log you out, Crane spoofs the identifier of non-default containers to the container identifier by default, you can also turn off the setting and set a custom one. When something inside Crane changes the container identifier while the \"Use Container Identifier\" option is enabled (e.g. when setting a container as default), then the setting will be automatically adjusted in order to keep the device identifier the same. When you modify the device identifier of the default container, it will be written to the system cache and persist even when Crane is not loaded or the device is not jailbroken.";
-"DEVICE_IDENTIFIER_CHANGE_WARNING" = "You are about to change the device identifier of this container. Some applications will sign you out because to them it will look like you changed your device. Do you want to continue?";
-"SET_CUSTOM_IDENTIFIER" = "Set Custom Identifier";
-"SET_CUSTOM_IDENTIFIER_MESSAGE" = "Enter the identifier to set, it should be a string with 32 characters containing only hex letters (0-9, A-F).\nFormat:XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\n(hyphens are ignored)";
-"SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE" = "The identifier you previously entered had the wrong format, please try again.";
-"SET" = "Set";
-"NOTIFICATIONS" = "Notifications";
-"NOTIFICATIONS_FOOTER" = "Configure whether this container should be allowed to receive push notifications or not. Resetting the registration will stop notifications from coming in until the next app launch into the container.";
-"ALLOW_NOTIFICATIONS" = "Allow Notifications";
-"RESET_NOTIFICATION_REGISTRATION" = "Reset Registration";
-"CHOICY_INTEGRATION" = "Choicy Integration";
-"OVERWRITE_CHOICY_CONFIGURATION" = "Overwrite Choicy Configuration";
-"CHOICY_CONFIGURATION" = "Choicy Configuration";
-"BROWSE_DATA" = "Browse Data";
 "APPLICATION" = "Application";
 "GROUPS" = "Groups";
 "PLUGINS" = "Plugins";
-"DELETE_DATA" = "Delete Data";
-"SIZE_OF_CONTAINER" = "Size of Container";
-"UNARCHIVING" = "Unarchiving";
-"RESTORING" = "Restoring";
-"BACKING_UP" = "Backing Up";
+"UNNAMED" = "Unnamed";
+"RENAME" = "Rename";
+"SYSTEM_DEFAULT" = "System Default";
+"IDENTIFIER" = "Identifier";
+"SET" = "Set";
 "PREPARING" = "Preparing";
 "CHECKING" = "Checking";
 "ERROR" = "Error";
 "WARNING" = "Warning";
-"BACKUP_INVALID" = "Backup Invalid";
-"APP_ID_MISMATCH_ERROR" = "The application from which this backup was created (%@) is not the same as the application you are trying to restore it to (%@)";
-"GROUP_ID_MISMATCH_WARNING" = "The group identifiers of the backup (%@) mismatch the current identifiers of the application (%@), this can cause some data to not be restored. Do you still want to continue?";
-"NO_APPS_INSTALLED_ERROR" = "None of the applications included in the multi-container backup (%@) are installed on your device. Install the applications and try again.";
-"RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR" = "Not enough free disk space left to proceed the restore, this restore requires at least %@ of free space. Free up some space and then try again.";
-"BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR" = "Not enough free disk space left to proceed the backup, this backup requires at least %@ of free space. Free up some space and then try again.";
-"RESTORE_SUCCESS_MESSAGE" = "The backup was successfully restored.";
-"MULTI_RESTORE_SUCCESS_MESSAGE" = "The multi-container backup was successfully restored into %zd containers.";
 "SUCCESS" = "Success";
 "CONTINUE" = "Continue";
 "CLOSE" = "Close";
@@ -101,10 +31,155 @@
 "NEW_CONTAINER" = "New Container";
 "LAUNCH" = "Launch";
 "CREATE" = "Create";
-"INJECT_IN_SAFE_MODE" = "Inject in Safe Mode";
-"INJECT_IN_SAFE_MODE_DESCRIPTION" = "By default Crane does not work when an application is launched in safe mode (e.g. by using the 'Disable Tweak Injection' toggle of Choicy or the 'Launch without Tweaks' application shortcut), with this option enabled, it will always inject. This does not have any effect on the safe mode from the jailbreak.";
 "SELECT_ALL" = "Select All";
 "DESELECT_ALL" = "Deselect All";
+"AND" = "and";
+"CRANE_ERROR" = "Crane Error";
+"LICENSE" = "License";
+"FILENAME" = "Filename";
+"OPTIONAL" = "Optional";
+"PASSWORD" = "Password";
+"ACTIVE" = "Active";
+"CREATE" = "Create";
+
+/* Root preference page */
+
+"APPLICATIONS" = "Applications";
+"APP_SHORTCUTS" = "App Shortcuts";
+"APP_SHORTCUT_ENABLED" = "App Shortcuts Enabled";
+"LAUNCH_APPLICATION_ON_CONTAINER_SELECTION" = "Launch App on Container Selection";
+"EXPAND_CONTAINERS_SHORTCUT" = "Expand Shortcuts";
+"SHOW_NEW_CONTAINER_OPTION" = "Show 'New Container' Option";
+"ONLY_SHOW_IF_CONTAINERS_EXIST" = "Only Show if Containers Exist";
+"SHOW_CONTAINER_NOTIFICATION_BADGES" = "Show Container Notification Badges";
+"APP_SHORTCUT_DESCRIPTION" = "Shortcut to switch between containers from the haptic touch / 3D touch menu of applications.";
+"NOTIFICATIONS_SUPPORT_ENABLED" = "Notifications Support Enabled";
+"SHOW_CONTAINER_IN_TITLE" = "Show Container in Title";
+"NOTIFICATIONS_SUPPORT_FOOTER" = "If you want to globally disable the notification support part of Crane (which includes a per app setting called 'Separate Notifiation Registrations'), you can do so here. Additionally you can configure whether or not the title of incoming notifications should show what crane container it came from.";
+"NOTIFICATIONS_SUPPORT_FOOTER_LITE" = "If you want to globally disable the notification support part of Crane (which includes a per app setting called 'Separate Notifiation Registrations'), you can do so here.";
+"SUGGESTIONS" = "Suggestions";
+"CHOICYLOADER_SUGGESTION_TITLE" = "Issues on Substrate?";
+"CHOICYLOADER_SUGGESTION_MESSAGE" = "The main Crane library (\" Crane.dylib\") needs to inject into applications first, on Substrate this does not happen automatically and some tweaks loading before Crane can partially or fully break its functionality. Common symptoms include all containers appearing as the default container, containers getting wiped on app relaunch or data desyncs. If any of these problems affect you, install ChoicyLoader from https://opa334.github.io which will fix them by ensuring that Crane always loads first.";
+"ACTIVATOR_INFO_SUGGESTION_TITLE" = "Activator Integration";
+"ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane allows you to assign an activator action to execute whenever a specific container is set as active. This can be accessed from Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> Crane. It also features actions to set a specific container for an application as active, that can be accessed inside Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> (Any Event) -> Crane.";
+"SHORTCUTS_INFO_SUGGESTION_TITLE" = "Shortcuts Integration";
+"SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "Crane includes a Shortcut Action to set the active container of an application, it can be accessed when adding an Action to a Shortcut under Apps -> Crane -> Set Active Crane Container";
+"BACKUP_RESTORE" = "Backup & Restore";
+"CREATE_MULTI_CONTAINER_BACKUP" = "Create Multi-Container Backup";
+"RESTORE_MULTI_CONTAINER_BACKUP" = "Restore Multi-Container Backup";
+"OTHER" = "Other";
+"FOLLOW_ME_ON_TWITTER" = "Follow me on Twitter";
+"CREDITS_AND_LICENSES" = "Credits & Licenses";
+"CREDITS" = "Credits";
+
+/* Crane Lite root preference page */
+
+"SELECT_APPLICATION" = "Select Application";
+"CONFIGURE_APPLICATION" = "Configure Application";
+"SWITCH_WARNING_MESSAGE" = "You are about to change the selected application, doing so will delete the data of all non-default containers of the previously selected application. Do you want to continue?";
+"BUY_CRANE" = "Buy Crane";
+"BUY_CRANE_FOOTER" = "After buying Crane, you will be able to import the containers of Crane Lite into it. This will be available through an alert that appears when you access the preference page of Crane.";
+
+/* Crane Lite importing */
+
+"LITE_IMPORT_TITLE" = "Crane Lite Import";
+"LITE_IMPORT_MESSAGE" = "Crane Lite containers for the app '%@' have been found. What do you want to do with them?";
+"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "Import Crane Lite Containers to Crane";
+"DELETE_CRANE_LITE_CONTAINERS" = "Delete Crane Lite Containers";
+"REMIND_ME_LATER" = "Remind Me Later";
+
+/* Application preference page */
+
+"ACTIVE_CONTAINER" = "Active Container";
+"ALWAYS_ASK_ON_APP_LAUNCH" = "Always Ask on App-Launch";
+"SEPARATE_NOTIFICATION_REGISTRATIONS" = "Separate Notification Registrations";
+"SEPARATE_NOTIFICATION_REGISTRATIONS_FOOTER" = "When this toggle is enabled, every Crane container for this application will get a separate notification token which should enable incoming notifications from all containers. When tapping a received notification, the app will launch into the container the notification came from. Additionally it adds the possibility to disable notifications on a per container basis from their settings. (Note: This does not work for all apps and some apps even get notifications for all containers without this toggle being enabled).";
+"SEPARATE_SYSTEM_ACCOUNTS" = "Separate System Accounts";
+"GAME_CENTER_SUPPORT" = "Game Center Support";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER" = "Whether to redirect system accounts (e.g. Apple ID) accessed by the application per container. Mostly useful for system applications like AppStore. Game Center support has to be enabled separately and requires you to manually assign a Game Center account to a container in its settings.";
+"SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE" = "Whether to redirect system accounts (e.g. Apple ID) accessed by the application per container. Mostly useful for system applications like AppStore. Game Center support is not included in Crane Lite, only in the full version of Crane.";
+"CONTAINER_PROTECTION" = "Container Protection";
+"CONTAINER_PROTECTION_FOOTER" = "Prevent the application from removing data of other containers when launched into the default container, needed for some applications. Uses application hooks.";
+"PREVENT_SANDBOX_LOOKUPS" = "Prevent Sandbox Lookups";
+"PREVENT_SANDBOX_LOOKUPS_FOOTER" = "Prevents the app from doing a sandbox lookup on itself to receive the real non-redirected paths. Fixes issues with web browsers not being able to save cookies in non default containers. Uses application hooks.";
+
+/* Container preference page */
+
+"CONTAINER_NAME" = "Container Name";
+"CONTAINER_IDENTIFIER" = "Container Identifier";
+"PROTECT_USING_BIOMETRICS" = "Protect Using Biometrics";
+"MAKE_DEFAULT_CONTAINER" = "Make Default Container";
+"DEFAULT_CONTAINER" = "Default Container";
+"DEFAULT_CONTAINER_DESCRIPTION" = "The default container will be used when your device is not jailbroken or when Crane is not loaded.";
+"DEVICE_IDENTIFIER_FOR_VENDOR" = "Device Identifier for Vendor";
+"DEVICE_IDENTIFIER_DESCRIPTION" = "The device identifier you see here is used to identify your device to the vendor (developer) of this application. If the vendor distributes multiple applications, this identifier will be the same across all of them. Because some applications use this identifier to log you out, Crane spoofs the identifier of non-default containers to the container identifier by default, you can also turn off the setting and set a custom one. When something inside Crane changes the container identifier while the \"Use Container Identifier\" option is enabled (e.g. when setting a container as default), then the setting will be automatically adjusted in order to keep the device identifier the same. When you modify the device identifier of the default container, it will be written to the system cache and persist even when Crane is not loaded or the device is not jailbroken.";
+"DEVICE_IDENTIFIER_CHANGE_WARNING" = "You are about to change the device identifier of this container. Some applications will sign you out because to them it will look like you changed your device. Do you want to continue?";
+"USE_CONTAINER_IDENTIFIER" = "Use Container Identifier";
+"GENERATE_NEW" = "Generate New";
+"SET_CUSTOM" = "Set Custom";
+"SET_CUSTOM_IDENTIFIER" = "Set Custom Identifier";
+"SET_CUSTOM_IDENTIFIER_MESSAGE" = "Enter the identifier to set, it should be a string with 32 characters containing only hex letters (0-9, A-F).\nFormat:XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\n(hyphens are ignored)";
+"SET_CUSTOM_IDENTIFIER_ERROR_MESSAGE" = "The identifier you previously entered had the wrong format, please try again.";
+"ALLOW_NOTIFICATIONS" = "Allow Notifications";
+"RESET_NOTIFICATION_REGISTRATION" = "Reset Registration";
+"NOTIFICATIONS_FOOTER" = "Configure whether this container should be allowed to receive push notifications or not. Resetting the registration will stop notifications from coming in until the next app launch into the container.";
+"CHOICY_INTEGRATION" = "Choicy Integration";
+"OVERWRITE_CHOICY_CONFIGURATION" = "Overwrite Choicy Configuration";
+"CHOICY_CONFIGURATION" = "Choicy Configuration";
+"BACKUP_DATA_TO_FILE" = "Backup Data to File";
+"RESTORE_DATA_FROM_BACKUP_FILE" = "Restore Data from Backup File";
+"BROWSE_DATA" = "Browse Data";
+"DELETE_DATA" = "Delete Data";
+"SIZE_OF_CONTAINER" = "Size of Container";
+
+/* Container removal */
+
+"CONTAINER_DELETE_CONFIRMATION_TITLE" = "Confirm Deletion?";
+"CONTAINER_DELETE_CONFIRMATION_MESSAGE" = "You are about to delete all data associated with the container '%@', this data cannot be recovered. Do you wish to proceed?";
+
+/* Biometric protection descriptions */
+
+"SET_ACTIVE_CONTAINER_DESCRIPTION" = "Set Active Container to \"%@\"";
+"DELETE_CONTAINER_DESCRIPTION" = "Delete Container \"%@\"";
+"ACCESS_CONTAINER_SETTINGS_DESCRIPTION" = "Access Container Settings of \"%@\"";
+
+/* Backup */
+
+"INCLUDED_CONTAINERS" = "Included Containers";
+"PRESETS" = "Presets";
+"BACKING_UP" = "Backing Up";
+"BACKUP_ERROR" = "Backup Error";
+"ENCRYPT_BACKUP" = "Encrypt Backup";
+"ENCRYPT_BACKUP_FOOTER" = "Encrypt the backup with a password. Restoring the backup afterwards without the password will not be possible. If you loose the password, you loose the data.";
+"INCLUDE_KEYCHAIN" = "Include Keychain";
+"INCLUDE_KEYCHAIN_FOOTER" = "Include the keychain data stored by the application/container in the backup. Contains account credentials, keys and more. Unsafe when not using encryption.";
+"INCLUDE_KEYCHAIN_UNSAFE_WARNING" = "When including keychain data, it is recommended to have 'Encrypt Backup' enabled, otherwise anyone that has access to the backup file can compromise accounts that the app / container is logged into.";
+"ENABLE_ENCRYPTION" = "Enable Encryption";
+"IGNORE" = "Ignore";
+"NO_PASSWORD_ERROR" = "Encryption is enabled but the password field is empty, please enter a password or disable encrpytion and try again.";
+"CONFIRM_PASSWORD" = "Confirm Password";
+"SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "One or more keychain items of this application are stored on the secure enclave and have been omitted from the backup because restoring them would be impossible. When restoring this backup, you may need to reenter passwords or other issues might arrise. Do you want to continue?";
+"NEW_BACKUP" = "New Backup";
+
+/* Backup Presets */
+
+"NEW_PRESET" = "New Preset";
+"SAVE_SELECTION_INTO_PRESET" = "Save Selection into Preset";
+"NEW_PRESET_MESSAGE" = "Enter a name for the new preset. The current container selection will be saved into it.";
+"BACKUP_NOT_ENOUGH_FREE_SPACE_ERROR" = "Not enough free disk space left to proceed the backup, this backup requires at least %@ of free space. Free up some space and then try again.";
+
+/* Restore */
+
+"RESTORE" = "Restore";
+"UNARCHIVING" = "Unarchiving";
+"RESTORING" = "Restoring";
+"BACKUP_INVALID" = "Backup Invalid";
+"APP_ID_MISMATCH_ERROR" = "The application from which this backup was created (%@) is not the same as the application you are trying to restore it to (%@)";
+"GROUP_ID_MISMATCH_WARNING" = "The group identifiers of the backup (%@) mismatch the current identifiers of the application (%@), this can cause some data to not be restored. Do you still want to continue?";
+"NO_APPS_INSTALLED_ERROR" = "None of the applications included in the multi-container backup (%@) are installed on your device. Install the applications and try again.";
+"RESTORE_NOT_ENOUGH_FREE_SPACE_ERROR" = "Not enough free disk space left to proceed the restore, this restore requires at least %@ of free space. Free up some space and then try again.";
+"RESTORE_SUCCESS_MESSAGE" = "The backup was successfully restored.";
+"MULTI_RESTORE_SUCCESS_MESSAGE" = "The multi-container backup was successfully restored into %zd containers.";
 "RESTORE_WARNING_MESSAGE" = "Restoring a backup will overwrite the current data of the container, continue?";
 "NOT_A_BACKUP_ERROR_MESSAGE" = "The selected file does not appear to be a container backup";
 "NOT_A_MULTI_CONTAINER_BACKUP_ERROR_MESSAGE" = "The selected file does not appear to be a multi-container backup";
@@ -112,32 +187,46 @@
 "INTO_CONTAINER" = "Into Container";
 "NEW_CONTAINER_NAME" = "New Container Name";
 "RESTORE_ERROR" = "Restore Error";
-"BACKUP_ERROR" = "Backup Error";
-"COMMUNICATION_ERROR_MESSAGE" = "It was determined that communication to the Crane helper service (Cranehelperd) is not working. This is likely caused by rocketbootstrap not working on your device.";
-"DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "It was determined that the Crane helper daemon (Cranehelperd) is not running. Make sure your jailbreak is up to date.";
-"TAURINE_DAEMON_NOT_RUNNING_ERROR_MESSAGE" = "There is a bug in Taurine on arm64 devices running iOS 14.0-14.2.1 that prevents the Crane helper daemon (Cranehelperd) from starting up. It was determined that this device is affected by the bug, if you want to use Crane then switch to checkra1n or unc0ver.";
+"ENTER_PASSWORD" = "Enter Password";
+"ENTER_PASSWORD_DESCRIPTION" = "The backup %@ is encrypted with a password, please enter it to initiate the restore.";
+"PREVIOUS_PASSWORD_WRONG_MESSAGE" = "The previously entered password was wrong. Please try again!";
+
+/* Game Center account picker */
+
+"GAME_CENTER_SECTION_HEADER" = "Game Center";
+"GAME_CENTER_SECTION_FOOTER" = "Select a Game Center account to switch to when launching into this container.";
+"GAME_CENTER_ACCOUNT" = "Game Center Account";
+"GAME_CENTER_ACCOUNTS" = "Game Center Accounts";
+"MANAGE_GAME_CENTER_ACCOUNTS" = "Manage Game Center Accounts";
+"GAME_CENTER_MANAGER_FOOTER" = "Due to technical restrictions you need to add your Game Center into this global list. You can then assign the account to one or more containers and the system will switch to it when starting the app into the container. If you have an app installed on your device that uses Game Center that you do not want to use Crane on, you will still want to enable 'Separate System Accounts' and 'Game Center Support' so the system switches back to the system default Game Center account when opening it.";
+"GAME_CENTER_ADD_ACCOUNT_TITLE" = "Add Account";
+"GAME_CENTER_ADD_ACCOUNT_MESSAGE" = "Enter the name of your account here. The sign in prompt will appear when you first launch an app into a container that has the account assigned.";
+"GAME_CENTER_RENAME_ACCOUNT_TITLE" = "Rename Account";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_TITLE" = "Delete Account";
+"GAME_CENTER_ACCOUNT_DELETE_CONFIRMATION_MESSAGE" = "Are you sure you want to delete the Game Center Account \"%@\"? Every container associated to it right now will switch to System Default.";
+
+/* Safety checks */
+
+"LIBSANDY_NOT_LOADED_ERROR_MESSAGE" = "It was determined that libSandy is not working because libSandySupport.dylib is not loaded into the MobileGestaltHelper service.";
+"LIBSANDY_CHOICY_NOTICE" = "Try selecting libSandy inside Settings -> Choicy -> Tweak Troubleshooting.";
+"COMMUNICATION_ERROR_MESSAGE" = "It was determined that communication to the Crane helper service (cranehelperd) is not working. The following error occured while trying to send a message to it: ";
+"INSURANCE_FAILED_ERROR_MESSAGE" = "An error occured while trying to check if Crane is properly loaded: ";
 "INJECTION_ERROR_MESSAGE" = "It was determined that CraneSupport.dylib is not loaded into %@.";
+"INJECTION_ERROR_MESSAGE_CHOICY" = "Try selecting Crane inside Settings -> Choicy -> Tweak Troubleshooting.";
+"REGISTRATION_FAILED_MESSAGE" = "Failed to redirect notification registrations because CraneSupport.dylib is not loaded into the apsd daemon.";
+"PLUGIN_REDIRECTION_FAILED_MESSAGE" = "Failed to redirect notification service extension to the correct container because CraneSupport.dylib is not loaded into the pkd daemon.";
 "CRANE_DISABLED_MESSAGE" = "Crane has been disabled to avoid data desyncs.";
-"DAEMON_INTEGRITY_CHECK_FAILURE_MESSAGE" = "The helper service of Crane (Cranehelperd) does not seem to respond despite rocketbootstrap working. If there are any crash logs for it in Cr4shed or CrashReporter, please send them via email (opa334@protonmail.com).";
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "The application %@ started into the default container because the Crane dylib was not loaded into it. Make sure it was not disabled with Choicy, TweakRestrict or similar and try again.";
-"AND" = "and";
-"CRANE_ERROR" = "Crane Error";
-"OTHER" = "Other";
-"FOLLOW_ME_ON_TWITTER" = "Follow me on Twitter";
-"CREDITS" = "Credits";
-"CREDITS_AND_LICENSES" = "Credits & Licenses";
-"LICENSE" = "License";
-"SELECT_APPLICATION" = "Select Application";
-"CONFIGURE_APPLICATION" = "Configure Application";
-"SWITCH_WARNING_MESSAGE" = "You are about to change the selected application, doing so will delete the data of all non-default containers of the previously selected application. Do you want to continue?";
-"BUY_CRANE" = "Buy Crane";
 "RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "Restart affected daemons and SpringBoard";
-"LITE_IMPORT_TITLE" = "Crane Lite Import";
-"LITE_IMPORT_MESSAGE" = "Crane Lite containers for the app '%@' have been found. What do you want to do with them?";
-"IMPORT_CRANE_LITE_CONTAINERS_TO_CRANE" = "Import Crane Lite Containers to Crane";
-"DELETE_CRANE_LITE_CONTAINERS" = "Delete Crane Lite Containers";
-"REMIND_ME_LATER" = "Remind Me Later";
-"BUY_CRANE_FOOTER" = "After buying Crane, you will be able to import the containers of Crane Lite into it. This will be available through an alert that appears when you access the preference page of Crane.";
+"CRANEHELPERD_COMMUNICATION_WARNING" = "The connection to cranehelperd is not working, most likely because it is not running. A feature where applications automatically reload (when required by an option you select inside Crane preferences) and keychain access will therefore not work. Using the Crane preferences may result in undefined behaviour until this problem is resolved.";
+"CRANEHELPERD_INJECTION_ERROR_DYLIB_FILE_NOT_FOUND" = "Could not inject \"%@\" into process with pid %d.\nReason: Dylib file not found";
+"CRANEHELPERD_INJECTION_ERROR_INJECTION_BINARY_NOT_FOUND" = "Could not inject \"%@\" into process with pid %d.\nReason: Injection binary (%@) was not found, try reinstalling %@ from your package manager.";
+"CRANEHELPERD_INJECTION_ERROR_EXCEPTION_OCCURED" = "Could not inject \"%@\" into process with pid %d.\nReason: The following exception occured: %@.";
+"CRANEHELPERD_VERIFY_ERROR_PROCESS_NOT_RUNNING" = "Could not check whether \"%@\" is loaded into \"%@\".\n Reason: Process is not running.";
+"FIXUP_ERROR_DESCRIPTION" = "While trying to automatically fix this problem, the following error occured:";
+
+/* Migration from previous versions and error detection */
+
 "UNKNOWN_CONTAINERS_FOUND" = "Unknown Containers Found";
 "UNKNOWN_CONTAINERS_FOUND_MESSAGE" = "Found %u unknown containers that have data stored inside the application but currently don't have an entry inside the preferences of Crane. This can happen if a previous preference plist was deleted. What do you want to do with the unknown containers?";
 "DELETE_CONTAINERS" = "Delete Containers";
@@ -148,44 +237,15 @@
 "OPEN_SETTINGS" = "Open Settings";
 "MIGRATION_SUCCEEDED" = "Migration Succeeded";
 "MIGRATION_SUCCEEDED_MESSAGE" = "The old keychain data has successfully been migrated to the new format. Crane can now be used again.";
-"FILENAME" = "Filename";
-"OPTIONAL" = "Optional";
-"ENCRYPT_BACKUP" = "Encrypt Backup";
-"PASSWORD" = "Password";
-"ENCRYPT_BACKUP_FOOTER" = "Encrypt the backup with a password. Restoring the backup afterwards without the password will not be possible. If you loose the password, you loose the data.";
-"INCLUDE_KEYCHAIN" = "Include Keychain";
-"INCLUDE_KEYCHAIN_FOOTER" = "Include the keychain data stored by the application/container in the backup. Contains account credentials, keys and more. Unsafe when not using encryption.";
-"ENTER_PASSWORD" = "Enter Password";
-"ENTER_PASSWORD_DESCRIPTION" = "The backup %@ is encrypted with a password, please enter it to initiate the restore.";
-"RESTORE" = "Restore";
-"INCLUDE_KEYCHAIN_UNSAFE_WARNING" = "When including keychain data, it is recommended to have 'Encrypt Backup' enabled, otherwise anyone that has access to the backup file can compromise accounts that the app / container is logged into.";
-"ENABLE_ENCRYPTION" = "Enable Encryption";
-"IGNORE" = "Ignore";
-"NO_PASSWORD_ERROR" = "Encryption is enabled but the password field is empty, please enter a password or disable encrpytion and try again.";
-"ACTIVE" = "Active";
+
+/* Import from Slices */
+
 "SLICES_FOUND" = "Slices found";
 "SLICES_FOUND_MESSAGE" = "The following Slices have been found for the currently selected application:\n%@Do you want to import them as Crane containers? It is not possible to revert them back to Slices in the future.";
 "IMPORT_SLICES" = "Import Slices";
 "DELETE_SLICES" = "Delete Slices";
-"CREATE" = "Create";
-"CONFIRM_PASSWORD" = "Confirm Password";
-"SEP_ITEMS_OMMITED_WARNING_MESSAGE" = "One or more keychain items of this application are stored on the secure enclave and have been omitted from the backup because restoring them would be impossible. When restoring this backup, you may need to reenter passwords or other issues might arrise. Do you want to continue?";
-"NEW_BACKUP" = "New Backup";
-"SEPARATE_SYSTEM_ACCOUNTS_FOOTER" = "Whether to redirect system accounts (e.g. Apple ID) accessed by the application per container. Mostly useful for system applications like AppStore. Game Center support has to be enabled separately and requires you to manually assign a Game Center account to a container in its settings.";
-"SEPARATE_SYSTEM_ACCOUNTS_FOOTER_LITE" = "Whether to redirect system accounts (e.g. Apple ID) accessed by the application per container. Mostly useful for system applications like AppStore. Game Center support is not included in Crane Lite, only in the full version of Crane.";
-"SEPARATE_SYSTEM_ACCOUNTS" = "Separate System Accounts";
-"GAME_CENTER_SUPPORT" = "Game Center Support";
-"CONTAINER_PROTECTION" = "Container Protection";
-"CONTAINER_PROTECTION_FOOTER" = "Prevent the application from removing data of other containers when launched into the default container, needed for some applications. Uses application hooks.";
-"PREVIOUS_PASSWORD_WRONG_MESSAGE" = "The previously entered password was wrong. Please try again!";
-"CRANESB_COMMUNICATION_NOT_WORKING" = "Connection to SpringBoard is not working, this is either caused by rocketbootstrap not working or by CraneSB.dylib not being injected into SpringBoard. A feature where applications automatically reload (when required by an option you select inside Crane preferences) will therefore not work, continue at your own risk.";
+
+/* Activator Integration */
+
 "SET_AS_THE_ACTIVE_CRANE_CONTAINER" = "Set \"%@\" as the active Crane container";
 "CHANGED_TO_CONTAINER" = "\"%@\" changed to Crane container \"%@\"";
-"SUGGESTIONS" = "Suggestions";
-"CHOICYLOADER_SUGGESTION_TITLE" = "Issues on Substrate?";
-"CHOICYLOADER_SUGGESTION_MESSAGE" = "The main Crane library (\" Crane.dylib\") needs to inject into applications first, on Substrate this does not happen automatically and some tweaks loading before Crane can partially or fully break its functionality. Common symptoms include all containers appearing as the default container, containers getting wiped on app relaunch or data desyncs. If any of these problems affect you, install ChoicyLoader from https://opa334.github.io which will fix them by ensuring that Crane always loads first.";
-"OPEN_REPO" = "Open Repo";
-"ACTIVATOR_INFO_SUGGESTION_TITLE" = "Activator Integration";
-"ACTIVATOR_INFO_SUGGESTION_MESSAGE" = "Crane allows you to assign an activator action to execute whenever a specific container is set as active. This can be accessed from Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> Crane. It also features actions to set a specific container for an application as active, that can be accessed inside Activator -> (Anywhere/At Home Screen/In Application/At Lock Screen) -> (Any Event) -> Crane.";
-"SHORTCUTS_INFO_SUGGESTION_TITLE" = "Shortcuts Integration";
-"SHORTCUTS_INFO_SUGGESTION_MESSAGE" = "Crane includes a Shortcut Action to set the active container of an application, it can be accessed when adding an Action to a Shortcut under Apps -> Crane -> Set Active Crane Container";
