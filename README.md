@@ -6,7 +6,9 @@ This repo contains the localization files of Crane and the libCrane.h header to 
 
 Run `install_libcrane.sh` in the `libCrane` directory to install the libcrane tbd's into theos.
 Afterwards you can add libcrane to your makefile as follows:
+
 `<YOUR_PROJECT>_LIBRARIES += crane`
+
 Then copy libCrane.h into your project and include it, read the header to see what methods are available.
 
 ## Usage notes
