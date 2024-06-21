@@ -1,0 +1,95 @@
+{
+  "main_library": {
+    "compatibility_versions": [
+      {
+        "version": "0"
+      }
+    ],
+    "current_versions": [
+      {
+        "version": "0"
+      }
+    ],
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_CFXPreferences_flushCachesForAppIdentifier_user_sym",
+            "_g_errorStore",
+            "_LSApplicationProxy_class",
+            "_preferencesObserver"
+          ],
+          "objc_class": [
+            "CraneManager"
+          ],
+          "objc_ivar": [
+            "CraneManager._unsandboxHandler",
+            "CraneManager._isRunningInRunningBoardd",
+            "CraneManager._isRunningInSpringBoard",
+            "CraneManager._preferences",
+            "CraneManager._CRBundle",
+            "CraneManager._cranehelperdGlobalXpcConnection",
+            "CraneManager._observers",
+            "CraneManager._userNotificationsServerXpcConnection",
+            "CraneManager._isRunningInSettings",
+            "CraneManager._userNotificationsServerClass",
+            "CraneManager._isObservingPreferenceChanges"
+          ]
+        },
+        "text": {
+          "global": [
+            "_shared_loadAltList",
+            "_sanityCheckString",
+            "_preferenceDirectoryForContainerPath",
+            "_shared_isApplicationProxySupportedByCrane",
+            "_normalizedContainerID",
+            "_cranehelperd_started",
+            "_sanityCheckMutableDictionary",
+            "_moveOrCopyItemAtPath",
+            "_wipeContainerDirectoryAtPath",
+            "_CFXPreferences_flushCachesForAppIdentifier_user",
+            "_localize",
+            "_requestAuthentication",
+            "_shared_identifiersOfAllSupportedApplications",
+            "_initUNProtocol",
+            "_createDirectoryIfNotExists",
+            "_applicationKeyForApplicationWithIdentifier",
+            "_sanityCheckArray",
+            "_shared_loadCoreServices",
+            "_shared_displayNameForApplicationWithIdentifier",
+            "_containerPathForContainer",
+            "_sanityCheckStringAllowEmpty",
+            "__sanityCheckString",
+            "_sanityCheckDictionary",
+            "_sanityCheckMutableArray",
+            "_lc_safe_getBundleIdentifier",
+            "_containerWithIdentifierInArray"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/libcrane.dylib"
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "15",
+        "target": "arm64-ios"
+      },
+      {
+        "min_deployment": "15",
+        "target": "arm64e-ios"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

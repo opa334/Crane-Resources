@@ -1,0 +1,28 @@
+--- !tapi-tbd-v3
+archs:           [ arm64, arm64e ]
+uuids:           [ 'arm64: E53D6800-33DE-3EFD-ACBB-A1945AA55367', 'arm64e: DB76F5CA-044D-3DAB-AD2F-238CBF118144' ]
+platform:        ios
+flags:           [ not_app_extension_safe ]
+install-name:    '/usr/lib/libcrane.dylib'
+current-version: 0
+compatibility-version: 0
+exports:         
+  - archs:           [ arm64, arm64e ]
+    symbols:         [ _CFXPreferences_flushCachesForAppIdentifier_user, _CFXPreferences_flushCachesForAppIdentifier_user_sym, 
+                       _LSApplicationProxy_class, __sanityCheckString, _applicationKeyForApplicationWithIdentifier, 
+                       _containerPathForContainer, _containerWithIdentifierInArray, 
+                       _cranehelperd_started, _createDirectoryIfNotExists, _g_errorStore, 
+                       _initUNProtocol, _lc_safe_getBundleIdentifier, _localize, 
+                       _moveOrCopyItemAtPath, _normalizedContainerID, _preferenceDirectoryForContainerPath, 
+                       _preferencesObserver, _requestAuthentication, _sanityCheckArray, 
+                       _sanityCheckDictionary, _sanityCheckMutableArray, _sanityCheckMutableDictionary, 
+                       _sanityCheckString, _sanityCheckStringAllowEmpty, _shared_displayNameForApplicationWithIdentifier, 
+                       _shared_identifiersOfAllSupportedApplications, _shared_isApplicationProxySupportedByCrane, 
+                       _shared_loadAltList, _shared_loadCoreServices, _wipeContainerDirectoryAtPath ]
+    objc-classes:    [ CraneManager ]
+    objc-ivars:      [ CraneManager._CRBundle, CraneManager._cranehelperdGlobalXpcConnection, 
+                       CraneManager._isObservingPreferenceChanges, CraneManager._isRunningInRunningBoardd, 
+                       CraneManager._isRunningInSettings, CraneManager._isRunningInSpringBoard, 
+                       CraneManager._observers, CraneManager._preferences, CraneManager._unsandboxHandler, 
+                       CraneManager._userNotificationsServerClass, CraneManager._userNotificationsServerXpcConnection ]
+...

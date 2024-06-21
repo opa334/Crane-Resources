@@ -207,7 +207,7 @@
 
 /* Safety checks */
 
-"LIBSANDY_NOT_LOADED_ERROR_MESSAGE" = "經檢測發現libSandySupport.dylib並沒有被加載到MobileGestaltHelper守護程式(daemon)中，因此libSandy停止作用。";
+/*LIBSANDY_NOT_WORKING_ERROR_MESSAGE*/
 "LIBSANDY_CHOICY_NOTICE" = "請試著在設定App -> Choicy -> 插體錯誤排除中選擇libSandy以觀察是否被停用加載了";
 "COMMUNICATION_ERROR_MESSAGE" = "經檢測發現Crane服務輔助守護程式(cranehelperd daemon)的通信已失效，以下為嘗試傳送訊息給其所發生的錯誤：";
 "INSURANCE_FAILED_ERROR_MESSAGE" = "在檢查Crane是否被成功加載時發生錯誤";
@@ -219,6 +219,7 @@
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "由於Crane.dylib沒有被成功加載到其中，此應用程式 %@ 只能啟動預設容器。請確保Crane沒有被Choicy, TweakRestrict或相似插體禁止載入後再嘗試一次。";
 "RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "重啟相關守護程式(daemon)和SpringBoard";
 "CRANEHELPERD_COMMUNICATION_WARNING" = "與cranehelperd守護程式(daemon)通信失敗，可能原因為其並沒有正在運行。因此應用程式的自動重新加載功能（當您在Crane設定頁面內調整選項時）與Keychain存取功能將失效。在解決此問題之前，繼續使用Crane的設定頁面可能會導致無法判斷的問題";
+/*SEROTONIN_ROOTHIDE_INCOMPATIBILITY_MESSAGE*/
 "CRANEHELPERD_INJECTION_ERROR_DYLIB_FILE_NOT_FOUND" = "無法將 \"%@\" 加載至PID為 %d 的守護程式(daemon)。原因：沒有找到Dylib檔案。";
 "CRANEHELPERD_INJECTION_ERROR_INJECTION_BINARY_NOT_FOUND" = "無法將 \"%@\" 加載至PID為 %d 的守護程式(daemon)。原因：找不到二進制(%@)加載檔案，請嘗試在您的安裝包管理器(Cydia/Zebra)重新安裝 %@ 。";
 "CRANEHELPERD_INJECTION_ERROR_EXCEPTION_OCCURED" = "無法將 \"%@\" 加載至PID為 %d 的守護程式(daemon)。原因：發生以下異常:%@。";

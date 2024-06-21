@@ -207,7 +207,7 @@
 
 /* Safety checks */
 
-"LIBSANDY_NOT_LOADED_ERROR_MESSAGE" = "تقرر أن libSandy لا يعمل لأن libSandySupport.dylib غير مُحمَّل في خدمة MobileGestaltHelper.";
+/*LIBSANDY_NOT_WORKING_ERROR_MESSAGE*/
 "LIBSANDY_CHOICY_NOTICE" = "حاول تحديد libSandy داخل الإعدادات -> Choicy -> استكشاف أخطاء الأداة وإصلاحها.";
 "COMMUNICATION_ERROR_MESSAGE" = "تقرر أن الاتصال بخدمة مساعد Crane الذي هو (cranehelperd) لا يعمل. حدث الخطأ التالي أثناء محاولة إرسال رسالة إليه: ";
 "INSURANCE_FAILED_ERROR_MESSAGE" = "حدث خطأ أثناء محاولة التحقق مما إذا كان Crane مُحمَّلًا بشكل صحيح: ";
@@ -219,6 +219,7 @@
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "بدأ التطبيق %@ في الحاوية الافتراضية لأنه لم يتم تحميل Crane.dylib فيه. تأكد من عدم تعطيله باستخدام Choicy أو TweakRestrict أو ما شابه ذلك وحاول مرة أخرى.";
 "RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "إعادة تشغيل ملفات التنفيذ المُتأثرة وواجهة النظام.";
 "CRANEHELPERD_COMMUNICATION_WARNING" = "الاتصال بـ cranehelperd لا يعمل، على الأرجح لأنه غير مُشغَّل. هي ميزة حيث يتم إعادة تحميل التطبيقات تلقائيًا (عند الحاجة بواسطة خيار تحدده داخل إعدادات Crane) وبالتالي لن يعمل الوصول إلى سلسلة المفاتيح. قد يؤدي استخدام إعدادات Crane إلى سلوك غير محدد حتى يتم حل هذه المشكلة.";
+/*SEROTONIN_ROOTHIDE_INCOMPATIBILITY_MESSAGE*/
 "CRANEHELPERD_INJECTION_ERROR_DYLIB_FILE_NOT_FOUND" = "تعذر حقن \"%@\" في العملية باستخدام pid %d.\nالسبب: لم يتم العثور على ملف Dylib";
 "CRANEHELPERD_INJECTION_ERROR_INJECTION_BINARY_NOT_FOUND" = "تعذر حقن \"%@\" في العملية باستخدام pid %d.\nالسبب: لم يتم العثور على ثنائي الحقن (%@)، جرِّب إعادة تثبيت %@ من مدير الحزم الخاص بك.";
 "CRANEHELPERD_INJECTION_ERROR_EXCEPTION_OCCURED" = "تعذر حقن \"%@\" في العملية باستخدام pid %d.\nالسبب: حدث الاستثناء التالي: %@.";

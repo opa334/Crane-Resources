@@ -207,7 +207,7 @@
 
 /* Safety checks */
 
-"LIBSANDY_NOT_LOADED_ERROR_MESSAGE" = "It was determined that libSandy is not working because libSandySupport.dylib is not loaded into the MobileGestaltHelper service.";
+"LIBSANDY_NOT_WORKING_ERROR_MESSAGE" = "It was determined that libSandy is not working because sandyd is not running.";
 "LIBSANDY_CHOICY_NOTICE" = "Try selecting libSandy inside Settings -> Choicy -> Tweak Troubleshooting.";
 "COMMUNICATION_ERROR_MESSAGE" = "It was determined that communication to the Crane helper service (cranehelperd) is not working. The following error occured while trying to send a message to it: ";
 "INSURANCE_FAILED_ERROR_MESSAGE" = "An error occured while trying to check if Crane is properly loaded: ";
@@ -219,6 +219,7 @@
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "The application %@ started into the default container because the Crane dylib was not loaded into it. Make sure it was not disabled with Choicy, TweakRestrict or similar and try again.";
 "RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "Restart affected daemons and SpringBoard";
 "CRANEHELPERD_COMMUNICATION_WARNING" = "The connection to cranehelperd is not working, most likely because it is not running. A feature where applications automatically reload (when required by an option you select inside Crane preferences) and keychain access will therefore not work. Using the Crane preferences may result in undefined behaviour until this problem is resolved.";
+"SEROTONIN_ROOTHIDE_INCOMPATIBILITY_MESSAGE" = "Crane requires a full jailbreak, it is not compatible with Serotonin / Bootstrap!";
 "CRANEHELPERD_INJECTION_ERROR_DYLIB_FILE_NOT_FOUND" = "Could not inject \"%@\" into process with pid %d.\nReason: Dylib file not found";
 "CRANEHELPERD_INJECTION_ERROR_INJECTION_BINARY_NOT_FOUND" = "Could not inject \"%@\" into process with pid %d.\nReason: Injection binary (%@) was not found, try reinstalling %@ from your package manager.";
 "CRANEHELPERD_INJECTION_ERROR_EXCEPTION_OCCURED" = "Could not inject \"%@\" into process with pid %d.\nReason: The following exception occured: %@.";

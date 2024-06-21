@@ -207,7 +207,7 @@
 
 /* Safety checks */
 
-"LIBSANDY_NOT_LOADED_ERROR_MESSAGE" = "Es wurde festgestellt, dass libSandy nicht funktioniert, da libSandySupport.dylib nicht in den MobileGestaltHelper Dienst geladen ist.";
+"LIBSANDY_NOT_WORKING_ERROR_MESSAGE" = "Es wurde festgestellt, dass libSandy nicht funktioniert, da der sandyd Hintergrunddienst nicht läuft.";
 "LIBSANDY_CHOICY_NOTICE" = "Versuche libSandy unter Einstellungen -> Choicy -> Tweak Fehlerbehebung auszuwählen.";
 "COMMUNICATION_ERROR_MESSAGE" = "Die Kommunikation mit dem Crane Helferdienst (cranehelperd) funktioniert nicht. Beim Versuch eine Nachricht an den Dienst zu schicken wurde folgender Fehler zurückgegeben: ";
 "INSURANCE_FAILED_ERROR_MESSAGE" = "Beim Versuch zu kontrollieren, ob Crane korrekt geladen ist, ist ein Fehler aufgetreten: ";
@@ -219,6 +219,7 @@
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "Die App %@ wurde in den Standardcontainer gestartet, weil die Crane dylib nicht in die App geladen ist. Stelle sicher, dass sie nicht mit Tweaks wie Choicy oder TweakRestrict deaktiviert wurde und versuche es erneut.";
 "RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "Dienste und SpringBoard neustarten";
 "CRANEHELPERD_COMMUNICATION_WARNING" = "Die Verbindung zum Crane Hilfsdienst (cranehelperd) funktioniert nicht, wahrscheinlich weil der Dienst nicht ausgeführt wird. Ein Feature bei dem Apps automatisch bei Bedarf neu geladen werden und Zugriff auf die Keychain funktionieren daher nicht. Das Benutzen der Crane Einstellungen könnte undefiniertes Verhalten hervorrufen, bis dieses Problem gelößt wurde.";
+"SEROTONIN_ROOTHIDE_INCOMPATIBILITY_MESSAGE" = "Crane benötigt einen vollwertigen Jailbreak und ist nicht mit Serotonin / Bootstrap kompatibel!";
 "CRANEHELPERD_INJECTION_ERROR_DYLIB_FILE_NOT_FOUND" = "Konnte \"%@\" nicht in den Prozess mit PID %d injizieren.\nGrund: Dylib Datei wurde nicht gefunden";
 "CRANEHELPERD_INJECTION_ERROR_INJECTION_BINARY_NOT_FOUND" = "Konnte \"%@\" nicht in den Prozess mit PID %d injizieren.\nGrund: Injektionsbinary wurde nicht gefunden, versuche %@ in deinem Package Manager neuzuinstallieren";
 "CRANEHELPERD_INJECTION_ERROR_EXCEPTION_OCCURED" = "Konnte \"%@\" nicht in den Prozess mit PID %d injizieren.\nGrund: Die folgende Ausnahme wurde geworfen: %@";

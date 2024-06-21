@@ -207,7 +207,7 @@
 
 /* Safety checks */
 
-/*LIBSANDY_NOT_LOADED_ERROR_MESSAGE*/
+/*LIBSANDY_NOT_WORKING_ERROR_MESSAGE*/
 /*LIBSANDY_CHOICY_NOTICE*/
 /*COMMUNICATION_ERROR_MESSAGE*/
 /*INSURANCE_FAILED_ERROR_MESSAGE*/
@@ -219,6 +219,7 @@
 "CRANE_DYLIB_NOT_LOADED_ERROR" = "Для приложения %@ был открыт контейнер по умолчанию, так как мы не смогли загрузить в него библиотеку Crane dylib. Убедитесь, что Crane не был отключен с помощью Choicy, TweakRestrict или им подобными и повторите попытку.";
 "RESTART_AFFECTED_DAEMONS_AND_SPRINGBOARD" = "Перезапустить необходимые процессы и SpringBoard";
 /*CRANEHELPERD_COMMUNICATION_WARNING*/
+/*SEROTONIN_ROOTHIDE_INCOMPATIBILITY_MESSAGE*/
 /*CRANEHELPERD_INJECTION_ERROR_DYLIB_FILE_NOT_FOUND*/
 /*CRANEHELPERD_INJECTION_ERROR_INJECTION_BINARY_NOT_FOUND*/
 /*CRANEHELPERD_INJECTION_ERROR_EXCEPTION_OCCURED*/

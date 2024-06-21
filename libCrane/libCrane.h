@@ -1,11 +1,5 @@
-#import <dlfcn.h>
-// run this function to access the CraneManager class from processes other than SpringBoard
-__attribute__ ((unused)) static void loadLibCrane()
-{
-	dlopen("/usr/lib/libcrane.dylib", RTLD_NOW);
-}
-
-// make a class that conforms to this protocol and add it to CraneManager using the addObserver: method
+// You can make a class that conforms to this protocol and add it to CraneManager using the addObserver: method
+// Then you will get notified when some setting has changed
 @protocol CraneManagerObserver
 
 @optional
@@ -51,6 +45,7 @@ typedef NS_ENUM(NSInteger, ContainerPathType) {
 // container management
 - (void)createNewContainerWithName:(NSString*)containerName andIdentifier:(NSString*)containerID forApplicationWithIdentifier:(NSString*)applicationID;
 - (NSString*)createNewContainerWithName:(NSString*)containerName forApplicationWithIdentifier:(NSString*)applicationID; // returns containerIdentifier
+- (void)deleteContentOfContainerWithIdentifier:(NSString *)containerID forApplicationWithIdentifier:(NSString *)applicationID;
 - (void)deleteContainerWithIdentifier:(NSString*)containerID forApplicationWithIdentifier:(NSString*)applicationID;
 - (void)wipeContainerWithIdentifier:(NSString*)containerIdD forApplicationWithIdentifier:(NSString*)applicationID shouldRepopulate:(BOOL)repopulate;
 - (NSString*)makeDefaultForContainerWithIdentifier:(NSString*)containerID forApplicationWithIdentifier:(NSString*)applicationID;
