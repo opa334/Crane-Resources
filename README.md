@@ -1,6 +1,6 @@
 # Crane-Resources
 
-This repo contains the localization files of Crane and the libCrane.h header to use it's functionality from other tweaks (Not supported on Crane Lite!).
+This repo contains the localization files of Crane and the libCrane.h header to use it's functionality from other tweaks (Not supported on Crane Lite!). Crane is a commercial software [available on Havoc](https://havoc.app/package/crane).
 
 ## How to use libCrane
 
